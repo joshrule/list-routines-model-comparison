@@ -87,16 +87,13 @@ import_fleet <- function(wave) {
                                      "2" = str_replace(concept, "data/c2-(.*).txt", "c\\1"))))
 }
 
-import_toolkit <- function() {
-  names <- fs::dir_ls("toolkit/", glob = "*csv")
+import_toolkit <- function(wave) {
+  names <- fs::dir_ls(paste0("data/waves/",wave,"/toolkit/"), glob = "*csv")
   names %>%
     map(~ toolkit_helper(.)) %>%
     bind_rows() %>%
-    rename(i_N = n,
-           predicted = prediction,
-           correct = output) %>%
-    mutate(concept = factor(str_sub(name, 9, 12)),
-           i_run = as.double(str_sub(name, 14, 14))) %>%
+    mutate(concept = factor(str_replace(name, ".*(c...)_.\\.csv", "\\1")),
+           i_run = as.double(str_replace(name, ".*c..._(.)\\.csv", "\\1"))) %>%
     select(-name) %>%
     select(concept, i_N, i_run, accuracy, input, correct, predicted, everything())
 }
@@ -106,10 +103,10 @@ toolkit_helper <- function(name) {
 }
 
 import_all <- function(wave) {
-  # map2(c(import_metagol, import_fleet, import_enumeration, import_robustfill, import_toolkit),
-  #     c("metagol", "fleet", "enumeration", "robustfill", "toolkit"),
-  map2(c(import_metagol, import_fleet, import_enumeration, import_robustfill),
-       c("metagol", "fleet", "enumeration", "robustfill"),
+  map2(c(import_metagol, import_fleet, import_enumeration, import_robustfill, import_toolkit),
+      c("metagol", "fleet", "enumeration", "robustfill", "toolkit"),
+  # map2(c(import_metagol, import_fleet, import_enumeration, import_robustfill),
+  #      c("metagol", "fleet", "enumeration", "robustfill"),
        ~ prep(.x, .y, wave)) %>%
     bind_rows() %>%
     mutate(model = factor(model)) %>%
@@ -178,7 +175,7 @@ plot_bar <- function(bootstrap) {
     ggsave("barplot.pdf", width=16, height=7)
 }
 
-plot_bar_by_data <- function(wave, bootstrap) {
+plot_bars_by_data <- function(wave, bootstrap) {
   rank <- bootstrap %>% group_by(concept) %>% dplyr::summarize(rank = mean(mean)) %>% mutate(rank = rank(1/rank, ties.method="first")) %>% arrange(rank) %>% mutate(rank = factor(rank, labels=concept))
   bootstrap %>%
     left_join(rank) %>%
@@ -198,7 +195,7 @@ plot_bar_by_data <- function(wave, bootstrap) {
     theme(legend.position = "top",
           plot.title = element_text(hjust = 0.5)) +
     scale_y_continuous(breaks=c(0, 0.5, 1.0)) +
-    ggsave(paste0("data/waves/",wave,"/plot_bar_by_data.pdf"),
+    ggsave(paste0("data/waves/",wave,"/plot_bars_by_data.pdf"),
          width = switch(as.character(wave), "1_5" = 16, "2" = 43),
          height = switch(as.character(wave), "1_5" = 7, "2" = 7))
 }
