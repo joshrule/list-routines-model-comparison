@@ -1,0 +1,268 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=8093 by user piantado at Wed Dec  4 16:34:46 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: 2fb1c47ee31e2c3b1aaf2768a7d98678  /proc/8093/exe
+# 	 --input=data/c017.txt
+# 	 --threads=2
+# 	 --chains=4
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=10m (600 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data w4M52^C< -> wwM52^C<
+# using data 259>376n -> 229>376n
+# using data 4dQ;h;08o -> 44Q;h;08o
+# using data 781546m -> 771546m
+# using data q0017 -> qq017
+# using data |0{e:t:Y -> ||{e:t:Y
+# using data \> -> \\
+# using data 45n -> 44n
+# using data Ao9^s|: -> AA9^s|:
+# using data cO -> cc
+# using data N7I2S -> NNI2S
+# using data 74m;126? -> 77m;126?
+# using data 1P27 -> 1127
+# using data 22\[598Ar9 -> 22\[598Ar9
+# using data 3X1933: -> 331933:
+# using data rEh6427x -> rrh6427x
+# using data 5:h9000C2 -> 55h9000C2
+# using data 8l8Y6{81: -> 888Y6{81:
+# using data D82? -> DD2?
+# using data 9580: -> 9980:
+# using data 092CH -> 002CH
+# using data S:D:: -> SSD::
+# using data 1:d@qD6;22 -> 11d@qD6;22
+# using data :u4 -> ::4
+# using data 2K315 -> 22315
+# using data 128 -> 118
+# using data 3M49>E71Id -> 3349>E71Id
+# using data <2 -> <<
+# using data 4n3 -> 443
+# using data [5z07R -> [[z07R
+# using data 11`u84T9 -> 11`u84T9
+# using data w4 -> ww
+# using data J9N32u27 -> JJN32u27
+# using data jg08 -> jj08
+# using data :0: -> :::
+# using data :0PG?10 -> ::PG?10
+# using data <0`7g249 -> <<`7g249
+# using data f2MN450 -> ffMN450
+# using data 61t>9J -> 66t>9J
+# using data 898f3:05 -> 888f3:05
+# using data <1 -> <<
+# using data kAY25 -> kkY25
+# using data Mi7:11694 -> MM7:11694
+# using data :03M -> ::3M
+# using data 75 -> 77
+# using data 5?8702Q4o -> 558702Q4o
+# using data :5363 -> ::363
+# using data 1{05: -> 1105:
+# using data 87|5b3983 -> 88|5b3983
+# using data 947B -> 997B
+i_run	i_N	concept	input	output	correct.output	correct	hypothesis
+0	0	"data/c017.txt"	":0PG?10"	":0PG?10"	"::PG?10"	0	"λx.x"
+0	1	"data/c017.txt"	"f2MN450"	"ff"	"ffMN450"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	2	"data/c017.txt"	"5:h9000C2"	"55"	"55h9000C2"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	3	"data/c017.txt"	"5:h9000C2"	"55"	"55h9000C2"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	4	"data/c017.txt"	"J9N32u27"	"JJ"	"JJN32u27"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	5	"data/c017.txt"	"9580:"	"99"	"9980:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	6	"data/c017.txt"	"61t>9J"	"66"	"66t>9J"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	7	"data/c017.txt"	"947B"	"99"	"997B"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	8	"data/c017.txt"	"259>376n"	"22"	"229>376n"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	9	"data/c017.txt"	"4dQ;h;08o"	"44"	"44Q;h;08o"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	10	"data/c017.txt"	"q0017"	"qq"	"qq017"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	11	"data/c017.txt"	":0PG?10"	"::"	"::PG?10"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	12	"data/c017.txt"	"1{05:"	"11"	"1105:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	13	"data/c017.txt"	"kAY25"	"kk"	"kkY25"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	14	"data/c017.txt"	":u4"	"::"	"::4"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	15	"data/c017.txt"	"259>376n"	"22"	"229>376n"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	16	"data/c017.txt"	"4dQ;h;08o"	"44"	"44Q;h;08o"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	17	"data/c017.txt"	"4n3"	"44"	"443"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	18	"data/c017.txt"	":0PG?10"	"::"	"::PG?10"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+0	19	"data/c017.txt"	"128"	"11"	"118"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+1	0	"data/c017.txt"	"N7I2S"	"N7I2S"	"NNI2S"	0	"λx.x"
+1	1	"data/c017.txt"	"4dQ;h;08o"	"44"	"44Q;h;08o"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+1	2	"data/c017.txt"	"[5z07R"	"[[z"	"[[z07R"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+1	3	"data/c017.txt"	"Ao9^s|:"	"AA9"	"AA9^s|:"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+1	4	"data/c017.txt"	"S:D::"	"SSD"	"SSD::"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+1	5	"data/c017.txt"	"9580:"	"998"	"9980:"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+1	6	"data/c017.txt"	"947B"	"997"	"997B"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+1	7	"data/c017.txt"	"8l8Y6{81:"	"888"	"888Y6{81:"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+1	8	"data/c017.txt"	"J9N32u27"	"JJN"	"JJN32u27"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+1	9	"data/c017.txt"	"781546m"	"771"	"771546m"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+1	10	"data/c017.txt"	"9580:"	"998"	"9980:"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+1	11	"data/c017.txt"	"947B"	"997"	"997B"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+1	12	"data/c017.txt"	"1:d@qD6;22"	"11d"	"11d@qD6;22"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+1	13	"data/c017.txt"	"[5z07R"	"[[z"	"[[z07R"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+1	14	"data/c017.txt"	"[5z07R"	"[[z"	"[[z07R"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+1	15	"data/c017.txt"	"cO"	"cc~"	"cc"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+1	16	"data/c017.txt"	"9580:"	"99"	"9980:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+1	17	"data/c017.txt"	"Ao9^s|:"	"AA"	"AA9^s|:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+1	18	"data/c017.txt"	"S:D::"	"SS"	"SSD::"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+1	19	"data/c017.txt"	"947B"	"99"	"997B"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+2	0	"data/c017.txt"	"11`u84T9"	"11`u84T9"	"11`u84T9"	1	"λx.x"
+2	1	"data/c017.txt"	"jg08"	"jg08"	"jj08"	0	"λx.x"
+2	2	"data/c017.txt"	"\>"	"\\"	"\\"	1	"λx.if((head(x)==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	3	"data/c017.txt"	"5:h9000C2"	"55"	"55h9000C2"	0	"λx.if((head(x)==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	4	"data/c017.txt"	"<2"	"<<"	"<<"	1	"λx.if((head(x)==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	5	"data/c017.txt"	"jg08"	"jj"	"jj08"	0	"λx.if((head(x)==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	6	"data/c017.txt"	"D82?"	"DD"	"DD2?"	0	"λx.if((head(x)==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	7	"data/c017.txt"	"1:d@qD6;22"	"1:d@qD6;22"	"11d@qD6;22"	0	"λx.if((head(x)==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	8	"data/c017.txt"	"9580:"	"99"	"9980:"	0	"λx.if((head(tail(x))==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	9	"data/c017.txt"	"<2"	"<<"	"<<"	1	"λx.if((head(tail(x))==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	10	"data/c017.txt"	"[5z07R"	"[["	"[[z07R"	0	"λx.if((head(tail(x))==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	11	"data/c017.txt"	":0PG?10"	"::"	"::PG?10"	0	"λx.if((head(tail(x))==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	12	"data/c017.txt"	"1P27"	"11"	"1127"	0	"λx.if((head(tail(x))==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	13	"data/c017.txt"	"4n3"	"44"	"443"	0	"λx.if((head(tail(x))==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	14	"data/c017.txt"	"Mi7:11694"	"MM"	"MM7:11694"	0	"λx.if((head(tail(x))==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	15	"data/c017.txt"	"Mi7:11694"	"MM"	"MM7:11694"	0	"λx.if((head(tail(x))==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	16	"data/c017.txt"	"5:h9000C2"	"55"	"55h9000C2"	0	"λx.if((head(tail(x))==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	17	"data/c017.txt"	"<2"	"<<"	"<<"	1	"λx.if((head(tail(x))==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	18	"data/c017.txt"	":0:"	"::"	":::"	0	"λx.if((head(tail(x))==1),x,pair(pair(Ø,head(x)),head(x)))"
+2	19	"data/c017.txt"	"Ao9^s|:"	"AA"	"AA9^s|:"	0	"λx.if((head(tail(x))==1),x,pair(pair(Ø,head(x)),head(x)))"
+3	0	"data/c017.txt"	"3M49>E71Id"	"3M49>E71Id"	"3349>E71Id"	0	"λx.x"
+3	1	"data/c017.txt"	"3M49>E71Id"	"334"	"3349>E71Id"	0	"λx.pair(pair(pair(Ø,3),3),4)"
+3	2	"data/c017.txt"	"<0`7g249"	"334"	"<<`7g249"	0	"λx.pair(pair(pair(Ø,3),3),4)"
+3	3	"data/c017.txt"	"4dQ;h;08o"	"44"	"44Q;h;08o"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+3	4	"data/c017.txt"	"1{05:"	"11"	"1105:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+3	5	"data/c017.txt"	"259>376n"	"22"	"229>376n"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+3	6	"data/c017.txt"	":0PG?10"	"::"	"::PG?10"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+3	7	"data/c017.txt"	"5:h9000C2"	"55"	"55h9000C2"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+3	8	"data/c017.txt"	":u4"	"::"	"::4"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+3	9	"data/c017.txt"	"5:h9000C2"	"55"	"55h9000C2"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+3	10	"data/c017.txt"	"3X1933:"	"33"	"331933:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+3	11	"data/c017.txt"	"cO"	"cc"	"cc"	1	"λx.pair(pair(Ø,head(x)),head(x))"
+3	12	"data/c017.txt"	"8l8Y6{81:"	"88"	"888Y6{81:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+3	13	"data/c017.txt"	"75"	"77"	"77"	1	"λx.pair(pair(Ø,head(x)),head(x))"
+3	14	"data/c017.txt"	"87|5b3983"	"88"	"88|5b3983"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+3	15	"data/c017.txt"	"w4M52^C<"	"ww"	"wwM52^C<"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+3	16	"data/c017.txt"	"2K315"	"22"	"22315"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+3	17	"data/c017.txt"	"9580:"	"99"	"9980:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+3	18	"data/c017.txt"	"Ao9^s|:"	"AA"	"AA9^s|:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+3	19	"data/c017.txt"	"5:h9000C2"	"55"	"55h9000C2"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+4	0	"data/c017.txt"	":u4"	":u4"	"::4"	0	"λx.x"
+4	1	"data/c017.txt"	"S:D::"	"SS4"	"SSD::"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),4)"
+4	2	"data/c017.txt"	"1:d@qD6;22"	"11d"	"11d@qD6;22"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+4	3	"data/c017.txt"	"3X1933:"	"331"	"331933:"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+4	4	"data/c017.txt"	"J9N32u27"	"JJN"	"JJN32u27"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+4	5	"data/c017.txt"	"\>"	"\\~"	"\\"	0	"λx.pair(pair(pair(Ø,head(x)),head(x)),head(tail(tail(x))))"
+4	6	"data/c017.txt"	"45n"	"44"	"44n"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+4	7	"data/c017.txt"	"259>376n"	"22"	"229>376n"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+4	8	"data/c017.txt"	"kAY25"	"kk"	"kkY25"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+4	9	"data/c017.txt"	"jg08"	"jj"	"jj08"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+4	10	"data/c017.txt"	"rEh6427x"	"rr"	"rrh6427x"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+4	11	"data/c017.txt"	"|0{e:t:Y"	"||"	"||{e:t:Y"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+4	12	"data/c017.txt"	"1P27"	"11"	"1127"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+4	13	"data/c017.txt"	"74m;126?"	"77"	"77m;126?"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+4	14	"data/c017.txt"	"8l8Y6{81:"	"88"	"888Y6{81:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+4	15	"data/c017.txt"	"3X1933:"	"33"	"331933:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+4	16	"data/c017.txt"	"rEh6427x"	"rr"	"rrh6427x"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+4	17	"data/c017.txt"	"947B"	"99"	"997B"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+4	18	"data/c017.txt"	"<1"	"<<"	"<<"	1	"λx.pair(pair(Ø,head(x)),head(x))"
+4	19	"data/c017.txt"	"5?8702Q4o"	"55"	"558702Q4o"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	0	"data/c017.txt"	"Ao9^s|:"	"Ao9^s|:"	"AA9^s|:"	0	"λx.x"
+5	1	"data/c017.txt"	"1:d@qD6;22"	"11"	"11d@qD6;22"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	2	"data/c017.txt"	"45n"	"44"	"44n"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	3	"data/c017.txt"	"Mi7:11694"	"MM"	"MM7:11694"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	4	"data/c017.txt"	":0PG?10"	"::"	"::PG?10"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	5	"data/c017.txt"	":03M"	"::"	"::3M"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	6	"data/c017.txt"	"rEh6427x"	"rr"	"rrh6427x"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	7	"data/c017.txt"	"cO"	"cc"	"cc"	1	"λx.pair(pair(Ø,head(x)),head(x))"
+5	8	"data/c017.txt"	"kAY25"	"kk"	"kkY25"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	9	"data/c017.txt"	"4n3"	"44"	"443"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	10	"data/c017.txt"	"Mi7:11694"	"MM"	"MM7:11694"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	11	"data/c017.txt"	"S:D::"	"SS"	"SSD::"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	12	"data/c017.txt"	"5?8702Q4o"	"55"	"558702Q4o"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	13	"data/c017.txt"	"|0{e:t:Y"	"||"	"||{e:t:Y"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	14	"data/c017.txt"	"9580:"	"99"	"9980:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	15	"data/c017.txt"	"Mi7:11694"	"MM"	"MM7:11694"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	16	"data/c017.txt"	"947B"	"99"	"997B"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	17	"data/c017.txt"	"259>376n"	"22"	"229>376n"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+5	18	"data/c017.txt"	"<1"	"<<"	"<<"	1	"λx.pair(pair(Ø,head(x)),head(x))"
+5	19	"data/c017.txt"	"9580:"	"99"	"9980:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+6	0	"data/c017.txt"	"22\[598Ar9"	"22\[598Ar9"	"22\[598Ar9"	1	"λx.x"
+6	1	"data/c017.txt"	"S:D::"	"S:D::"	"SSD::"	0	"λx.x"
+6	2	"data/c017.txt"	"<0`7g249"	"<<"	"<<`7g249"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	3	"data/c017.txt"	"3X1933:"	"33"	"331933:"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	4	"data/c017.txt"	"kAY25"	"kk"	"kkY25"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	5	"data/c017.txt"	"3X1933:"	"33"	"331933:"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	6	"data/c017.txt"	"[5z07R"	"[["	"[[z07R"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	7	"data/c017.txt"	"1{05:"	"11"	"1105:"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	8	"data/c017.txt"	"1{05:"	"11"	"1105:"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	9	"data/c017.txt"	"f2MN450"	"ff"	"ffMN450"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	10	"data/c017.txt"	"[5z07R"	"[["	"[[z07R"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	11	"data/c017.txt"	":03M"	"::"	"::3M"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	12	"data/c017.txt"	"N7I2S"	"NN"	"NNI2S"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	13	"data/c017.txt"	"1{05:"	"11"	"1105:"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	14	"data/c017.txt"	"[5z07R"	"[["	"[[z07R"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	15	"data/c017.txt"	"f2MN450"	"ff"	"ffMN450"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	16	"data/c017.txt"	"898f3:05"	"88"	"888f3:05"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	17	"data/c017.txt"	"9580:"	"99"	"9980:"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	18	"data/c017.txt"	"5:h9000C2"	"55"	"55h9000C2"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+6	19	"data/c017.txt"	"11`u84T9"	"11"	"11`u84T9"	0	"λx.if((2==head(x)),x,pair(pair(Ø,head(x)),head(x)))"
+7	0	"data/c017.txt"	"781546m"	"781546m"	"771546m"	0	"λx.x"
+7	1	"data/c017.txt"	"S:D::"	"771"	"SSD::"	0	"λx.pair(pair(pair(Ø,7),7),1)"
+7	2	"data/c017.txt"	"N7I2S"	"NN"	"NNI2S"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	3	"data/c017.txt"	"259>376n"	"22"	"229>376n"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	4	"data/c017.txt"	"092CH"	"00"	"002CH"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	5	"data/c017.txt"	"2K315"	"22"	"22315"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	6	"data/c017.txt"	"74m;126?"	"77"	"77m;126?"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	7	"data/c017.txt"	"\>"	"\\"	"\\"	1	"λx.pair(pair(Ø,head(x)),head(x))"
+7	8	"data/c017.txt"	"092CH"	"00"	"002CH"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	9	"data/c017.txt"	"jg08"	"jj"	"jj08"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	10	"data/c017.txt"	"9580:"	"99"	"9980:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	11	"data/c017.txt"	"|0{e:t:Y"	"||"	"||{e:t:Y"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	12	"data/c017.txt"	"J9N32u27"	"JJ"	"JJN32u27"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	13	"data/c017.txt"	"092CH"	"00"	"002CH"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	14	"data/c017.txt"	"Ao9^s|:"	"AA"	"AA9^s|:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	15	"data/c017.txt"	"J9N32u27"	"JJ"	"JJN32u27"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	16	"data/c017.txt"	"9580:"	"99"	"9980:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	17	"data/c017.txt"	"11`u84T9"	"11"	"11`u84T9"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	18	"data/c017.txt"	"w4M52^C<"	"ww"	"wwM52^C<"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+7	19	"data/c017.txt"	"898f3:05"	"88"	"888f3:05"	0	"λx.if((x==if((1==head(x)),Ø,x)),pair(pair(Ø,head(x)),head(x)),x)"
+8	0	"data/c017.txt"	"45n"	"45n"	"44n"	0	"λx.x"
+8	1	"data/c017.txt"	"kAY25"	"44"	"kkY25"	0	"λx.pair(pair(Ø,4),4)"
+8	2	"data/c017.txt"	":03M"	"::"	"::3M"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+8	3	"data/c017.txt"	"Mi7:11694"	"MM"	"MM7:11694"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+8	4	"data/c017.txt"	"<1"	"<<"	"<<"	1	"λx.pair(pair(Ø,head(x)),head(x))"
+8	5	"data/c017.txt"	":u4"	"::"	"::4"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+8	6	"data/c017.txt"	"781546m"	"77"	"771546m"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+8	7	"data/c017.txt"	":5363"	"::"	"::363"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+8	8	"data/c017.txt"	"D82?"	"DD"	"DD2?"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+8	9	"data/c017.txt"	"D82?"	"DD"	"DD2?"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+8	10	"data/c017.txt"	"74m;126?"	"77"	"77m;126?"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+8	11	"data/c017.txt"	"D82?"	"DD"	"DD2?"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+8	12	"data/c017.txt"	"11`u84T9"	"11"	"11`u84T9"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+8	13	"data/c017.txt"	"5?8702Q4o"	"55"	"558702Q4o"	0	"λx.if((head(x)==1),x,pair(pair(Ø,head(x)),head(x)))"
+8	14	"data/c017.txt"	"<2"	"<<"	"<<"	1	"λx.if((head(x)==1),x,pair(pair(Ø,head(x)),head(x)))"
+8	15	"data/c017.txt"	":03M"	"::"	"::3M"	0	"λx.if((head(x)==1),x,pair(pair(Ø,head(x)),head(x)))"
+8	16	"data/c017.txt"	"1:d@qD6;22"	"1:d@qD6;22"	"11d@qD6;22"	0	"λx.if((head(x)==1),x,pair(pair(Ø,head(x)),head(x)))"
+8	17	"data/c017.txt"	"87|5b3983"	"88"	"88|5b3983"	0	"λx.if((head(x)==head(tail(x))),x,pair(pair(Ø,head(x)),head(x)))"
+8	18	"data/c017.txt"	"kAY25"	"kk"	"kkY25"	0	"λx.if((head(x)==head(tail(x))),x,pair(pair(Ø,head(x)),head(x)))"
+8	19	"data/c017.txt"	"kAY25"	"kk"	"kkY25"	0	"λx.if((head(x)==head(tail(x))),x,pair(pair(Ø,head(x)),head(x)))"
+9	0	"data/c017.txt"	"S:D::"	"S:D::"	"SSD::"	0	"λx.x"
+9	1	"data/c017.txt"	"J9N32u27"	"JJ"	"JJN32u27"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+9	2	"data/c017.txt"	"1:d@qD6;22"	"11"	"11d@qD6;22"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+9	3	"data/c017.txt"	"q0017"	"qq"	"qq017"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+9	4	"data/c017.txt"	"w4M52^C<"	"ww"	"wwM52^C<"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+9	5	"data/c017.txt"	"5:h9000C2"	"55"	"55h9000C2"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+9	6	"data/c017.txt"	"<1"	"<<"	"<<"	1	"λx.pair(pair(Ø,head(x)),head(x))"
+9	7	"data/c017.txt"	"9580:"	"99"	"9980:"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+9	8	"data/c017.txt"	"11`u84T9"	"11"	"11`u84T9"	0	"λx.pair(pair(Ø,head(x)),head(x))"
+9	9	"data/c017.txt"	"rEh6427x"	"rr"	"rrh6427x"	0	"λx.if((head(x)==head(tail(x))),x,pair(pair(Ø,head(x)),head(x)))"
+9	10	"data/c017.txt"	":0:"	"::"	":::"	0	"λx.if((head(x)==head(tail(x))),x,pair(pair(Ø,head(x)),head(x)))"
+9	11	"data/c017.txt"	"1P27"	"11"	"1127"	0	"λx.if((head(x)==head(tail(x))),x,pair(pair(Ø,head(x)),head(x)))"
+9	12	"data/c017.txt"	"q0017"	"qq"	"qq017"	0	"λx.if((head(x)==head(tail(x))),x,pair(pair(Ø,head(x)),head(x)))"
+9	13	"data/c017.txt"	"11`u84T9"	"11`u84T9"	"11`u84T9"	1	"λx.if((head(x)==head(tail(x))),x,pair(pair(Ø,head(x)),head(x)))"
+9	14	"data/c017.txt"	"S:D::"	"SS"	"SSD::"	0	"λx.if((head(x)==head(tail(x))),x,pair(pair(Ø,head(x)),head(x)))"
+9	15	"data/c017.txt"	"781546m"	"77"	"771546m"	0	"λx.if((head(x)==head(tail(x))),x,pair(pair(Ø,head(x)),head(x)))"
+9	16	"data/c017.txt"	"45n"	"44"	"44n"	0	"λx.if((head(x)==head(tail(x))),x,pair(pair(Ø,head(x)),head(x)))"
+9	17	"data/c017.txt"	":5363"	"::"	"::363"	0	"λx.if((head(x)==head(tail(x))),x,pair(pair(Ø,head(x)),head(x)))"
+9	18	"data/c017.txt"	"|0{e:t:Y"	"||"	"||{e:t:Y"	0	"λx.if((head(x)==head(tail(x))),x,pair(pair(Ø,head(x)),head(x)))"
+9	19	"data/c017.txt"	":0:"	"::"	":::"	0	"λx.if((head(x)==head(tail(x))),x,pair(pair(Ø,head(x)),head(x)))"
+# Global sample count:	12082466140
+# Elapsed time:	120103 seconds 
+# Samples per second:	100601
+# VM ops per second:	1.85166e+07

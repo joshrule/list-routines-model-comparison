@@ -1,0 +1,268 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=7555 by user piantado at Wed Dec  4 16:33:57 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: 75de067d9790c8abe3432331157b2715  /proc/7555/exe
+# 	 --input=data/c2-020.txt
+# 	 --threads=2
+# 	 --chains=4
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=10m (600 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data 1082561 -> 10982561
+# using data 8513193 -> 85913193
+# using data 53900 -> 539900
+# using data 6818 -> 68918
+# using data 565610 -> 5695610
+# using data 8969892 -> 89969892
+# using data 383665436 -> 3893665436
+# using data 9387 -> 93987
+# using data 34124373 -> 349124373
+# using data 73914015 -> 739914015
+# using data 515603091 -> 5195603091
+# using data 195575 -> 1995575
+# using data 9771 -> 97971
+# using data 9584 -> 95984
+# using data 7613353 -> 76913353
+# using data 335044795 -> 3395044795
+# using data 380800941 -> 3890800941
+# using data 4904 -> 49904
+# using data 89851914 -> 899851914
+# using data 56 -> 569
+# using data 05957 -> 059957
+# using data 419310 -> 4199310
+# using data 25 -> 259
+# using data 3314 -> 33914
+# using data 710629429 -> 7190629429
+# using data 17012705 -> 179012705
+# using data 156264 -> 1596264
+# using data 238131 -> 2398131
+# using data 8807023 -> 88907023
+# using data 17341 -> 179341
+# using data 6030187 -> 60930187
+# using data 2708224 -> 27908224
+# using data 178916729 -> 1798916729
+# using data 27339 -> 279339
+# using data 590704 -> 5990704
+# using data 62 -> 629
+# using data 45959 -> 459959
+# using data 08 -> 089
+# using data 386062427 -> 3896062427
+# using data 28441 -> 289441
+# using data 9513 -> 95913
+# using data 860958 -> 8690958
+# using data 660 -> 6690
+# using data 5577 -> 55977
+# using data 218295 -> 2198295
+# using data 4839 -> 48939
+# using data 759430634 -> 7599430634
+# using data 57912916 -> 579912916
+# using data 594214 -> 5994214
+# using data 048 -> 0498
+i_run	i_N	concept	input	output	correct.output	correct	hypothesis
+0	0	"data/c2-020.txt"	"57912916"	"57912916"	"579912916"	0	"λx.x"
+0	1	"data/c2-020.txt"	"8513193"	"85131993"	"85913193"	0	"λx.pair(head(x),if((9>head(x)),F(tail(x)),x))"
+0	2	"data/c2-020.txt"	"515603091"	"5195603091"	"5195603091"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	3	"data/c2-020.txt"	"590704"	"5990704"	"5990704"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	4	"data/c2-020.txt"	"335044795"	"3395044795"	"3395044795"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	5	"data/c2-020.txt"	"34124373"	"349124373"	"349124373"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	6	"data/c2-020.txt"	"5577"	"55977"	"55977"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	7	"data/c2-020.txt"	"17341"	"179341"	"179341"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	8	"data/c2-020.txt"	"8969892"	"89969892"	"89969892"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	9	"data/c2-020.txt"	"386062427"	"3896062427"	"3896062427"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	10	"data/c2-020.txt"	"218295"	"2198295"	"2198295"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	11	"data/c2-020.txt"	"195575"	"1995575"	"1995575"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	12	"data/c2-020.txt"	"08"	"089"	"089"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	13	"data/c2-020.txt"	"6818"	"68918"	"68918"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	14	"data/c2-020.txt"	"565610"	"5695610"	"5695610"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	15	"data/c2-020.txt"	"178916729"	"1798916729"	"1798916729"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	16	"data/c2-020.txt"	"380800941"	"3890800941"	"3890800941"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	17	"data/c2-020.txt"	"218295"	"2198295"	"2198295"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	18	"data/c2-020.txt"	"17012705"	"179012705"	"179012705"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+0	19	"data/c2-020.txt"	"17341"	"179341"	"179341"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	0	"data/c2-020.txt"	"419310"	"419310"	"4199310"	0	"λx.x"
+1	1	"data/c2-020.txt"	"9387"	"99387"	"93987"	0	"λx.pair(head(x),if((6>head(x)),F(tail(x)),x))"
+1	2	"data/c2-020.txt"	"386062427"	"3896062427"	"3896062427"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	3	"data/c2-020.txt"	"710629429"	"7190629429"	"7190629429"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	4	"data/c2-020.txt"	"9387"	"93987"	"93987"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	5	"data/c2-020.txt"	"218295"	"2198295"	"2198295"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	6	"data/c2-020.txt"	"380800941"	"3890800941"	"3890800941"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	7	"data/c2-020.txt"	"3314"	"33914"	"33914"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	8	"data/c2-020.txt"	"73914015"	"739914015"	"739914015"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	9	"data/c2-020.txt"	"565610"	"5695610"	"5695610"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	10	"data/c2-020.txt"	"6818"	"68918"	"68918"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	11	"data/c2-020.txt"	"335044795"	"3395044795"	"3395044795"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	12	"data/c2-020.txt"	"62"	"629"	"629"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	13	"data/c2-020.txt"	"73914015"	"739914015"	"739914015"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	14	"data/c2-020.txt"	"1082561"	"10982561"	"10982561"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	15	"data/c2-020.txt"	"515603091"	"5195603091"	"5195603091"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	16	"data/c2-020.txt"	"08"	"089"	"089"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	17	"data/c2-020.txt"	"419310"	"4199310"	"4199310"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	18	"data/c2-020.txt"	"56"	"569"	"569"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+1	19	"data/c2-020.txt"	"4839"	"48939"	"48939"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	0	"data/c2-020.txt"	"710629429"	"710629429"	"7190629429"	0	"λx.x"
+2	1	"data/c2-020.txt"	"9584"	"91984"	"95984"	0	"λx.pair(head(x),pair(1,pair(9,tail(tail(x)))))"
+2	2	"data/c2-020.txt"	"6030187"	"60930187"	"60930187"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	3	"data/c2-020.txt"	"759430634"	"7599430634"	"7599430634"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	4	"data/c2-020.txt"	"4904"	"49904"	"49904"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	5	"data/c2-020.txt"	"238131"	"2398131"	"2398131"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	6	"data/c2-020.txt"	"53900"	"539900"	"539900"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	7	"data/c2-020.txt"	"238131"	"2398131"	"2398131"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	8	"data/c2-020.txt"	"9387"	"93987"	"93987"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	9	"data/c2-020.txt"	"4839"	"48939"	"48939"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	10	"data/c2-020.txt"	"759430634"	"7599430634"	"7599430634"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	11	"data/c2-020.txt"	"05957"	"059957"	"059957"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	12	"data/c2-020.txt"	"590704"	"5990704"	"5990704"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	13	"data/c2-020.txt"	"27339"	"279339"	"279339"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	14	"data/c2-020.txt"	"73914015"	"739914015"	"739914015"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	15	"data/c2-020.txt"	"860958"	"8690958"	"8690958"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	16	"data/c2-020.txt"	"590704"	"5990704"	"5990704"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	17	"data/c2-020.txt"	"6030187"	"60930187"	"60930187"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	18	"data/c2-020.txt"	"860958"	"8690958"	"8690958"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+2	19	"data/c2-020.txt"	"62"	"629"	"629"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	0	"data/c2-020.txt"	"4839"	"4839"	"48939"	0	"λx.x"
+3	1	"data/c2-020.txt"	"08"	"089"	"089"	1	"λx.pair(head(x),pair(8,pair(9,tail(tail(x)))))"
+3	2	"data/c2-020.txt"	"218295"	"2898295"	"2198295"	0	"λx.pair(head(x),pair(8,pair(9,tail(tail(x)))))"
+3	3	"data/c2-020.txt"	"6030187"	"60930187"	"60930187"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	4	"data/c2-020.txt"	"218295"	"2198295"	"2198295"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	5	"data/c2-020.txt"	"9584"	"95984"	"95984"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	6	"data/c2-020.txt"	"419310"	"4199310"	"4199310"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	7	"data/c2-020.txt"	"178916729"	"1798916729"	"1798916729"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	8	"data/c2-020.txt"	"08"	"089"	"089"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	9	"data/c2-020.txt"	"8807023"	"88907023"	"88907023"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	10	"data/c2-020.txt"	"57912916"	"579912916"	"579912916"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	11	"data/c2-020.txt"	"05957"	"059957"	"059957"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	12	"data/c2-020.txt"	"383665436"	"3893665436"	"3893665436"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	13	"data/c2-020.txt"	"4904"	"49904"	"49904"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	14	"data/c2-020.txt"	"860958"	"8690958"	"8690958"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	15	"data/c2-020.txt"	"8969892"	"89969892"	"89969892"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	16	"data/c2-020.txt"	"5577"	"55977"	"55977"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	17	"data/c2-020.txt"	"383665436"	"3893665436"	"3893665436"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	18	"data/c2-020.txt"	"660"	"6690"	"6690"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+3	19	"data/c2-020.txt"	"759430634"	"7599430634"	"7599430634"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	0	"data/c2-020.txt"	"34124373"	"34124373"	"349124373"	0	"λx.x"
+4	1	"data/c2-020.txt"	"45959"	"449959"	"459959"	0	"λx.pair(head(x),pair(4,pair(9,tail(tail(x)))))"
+4	2	"data/c2-020.txt"	"9771"	"97971"	"97971"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	3	"data/c2-020.txt"	"710629429"	"7190629429"	"7190629429"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	4	"data/c2-020.txt"	"9387"	"93987"	"93987"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	5	"data/c2-020.txt"	"73914015"	"739914015"	"739914015"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	6	"data/c2-020.txt"	"8513193"	"85913193"	"85913193"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	7	"data/c2-020.txt"	"53900"	"539900"	"539900"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	8	"data/c2-020.txt"	"048"	"0498"	"0498"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	9	"data/c2-020.txt"	"25"	"259"	"259"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	10	"data/c2-020.txt"	"9771"	"97971"	"97971"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	11	"data/c2-020.txt"	"860958"	"8690958"	"8690958"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	12	"data/c2-020.txt"	"419310"	"4199310"	"4199310"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	13	"data/c2-020.txt"	"6030187"	"60930187"	"60930187"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	14	"data/c2-020.txt"	"89851914"	"899851914"	"899851914"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	15	"data/c2-020.txt"	"218295"	"2198295"	"2198295"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	16	"data/c2-020.txt"	"17012705"	"179012705"	"179012705"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	17	"data/c2-020.txt"	"9584"	"95984"	"95984"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	18	"data/c2-020.txt"	"660"	"6690"	"6690"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+4	19	"data/c2-020.txt"	"759430634"	"7599430634"	"7599430634"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	0	"data/c2-020.txt"	"380800941"	"380800941"	"3890800941"	0	"λx.x"
+5	1	"data/c2-020.txt"	"178916729"	"1898916729"	"1798916729"	0	"λx.pair(head(x),pair(8,pair(9,tail(tail(x)))))"
+5	2	"data/c2-020.txt"	"05957"	"059957"	"059957"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	3	"data/c2-020.txt"	"335044795"	"3395044795"	"3395044795"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	4	"data/c2-020.txt"	"73914015"	"739914015"	"739914015"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	5	"data/c2-020.txt"	"6030187"	"60930187"	"60930187"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	6	"data/c2-020.txt"	"08"	"089"	"089"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	7	"data/c2-020.txt"	"62"	"629"	"629"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	8	"data/c2-020.txt"	"419310"	"4199310"	"4199310"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	9	"data/c2-020.txt"	"594214"	"5994214"	"5994214"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	10	"data/c2-020.txt"	"178916729"	"1798916729"	"1798916729"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	11	"data/c2-020.txt"	"45959"	"459959"	"459959"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	12	"data/c2-020.txt"	"710629429"	"7190629429"	"7190629429"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	13	"data/c2-020.txt"	"386062427"	"3896062427"	"3896062427"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	14	"data/c2-020.txt"	"8807023"	"88907023"	"88907023"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	15	"data/c2-020.txt"	"590704"	"5990704"	"5990704"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	16	"data/c2-020.txt"	"860958"	"8690958"	"8690958"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	17	"data/c2-020.txt"	"590704"	"5990704"	"5990704"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	18	"data/c2-020.txt"	"8513193"	"85913193"	"85913193"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+5	19	"data/c2-020.txt"	"9771"	"97971"	"97971"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	0	"data/c2-020.txt"	"3314"	"3314"	"33914"	0	"λx.x"
+6	1	"data/c2-020.txt"	"27339"	"229339"	"279339"	0	"λx.pair(head(x),pair(head(x),pair(9,tail(tail(x)))))"
+6	2	"data/c2-020.txt"	"57912916"	"579912916"	"579912916"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	3	"data/c2-020.txt"	"56"	"569"	"569"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	4	"data/c2-020.txt"	"28441"	"289441"	"289441"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	5	"data/c2-020.txt"	"8969892"	"89969892"	"89969892"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	6	"data/c2-020.txt"	"8807023"	"88907023"	"88907023"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	7	"data/c2-020.txt"	"25"	"259"	"259"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	8	"data/c2-020.txt"	"08"	"089"	"089"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	9	"data/c2-020.txt"	"4839"	"48939"	"48939"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	10	"data/c2-020.txt"	"565610"	"5695610"	"5695610"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	11	"data/c2-020.txt"	"9771"	"97971"	"97971"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	12	"data/c2-020.txt"	"383665436"	"3893665436"	"3893665436"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	13	"data/c2-020.txt"	"759430634"	"7599430634"	"7599430634"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	14	"data/c2-020.txt"	"56"	"569"	"569"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	15	"data/c2-020.txt"	"156264"	"1596264"	"1596264"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	16	"data/c2-020.txt"	"45959"	"459959"	"459959"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	17	"data/c2-020.txt"	"08"	"089"	"089"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	18	"data/c2-020.txt"	"7613353"	"76913353"	"76913353"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+6	19	"data/c2-020.txt"	"3314"	"33914"	"33914"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	0	"data/c2-020.txt"	"25"	"25"	"259"	0	"λx.x"
+7	1	"data/c2-020.txt"	"56"	"56"	"569"	0	"λx.x"
+7	2	"data/c2-020.txt"	"860958"	"860958"	"8690958"	0	"λx.x"
+7	3	"data/c2-020.txt"	"6818"	"68918"	"68918"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	4	"data/c2-020.txt"	"860958"	"8690958"	"8690958"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	5	"data/c2-020.txt"	"590704"	"5990704"	"5990704"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	6	"data/c2-020.txt"	"73914015"	"739914015"	"739914015"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	7	"data/c2-020.txt"	"73914015"	"739914015"	"739914015"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	8	"data/c2-020.txt"	"386062427"	"3896062427"	"3896062427"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	9	"data/c2-020.txt"	"759430634"	"7599430634"	"7599430634"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	10	"data/c2-020.txt"	"62"	"629"	"629"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	11	"data/c2-020.txt"	"594214"	"5994214"	"5994214"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	12	"data/c2-020.txt"	"89851914"	"899851914"	"899851914"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	13	"data/c2-020.txt"	"45959"	"459959"	"459959"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	14	"data/c2-020.txt"	"759430634"	"7599430634"	"7599430634"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	15	"data/c2-020.txt"	"8807023"	"88907023"	"88907023"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	16	"data/c2-020.txt"	"57912916"	"579912916"	"579912916"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	17	"data/c2-020.txt"	"419310"	"4199310"	"4199310"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	18	"data/c2-020.txt"	"759430634"	"7599430634"	"7599430634"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+7	19	"data/c2-020.txt"	"195575"	"1995575"	"1995575"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	0	"data/c2-020.txt"	"34124373"	"34124373"	"349124373"	0	"λx.x"
+8	1	"data/c2-020.txt"	"57912916"	"549912916"	"579912916"	0	"λx.pair(head(x),pair(4,pair(9,tail(tail(x)))))"
+8	2	"data/c2-020.txt"	"25"	"259"	"259"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	3	"data/c2-020.txt"	"238131"	"2398131"	"2398131"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	4	"data/c2-020.txt"	"57912916"	"579912916"	"579912916"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	5	"data/c2-020.txt"	"17341"	"179341"	"179341"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	6	"data/c2-020.txt"	"594214"	"5994214"	"5994214"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	7	"data/c2-020.txt"	"6030187"	"60930187"	"60930187"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	8	"data/c2-020.txt"	"8969892"	"89969892"	"89969892"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	9	"data/c2-020.txt"	"4904"	"49904"	"49904"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	10	"data/c2-020.txt"	"73914015"	"739914015"	"739914015"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	11	"data/c2-020.txt"	"380800941"	"3890800941"	"3890800941"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	12	"data/c2-020.txt"	"048"	"0498"	"0498"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	13	"data/c2-020.txt"	"56"	"569"	"569"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	14	"data/c2-020.txt"	"73914015"	"739914015"	"739914015"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	15	"data/c2-020.txt"	"7613353"	"76913353"	"76913353"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	16	"data/c2-020.txt"	"565610"	"5695610"	"5695610"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	17	"data/c2-020.txt"	"710629429"	"7190629429"	"7190629429"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	18	"data/c2-020.txt"	"565610"	"5695610"	"5695610"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+8	19	"data/c2-020.txt"	"660"	"6690"	"6690"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	0	"data/c2-020.txt"	"048"	"048"	"0498"	0	"λx.x"
+9	1	"data/c2-020.txt"	"62"	"649"	"629"	0	"λx.pair(head(x),pair(4,pair(9,tail(tail(x)))))"
+9	2	"data/c2-020.txt"	"565610"	"5695610"	"5695610"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	3	"data/c2-020.txt"	"660"	"6690"	"6690"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	4	"data/c2-020.txt"	"565610"	"5695610"	"5695610"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	5	"data/c2-020.txt"	"590704"	"5990704"	"5990704"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	6	"data/c2-020.txt"	"8969892"	"89969892"	"89969892"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	7	"data/c2-020.txt"	"28441"	"289441"	"289441"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	8	"data/c2-020.txt"	"89851914"	"899851914"	"899851914"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	9	"data/c2-020.txt"	"380800941"	"3890800941"	"3890800941"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	10	"data/c2-020.txt"	"9584"	"95984"	"95984"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	11	"data/c2-020.txt"	"25"	"259"	"259"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	12	"data/c2-020.txt"	"17341"	"179341"	"179341"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	13	"data/c2-020.txt"	"419310"	"4199310"	"4199310"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	14	"data/c2-020.txt"	"048"	"0498"	"0498"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	15	"data/c2-020.txt"	"25"	"259"	"259"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	16	"data/c2-020.txt"	"57912916"	"579912916"	"579912916"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	17	"data/c2-020.txt"	"380800941"	"3890800941"	"3890800941"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	18	"data/c2-020.txt"	"594214"	"5994214"	"5994214"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+9	19	"data/c2-020.txt"	"1082561"	"10982561"	"10982561"	1	"λx.pair(head(x),pair(head(tail(x)),pair(9,tail(tail(x)))))"
+# Global sample count:	9473934677
+# Elapsed time:	120103 seconds 
+# Samples per second:	78881.5
+# VM ops per second:	1.5038e+07

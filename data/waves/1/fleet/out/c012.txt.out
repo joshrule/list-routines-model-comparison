@@ -1,0 +1,167 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=11304 by user piantado at Wed Nov  6 21:04:48 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: ae0be1a467d652ad2e23d323782b74b7  /proc/11304/exe
+# 	 --input=wave1/c012.txt
+# 	 --threads=4
+# 	 --chains=8
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=10m (600 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data p44 -> pp44
+# using data A -> AA
+# using data 43b79 -> 443b79
+# using data 0]A -> 00]A
+# using data x5601Tww1 -> xx5601Tww1
+# using data @ -> @@
+# using data 8:LB19h -> 88:LB19h
+# using data 18>=4 -> 118>=4
+# using data 66 -> 666
+# using data G:z1W}042 -> GG:z1W}042
+# using data o7Bo -> oo7Bo
+# using data 2 -> 22
+# using data 593 -> 5593
+# using data 13X84M5Z -> 113X84M5Z
+# using data 65406 -> 665406
+# using data s:A7B54 -> ss:A7B54
+# using data 1107|1vDF -> 11107|1vDF
+# using data 06317_4 -> 006317_4
+# using data B0<29Wr4 -> BB0<29Wr4
+# using data J:7?6 -> JJ:7?6
+# using data C -> CC
+# using data 3EO -> 33EO
+# using data 4x<51 -> 44x<51
+# using data 2v:o6H8` -> 22v:o6H8`
+# using data 2WA5L9f85 -> 22WA5L9f85
+# using data 1O -> 11O
+# using data 61 -> 661
+# using data rTP@1505 -> rrTP@1505
+# using data A078 -> AA078
+# using data 227t88k3@ -> 2227t88k3@
+# using data 0 -> 00
+# using data :2B9Bv8 -> ::2B9Bv8
+# using data 8 -> 88
+# using data 26460 -> 226460
+# using data 011065140 -> 0011065140
+# using data 7u8d3 -> 77u8d3
+# using data 017 -> 0017
+# using data @P4 -> @@P4
+# using data 93AyE -> 993AyE
+# using data 2]0597 -> 22]0597
+# using data 7>H -> 77>H
+# using data 2V^4< -> 22V^4<
+# using data [44^@4r9 -> [[44^@4r9
+# using data 7d6 -> 77d6
+# using data 34Q -> 334Q
+# using data V445058P6 -> VV445058P6
+# using data 7K9s44C4 -> 77K9s44C4
+# using data 55>3WL70 -> 555>3WL70
+# using data 2{j -> 22{j
+# using data n9793659 -> nn9793659
+# Starting run 
+-16.9516	-16.9516	0	"λx.cons(if(empty('2'),x,head(x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty(x),'0',x))"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty('5'),x,x))"
+-16.9516	-16.9516	0	"λx.if(empty('1'),x,cons(head(x),x))"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty(','),x,x))"
+-16.9516	-16.9516	0	"λx.cons(if(empty(x),'5',head(x)),x)"
+-16.9516	-16.9516	0	"λx.if(empty('3'),x,cons(head(x),x))"
+-16.9516	-16.9516	0	"λx.cons(if(empty(x),'2',head(x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty(x),'5',x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty(x),'8',x))"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty('1'),x,x)),x)"
+-16.9516	-16.9516	0	"λx.cons(if(empty('6'),x,head(x)),x)"
+-16.9516	-16.9516	0	"λx.cons(if(empty(x),'4',head(x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty(x),'2',x))"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty(x),',',x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty('4'),x,x))"
+-16.9516	-16.9516	0	"λx.if(empty('9'),x,cons(head(x),x))"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty(x),'9',x))"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty('8'),x,x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty('7'),x,x))"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty(x),',',x))"
+-16.9516	-16.9516	0	"λx.if(empty('7'),x,cons(head(x),x))"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty(x),'7',x))"
+-16.9516	-16.9516	0	"λx.if(empty('6'),x,cons(head(x),x))"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty('6'),x,x)),x)"
+-16.9516	-16.9516	0	"λx.cons(if(empty('4'),x,head(x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty('1'),x,x))"
+-16.9516	-16.9516	0	"λx.cons(if(empty('1'),x,head(x)),x)"
+-16.9516	-16.9516	0	"λx.cons(if(empty(x),'7',head(x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty(x),'9',x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty('5'),x,x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty('7'),x,x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty(','),x,x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty('0'),x,x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty('0'),x,x))"
+-16.9516	-16.9516	0	"λx.cons(if(empty(x),',',head(x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty('8'),x,x))"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty(x),'6',x))"
+-16.9516	-16.9516	0	"λx.cons(if(empty(x),'9',head(x)),x)"
+-16.9516	-16.9516	0	"λx.if(empty(x),'1',cons(head(x),x))"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty('2'),x,x))"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty('9'),x,x))"
+-16.9516	-16.9516	0	"λx.if(empty(x),'3',cons(head(x),x))"
+-16.9516	-16.9516	0	"λx.cons(if(empty(x),'3',head(x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty('9'),x,x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty(x),'6',x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty(x),'4',x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty(x),'3',x))"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty(x),'7',x)),x)"
+-16.9516	-16.9516	0	"λx.if(empty(','),x,cons(head(x),x))"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty(x),'2',x)),x)"
+-16.9516	-16.9516	0	"λx.cons(head(x),if(empty('3'),x,x))"
+-16.9516	-16.9516	0	"λx.cons(if(empty('8'),x,head(x)),x)"
+-16.9516	-16.9516	0	"λx.if(empty(x),'0',cons(head(x),x))"
+-16.9516	-16.9516	0	"λx.if(empty(x),'4',cons(head(x),x))"
+-16.9516	-16.9516	0	"λx.if(empty('5'),x,cons(head(x),x))"
+-16.9516	-16.9516	0	"λx.cons(head(if(empty(x),'0',x)),x)"
+-16.8562	-16.8562	0	"λx.cons(head(x),if(empty(x),Ø,x))"
+-16.8562	-16.8562	0	"λx.cons(if(empty(Ø),head(x),x),x)"
+-16.8562	-16.8562	0	"λx.if(empty(x),Ø,cons(head(x),x))"
+-16.8562	-16.8562	0	"λx.cons(head(x),if(empty(Ø),x,x))"
+-16.8562	-16.8562	0	"λx.cons(if(empty(x),Ø,head(x)),x)"
+-16.8562	-16.8562	0	"λx.cons(head(if(empty(Ø),x,x)),x)"
+-16.8562	-16.8562	0	"λx.cons(head(if(empty(x),Ø,x)),x)"
+-16.8562	-16.8562	0	"λx.if(empty(Ø),cons(head(x),x),x)"
+-16.1631	-16.1631	0	"λx.cons(head(head(cons(x,x))),x)"
+-16.1631	-16.1631	0	"λx.cons(head(cons(x,tail(x))),x)"
+-16.1631	-16.1631	0	"λx.cons(head(cons(x,head(x))),x)"
+-16.1631	-16.1631	0	"λx.cons(head(cons(head(x),x)),x)"
+-15.5469	-15.5469	0	"λx.cons(if((x==x),head(x),x),x)"
+-15.5469	-15.5469	0	"λx.cons(head(if((x==x),x,x)),x)"
+-15.5469	-15.5469	0	"λx.cons(head(x),if((x==x),x,x))"
+-15.5469	-15.5469	0	"λx.if((x==x),cons(head(x),x),x)"
+-15.2652	-15.2652	0	"λx.cons(head(cons(x,'9')),x)"
+-15.2652	-15.2652	0	"λx.cons(head(cons(x,'6')),x)"
+-15.2652	-15.2652	0	"λx.cons(head(cons(x,'7')),x)"
+-15.2652	-15.2652	0	"λx.cons(head(cons(x,'5')),x)"
+-15.2652	-15.2652	0	"λx.cons(head(cons(x,'1')),x)"
+-15.2652	-15.2652	0	"λx.cons(head(cons(x,'2')),x)"
+-15.2652	-15.2652	0	"λx.cons(head(cons(x,'3')),x)"
+-15.2652	-15.2652	0	"λx.cons(head(cons(x,'8')),x)"
+-15.2652	-15.2652	0	"λx.cons(head(cons(x,',')),x)"
+-15.2652	-15.2652	0	"λx.cons(head(cons(x,'4')),x)"
+-15.2652	-15.2652	0	"λx.cons(head(cons(x,'0')),x)"
+-15.1699	-15.1699	0	"λx.cons(cons(head(x),x),Ø)"
+-15.1699	-15.1699	0	"λx.cons(head(x),cons(Ø,x))"
+-15.1699	-15.1699	0	"λx.cons(head(x),cons(x,Ø))"
+-15.1699	-15.1699	0	"λx.cons(Ø,cons(head(x),x))"
+-15.1699	-15.1699	0	"λx.cons(head(head(head(x))),x)"
+-15.1699	-15.1699	0	"λx.cons(head(cons(Ø,x)),x)"
+-15.1699	-15.1699	0	"λx.cons(cons(Ø,head(x)),x)"
+-15.1699	-15.1699	0	"λx.cons(cons(head(x),Ø),x)"
+-15.1699	-15.1699	0	"λx.cons(head(cons(x,Ø)),x)"
+-14.5537	-14.5537	0	"λx.cons(head(x),if(empty(x),x,x))"
+-14.5537	-14.5537	0	"λx.if(empty(x),x,cons(head(x),x))"
+-14.5537	-14.5537	0	"λx.cons(head(if(empty(x),x,x)),x)"
+-14.5537	-14.5537	0	"λx.cons(if(empty(x),x,head(x)),x)"
+-12.8673	-12.8673	0	"λx.cons(head(cons(x,x)),x)"
+-11.874	-11.874	0	"λx.cons(head(head(x)),x)"
+-8.57818	-8.57818	0	"λx.cons(head(x),x)"
+# Global sample count:	145919099
+# Elapsed time:	600.571 seconds 
+# Samples per second:	242967

@@ -1,0 +1,268 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=8100 by user piantado at Wed Dec  4 16:34:46 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: 2fb1c47ee31e2c3b1aaf2768a7d98678  /proc/8100/exe
+# 	 --input=data/c015.txt
+# 	 --threads=2
+# 	 --chains=4
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=1m (60 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data 6 -> 6666666666
+# using data Nc9k -> NNNNNNNNNN
+# using data 80:0M? -> 8888888888
+# using data >79=I91` -> >>>>>>>>>>
+# using data 528?5h4>L -> 5555555555
+# using data :DkN -> ::::::::::
+# using data 34> -> 3333333333
+# using data 7hv6Rsr7 -> 7777777777
+# using data X -> XXXXXXXXXX
+# using data B6 -> BBBBBBBBBB
+# using data :TF627 -> ::::::::::
+# using data 22844: -> 2222222222
+# using data y6 -> yyyyyyyyyy
+# using data 22 -> 2222222222
+# using data [b5 -> [[[[[[[[[[
+# using data 9r6d -> 9999999999
+# using data pU96B -> pppppppppp
+# using data 9p0953E -> 9999999999
+# using data 0m -> 0000000000
+# using data 0`22[ -> 0000000000
+# using data : -> ::::::::::
+# using data 8 -> 8888888888
+# using data p:1yB -> pppppppppp
+# using data 87h|h40 -> 8888888888
+# using data 398952@0e -> 3333333333
+# using data `3Fw04 -> ``````````
+# using data bh4sS>AYo -> bbbbbbbbbb
+# using data 9:7\D5c24 -> 9999999999
+# using data 78N6=pz2 -> 7777777777
+# using data 2i730m? -> 2222222222
+# using data 6:2 -> 6666666666
+# using data 3@;86wu9 -> 3333333333
+# using data _7eBB -> __________
+# using data 78 -> 7777777777
+# using data 5q -> 5555555555
+# using data Ha2mJ -> HHHHHHHHHH
+# using data 0 -> 0000000000
+# using data SO: -> SSSSSSSSSS
+# using data ekKg867 -> eeeeeeeeee
+# using data 1:> -> 1111111111
+# using data C29y86 -> CCCCCCCCCC
+# using data ^ -> ^^^^^^^^^^
+# using data 2:0Y<74 -> 2222222222
+# using data e -> eeeeeeeeee
+# using data C -> CCCCCCCCCC
+# using data T?L61 -> TTTTTTTTTT
+# using data >j19 -> >>>>>>>>>>
+# using data F_mgn6 -> FFFFFFFFFF
+# using data 2T64:41 -> 2222222222
+# using data :=3A9 -> ::::::::::
+i_run	i_N	concept	input	output	correct.output	correct	hypothesis
+0	0	"data/c015.txt"	"bh4sS>AYo"	"bh4sS>AYo"	"bbbbbbbbbb"	0	"λx.x"
+0	1	"data/c015.txt"	"T?L61"	"TTTTTT"	"TTTTTTTTTT"	0	"λx.pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	2	"data/c015.txt"	"C"	"CCCCCCCCC"	"CCCCCCCCCC"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	3	"data/c015.txt"	"`3Fw04"	"`````````"	"``````````"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	4	"data/c015.txt"	"2i730m?"	"222222222"	"2222222222"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	5	"data/c015.txt"	"6"	"666666666"	"6666666666"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	6	"data/c015.txt"	"8"	"888888888"	"8888888888"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	7	"data/c015.txt"	"Ha2mJ"	"HHHHHHHHH"	"HHHHHHHHHH"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	8	"data/c015.txt"	"80:0M?"	"888888888"	"8888888888"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	9	"data/c015.txt"	"2:0Y<74"	"222222222"	"2222222222"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	10	"data/c015.txt"	"78"	"777777777"	"7777777777"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	11	"data/c015.txt"	"5q"	"555555555"	"5555555555"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	12	"data/c015.txt"	"`3Fw04"	"`````````"	"``````````"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	13	"data/c015.txt"	"87h|h40"	"888888888"	"8888888888"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	14	"data/c015.txt"	"C"	"CCCCCCCCC"	"CCCCCCCCCC"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	15	"data/c015.txt"	"F_mgn6"	"FFFFFFFFF"	"FFFFFFFFFF"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	16	"data/c015.txt"	">79=I91`"	">>>>>>>>>"	">>>>>>>>>>"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	17	"data/c015.txt"	"F_mgn6"	"FFFFFFFFF"	"FFFFFFFFFF"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	18	"data/c015.txt"	"0"	"000000000"	"0000000000"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+0	19	"data/c015.txt"	"B6"	"BBBBBBBBB"	"BBBBBBBBBB"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	0	"data/c015.txt"	"p:1yB"	"p:1yB"	"pppppppppp"	0	"λx.x"
+1	1	"data/c015.txt"	">j19"	">>>>>>>>>"	">>>>>>>>>>"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	2	"data/c015.txt"	"bh4sS>AYo"	"bbbbbbbbb"	"bbbbbbbbbb"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	3	"data/c015.txt"	"8"	"8888888888"	"8888888888"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	4	"data/c015.txt"	"87h|h40"	"8888888888"	"8888888888"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	5	"data/c015.txt"	"1:>"	"1111111111"	"1111111111"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	6	"data/c015.txt"	"C29y86"	"CCCCCCCCCC"	"CCCCCCCCCC"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	7	"data/c015.txt"	"8"	"8888888888"	"8888888888"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	8	"data/c015.txt"	"6"	"6666666666"	"6666666666"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	9	"data/c015.txt"	"80:0M?"	"8888888888"	"8888888888"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	10	"data/c015.txt"	">79=I91`"	">>>>>>>>>>"	">>>>>>>>>>"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	11	"data/c015.txt"	"p:1yB"	"pppppppppp"	"pppppppppp"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	12	"data/c015.txt"	"3@;86wu9"	"3333333333"	"3333333333"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	13	"data/c015.txt"	"X"	"XXXXXXXXXX"	"XXXXXXXXXX"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	14	"data/c015.txt"	"6:2"	"6666666666"	"6666666666"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	15	"data/c015.txt"	"C29y86"	"CCCCCCCCCC"	"CCCCCCCCCC"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	16	"data/c015.txt"	"C29y86"	"CCCCCCCCCC"	"CCCCCCCCCC"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	17	"data/c015.txt"	"528?5h4>L"	"5555555555"	"5555555555"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	18	"data/c015.txt"	"`3Fw04"	"``````````"	"``````````"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+1	19	"data/c015.txt"	"e"	"eeeeeeeeee"	"eeeeeeeeee"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+2	0	"data/c015.txt"	"SO:"	"SO:"	"SSSSSSSSSS"	0	"λx.x"
+2	1	"data/c015.txt"	"B6"	"BBBBBBBBBB"	"BBBBBBBBBB"	1	"λx.pair(if((tail(x)==F(tail(tail(x)))),x,F(pair(x,2))),head(x))"
+2	2	"data/c015.txt"	"6"	"66"	"6666666666"	0	"λx.pair(if((tail(x)==F(tail(tail(x)))),x,F(pair(x,2))),head(x))"
+2	3	"data/c015.txt"	"78"	"777777777"	"7777777777"	0	"λx.pair(F(if((if((x==x),F(tail(tail(tail(tail(tail(if((x==x),tail(tail(tail(tail(x)))),x))))))),x)==x),x,pair(x,5))),head(x))"
+2	4	"data/c015.txt"	">79=I91`"	">>>>>>"	">>>>>>>>>>"	0	"λx.pair(pair(pair(pair(if((Ø==tail(tail(tail(x)))),F(F(pair(x,3))),pair(pair(Ø,head(x)),head(x))),head(x)),head(x)),head(x)),head(x))"
+2	5	"data/c015.txt"	"2i730m?"	"2222222222"	"2222222222"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+2	6	"data/c015.txt"	"[b5"	"[[[[[[[[[["	"[[[[[[[[[["	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+2	7	"data/c015.txt"	"`3Fw04"	"``````````"	"``````````"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+2	8	"data/c015.txt"	"F_mgn6"	"FFFFFFFFFF"	"FFFFFFFFFF"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+2	9	"data/c015.txt"	"1:>"	"1111111111"	"1111111111"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+2	10	"data/c015.txt"	"Ha2mJ"	"HHHHHHHHHH"	"HHHHHHHHHH"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+2	11	"data/c015.txt"	"78"	"7777777777"	"7777777777"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+2	12	"data/c015.txt"	"C"	"CCCCCCCCCC"	"CCCCCCCCCC"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+2	13	"data/c015.txt"	"6:2"	"6666666666"	"6666666666"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+2	14	"data/c015.txt"	"80:0M?"	"8888888888"	"8888888888"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+2	15	"data/c015.txt"	"78"	"7777777777"	"7777777777"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+2	16	"data/c015.txt"	"2:0Y<74"	"2222222222"	"2222222222"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+2	17	"data/c015.txt"	"398952@0e"	"3333333333"	"3333333333"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+2	18	"data/c015.txt"	"9r6d"	"9999999999"	"9999999999"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+2	19	"data/c015.txt"	"22"	"2222222222"	"2222222222"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	0	"data/c015.txt"	"pU96B"	"pU96B"	"pppppppppp"	0	"λx.x"
+3	1	"data/c015.txt"	"80:0M?"	"88888"	"8888888888"	0	"λx.pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x))"
+3	2	"data/c015.txt"	"3@;86wu9"	"333333333"	"3333333333"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	3	"data/c015.txt"	"2T64:41"	"2222222222"	"2222222222"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	4	"data/c015.txt"	"T?L61"	"TTTTTTTTTT"	"TTTTTTTTTT"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	5	"data/c015.txt"	"528?5h4>L"	"5555555555"	"5555555555"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	6	"data/c015.txt"	"9r6d"	"9999999999"	"9999999999"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	7	"data/c015.txt"	"9p0953E"	"9999999999"	"9999999999"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	8	"data/c015.txt"	"22"	"2222222222"	"2222222222"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	9	"data/c015.txt"	"80:0M?"	"8888888888"	"8888888888"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	10	"data/c015.txt"	"6:2"	"6666666666"	"6666666666"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	11	"data/c015.txt"	"bh4sS>AYo"	"bbbbbbbbbb"	"bbbbbbbbbb"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	12	"data/c015.txt"	"5q"	"5555555555"	"5555555555"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	13	"data/c015.txt"	"528?5h4>L"	"5555555555"	"5555555555"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	14	"data/c015.txt"	"87h|h40"	"8888888888"	"8888888888"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	15	"data/c015.txt"	">j19"	">>>>>>>>>>"	">>>>>>>>>>"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	16	"data/c015.txt"	"34>"	"3333333333"	"3333333333"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	17	"data/c015.txt"	":DkN"	"::::::::::"	"::::::::::"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	18	"data/c015.txt"	">79=I91`"	">>>>>>>>>>"	">>>>>>>>>>"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+3	19	"data/c015.txt"	"398952@0e"	"3333333333"	"3333333333"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	0	"data/c015.txt"	"398952@0e"	"398952@0e"	"3333333333"	0	"λx.x"
+4	1	"data/c015.txt"	"p:1yB"	"33333"	"pppppppppp"	0	"λx.pair(F(tail(x)),3)"
+4	2	"data/c015.txt"	"2:0Y<74"	"22222222"	"2222222222"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	3	"data/c015.txt"	"_7eBB"	"_________"	"__________"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	4	"data/c015.txt"	"p:1yB"	"ppppppppp"	"pppppppppp"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	5	"data/c015.txt"	"0"	"0000000000"	"0000000000"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	6	"data/c015.txt"	"2T64:41"	"2222222222"	"2222222222"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	7	"data/c015.txt"	"9:7\D5c24"	"9999999999"	"9999999999"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	8	"data/c015.txt"	"9:7\D5c24"	"9999999999"	"9999999999"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	9	"data/c015.txt"	"3@;86wu9"	"3333333333"	"3333333333"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	10	"data/c015.txt"	"B6"	"BBBBBBBBBB"	"BBBBBBBBBB"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	11	"data/c015.txt"	"C"	"CCCCCCCCCC"	"CCCCCCCCCC"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	12	"data/c015.txt"	"2:0Y<74"	"2222222222"	"2222222222"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	13	"data/c015.txt"	"y6"	"yyyyyyyyyy"	"yyyyyyyyyy"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	14	"data/c015.txt"	"0`22["	"0000000000"	"0000000000"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	15	"data/c015.txt"	"^"	"^^^^^^^^^^"	"^^^^^^^^^^"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	16	"data/c015.txt"	"bh4sS>AYo"	"bbbbbbbbbb"	"bbbbbbbbbb"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	17	"data/c015.txt"	"398952@0e"	"3333333333"	"3333333333"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	18	"data/c015.txt"	"SO:"	"SSSSSSSSSS"	"SSSSSSSSSS"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+4	19	"data/c015.txt"	":"	"::::::::::"	"::::::::::"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	0	"data/c015.txt"	"7hv6Rsr7"	"7hv6Rsr7"	"7777777777"	0	"λx.x"
+5	1	"data/c015.txt"	"9:7\D5c24"	"777777777"	"9999999999"	0	"λx.pair(F(tail(x)),7)"
+5	2	"data/c015.txt"	":TF627"	"::::::::"	"::::::::::"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	3	"data/c015.txt"	"78N6=pz2"	"77777777"	"7777777777"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	4	"data/c015.txt"	"9p0953E"	"9999999999"	"9999999999"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	5	"data/c015.txt"	"C"	"CCCCCCCCCC"	"CCCCCCCCCC"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	6	"data/c015.txt"	">79=I91`"	">>>>>>>>>>"	">>>>>>>>>>"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	7	"data/c015.txt"	":=3A9"	"::::::::::"	"::::::::::"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	8	"data/c015.txt"	"Ha2mJ"	"HHHHHHHHHH"	"HHHHHHHHHH"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	9	"data/c015.txt"	"C"	"CCCCCCCCCC"	"CCCCCCCCCC"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	10	"data/c015.txt"	"7hv6Rsr7"	"7777777777"	"7777777777"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	11	"data/c015.txt"	"y6"	"yyyyyyyyyy"	"yyyyyyyyyy"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	12	"data/c015.txt"	"78N6=pz2"	"7777777777"	"7777777777"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	13	"data/c015.txt"	"34>"	"3333333333"	"3333333333"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	14	"data/c015.txt"	":TF627"	"::::::::::"	"::::::::::"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	15	"data/c015.txt"	"80:0M?"	"8888888888"	"8888888888"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	16	"data/c015.txt"	"0`22["	"0000000000"	"0000000000"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	17	"data/c015.txt"	"398952@0e"	"3333333333"	"3333333333"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	18	"data/c015.txt"	"22844:"	"2222222222"	"2222222222"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+5	19	"data/c015.txt"	"Ha2mJ"	"HHHHHHHHHH"	"HHHHHHHHHH"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+6	0	"data/c015.txt"	"pU96B"	"pU96B"	"pppppppppp"	0	"λx.x"
+6	1	"data/c015.txt"	"87h|h40"	"8888"	"8888888888"	0	"λx.if((Ø==F(tail(tail(tail(x))))),tail(x),if((head(x)==6),F(tail(x)),pair(pair(F(pair(x,4)),head(x)),head(x))))"
+6	2	"data/c015.txt"	"Ha2mJ"	"HHHHHHHH"	"HHHHHHHHHH"	0	"λx.pair(pair(if((Ø==x),x,pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x))),head(x)),head(x))"
+6	3	"data/c015.txt"	"C"	"CCCCCCCCC"	"CCCCCCCCCC"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+6	4	"data/c015.txt"	"6:2"	"666666666"	"6666666666"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+6	5	"data/c015.txt"	"87h|h40"	"888888888"	"8888888888"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+6	6	"data/c015.txt"	"Nc9k"	"NNNNNNNNN"	"NNNNNNNNNN"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+6	7	"data/c015.txt"	"78N6=pz2"	"7777777777"	"7777777777"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+6	8	"data/c015.txt"	"Nc9k"	"NNNNNNNNNN"	"NNNNNNNNNN"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+6	9	"data/c015.txt"	"8"	"8888888"	"8888888888"	0	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+6	10	"data/c015.txt"	"2i730m?"	"2222222222"	"2222222222"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+6	11	"data/c015.txt"	":DkN"	"::::::::::"	"::::::::::"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+6	12	"data/c015.txt"	"22844:"	"2222222222"	"2222222222"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+6	13	"data/c015.txt"	"5q"	"5555555555"	"5555555555"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+6	14	"data/c015.txt"	"Ha2mJ"	"HHHHHHHHHH"	"HHHHHHHHHH"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+6	15	"data/c015.txt"	">79=I91`"	">>>>>>>>>>"	">>>>>>>>>>"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+6	16	"data/c015.txt"	">79=I91`"	">>>>>>>>>>"	">>>>>>>>>>"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+6	17	"data/c015.txt"	"2:0Y<74"	"2222222222"	"2222222222"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+6	18	"data/c015.txt"	"80:0M?"	"8888888888"	"8888888888"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+6	19	"data/c015.txt"	"Ha2mJ"	"HHHHHHHHHH"	"HHHHHHHHHH"	1	"λx.pair(pair(pair(if((Ø==tail(x)),pair(pair(pair(x,head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x)),head(x))"
+7	0	"data/c015.txt"	"0`22["	"0`22["	"0000000000"	0	"λx.x"
+7	1	"data/c015.txt"	"3@;86wu9"	"0000000000000000"	"3333333333"	0	"λx.pair(pair(F(tail(x)),0),0)"
+7	2	"data/c015.txt"	"X"	"XXXXXXXX"	"XXXXXXXXXX"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	3	"data/c015.txt"	"X"	"XXXXXXXX"	"XXXXXXXXXX"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	4	"data/c015.txt"	">j19"	">>>>>>>>"	">>>>>>>>>>"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	5	"data/c015.txt"	"Ha2mJ"	"HHHHHHHH"	"HHHHHHHHHH"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	6	"data/c015.txt"	"Nc9k"	"NNNNNNNN"	"NNNNNNNNNN"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	7	"data/c015.txt"	"_7eBB"	"_________"	"__________"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	8	"data/c015.txt"	"22"	"222222222"	"2222222222"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	9	"data/c015.txt"	"78N6=pz2"	"777777777"	"7777777777"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	10	"data/c015.txt"	"9r6d"	"999999999"	"9999999999"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	11	"data/c015.txt"	"34>"	"333333333"	"3333333333"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	12	"data/c015.txt"	"_7eBB"	"_________"	"__________"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	13	"data/c015.txt"	"T?L61"	"TTTTTTTTT"	"TTTTTTTTTT"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	14	"data/c015.txt"	">79=I91`"	">>>>>>>>>"	">>>>>>>>>>"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	15	"data/c015.txt"	"1:>"	"111111111"	"1111111111"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	16	"data/c015.txt"	"34>"	"333333333"	"3333333333"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	17	"data/c015.txt"	"87h|h40"	"888888888"	"8888888888"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+7	18	"data/c015.txt"	"5q"	"5555555555"	"5555555555"	1	"λx.pair(pair(if((Ø==tail(x)),pair(pair(pair(pair(pair(x,head(x)),head(x)),head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x))"
+7	19	"data/c015.txt"	"6"	"66666666"	"6666666666"	0	"λx.pair(pair(if((Ø==tail(x)),pair(pair(pair(pair(pair(x,head(x)),head(x)),head(x)),head(x)),head(x)),F(pair(Ø,head(x)))),head(x)),head(x))"
+8	0	"data/c015.txt"	"SO:"	"SO:"	"SSSSSSSSSS"	0	"λx.x"
+8	1	"data/c015.txt"	":"	"::::::::"	"::::::::::"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+8	2	"data/c015.txt"	"0m"	"000000000"	"0000000000"	0	"λx.pair(F(pair(x,head(if((x==if((F(tail(tail(tail(tail(tail(tail(tail(tail(tail(x))))))))))==x),x,x)),x,x)))),head(x))"
+8	3	"data/c015.txt"	":"	"::::::::::"	"::::::::::"	1	"λx.pair(F(pair(x,head(if((x==if((F(tail(tail(tail(tail(tail(tail(tail(tail(tail(x))))))))))==x),x,x)),x,x)))),head(x))"
+8	4	"data/c015.txt"	"7hv6Rsr7"	"777"	"7777777777"	0	"λx.pair(F(pair(x,head(if((x==if((F(tail(tail(tail(tail(tail(tail(tail(tail(tail(x))))))))))==x),x,x)),x,x)))),head(x))"
+8	5	"data/c015.txt"	"bh4sS>AYo"	"bbbbbbbbb"	"bbbbbbbbbb"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+8	6	"data/c015.txt"	"528?5h4>L"	"555555555"	"5555555555"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+8	7	"data/c015.txt"	":DkN"	":::::::::"	"::::::::::"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+8	8	"data/c015.txt"	"3@;86wu9"	"333333333"	"3333333333"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+8	9	"data/c015.txt"	"528?5h4>L"	"555555555"	"5555555555"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+8	10	"data/c015.txt"	"22"	"222222222"	"2222222222"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+8	11	"data/c015.txt"	"e"	"eeeeeeeee"	"eeeeeeeeee"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+8	12	"data/c015.txt"	"T?L61"	"TTTTTTTTT"	"TTTTTTTTTT"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+8	13	"data/c015.txt"	"C"	"CCCCCCCCC"	"CCCCCCCCCC"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+8	14	"data/c015.txt"	"X"	"XXXXXXXXX"	"XXXXXXXXXX"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+8	15	"data/c015.txt"	"78"	"777777777"	"7777777777"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+8	16	"data/c015.txt"	"9:7\D5c24"	"999999999"	"9999999999"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+8	17	"data/c015.txt"	"6:2"	"666666666"	"6666666666"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+8	18	"data/c015.txt"	"398952@0e"	"333333333"	"3333333333"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+8	19	"data/c015.txt"	"398952@0e"	"333333333"	"3333333333"	0	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	0	"data/c015.txt"	"C29y86"	"C29y86"	"CCCCCCCCCC"	0	"λx.x"
+9	1	"data/c015.txt"	"22"	"2222222222"	"2222222222"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	2	"data/c015.txt"	"Ha2mJ"	"HHHHHHHHHH"	"HHHHHHHHHH"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	3	"data/c015.txt"	"9p0953E"	"9999999999"	"9999999999"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	4	"data/c015.txt"	":DkN"	"::::::::::"	"::::::::::"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	5	"data/c015.txt"	"_7eBB"	"__________"	"__________"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	6	"data/c015.txt"	"e"	"eeeeeeeeee"	"eeeeeeeeee"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	7	"data/c015.txt"	"`3Fw04"	"``````````"	"``````````"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	8	"data/c015.txt"	"78"	"7777777777"	"7777777777"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	9	"data/c015.txt"	"p:1yB"	"pppppppppp"	"pppppppppp"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	10	"data/c015.txt"	"_7eBB"	"__________"	"__________"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	11	"data/c015.txt"	"0m"	"0000000000"	"0000000000"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	12	"data/c015.txt"	"B6"	"BBBBBBBBBB"	"BBBBBBBBBB"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	13	"data/c015.txt"	"0m"	"0000000000"	"0000000000"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	14	"data/c015.txt"	":"	"::::::::::"	"::::::::::"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	15	"data/c015.txt"	"87h|h40"	"8888888888"	"8888888888"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	16	"data/c015.txt"	"bh4sS>AYo"	"bbbbbbbbbb"	"bbbbbbbbbb"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	17	"data/c015.txt"	"8"	"8888888888"	"8888888888"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	18	"data/c015.txt"	"y6"	"yyyyyyyyyy"	"yyyyyyyyyy"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+9	19	"data/c015.txt"	"0m"	"0000000000"	"0000000000"	1	"λx.pair(pair(pair(pair(pair(pair(pair(pair(pair(pair(Ø,head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x)),head(x))"
+# Global sample count:	656744613
+# Elapsed time:	12085.6 seconds 
+# Samples per second:	54341
+# VM ops per second:	1.36948e+07

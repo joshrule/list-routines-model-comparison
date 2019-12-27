@@ -1,0 +1,167 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=11269 by user piantado at Wed Nov  6 21:04:48 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: ae0be1a467d652ad2e23d323782b74b7  /proc/11269/exe
+# 	 --input=wave1/c009.txt
+# 	 --threads=4
+# 	 --chains=8
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=10m (600 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data s@58 -> @58
+# using data 3D10 -> D10
+# using data 2 -> 
+# using data 9h8 -> h8
+# using data 739:6 -> 39:6
+# using data 9Jw=6 -> Jw=6
+# using data : -> 
+# using data 6rU92 -> rU92
+# using data :3 -> 3
+# using data g -> 
+# using data 80588 -> 0588
+# using data 5718B03 -> 718B03
+# using data 3? -> ?
+# using data 32 -> 2
+# using data kK9=062A -> K9=062A
+# using data ;19 -> 19
+# using data 8Cg0=9 -> Cg0=9
+# using data 7982 -> 982
+# using data O=8R -> =8R
+# using data 1 -> 
+# using data OJ435: -> J435:
+# using data g9<W8 -> 9<W8
+# using data :8rj -> 8rj
+# using data Q2~^ -> 2~^
+# using data <_6A?84h6 -> _6A?84h6
+# using data 63=@5 -> 3=@5
+# using data 022@8N77e1 -> 22@8N77e1
+# using data S?23tt13 -> ?23tt13
+# using data 4w3_90t -> w3_90t
+# using data 55k7_311 -> 5k7_311
+# using data M65 -> 65
+# using data 8Bk4705fF -> Bk4705fF
+# using data 85;8_887:9 -> 5;8_887:9
+# using data 19U636765 -> 9U636765
+# using data 9x: -> x:
+# using data 111K15DB -> 11K15DB
+# using data 1:>y0j -> :>y0j
+# using data 0: -> :
+# using data 274273585 -> 74273585
+# using data b6}4> -> 6}4>
+# using data 78G60z2834 -> 8G60z2834
+# using data 6giw8:4a -> giw8:4a
+# using data 2={07 -> ={07
+# using data 25Q7:: -> 5Q7::
+# using data 4aAj -> aAj
+# using data 9?;w<:MD -> ?;w<:MD
+# using data 985=;7 -> 85=;7
+# using data y?8> -> ?8>
+# using data >4Ek1 -> 4Ek1
+# using data w4:j69 -> 4:j69
+# Starting run 
+-13.6557	-13.6557	0	"λx.tail(if(('2'==x),x,x))"
+-13.6557	-13.6557	0	"λx.if((x=='9'),x,tail(x))"
+-13.6557	-13.6557	0	"λx.tail(if((x=='7'),x,x))"
+-13.6557	-13.6557	0	"λx.tail(if((x==x),x,'6'))"
+-13.6557	-13.6557	0	"λx.if((','==x),x,tail(x))"
+-13.6557	-13.6557	0	"λx.if(('0'==x),x,tail(x))"
+-13.6557	-13.6557	0	"λx.if(('3'==x),x,tail(x))"
+-13.6557	-13.6557	0	"λx.tail(if((x=='3'),x,x))"
+-13.6557	-13.6557	0	"λx.tail(if((x=='4'),x,x))"
+-13.6557	-13.6557	0	"λx.tail(if((x=='2'),x,x))"
+-13.6557	-13.6557	0	"λx.tail(if((x==x),x,'8'))"
+-13.6557	-13.6557	0	"λx.tail(if(('7'==x),x,x))"
+-13.6557	-13.6557	0	"λx.tail(if((x=='0'),x,x))"
+-13.6557	-13.6557	0	"λx.tail(if((x=='8'),x,x))"
+-13.6557	-13.6557	0	"λx.tail(if((x=='6'),x,x))"
+-13.6557	-13.6557	0	"λx.if(('8'==x),x,tail(x))"
+-13.6557	-13.6557	0	"λx.if((x=='5'),x,tail(x))"
+-13.6557	-13.6557	0	"λx.if((x==','),x,tail(x))"
+-13.6557	-13.6557	0	"λx.tail(if(('5'==x),x,x))"
+-13.6557	-13.6557	0	"λx.tail(if((','==x),x,x))"
+-13.6557	-13.6557	0	"λx.if((x=='3'),x,tail(x))"
+-13.6557	-13.6557	0	"λx.tail(if((x=='9'),x,x))"
+-13.6557	-13.6557	0	"λx.tail(if(('1'==x),x,x))"
+-13.6557	-13.6557	0	"λx.tail(if((x=='1'),x,x))"
+-13.5604	-13.5604	0	"λx.tail(if((x==Ø),x,x))"
+-13.5604	-13.5604	0	"λx.tail(if(empty(tail(x)),x,x))"
+-13.5604	-13.5604	0	"λx.tail(if((x==x),x,Ø))"
+-13.5604	-13.5604	0	"λx.if(empty(x),head(x),tail(x))"
+-13.5604	-13.5604	0	"λx.tail(if((Ø==x),x,x))"
+-13.5604	-13.5604	0	"λx.tail(if(empty(x),tail(x),x))"
+-13.5604	-13.5604	0	"λx.if(empty(x),tail(x),tail(x))"
+-13.5604	-13.5604	0	"λx.if(empty(head(x)),x,tail(x))"
+-13.5604	-13.5604	0	"λx.if((Ø==x),x,tail(x))"
+-13.5604	-13.5604	0	"λx.tail(if(empty(head(x)),x,x))"
+-13.5604	-13.5604	0	"λx.if((x==Ø),x,tail(x))"
+-13.5604	-13.5604	0	"λx.tail(if(empty(x),head(x),x))"
+-13.5604	-13.5604	0	"λx.if((x==x),tail(x),Ø)"
+-13.4835	-13.4835	0	"λx.cons(F(Ø),tail(x))"
+-13.4835	-13.4835	0	"λx.tail(cons(x,F(Ø)))"
+-13.4835	-13.4835	0	"λx.cons(tail(x),F(Ø))"
+-13.4835	-13.4835	0	"λx.tail(cons(F(Ø),x))"
+-12.8673	-12.8673	0	"λx.if(empty(x),F(x),tail(x))"
+-12.8673	-12.8673	0	"λx.tail(if(empty(x),F(x),x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'8',tail(x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'1',tail(x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'9',tail(x))"
+-12.6625	-12.6625	0	"λx.if(empty('4'),x,tail(x))"
+-12.6625	-12.6625	0	"λx.if(empty(','),x,tail(x))"
+-12.6625	-12.6625	0	"λx.if(empty('2'),x,tail(x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty('4'),x,x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty(x),'9',x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'3',tail(x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty(','),x,x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty(x),'4',x))"
+-12.6625	-12.6625	0	"λx.if(empty('9'),x,tail(x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty(x),'2',x))"
+-12.6625	-12.6625	0	"λx.if(empty('5'),x,tail(x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty(x),'1',x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty(x),'5',x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty('7'),x,x))"
+-12.6625	-12.6625	0	"λx.if(empty('3'),x,tail(x))"
+-12.6625	-12.6625	0	"λx.if(empty('7'),x,tail(x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty('2'),x,x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'7',tail(x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty('1'),x,x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'4',tail(x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),',',tail(x))"
+-12.6625	-12.6625	0	"λx.if(empty('8'),x,tail(x))"
+-12.6625	-12.6625	0	"λx.if(empty('0'),x,tail(x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty('9'),x,x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'6',tail(x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty(x),'3',x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'2',tail(x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty(x),'7',x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'5',tail(x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'0',tail(x))"
+-12.6625	-12.6625	0	"λx.if(empty('1'),x,tail(x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty('3'),x,x))"
+-12.6625	-12.6625	0	"λx.if(empty('6'),x,tail(x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty('8'),x,x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty(x),',',x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty('6'),x,x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty(x),'6',x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty('5'),x,x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty('0'),x,x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty(x),'0',x))"
+-12.6625	-12.6625	0	"λx.tail(if(empty(x),'8',x))"
+-12.5672	-12.5672	0	"λx.tail(if(empty(Ø),x,x))"
+-12.5672	-12.5672	0	"λx.tail(if(empty(x),Ø,x))"
+-12.5672	-12.5672	0	"λx.if(empty(Ø),tail(x),x)"
+-12.5672	-12.5672	0	"λx.if(empty(x),Ø,tail(x))"
+-11.2578	-11.2578	0	"λx.if((x==x),tail(x),x)"
+-11.2578	-11.2578	0	"λx.tail(if((x==x),x,x))"
+-10.8808	-10.8808	0	"λx.tail(cons(Ø,x))"
+-10.8808	-10.8808	0	"λx.cons(tail(x),Ø)"
+-10.8808	-10.8808	0	"λx.cons(Ø,tail(x))"
+-10.8808	-10.8808	0	"λx.tail(cons(x,Ø))"
+-10.2646	-10.2646	0	"λx.tail(if(empty(x),x,x))"
+-10.2646	-10.2646	0	"λx.if(empty(x),x,tail(x))"
+-4.28909	-4.28909	0	"λx.tail(x)"
+# Global sample count:	150506021
+# Elapsed time:	600.432 seconds 
+# Samples per second:	250663

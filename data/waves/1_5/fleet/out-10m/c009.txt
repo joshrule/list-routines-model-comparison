@@ -1,0 +1,268 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=7971 by user piantado at Wed Dec  4 16:34:46 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: 2fb1c47ee31e2c3b1aaf2768a7d98678  /proc/7971/exe
+# 	 --input=data/c009.txt
+# 	 --threads=2
+# 	 --chains=4
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=10m (600 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data sC58 -> C58
+# using data 3D40 -> D40
+# using data 5 -> 
+# using data 9h8 -> h8
+# using data 739:6 -> 39:6
+# using data 9Jw@6 -> Jw@6
+# using data : -> 
+# using data 6rU92 -> rU92
+# using data :3 -> 3
+# using data g -> 
+# using data 80588 -> 0588
+# using data 5718B03 -> 718B03
+# using data 3? -> ?
+# using data 62 -> 2
+# using data kK9@062D -> K9@062D
+# using data ;19 -> 19
+# using data 8Cg0=9 -> Cg0=9
+# using data 7982 -> 982
+# using data O=8R -> =8R
+# using data 4 -> 
+# using data OJ435: -> J435:
+# using data g9?W8 -> 9?W8
+# using data :8rj -> 8rj
+# using data Q21^ -> 21^
+# using data ?_6DB84h6 -> _6DB84h6
+# using data 63@C5 -> 3@C5
+# using data 022C8N77e1 -> 22C8N77e1
+# using data SB26tt13 -> B26tt13
+# using data 4w3_<0t -> w3_<0t
+# using data 55k7_611 -> 5k7_611
+# using data M65 -> 65
+# using data 8Ek4705fF -> Ek4705fF
+# using data 85>8_887:9 -> 5>8_887:9
+# using data 19U666765 -> 9U666765
+# using data 9x: -> x:
+# using data 111K15DE -> 11K15DE
+# using data 1:>y0j -> :>y0j
+# using data 0: -> :
+# using data 274273585 -> 74273585
+# using data b604> -> 604>
+# using data :8G60z2864 -> 8G60z2864
+# using data 6giw8:4a -> giw8:4a
+# using data 5={07 -> ={07
+# using data 55Q7:: -> 5Q7::
+# using data 4aDj -> aDj
+# using data 9?;w<:MD -> ?;w<:MD
+# using data <88@;7 -> 88@;7
+# using data y?8> -> ?8>
+# using data >4Ek1 -> 4Ek1
+# using data w4:j629 -> 4:j629
+i_run	i_N	concept	input	output	correct.output	correct	hypothesis
+0	0	"data/c009.txt"	":3"	":3"	"3"	0	"λx.x"
+0	1	"data/c009.txt"	"7982"	"982"	"982"	1	"λx.tail(x)"
+0	2	"data/c009.txt"	"5={07"	"={07"	"={07"	1	"λx.tail(x)"
+0	3	"data/c009.txt"	";19"	"19"	"19"	1	"λx.tail(x)"
+0	4	"data/c009.txt"	":8G60z2864"	"8G60z2864"	"8G60z2864"	1	"λx.tail(x)"
+0	5	"data/c009.txt"	"63@C5"	"3@C5"	"3@C5"	1	"λx.tail(x)"
+0	6	"data/c009.txt"	"85>8_887:9"	"5>8_887:9"	"5>8_887:9"	1	"λx.tail(x)"
+0	7	"data/c009.txt"	"4aDj"	"aDj"	"aDj"	1	"λx.tail(x)"
+0	8	"data/c009.txt"	"739:6"	"39:6"	"39:6"	1	"λx.tail(x)"
+0	9	"data/c009.txt"	"022C8N77e1"	"22C8N77e1"	"22C8N77e1"	1	"λx.tail(x)"
+0	10	"data/c009.txt"	"4aDj"	"aDj"	"aDj"	1	"λx.tail(x)"
+0	11	"data/c009.txt"	"3?"	"?"	"?"	1	"λx.tail(x)"
+0	12	"data/c009.txt"	"7982"	"982"	"982"	1	"λx.tail(x)"
+0	13	"data/c009.txt"	"g"	""	""	1	"λx.tail(x)"
+0	14	"data/c009.txt"	"62"	"2"	"2"	1	"λx.tail(x)"
+0	15	"data/c009.txt"	"4aDj"	"aDj"	"aDj"	1	"λx.tail(x)"
+0	16	"data/c009.txt"	"4"	""	""	1	"λx.tail(x)"
+0	17	"data/c009.txt"	"8Ek4705fF"	"Ek4705fF"	"Ek4705fF"	1	"λx.tail(x)"
+0	18	"data/c009.txt"	"5718B03"	"718B03"	"718B03"	1	"λx.tail(x)"
+0	19	"data/c009.txt"	"9x:"	"x:"	"x:"	1	"λx.tail(x)"
+1	0	"data/c009.txt"	"sC58"	"sC58"	"C58"	0	"λx.x"
+1	1	"data/c009.txt"	":8rj"	"8rj"	"8rj"	1	"λx.tail(x)"
+1	2	"data/c009.txt"	"4w3_<0t"	"w3_<0t"	"w3_<0t"	1	"λx.tail(x)"
+1	3	"data/c009.txt"	"022C8N77e1"	"22C8N77e1"	"22C8N77e1"	1	"λx.tail(x)"
+1	4	"data/c009.txt"	"62"	"2"	"2"	1	"λx.tail(x)"
+1	5	"data/c009.txt"	"O=8R"	"=8R"	"=8R"	1	"λx.tail(x)"
+1	6	"data/c009.txt"	"80588"	"0588"	"0588"	1	"λx.tail(x)"
+1	7	"data/c009.txt"	":"	""	""	1	"λx.tail(x)"
+1	8	"data/c009.txt"	"3D40"	"D40"	"D40"	1	"λx.tail(x)"
+1	9	"data/c009.txt"	"62"	"2"	"2"	1	"λx.tail(x)"
+1	10	"data/c009.txt"	":8G60z2864"	"8G60z2864"	"8G60z2864"	1	"λx.tail(x)"
+1	11	"data/c009.txt"	"0:"	":"	":"	1	"λx.tail(x)"
+1	12	"data/c009.txt"	"8Ek4705fF"	"Ek4705fF"	"Ek4705fF"	1	"λx.tail(x)"
+1	13	"data/c009.txt"	"85>8_887:9"	"5>8_887:9"	"5>8_887:9"	1	"λx.tail(x)"
+1	14	"data/c009.txt"	"w4:j629"	"4:j629"	"4:j629"	1	"λx.tail(x)"
+1	15	"data/c009.txt"	"8Ek4705fF"	"Ek4705fF"	"Ek4705fF"	1	"λx.tail(x)"
+1	16	"data/c009.txt"	"9?;w<:MD"	"?;w<:MD"	"?;w<:MD"	1	"λx.tail(x)"
+1	17	"data/c009.txt"	"SB26tt13"	"B26tt13"	"B26tt13"	1	"λx.tail(x)"
+1	18	"data/c009.txt"	"w4:j629"	"4:j629"	"4:j629"	1	"λx.tail(x)"
+1	19	"data/c009.txt"	"62"	"2"	"2"	1	"λx.tail(x)"
+2	0	"data/c009.txt"	"kK9@062D"	"kK9@062D"	"K9@062D"	0	"λx.x"
+2	1	"data/c009.txt"	":3"	"3"	"3"	1	"λx.tail(x)"
+2	2	"data/c009.txt"	"sC58"	"C58"	"C58"	1	"λx.tail(x)"
+2	3	"data/c009.txt"	"4w3_<0t"	"w3_<0t"	"w3_<0t"	1	"λx.tail(x)"
+2	4	"data/c009.txt"	"19U666765"	"9U666765"	"9U666765"	1	"λx.tail(x)"
+2	5	"data/c009.txt"	"85>8_887:9"	"5>8_887:9"	"5>8_887:9"	1	"λx.tail(x)"
+2	6	"data/c009.txt"	"sC58"	"C58"	"C58"	1	"λx.tail(x)"
+2	7	"data/c009.txt"	"3?"	"?"	"?"	1	"λx.tail(x)"
+2	8	"data/c009.txt"	"63@C5"	"3@C5"	"3@C5"	1	"λx.tail(x)"
+2	9	"data/c009.txt"	"85>8_887:9"	"5>8_887:9"	"5>8_887:9"	1	"λx.tail(x)"
+2	10	"data/c009.txt"	"022C8N77e1"	"22C8N77e1"	"22C8N77e1"	1	"λx.tail(x)"
+2	11	"data/c009.txt"	"5={07"	"={07"	"={07"	1	"λx.tail(x)"
+2	12	"data/c009.txt"	"?_6DB84h6"	"_6DB84h6"	"_6DB84h6"	1	"λx.tail(x)"
+2	13	"data/c009.txt"	"111K15DE"	"11K15DE"	"11K15DE"	1	"λx.tail(x)"
+2	14	"data/c009.txt"	"3D40"	"D40"	"D40"	1	"λx.tail(x)"
+2	15	"data/c009.txt"	"M65"	"65"	"65"	1	"λx.tail(x)"
+2	16	"data/c009.txt"	"8Ek4705fF"	"Ek4705fF"	"Ek4705fF"	1	"λx.tail(x)"
+2	17	"data/c009.txt"	"6rU92"	"rU92"	"rU92"	1	"λx.tail(x)"
+2	18	"data/c009.txt"	"g9?W8"	"9?W8"	"9?W8"	1	"λx.tail(x)"
+2	19	"data/c009.txt"	"Q21^"	"21^"	"21^"	1	"λx.tail(x)"
+3	0	"data/c009.txt"	"g9?W8"	"g9?W8"	"9?W8"	0	"λx.x"
+3	1	"data/c009.txt"	"4w3_<0t"	"w3_<0t"	"w3_<0t"	1	"λx.tail(x)"
+3	2	"data/c009.txt"	"3?"	"?"	"?"	1	"λx.tail(x)"
+3	3	"data/c009.txt"	"M65"	"65"	"65"	1	"λx.tail(x)"
+3	4	"data/c009.txt"	"9?;w<:MD"	"?;w<:MD"	"?;w<:MD"	1	"λx.tail(x)"
+3	5	"data/c009.txt"	"5718B03"	"718B03"	"718B03"	1	"λx.tail(x)"
+3	6	"data/c009.txt"	"9?;w<:MD"	"?;w<:MD"	"?;w<:MD"	1	"λx.tail(x)"
+3	7	"data/c009.txt"	"9Jw@6"	"Jw@6"	"Jw@6"	1	"λx.tail(x)"
+3	8	"data/c009.txt"	"5"	""	""	1	"λx.tail(x)"
+3	9	"data/c009.txt"	"4aDj"	"aDj"	"aDj"	1	"λx.tail(x)"
+3	10	"data/c009.txt"	"SB26tt13"	"B26tt13"	"B26tt13"	1	"λx.tail(x)"
+3	11	"data/c009.txt"	"6rU92"	"rU92"	"rU92"	1	"λx.tail(x)"
+3	12	"data/c009.txt"	"85>8_887:9"	"5>8_887:9"	"5>8_887:9"	1	"λx.tail(x)"
+3	13	"data/c009.txt"	"7982"	"982"	"982"	1	"λx.tail(x)"
+3	14	"data/c009.txt"	"5718B03"	"718B03"	"718B03"	1	"λx.tail(x)"
+3	15	"data/c009.txt"	"g"	""	""	1	"λx.tail(x)"
+3	16	"data/c009.txt"	"8Cg0=9"	"Cg0=9"	"Cg0=9"	1	"λx.tail(x)"
+3	17	"data/c009.txt"	"kK9@062D"	"K9@062D"	"K9@062D"	1	"λx.tail(x)"
+3	18	"data/c009.txt"	"9Jw@6"	"Jw@6"	"Jw@6"	1	"λx.tail(x)"
+3	19	"data/c009.txt"	"SB26tt13"	"B26tt13"	"B26tt13"	1	"λx.tail(x)"
+4	0	"data/c009.txt"	"022C8N77e1"	"022C8N77e1"	"22C8N77e1"	0	"λx.x"
+4	1	"data/c009.txt"	"5718B03"	"718B03"	"718B03"	1	"λx.tail(x)"
+4	2	"data/c009.txt"	"4"	""	""	1	"λx.tail(x)"
+4	3	"data/c009.txt"	"6rU92"	"rU92"	"rU92"	1	"λx.tail(x)"
+4	4	"data/c009.txt"	"80588"	"0588"	"0588"	1	"λx.tail(x)"
+4	5	"data/c009.txt"	"y?8>"	"?8>"	"?8>"	1	"λx.tail(x)"
+4	6	"data/c009.txt"	"85>8_887:9"	"5>8_887:9"	"5>8_887:9"	1	"λx.tail(x)"
+4	7	"data/c009.txt"	"w4:j629"	"4:j629"	"4:j629"	1	"λx.tail(x)"
+4	8	"data/c009.txt"	"1:>y0j"	":>y0j"	":>y0j"	1	"λx.tail(x)"
+4	9	"data/c009.txt"	"6rU92"	"rU92"	"rU92"	1	"λx.tail(x)"
+4	10	"data/c009.txt"	"274273585"	"74273585"	"74273585"	1	"λx.tail(x)"
+4	11	"data/c009.txt"	"62"	"2"	"2"	1	"λx.tail(x)"
+4	12	"data/c009.txt"	"y?8>"	"?8>"	"?8>"	1	"λx.tail(x)"
+4	13	"data/c009.txt"	"62"	"2"	"2"	1	"λx.tail(x)"
+4	14	"data/c009.txt"	"<88@;7"	"88@;7"	"88@;7"	1	"λx.tail(x)"
+4	15	"data/c009.txt"	"1:>y0j"	":>y0j"	":>y0j"	1	"λx.tail(x)"
+4	16	"data/c009.txt"	"55k7_611"	"5k7_611"	"5k7_611"	1	"λx.tail(x)"
+4	17	"data/c009.txt"	"g9?W8"	"9?W8"	"9?W8"	1	"λx.tail(x)"
+4	18	"data/c009.txt"	"1:>y0j"	":>y0j"	":>y0j"	1	"λx.tail(x)"
+4	19	"data/c009.txt"	"62"	"2"	"2"	1	"λx.tail(x)"
+5	0	"data/c009.txt"	"55k7_611"	"55k7_611"	"5k7_611"	0	"λx.x"
+5	1	"data/c009.txt"	"M65"	"65"	"65"	1	"λx.tail(x)"
+5	2	"data/c009.txt"	"OJ435:"	"J435:"	"J435:"	1	"λx.tail(x)"
+5	3	"data/c009.txt"	":8G60z2864"	"8G60z2864"	"8G60z2864"	1	"λx.tail(x)"
+5	4	"data/c009.txt"	"111K15DE"	"11K15DE"	"11K15DE"	1	"λx.tail(x)"
+5	5	"data/c009.txt"	"sC58"	"C58"	"C58"	1	"λx.tail(x)"
+5	6	"data/c009.txt"	"111K15DE"	"11K15DE"	"11K15DE"	1	"λx.tail(x)"
+5	7	"data/c009.txt"	"4aDj"	"aDj"	"aDj"	1	"λx.tail(x)"
+5	8	"data/c009.txt"	"6giw8:4a"	"giw8:4a"	"giw8:4a"	1	"λx.tail(x)"
+5	9	"data/c009.txt"	"kK9@062D"	"K9@062D"	"K9@062D"	1	"λx.tail(x)"
+5	10	"data/c009.txt"	"4"	""	""	1	"λx.tail(x)"
+5	11	"data/c009.txt"	"kK9@062D"	"K9@062D"	"K9@062D"	1	"λx.tail(x)"
+5	12	"data/c009.txt"	"OJ435:"	"J435:"	"J435:"	1	"λx.tail(x)"
+5	13	"data/c009.txt"	"274273585"	"74273585"	"74273585"	1	"λx.tail(x)"
+5	14	"data/c009.txt"	":8rj"	"8rj"	"8rj"	1	"λx.tail(x)"
+5	15	"data/c009.txt"	"9x:"	"x:"	"x:"	1	"λx.tail(x)"
+5	16	"data/c009.txt"	"3D40"	"D40"	"D40"	1	"λx.tail(x)"
+5	17	"data/c009.txt"	"5={07"	"={07"	"={07"	1	"λx.tail(x)"
+5	18	"data/c009.txt"	";19"	"19"	"19"	1	"λx.tail(x)"
+5	19	"data/c009.txt"	"SB26tt13"	"B26tt13"	"B26tt13"	1	"λx.tail(x)"
+6	0	"data/c009.txt"	"9Jw@6"	"9Jw@6"	"Jw@6"	0	"λx.x"
+6	1	"data/c009.txt"	"sC58"	"C58"	"C58"	1	"λx.tail(x)"
+6	2	"data/c009.txt"	"9x:"	"x:"	"x:"	1	"λx.tail(x)"
+6	3	"data/c009.txt"	"022C8N77e1"	"22C8N77e1"	"22C8N77e1"	1	"λx.tail(x)"
+6	4	"data/c009.txt"	"9?;w<:MD"	"?;w<:MD"	"?;w<:MD"	1	"λx.tail(x)"
+6	5	"data/c009.txt"	"63@C5"	"3@C5"	"3@C5"	1	"λx.tail(x)"
+6	6	"data/c009.txt"	"8Ek4705fF"	"Ek4705fF"	"Ek4705fF"	1	"λx.tail(x)"
+6	7	"data/c009.txt"	"9h8"	"h8"	"h8"	1	"λx.tail(x)"
+6	8	"data/c009.txt"	"SB26tt13"	"B26tt13"	"B26tt13"	1	"λx.tail(x)"
+6	9	"data/c009.txt"	"g"	""	""	1	"λx.tail(x)"
+6	10	"data/c009.txt"	"274273585"	"74273585"	"74273585"	1	"λx.tail(x)"
+6	11	"data/c009.txt"	"63@C5"	"3@C5"	"3@C5"	1	"λx.tail(x)"
+6	12	"data/c009.txt"	"5"	""	""	1	"λx.tail(x)"
+6	13	"data/c009.txt"	"1:>y0j"	":>y0j"	":>y0j"	1	"λx.tail(x)"
+6	14	"data/c009.txt"	"9h8"	"h8"	"h8"	1	"λx.tail(x)"
+6	15	"data/c009.txt"	"80588"	"0588"	"0588"	1	"λx.tail(x)"
+6	16	"data/c009.txt"	"111K15DE"	"11K15DE"	"11K15DE"	1	"λx.tail(x)"
+6	17	"data/c009.txt"	"?_6DB84h6"	"_6DB84h6"	"_6DB84h6"	1	"λx.tail(x)"
+6	18	"data/c009.txt"	"111K15DE"	"11K15DE"	"11K15DE"	1	"λx.tail(x)"
+6	19	"data/c009.txt"	"4"	""	""	1	"λx.tail(x)"
+7	0	"data/c009.txt"	"63@C5"	"63@C5"	"3@C5"	0	"λx.x"
+7	1	"data/c009.txt"	"Q21^"	"21^"	"21^"	1	"λx.tail(x)"
+7	2	"data/c009.txt"	"3?"	"?"	"?"	1	"λx.tail(x)"
+7	3	"data/c009.txt"	"3?"	"?"	"?"	1	"λx.tail(x)"
+7	4	"data/c009.txt"	"9Jw@6"	"Jw@6"	"Jw@6"	1	"λx.tail(x)"
+7	5	"data/c009.txt"	"85>8_887:9"	"5>8_887:9"	"5>8_887:9"	1	"λx.tail(x)"
+7	6	"data/c009.txt"	"5718B03"	"718B03"	"718B03"	1	"λx.tail(x)"
+7	7	"data/c009.txt"	"O=8R"	"=8R"	"=8R"	1	"λx.tail(x)"
+7	8	"data/c009.txt"	":8rj"	"8rj"	"8rj"	1	"λx.tail(x)"
+7	9	"data/c009.txt"	"5"	""	""	1	"λx.tail(x)"
+7	10	"data/c009.txt"	"62"	"2"	"2"	1	"λx.tail(x)"
+7	11	"data/c009.txt"	"9x:"	"x:"	"x:"	1	"λx.tail(x)"
+7	12	"data/c009.txt"	":8G60z2864"	"8G60z2864"	"8G60z2864"	1	"λx.tail(x)"
+7	13	"data/c009.txt"	"80588"	"0588"	"0588"	1	"λx.tail(x)"
+7	14	"data/c009.txt"	"<88@;7"	"88@;7"	"88@;7"	1	"λx.tail(x)"
+7	15	"data/c009.txt"	";19"	"19"	"19"	1	"λx.tail(x)"
+7	16	"data/c009.txt"	"SB26tt13"	"B26tt13"	"B26tt13"	1	"λx.tail(x)"
+7	17	"data/c009.txt"	":8G60z2864"	"8G60z2864"	"8G60z2864"	1	"λx.tail(x)"
+7	18	"data/c009.txt"	"1:>y0j"	":>y0j"	":>y0j"	1	"λx.tail(x)"
+7	19	"data/c009.txt"	"9Jw@6"	"Jw@6"	"Jw@6"	1	"λx.tail(x)"
+8	0	"data/c009.txt"	"55k7_611"	"55k7_611"	"5k7_611"	0	"λx.x"
+8	1	"data/c009.txt"	"9h8"	"h8"	"h8"	1	"λx.tail(x)"
+8	2	"data/c009.txt"	"w4:j629"	"4:j629"	"4:j629"	1	"λx.tail(x)"
+8	3	"data/c009.txt"	"w4:j629"	"4:j629"	"4:j629"	1	"λx.tail(x)"
+8	4	"data/c009.txt"	">4Ek1"	"4Ek1"	"4Ek1"	1	"λx.tail(x)"
+8	5	"data/c009.txt"	"62"	"2"	"2"	1	"λx.tail(x)"
+8	6	"data/c009.txt"	"w4:j629"	"4:j629"	"4:j629"	1	"λx.tail(x)"
+8	7	"data/c009.txt"	"7982"	"982"	"982"	1	"λx.tail(x)"
+8	8	"data/c009.txt"	":8G60z2864"	"8G60z2864"	"8G60z2864"	1	"λx.tail(x)"
+8	9	"data/c009.txt"	"?_6DB84h6"	"_6DB84h6"	"_6DB84h6"	1	"λx.tail(x)"
+8	10	"data/c009.txt"	">4Ek1"	"4Ek1"	"4Ek1"	1	"λx.tail(x)"
+8	11	"data/c009.txt"	"6giw8:4a"	"giw8:4a"	"giw8:4a"	1	"λx.tail(x)"
+8	12	"data/c009.txt"	"w4:j629"	"4:j629"	"4:j629"	1	"λx.tail(x)"
+8	13	"data/c009.txt"	"g"	""	""	1	"λx.tail(x)"
+8	14	"data/c009.txt"	":3"	"3"	"3"	1	"λx.tail(x)"
+8	15	"data/c009.txt"	"g"	""	""	1	"λx.tail(x)"
+8	16	"data/c009.txt"	"55k7_611"	"5k7_611"	"5k7_611"	1	"λx.tail(x)"
+8	17	"data/c009.txt"	";19"	"19"	"19"	1	"λx.tail(x)"
+8	18	"data/c009.txt"	"111K15DE"	"11K15DE"	"11K15DE"	1	"λx.tail(x)"
+8	19	"data/c009.txt"	"<88@;7"	"88@;7"	"88@;7"	1	"λx.tail(x)"
+9	0	"data/c009.txt"	"5718B03"	"5718B03"	"718B03"	0	"λx.x"
+9	1	"data/c009.txt"	"b604>"	"604>"	"604>"	1	"λx.tail(x)"
+9	2	"data/c009.txt"	"80588"	"0588"	"0588"	1	"λx.tail(x)"
+9	3	"data/c009.txt"	"9x:"	"x:"	"x:"	1	"λx.tail(x)"
+9	4	"data/c009.txt"	"55Q7::"	"5Q7::"	"5Q7::"	1	"λx.tail(x)"
+9	5	"data/c009.txt"	">4Ek1"	"4Ek1"	"4Ek1"	1	"λx.tail(x)"
+9	6	"data/c009.txt"	"0:"	":"	":"	1	"λx.tail(x)"
+9	7	"data/c009.txt"	"9h8"	"h8"	"h8"	1	"λx.tail(x)"
+9	8	"data/c009.txt"	"62"	"2"	"2"	1	"λx.tail(x)"
+9	9	"data/c009.txt"	":8rj"	"8rj"	"8rj"	1	"λx.tail(x)"
+9	10	"data/c009.txt"	"5={07"	"={07"	"={07"	1	"λx.tail(x)"
+9	11	"data/c009.txt"	"g9?W8"	"9?W8"	"9?W8"	1	"λx.tail(x)"
+9	12	"data/c009.txt"	"?_6DB84h6"	"_6DB84h6"	"_6DB84h6"	1	"λx.tail(x)"
+9	13	"data/c009.txt"	"274273585"	"74273585"	"74273585"	1	"λx.tail(x)"
+9	14	"data/c009.txt"	"80588"	"0588"	"0588"	1	"λx.tail(x)"
+9	15	"data/c009.txt"	"022C8N77e1"	"22C8N77e1"	"22C8N77e1"	1	"λx.tail(x)"
+9	16	"data/c009.txt"	"g9?W8"	"9?W8"	"9?W8"	1	"λx.tail(x)"
+9	17	"data/c009.txt"	"b604>"	"604>"	"604>"	1	"λx.tail(x)"
+9	18	"data/c009.txt"	";19"	"19"	"19"	1	"λx.tail(x)"
+9	19	"data/c009.txt"	"5={07"	"={07"	"={07"	1	"λx.tail(x)"
+# Global sample count:	17913517927
+# Elapsed time:	120073 seconds 
+# Samples per second:	149189
+# VM ops per second:	1.79826e+07

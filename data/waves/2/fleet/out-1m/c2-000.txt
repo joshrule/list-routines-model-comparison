@@ -1,0 +1,268 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=7290 by user piantado at Wed Dec  4 16:33:57 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: 75de067d9790c8abe3432331157b2715  /proc/7290/exe
+# 	 --input=data/c2-000.txt
+# 	 --threads=2
+# 	 --chains=4
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=1m (60 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data 1748 -> 4
+# using data 655 -> 5
+# using data 52726374 -> 7
+# using data 1713 -> 1
+# using data 240 -> 0
+# using data 0512467177 -> 1
+# using data 4541214 -> 4
+# using data 111526186 -> 1
+# using data 251455448 -> 1
+# using data 738016595 -> 8
+# using data 949090518 -> 9
+# using data 342 -> 2
+# using data 2154 -> 5
+# using data 959 -> 9
+# using data 659404686 -> 9
+# using data 9187778195 -> 8
+# using data 680 -> 0
+# using data 561890185 -> 1
+# using data 48445 -> 4
+# using data 2341703965 -> 4
+# using data 466 -> 6
+# using data 7757330 -> 5
+# using data 6851209 -> 5
+# using data 767262 -> 7
+# using data 97108251 -> 1
+# using data 25521 -> 5
+# using data 7055583 -> 5
+# using data 6930 -> 3
+# using data 74968177 -> 9
+# using data 39921 -> 9
+# using data 87812528 -> 8
+# using data 9642 -> 4
+# using data 6600241 -> 0
+# using data 152 -> 2
+# using data 5331627810 -> 3
+# using data 32034848 -> 0
+# using data 31927430 -> 9
+# using data 73794747 -> 7
+# using data 26421290 -> 4
+# using data 576262 -> 6
+# using data 1527 -> 2
+# using data 90714 -> 7
+# using data 6800564609 -> 0
+# using data 289 -> 9
+# using data 47057 -> 0
+# using data 1261045547 -> 6
+# using data 07216 -> 2
+# using data 67997 -> 9
+# using data 12472 -> 4
+# using data 871089 -> 1
+i_run	i_N	concept	input	output	correct.output	correct	hypothesis
+0	0	"data/c2-000.txt"	"97108251"	"97108251"	"1"	0	"λx.x"
+0	1	"data/c2-000.txt"	"1748"	"1"	"4"	0	"λx.pair(1,Ø)"
+0	2	"data/c2-000.txt"	"7055583"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	3	"data/c2-000.txt"	"2341703965"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	4	"data/c2-000.txt"	"1748"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	5	"data/c2-000.txt"	"2341703965"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	6	"data/c2-000.txt"	"680"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	7	"data/c2-000.txt"	"39921"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	8	"data/c2-000.txt"	"74968177"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	9	"data/c2-000.txt"	"9187778195"	"8"	"8"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	10	"data/c2-000.txt"	"342"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	11	"data/c2-000.txt"	"26421290"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	12	"data/c2-000.txt"	"738016595"	"8"	"8"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	13	"data/c2-000.txt"	"52726374"	"7"	"7"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	14	"data/c2-000.txt"	"39921"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	15	"data/c2-000.txt"	"1713"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	16	"data/c2-000.txt"	"47057"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	17	"data/c2-000.txt"	"47057"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	18	"data/c2-000.txt"	"1748"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+0	19	"data/c2-000.txt"	"1713"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	0	"data/c2-000.txt"	"1527"	"1527"	"2"	0	"λx.x"
+1	1	"data/c2-000.txt"	"251455448"	"2"	"1"	0	"λx.pair(2,Ø)"
+1	2	"data/c2-000.txt"	"655"	"N"	"5"	0	"λx.pair((3-head(x)),Ø)"
+1	3	"data/c2-000.txt"	"6800564609"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	4	"data/c2-000.txt"	"959"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	5	"data/c2-000.txt"	"342"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	6	"data/c2-000.txt"	"7055583"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	7	"data/c2-000.txt"	"90714"	"7"	"7"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	8	"data/c2-000.txt"	"342"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	9	"data/c2-000.txt"	"1748"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	10	"data/c2-000.txt"	"6851209"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	11	"data/c2-000.txt"	"74968177"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	12	"data/c2-000.txt"	"2341703965"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	13	"data/c2-000.txt"	"0512467177"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	14	"data/c2-000.txt"	"2341703965"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	15	"data/c2-000.txt"	"87812528"	"8"	"8"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	16	"data/c2-000.txt"	"9187778195"	"8"	"8"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	17	"data/c2-000.txt"	"25521"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	18	"data/c2-000.txt"	"561890185"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+1	19	"data/c2-000.txt"	"74968177"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	0	"data/c2-000.txt"	"466"	"466"	"6"	0	"λx.x"
+2	1	"data/c2-000.txt"	"32034848"	"034848"	"0"	0	"λx.tail(tail(x))"
+2	2	"data/c2-000.txt"	"289"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	3	"data/c2-000.txt"	"6800564609"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	4	"data/c2-000.txt"	"959"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	5	"data/c2-000.txt"	"48445"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	6	"data/c2-000.txt"	"32034848"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	7	"data/c2-000.txt"	"111526186"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	8	"data/c2-000.txt"	"6851209"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	9	"data/c2-000.txt"	"39921"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	10	"data/c2-000.txt"	"48445"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	11	"data/c2-000.txt"	"871089"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	12	"data/c2-000.txt"	"680"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	13	"data/c2-000.txt"	"31927430"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	14	"data/c2-000.txt"	"48445"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	15	"data/c2-000.txt"	"67997"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	16	"data/c2-000.txt"	"1713"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	17	"data/c2-000.txt"	"47057"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	18	"data/c2-000.txt"	"342"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+2	19	"data/c2-000.txt"	"959"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	0	"data/c2-000.txt"	"25521"	"25521"	"5"	0	"λx.x"
+3	1	"data/c2-000.txt"	"1713"	"5"	"1"	0	"λx.pair(5,Ø)"
+3	2	"data/c2-000.txt"	"1261045547"	"6"	"6"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	3	"data/c2-000.txt"	"39921"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	4	"data/c2-000.txt"	"67997"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	5	"data/c2-000.txt"	"4541214"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	6	"data/c2-000.txt"	"655"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	7	"data/c2-000.txt"	"111526186"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	8	"data/c2-000.txt"	"6851209"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	9	"data/c2-000.txt"	"152"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	10	"data/c2-000.txt"	"07216"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	11	"data/c2-000.txt"	"871089"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	12	"data/c2-000.txt"	"32034848"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	13	"data/c2-000.txt"	"07216"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	14	"data/c2-000.txt"	"240"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	15	"data/c2-000.txt"	"6800564609"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	16	"data/c2-000.txt"	"1261045547"	"6"	"6"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	17	"data/c2-000.txt"	"1527"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	18	"data/c2-000.txt"	"67997"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+3	19	"data/c2-000.txt"	"1261045547"	"6"	"6"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	0	"data/c2-000.txt"	"561890185"	"561890185"	"1"	0	"λx.x"
+4	1	"data/c2-000.txt"	"9642"	"1"	"4"	0	"λx.pair(1,Ø)"
+4	2	"data/c2-000.txt"	"1261045547"	"6"	"6"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	3	"data/c2-000.txt"	"7757330"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	4	"data/c2-000.txt"	"32034848"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	5	"data/c2-000.txt"	"576262"	"6"	"6"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	6	"data/c2-000.txt"	"47057"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	7	"data/c2-000.txt"	"39921"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	8	"data/c2-000.txt"	"32034848"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	9	"data/c2-000.txt"	"39921"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	10	"data/c2-000.txt"	"2341703965"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	11	"data/c2-000.txt"	"240"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	12	"data/c2-000.txt"	"87812528"	"8"	"8"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	13	"data/c2-000.txt"	"152"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	14	"data/c2-000.txt"	"1261045547"	"6"	"6"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	15	"data/c2-000.txt"	"26421290"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	16	"data/c2-000.txt"	"32034848"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	17	"data/c2-000.txt"	"5331627810"	"3"	"3"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	18	"data/c2-000.txt"	"6851209"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+4	19	"data/c2-000.txt"	"289"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	0	"data/c2-000.txt"	"240"	"240"	"0"	0	"λx.x"
+5	1	"data/c2-000.txt"	"959"	"9"	"9"	1	"λx.tail(tail(x))"
+5	2	"data/c2-000.txt"	"90714"	"714"	"7"	0	"λx.tail(tail(x))"
+5	3	"data/c2-000.txt"	"07216"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	4	"data/c2-000.txt"	"07216"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	5	"data/c2-000.txt"	"767262"	"7"	"7"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	6	"data/c2-000.txt"	"6851209"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	7	"data/c2-000.txt"	"73794747"	"7"	"7"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	8	"data/c2-000.txt"	"738016595"	"8"	"8"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	9	"data/c2-000.txt"	"1527"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	10	"data/c2-000.txt"	"39921"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	11	"data/c2-000.txt"	"73794747"	"7"	"7"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	12	"data/c2-000.txt"	"152"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	13	"data/c2-000.txt"	"6600241"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	14	"data/c2-000.txt"	"7055583"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	15	"data/c2-000.txt"	"959"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	16	"data/c2-000.txt"	"97108251"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	17	"data/c2-000.txt"	"07216"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	18	"data/c2-000.txt"	"1527"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+5	19	"data/c2-000.txt"	"87812528"	"8"	"8"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	0	"data/c2-000.txt"	"39921"	"39921"	"9"	0	"λx.x"
+6	1	"data/c2-000.txt"	"1713"	"9"	"1"	0	"λx.pair(9,Ø)"
+6	2	"data/c2-000.txt"	"07216"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	3	"data/c2-000.txt"	"680"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	4	"data/c2-000.txt"	"959"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	5	"data/c2-000.txt"	"32034848"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	6	"data/c2-000.txt"	"152"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	7	"data/c2-000.txt"	"7055583"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	8	"data/c2-000.txt"	"1261045547"	"6"	"6"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	9	"data/c2-000.txt"	"0512467177"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	10	"data/c2-000.txt"	"12472"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	11	"data/c2-000.txt"	"90714"	"7"	"7"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	12	"data/c2-000.txt"	"240"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	13	"data/c2-000.txt"	"97108251"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	14	"data/c2-000.txt"	"2154"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	15	"data/c2-000.txt"	"466"	"6"	"6"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	16	"data/c2-000.txt"	"1261045547"	"6"	"6"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	17	"data/c2-000.txt"	"7757330"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	18	"data/c2-000.txt"	"87812528"	"8"	"8"	1	"λx.pair(head(tail(tail(x))),Ø)"
+6	19	"data/c2-000.txt"	"4541214"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	0	"data/c2-000.txt"	"26421290"	"26421290"	"4"	0	"λx.x"
+7	1	"data/c2-000.txt"	"289"	"4"	"9"	0	"λx.pair(4,Ø)"
+7	2	"data/c2-000.txt"	"32034848"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	3	"data/c2-000.txt"	"4541214"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	4	"data/c2-000.txt"	"342"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	5	"data/c2-000.txt"	"9642"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	6	"data/c2-000.txt"	"659404686"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	7	"data/c2-000.txt"	"1713"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	8	"data/c2-000.txt"	"152"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	9	"data/c2-000.txt"	"26421290"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	10	"data/c2-000.txt"	"6600241"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	11	"data/c2-000.txt"	"6600241"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	12	"data/c2-000.txt"	"738016595"	"8"	"8"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	13	"data/c2-000.txt"	"659404686"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	14	"data/c2-000.txt"	"251455448"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	15	"data/c2-000.txt"	"767262"	"7"	"7"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	16	"data/c2-000.txt"	"6800564609"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	17	"data/c2-000.txt"	"90714"	"7"	"7"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	18	"data/c2-000.txt"	"240"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+7	19	"data/c2-000.txt"	"1527"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	0	"data/c2-000.txt"	"31927430"	"31927430"	"9"	0	"λx.x"
+8	1	"data/c2-000.txt"	"949090518"	"9"	"9"	1	"λx.pair(9,Ø)"
+8	2	"data/c2-000.txt"	"767262"	"9"	"7"	0	"λx.pair(9,Ø)"
+8	3	"data/c2-000.txt"	"7055583"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	4	"data/c2-000.txt"	"39921"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	5	"data/c2-000.txt"	"97108251"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	6	"data/c2-000.txt"	"767262"	"7"	"7"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	7	"data/c2-000.txt"	"48445"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	8	"data/c2-000.txt"	"111526186"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	9	"data/c2-000.txt"	"561890185"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	10	"data/c2-000.txt"	"25521"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	11	"data/c2-000.txt"	"680"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	12	"data/c2-000.txt"	"1261045547"	"6"	"6"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	13	"data/c2-000.txt"	"2341703965"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	14	"data/c2-000.txt"	"871089"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	15	"data/c2-000.txt"	"67997"	"9"	"9"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	16	"data/c2-000.txt"	"251455448"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	17	"data/c2-000.txt"	"6800564609"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	18	"data/c2-000.txt"	"9642"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+8	19	"data/c2-000.txt"	"466"	"6"	"6"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	0	"data/c2-000.txt"	"47057"	"47057"	"0"	0	"λx.x"
+9	1	"data/c2-000.txt"	"32034848"	"0"	"0"	1	"λx.pair(0,Ø)"
+9	2	"data/c2-000.txt"	"25521"	"0"	"5"	0	"λx.pair(0,Ø)"
+9	3	"data/c2-000.txt"	"152"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	4	"data/c2-000.txt"	"1713"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	5	"data/c2-000.txt"	"90714"	"7"	"7"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	6	"data/c2-000.txt"	"73794747"	"7"	"7"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	7	"data/c2-000.txt"	"7757330"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	8	"data/c2-000.txt"	"1527"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	9	"data/c2-000.txt"	"4541214"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	10	"data/c2-000.txt"	"47057"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	11	"data/c2-000.txt"	"6851209"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	12	"data/c2-000.txt"	"7757330"	"5"	"5"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	13	"data/c2-000.txt"	"12472"	"4"	"4"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	14	"data/c2-000.txt"	"251455448"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	15	"data/c2-000.txt"	"680"	"0"	"0"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	16	"data/c2-000.txt"	"0512467177"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	17	"data/c2-000.txt"	"07216"	"2"	"2"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	18	"data/c2-000.txt"	"87812528"	"8"	"8"	1	"λx.pair(head(tail(tail(x))),Ø)"
+9	19	"data/c2-000.txt"	"0512467177"	"1"	"1"	1	"λx.pair(head(tail(tail(x))),Ø)"
+# Global sample count:	656229462
+# Elapsed time:	12091.8 seconds 
+# Samples per second:	54270.7
+# VM ops per second:	1.40855e+07

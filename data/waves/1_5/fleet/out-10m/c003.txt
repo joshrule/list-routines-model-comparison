@@ -1,0 +1,268 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=7885 by user piantado at Wed Dec  4 16:34:46 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: 2fb1c47ee31e2c3b1aaf2768a7d98678  /proc/7885/exe
+# 	 --input=data/c003.txt
+# 	 --threads=2
+# 	 --chains=4
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=10m (600 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data 21655 -> EP70G
+# using data df:1kXyHCS -> EP70G
+# using data 2m8 -> EP70G
+# using data B98 -> EP70G
+# using data JwW9 -> EP70G
+# using data :|\: -> EP70G
+# using data  -> EP70G
+# using data 568s3 -> EP70G
+# using data 2:u5O3n -> EP70G
+# using data 3368oz -> EP70G
+# using data 72 -> EP70G
+# using data \ -> EP70G
+# using data 99C0 -> EP70G
+# using data 2NF6 -> EP70G
+# using data 560T562I -> EP70G
+# using data 317071o -> EP70G
+# using data 05D024O4 -> EP70G
+# using data G6ZI:S -> EP70G
+# using data >470 -> EP70G
+# using data 2B1m1v9e6= -> EP70G
+# using data 55V2 -> EP70G
+# using data 1^a::8 -> EP70G
+# using data 1\19p7:y7 -> EP70G
+# using data v: -> EP70G
+# using data 7EO78 -> EP70G
+# using data 1: -> EP70G
+# using data 0bx9: -> EP70G
+# using data @4564f -> EP70G
+# using data 73QS04842 -> EP70G
+# using data ?j0z7: -> EP70G
+# using data 8833v:88 -> EP70G
+# using data ;;7 -> EP70G
+# using data e92<vB2`9 -> EP70G
+# using data V0 -> EP70G
+# using data 2:[9274Y3O -> EP70G
+# using data 356vg:R -> EP70G
+# using data ;01:B8D:07 -> EP70G
+# using data P -> EP70G
+# using data 4>o^<5 -> EP70G
+# using data 78c25 -> EP70G
+# using data x3 -> EP70G
+# using data ^ -> EP70G
+# using data 81?24;:9: -> EP70G
+# using data ;61 -> EP70G
+# using data V6N@8L@ -> EP70G
+# using data 2Z2855QN -> EP70G
+# using data o:63 -> EP70G
+# using data 2 -> EP70G
+# using data 1QE -> EP70G
+# using data NX12390L0Z -> EP70G
+i_run	i_N	concept	input	output	correct.output	correct	hypothesis
+0	0	"data/c003.txt"	"V0"	"V0"	"EP70G"	0	"λx.x"
+0	1	"data/c003.txt"	":|\:"	""	"EP70G"	0	"λx.Ø"
+0	2	"data/c003.txt"	"v:"	""	"EP70G"	0	"λx.Ø"
+0	3	"data/c003.txt"	"560T562I"	""	"EP70G"	0	"λx.Ø"
+0	4	"data/c003.txt"	"21655"	""	"EP70G"	0	"λx.Ø"
+0	5	"data/c003.txt"	"NX12390L0Z"	""	"EP70G"	0	"λx.Ø"
+0	6	"data/c003.txt"	"7EO78"	""	"EP70G"	0	"λx.Ø"
+0	7	"data/c003.txt"	"78c25"	""	"EP70G"	0	"λx.Ø"
+0	8	"data/c003.txt"	"3368oz"	""	"EP70G"	0	"λx.Ø"
+0	9	"data/c003.txt"	"1:"	""	"EP70G"	0	"λx.Ø"
+0	10	"data/c003.txt"	"568s3"	""	"EP70G"	0	"λx.Ø"
+0	11	"data/c003.txt"	":|\:"	""	"EP70G"	0	"λx.Ø"
+0	12	"data/c003.txt"	"21655"	""	"EP70G"	0	"λx.Ø"
+0	13	"data/c003.txt"	"@4564f"	""	"EP70G"	0	"λx.Ø"
+0	14	"data/c003.txt"	"55V2"	""	"EP70G"	0	"λx.Ø"
+0	15	"data/c003.txt"	"317071o"	""	"EP70G"	0	"λx.Ø"
+0	16	"data/c003.txt"	"NX12390L0Z"	""	"EP70G"	0	"λx.Ø"
+0	17	"data/c003.txt"	"72"	""	"EP70G"	0	"λx.Ø"
+0	18	"data/c003.txt"	"560T562I"	""	"EP70G"	0	"λx.Ø"
+0	19	"data/c003.txt"	"99C0"	""	"EP70G"	0	"λx.Ø"
+1	0	"data/c003.txt"	";61"	";61"	"EP70G"	0	"λx.x"
+1	1	"data/c003.txt"	"2NF6"	""	"EP70G"	0	"λx.Ø"
+1	2	"data/c003.txt"	"317071o"	""	"EP70G"	0	"λx.Ø"
+1	3	"data/c003.txt"	"2:u5O3n"	""	"EP70G"	0	"λx.Ø"
+1	4	"data/c003.txt"	"\"	""	"EP70G"	0	"λx.Ø"
+1	5	"data/c003.txt"	"\"	""	"EP70G"	0	"λx.Ø"
+1	6	"data/c003.txt"	"^"	""	"EP70G"	0	"λx.Ø"
+1	7	"data/c003.txt"	":|\:"	""	"EP70G"	0	"λx.Ø"
+1	8	"data/c003.txt"	""	""	"EP70G"	0	"λx.Ø"
+1	9	"data/c003.txt"	"21655"	""	"EP70G"	0	"λx.Ø"
+1	10	"data/c003.txt"	"G6ZI:S"	""	"EP70G"	0	"λx.Ø"
+1	11	"data/c003.txt"	"560T562I"	""	"EP70G"	0	"λx.Ø"
+1	12	"data/c003.txt"	"V6N@8L@"	""	"EP70G"	0	"λx.Ø"
+1	13	"data/c003.txt"	"1\19p7:y7"	""	"EP70G"	0	"λx.Ø"
+1	14	"data/c003.txt"	"21655"	""	"EP70G"	0	"λx.Ø"
+1	15	"data/c003.txt"	"?j0z7:"	""	"EP70G"	0	"λx.Ø"
+1	16	"data/c003.txt"	":|\:"	""	"EP70G"	0	"λx.Ø"
+1	17	"data/c003.txt"	"B98"	""	"EP70G"	0	"λx.Ø"
+1	18	"data/c003.txt"	"568s3"	""	"EP70G"	0	"λx.Ø"
+1	19	"data/c003.txt"	"78c25"	""	"EP70G"	0	"λx.Ø"
+2	0	"data/c003.txt"	""	""	"EP70G"	0	"λx.x"
+2	1	"data/c003.txt"	"7EO78"	"7EO78"	"EP70G"	0	"λx.x"
+2	2	"data/c003.txt"	"G6ZI:S"	""	"EP70G"	0	"λx.Ø"
+2	3	"data/c003.txt"	"2:u5O3n"	""	"EP70G"	0	"λx.Ø"
+2	4	"data/c003.txt"	"B98"	""	"EP70G"	0	"λx.Ø"
+2	5	"data/c003.txt"	"P"	""	"EP70G"	0	"λx.Ø"
+2	6	"data/c003.txt"	"1QE"	""	"EP70G"	0	"λx.Ø"
+2	7	"data/c003.txt"	"\"	""	"EP70G"	0	"λx.Ø"
+2	8	"data/c003.txt"	"?j0z7:"	""	"EP70G"	0	"λx.Ø"
+2	9	"data/c003.txt"	"P"	""	"EP70G"	0	"λx.Ø"
+2	10	"data/c003.txt"	"0bx9:"	""	"EP70G"	0	"λx.Ø"
+2	11	"data/c003.txt"	";01:B8D:07"	""	"EP70G"	0	"λx.Ø"
+2	12	"data/c003.txt"	"1QE"	""	"EP70G"	0	"λx.Ø"
+2	13	"data/c003.txt"	"o:63"	""	"EP70G"	0	"λx.Ø"
+2	14	"data/c003.txt"	"V0"	""	"EP70G"	0	"λx.Ø"
+2	15	"data/c003.txt"	"4>o^<5"	""	"EP70G"	0	"λx.Ø"
+2	16	"data/c003.txt"	"?j0z7:"	""	"EP70G"	0	"λx.Ø"
+2	17	"data/c003.txt"	";61"	""	"EP70G"	0	"λx.Ø"
+2	18	"data/c003.txt"	"B98"	""	"EP70G"	0	"λx.Ø"
+2	19	"data/c003.txt"	"0bx9:"	""	"EP70G"	0	"λx.Ø"
+3	0	"data/c003.txt"	"3368oz"	"3368oz"	"EP70G"	0	"λx.x"
+3	1	"data/c003.txt"	";;7"	""	"EP70G"	0	"λx.Ø"
+3	2	"data/c003.txt"	"2Z2855QN"	""	"EP70G"	0	"λx.Ø"
+3	3	"data/c003.txt"	"V6N@8L@"	""	"EP70G"	0	"λx.Ø"
+3	4	"data/c003.txt"	"JwW9"	""	"EP70G"	0	"λx.Ø"
+3	5	"data/c003.txt"	"e92<vB2`9"	""	"EP70G"	0	"λx.Ø"
+3	6	"data/c003.txt"	"4>o^<5"	""	"EP70G"	0	"λx.Ø"
+3	7	"data/c003.txt"	"2B1m1v9e6="	""	"EP70G"	0	"λx.Ø"
+3	8	"data/c003.txt"	"G6ZI:S"	""	"EP70G"	0	"λx.Ø"
+3	9	"data/c003.txt"	"4>o^<5"	""	"EP70G"	0	"λx.Ø"
+3	10	"data/c003.txt"	">470"	""	"EP70G"	0	"λx.Ø"
+3	11	"data/c003.txt"	"NX12390L0Z"	""	"EP70G"	0	"λx.Ø"
+3	12	"data/c003.txt"	"?j0z7:"	""	"EP70G"	0	"λx.Ø"
+3	13	"data/c003.txt"	"8833v:88"	""	"EP70G"	0	"λx.Ø"
+3	14	"data/c003.txt"	"356vg:R"	""	"EP70G"	0	"λx.Ø"
+3	15	"data/c003.txt"	"df:1kXyHCS"	""	"EP70G"	0	"λx.Ø"
+3	16	"data/c003.txt"	"NX12390L0Z"	""	"EP70G"	0	"λx.Ø"
+3	17	"data/c003.txt"	"2NF6"	""	"EP70G"	0	"λx.Ø"
+3	18	"data/c003.txt"	"55V2"	""	"EP70G"	0	"λx.Ø"
+3	19	"data/c003.txt"	":|\:"	""	"EP70G"	0	"λx.Ø"
+4	0	"data/c003.txt"	"05D024O4"	"05D024O4"	"EP70G"	0	"λx.x"
+4	1	"data/c003.txt"	"df:1kXyHCS"	""	"EP70G"	0	"λx.Ø"
+4	2	"data/c003.txt"	"8833v:88"	""	"EP70G"	0	"λx.Ø"
+4	3	"data/c003.txt"	"1^a::8"	""	"EP70G"	0	"λx.Ø"
+4	4	"data/c003.txt"	"55V2"	""	"EP70G"	0	"λx.Ø"
+4	5	"data/c003.txt"	";01:B8D:07"	""	"EP70G"	0	"λx.Ø"
+4	6	"data/c003.txt"	"1^a::8"	""	"EP70G"	0	"λx.Ø"
+4	7	"data/c003.txt"	"21655"	""	"EP70G"	0	"λx.Ø"
+4	8	"data/c003.txt"	"568s3"	""	"EP70G"	0	"λx.Ø"
+4	9	"data/c003.txt"	"^"	""	"EP70G"	0	"λx.Ø"
+4	10	"data/c003.txt"	"\"	""	"EP70G"	0	"λx.Ø"
+4	11	"data/c003.txt"	"G6ZI:S"	""	"EP70G"	0	"λx.Ø"
+4	12	"data/c003.txt"	"317071o"	""	"EP70G"	0	"λx.Ø"
+4	13	"data/c003.txt"	"@4564f"	""	"EP70G"	0	"λx.Ø"
+4	14	"data/c003.txt"	"V0"	""	"EP70G"	0	"λx.Ø"
+4	15	"data/c003.txt"	"78c25"	""	"EP70G"	0	"λx.Ø"
+4	16	"data/c003.txt"	"2NF6"	""	"EP70G"	0	"λx.Ø"
+4	17	"data/c003.txt"	"\"	""	"EP70G"	0	"λx.Ø"
+4	18	"data/c003.txt"	"560T562I"	""	"EP70G"	0	"λx.Ø"
+4	19	"data/c003.txt"	"V6N@8L@"	""	"EP70G"	0	"λx.Ø"
+5	0	"data/c003.txt"	"JwW9"	"JwW9"	"EP70G"	0	"λx.x"
+5	1	"data/c003.txt"	"V6N@8L@"	""	"EP70G"	0	"λx.Ø"
+5	2	"data/c003.txt"	"x3"	""	"EP70G"	0	"λx.Ø"
+5	3	"data/c003.txt"	"df:1kXyHCS"	""	"EP70G"	0	"λx.Ø"
+5	4	"data/c003.txt"	"v:"	""	"EP70G"	0	"λx.Ø"
+5	5	"data/c003.txt"	"2"	""	"EP70G"	0	"λx.Ø"
+5	6	"data/c003.txt"	"\"	""	"EP70G"	0	"λx.Ø"
+5	7	"data/c003.txt"	"05D024O4"	""	"EP70G"	0	"λx.Ø"
+5	8	"data/c003.txt"	"2m8"	""	"EP70G"	0	"λx.Ø"
+5	9	"data/c003.txt"	"317071o"	""	"EP70G"	0	"λx.Ø"
+5	10	"data/c003.txt"	"e92<vB2`9"	""	"EP70G"	0	"λx.Ø"
+5	11	"data/c003.txt"	"G6ZI:S"	""	"EP70G"	0	"λx.Ø"
+5	12	"data/c003.txt"	"1\19p7:y7"	""	"EP70G"	0	"λx.Ø"
+5	13	"data/c003.txt"	"05D024O4"	""	"EP70G"	0	"λx.Ø"
+5	14	"data/c003.txt"	"1:"	""	"EP70G"	0	"λx.Ø"
+5	15	"data/c003.txt"	"356vg:R"	""	"EP70G"	0	"λx.Ø"
+5	16	"data/c003.txt"	"x3"	""	"EP70G"	0	"λx.Ø"
+5	17	"data/c003.txt"	""	""	"EP70G"	0	"λx.Ø"
+5	18	"data/c003.txt"	"568s3"	""	"EP70G"	0	"λx.Ø"
+5	19	"data/c003.txt"	"560T562I"	""	"EP70G"	0	"λx.Ø"
+6	0	"data/c003.txt"	";61"	";61"	"EP70G"	0	"λx.x"
+6	1	"data/c003.txt"	"x3"	""	"EP70G"	0	"λx.Ø"
+6	2	"data/c003.txt"	""	""	"EP70G"	0	"λx.Ø"
+6	3	"data/c003.txt"	"568s3"	""	"EP70G"	0	"λx.Ø"
+6	4	"data/c003.txt"	"78c25"	""	"EP70G"	0	"λx.Ø"
+6	5	"data/c003.txt"	"2Z2855QN"	""	"EP70G"	0	"λx.Ø"
+6	6	"data/c003.txt"	""	""	"EP70G"	0	"λx.Ø"
+6	7	"data/c003.txt"	"3368oz"	""	"EP70G"	0	"λx.Ø"
+6	8	"data/c003.txt"	"\"	""	"EP70G"	0	"λx.Ø"
+6	9	"data/c003.txt"	"JwW9"	""	"EP70G"	0	"λx.Ø"
+6	10	"data/c003.txt"	"e92<vB2`9"	""	"EP70G"	0	"λx.Ø"
+6	11	"data/c003.txt"	"560T562I"	""	"EP70G"	0	"λx.Ø"
+6	12	"data/c003.txt"	"?j0z7:"	""	"EP70G"	0	"λx.Ø"
+6	13	"data/c003.txt"	"73QS04842"	""	"EP70G"	0	"λx.Ø"
+6	14	"data/c003.txt"	"^"	""	"EP70G"	0	"λx.Ø"
+6	15	"data/c003.txt"	"2B1m1v9e6="	""	"EP70G"	0	"λx.Ø"
+6	16	"data/c003.txt"	"3368oz"	""	"EP70G"	0	"λx.Ø"
+6	17	"data/c003.txt"	"JwW9"	""	"EP70G"	0	"λx.Ø"
+6	18	"data/c003.txt"	"73QS04842"	""	"EP70G"	0	"λx.Ø"
+6	19	"data/c003.txt"	"^"	""	"EP70G"	0	"λx.Ø"
+7	0	"data/c003.txt"	">470"	">470"	"EP70G"	0	"λx.x"
+7	1	"data/c003.txt"	"2Z2855QN"	""	"EP70G"	0	"λx.Ø"
+7	2	"data/c003.txt"	"^"	""	"EP70G"	0	"λx.Ø"
+7	3	"data/c003.txt"	";;7"	""	"EP70G"	0	"λx.Ø"
+7	4	"data/c003.txt"	"o:63"	""	"EP70G"	0	"λx.Ø"
+7	5	"data/c003.txt"	"^"	""	"EP70G"	0	"λx.Ø"
+7	6	"data/c003.txt"	"2:u5O3n"	""	"EP70G"	0	"λx.Ø"
+7	7	"data/c003.txt"	">470"	""	"EP70G"	0	"λx.Ø"
+7	8	"data/c003.txt"	"78c25"	""	"EP70G"	0	"λx.Ø"
+7	9	"data/c003.txt"	"72"	""	"EP70G"	0	"λx.Ø"
+7	10	"data/c003.txt"	"?j0z7:"	""	"EP70G"	0	"λx.Ø"
+7	11	"data/c003.txt"	"^"	""	"EP70G"	0	"λx.Ø"
+7	12	"data/c003.txt"	"0bx9:"	""	"EP70G"	0	"λx.Ø"
+7	13	"data/c003.txt"	"\"	""	"EP70G"	0	"λx.Ø"
+7	14	"data/c003.txt"	"1QE"	""	"EP70G"	0	"λx.Ø"
+7	15	"data/c003.txt"	"V6N@8L@"	""	"EP70G"	0	"λx.Ø"
+7	16	"data/c003.txt"	"2"	""	"EP70G"	0	"λx.Ø"
+7	17	"data/c003.txt"	"72"	""	"EP70G"	0	"λx.Ø"
+7	18	"data/c003.txt"	"V0"	""	"EP70G"	0	"λx.Ø"
+7	19	"data/c003.txt"	"78c25"	""	"EP70G"	0	"λx.Ø"
+8	0	"data/c003.txt"	"1^a::8"	"1^a::8"	"EP70G"	0	"λx.x"
+8	1	"data/c003.txt"	"1^a::8"	""	"EP70G"	0	"λx.Ø"
+8	2	"data/c003.txt"	"1:"	""	"EP70G"	0	"λx.Ø"
+8	3	"data/c003.txt"	"2Z2855QN"	""	"EP70G"	0	"λx.Ø"
+8	4	"data/c003.txt"	"2"	""	"EP70G"	0	"λx.Ø"
+8	5	"data/c003.txt"	"72"	""	"EP70G"	0	"λx.Ø"
+8	6	"data/c003.txt"	"JwW9"	""	"EP70G"	0	"λx.Ø"
+8	7	"data/c003.txt"	"568s3"	""	"EP70G"	0	"λx.Ø"
+8	8	"data/c003.txt"	"JwW9"	""	"EP70G"	0	"λx.Ø"
+8	9	"data/c003.txt"	"1\19p7:y7"	""	"EP70G"	0	"λx.Ø"
+8	10	"data/c003.txt"	"V6N@8L@"	""	"EP70G"	0	"λx.Ø"
+8	11	"data/c003.txt"	"v:"	""	"EP70G"	0	"λx.Ø"
+8	12	"data/c003.txt"	"356vg:R"	""	"EP70G"	0	"λx.Ø"
+8	13	"data/c003.txt"	"1\19p7:y7"	""	"EP70G"	0	"λx.Ø"
+8	14	"data/c003.txt"	"55V2"	""	"EP70G"	0	"λx.Ø"
+8	15	"data/c003.txt"	"73QS04842"	""	"EP70G"	0	"λx.Ø"
+8	16	"data/c003.txt"	"1QE"	""	"EP70G"	0	"λx.Ø"
+8	17	"data/c003.txt"	"v:"	""	"EP70G"	0	"λx.Ø"
+8	18	"data/c003.txt"	"1:"	""	"EP70G"	0	"λx.Ø"
+8	19	"data/c003.txt"	"2B1m1v9e6="	""	"EP70G"	0	"λx.Ø"
+9	0	"data/c003.txt"	"21655"	"21655"	"EP70G"	0	"λx.x"
+9	1	"data/c003.txt"	"560T562I"	""	"EP70G"	0	"λx.Ø"
+9	2	"data/c003.txt"	"81?24;:9:"	""	"EP70G"	0	"λx.Ø"
+9	3	"data/c003.txt"	"2NF6"	""	"EP70G"	0	"λx.Ø"
+9	4	"data/c003.txt"	"2Z2855QN"	""	"EP70G"	0	"λx.Ø"
+9	5	"data/c003.txt"	"o:63"	""	"EP70G"	0	"λx.Ø"
+9	6	"data/c003.txt"	"560T562I"	""	"EP70G"	0	"λx.Ø"
+9	7	"data/c003.txt"	";;7"	""	"EP70G"	0	"λx.Ø"
+9	8	"data/c003.txt"	"1^a::8"	""	"EP70G"	0	"λx.Ø"
+9	9	"data/c003.txt"	";61"	""	"EP70G"	0	"λx.Ø"
+9	10	"data/c003.txt"	"@4564f"	""	"EP70G"	0	"λx.Ø"
+9	11	"data/c003.txt"	"2NF6"	""	"EP70G"	0	"λx.Ø"
+9	12	"data/c003.txt"	"^"	""	"EP70G"	0	"λx.Ø"
+9	13	"data/c003.txt"	"78c25"	""	"EP70G"	0	"λx.Ø"
+9	14	"data/c003.txt"	"317071o"	""	"EP70G"	0	"λx.Ø"
+9	15	"data/c003.txt"	">470"	""	"EP70G"	0	"λx.Ø"
+9	16	"data/c003.txt"	"317071o"	""	"EP70G"	0	"λx.Ø"
+9	17	"data/c003.txt"	"e92<vB2`9"	""	"EP70G"	0	"λx.Ø"
+9	18	"data/c003.txt"	"73QS04842"	""	"EP70G"	0	"λx.Ø"
+9	19	"data/c003.txt"	"21655"	""	"EP70G"	0	"λx.Ø"
+# Global sample count:	13696850418
+# Elapsed time:	120080 seconds 
+# Samples per second:	114064
+# VM ops per second:	1.92032e+07

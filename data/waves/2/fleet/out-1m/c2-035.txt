@@ -1,0 +1,268 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=50318 by user piantado at Wed Dec  4 19:55:29 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: 75de067d9790c8abe3432331157b2715  /proc/50318/exe
+# 	 --input=data/c2-035.txt
+# 	 --threads=2
+# 	 --chains=4
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=1m (60 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data 6 -> 934067291
+# using data 7 -> 934077291
+# using data 22 -> 9340227291
+# using data 51 -> 9340517291
+# using data  -> 93407291
+# using data 85 -> 9340857291
+# using data 74 -> 9340747291
+# using data 69 -> 9340697291
+# using data 47 -> 9340477291
+# using data 8 -> 934087291
+# using data 98 -> 9340987291
+# using data 1 -> 934017291
+# using data 9 -> 934097291
+# using data 11 -> 9340117291
+# using data 41 -> 9340417291
+# using data 10 -> 9340107291
+# using data 5 -> 934057291
+# using data 12 -> 9340127291
+# using data 19 -> 9340197291
+# using data 83 -> 9340837291
+# using data 31 -> 9340317291
+# using data 90 -> 9340907291
+# using data 06 -> 9340067291
+# using data 17 -> 9340177291
+# using data 0 -> 934007291
+# using data 3 -> 934037291
+# using data 36 -> 9340367291
+# using data 72 -> 9340727291
+# using data 2 -> 934027291
+# using data 79 -> 9340797291
+# using data 84 -> 9340847291
+# using data 67 -> 9340677291
+# using data 4 -> 934047291
+# using data 63 -> 9340637291
+# using data 03 -> 9340037291
+# using data 60 -> 9340607291
+# using data 99 -> 9340997291
+# using data 15 -> 9340157291
+# using data 53 -> 9340537291
+# using data 81 -> 9340817291
+# using data 61 -> 9340617291
+# using data 18 -> 9340187291
+# using data 58 -> 9340587291
+# using data 49 -> 9340497291
+# using data 95 -> 9340957291
+# using data 35 -> 9340357291
+# using data 71 -> 9340717291
+# using data 02 -> 9340027291
+# using data 62 -> 9340627291
+# using data 13 -> 9340137291
+i_run	i_N	concept	input	output	correct.output	correct	hypothesis
+0	0	"data/c2-035.txt"	"1"	"1"	"934017291"	0	"λx.x"
+0	1	"data/c2-035.txt"	"18"	"934018"	"9340187291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	2	"data/c2-035.txt"	"4"	"93404"	"934047291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	3	"data/c2-035.txt"	"41"	"934041"	"9340417291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	4	"data/c2-035.txt"	"0"	"93400"	"934007291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	5	"data/c2-035.txt"	"4"	"93404"	"934047291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	6	"data/c2-035.txt"	"62"	"934062"	"9340627291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	7	"data/c2-035.txt"	"81"	"934081"	"9340817291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	8	"data/c2-035.txt"	"63"	"934063"	"9340637291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	9	"data/c2-035.txt"	"49"	"934049"	"9340497291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	10	"data/c2-035.txt"	"10"	"934010"	"9340107291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	11	"data/c2-035.txt"	"5"	"93405"	"934057291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	12	"data/c2-035.txt"	"85"	"934085"	"9340857291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	13	"data/c2-035.txt"	"72"	"934072"	"9340727291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	14	"data/c2-035.txt"	"7"	"93407"	"934077291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	15	"data/c2-035.txt"	"60"	"934060"	"9340607291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	16	"data/c2-035.txt"	"36"	"934036"	"9340367291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	17	"data/c2-035.txt"	"84"	"934084"	"9340847291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	18	"data/c2-035.txt"	"3"	"93403"	"934037291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+0	19	"data/c2-035.txt"	"74"	"934074"	"9340747291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	0	"data/c2-035.txt"	"8"	"8"	"934087291"	0	"λx.x"
+1	1	"data/c2-035.txt"	"11"	"934011"	"9340117291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	2	"data/c2-035.txt"	"35"	"934035"	"9340357291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	3	"data/c2-035.txt"	"58"	"934058"	"9340587291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	4	"data/c2-035.txt"	"83"	"934083"	"9340837291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	5	"data/c2-035.txt"	"63"	"934063"	"9340637291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	6	"data/c2-035.txt"	"63"	"934063"	"9340637291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	7	"data/c2-035.txt"	"2"	"93402"	"934027291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	8	"data/c2-035.txt"	"51"	"934051"	"9340517291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	9	"data/c2-035.txt"	"61"	"934061"	"9340617291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	10	"data/c2-035.txt"	"72"	"934072"	"9340727291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	11	"data/c2-035.txt"	"15"	"934015"	"9340157291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	12	"data/c2-035.txt"	"62"	"934062"	"9340627291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	13	"data/c2-035.txt"	"31"	"934031"	"9340317291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	14	"data/c2-035.txt"	"17"	"934017"	"9340177291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	15	"data/c2-035.txt"	"8"	"93408"	"934087291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	16	"data/c2-035.txt"	"22"	"934022"	"9340227291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	17	"data/c2-035.txt"	"6"	"93406"	"934067291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	18	"data/c2-035.txt"	"10"	"934010"	"9340107291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+1	19	"data/c2-035.txt"	"7"	"93407"	"934077291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	0	"data/c2-035.txt"	"60"	"60"	"9340607291"	0	"λx.x"
+2	1	"data/c2-035.txt"	"7"	"93407"	"934077291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	2	"data/c2-035.txt"	"72"	"934072"	"9340727291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	3	"data/c2-035.txt"	"17"	"934017"	"9340177291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	4	"data/c2-035.txt"	"6"	"93406"	"934067291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	5	"data/c2-035.txt"	"67"	"934067"	"9340677291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	6	"data/c2-035.txt"	"2"	"93402"	"934027291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	7	"data/c2-035.txt"	"72"	"934072"	"9340727291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	8	"data/c2-035.txt"	"13"	"934013"	"9340137291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	9	"data/c2-035.txt"	"12"	"934012"	"9340127291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	10	"data/c2-035.txt"	"41"	"934041"	"9340417291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	11	"data/c2-035.txt"	"5"	"93405"	"934057291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	12	"data/c2-035.txt"	"9"	"93409"	"934097291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	13	"data/c2-035.txt"	"13"	"934013"	"9340137291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	14	"data/c2-035.txt"	"51"	"934051"	"9340517291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	15	"data/c2-035.txt"	"53"	"934053"	"9340537291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	16	"data/c2-035.txt"	"99"	"934099"	"9340997291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	17	"data/c2-035.txt"	"2"	"93402"	"934027291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	18	"data/c2-035.txt"	"31"	"934031"	"9340317291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+2	19	"data/c2-035.txt"	"51"	"934051"	"9340517291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	0	"data/c2-035.txt"	"18"	"18"	"9340187291"	0	"λx.x"
+3	1	"data/c2-035.txt"	"06"	"934006"	"9340067291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	2	"data/c2-035.txt"	"62"	"934062"	"9340627291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	3	"data/c2-035.txt"	"02"	"934002"	"9340027291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	4	"data/c2-035.txt"	"8"	"93408"	"934087291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	5	"data/c2-035.txt"	"13"	"934013"	"9340137291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	6	"data/c2-035.txt"	"9"	"93409"	"934097291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	7	"data/c2-035.txt"	"31"	"934031"	"9340317291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	8	"data/c2-035.txt"	"11"	"934011"	"9340117291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	9	"data/c2-035.txt"	"5"	"93405"	"934057291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	10	"data/c2-035.txt"	"67"	"934067"	"9340677291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	11	"data/c2-035.txt"	"61"	"934061"	"9340617291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	12	"data/c2-035.txt"	"9"	"93409"	"934097291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	13	"data/c2-035.txt"	"63"	"934063"	"9340637291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	14	"data/c2-035.txt"	"79"	"934079"	"9340797291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	15	"data/c2-035.txt"	"53"	"934053"	"9340537291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	16	"data/c2-035.txt"	"2"	"93402"	"934027291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	17	"data/c2-035.txt"	"63"	"934063"	"9340637291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	18	"data/c2-035.txt"	"74"	"934074"	"9340747291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+3	19	"data/c2-035.txt"	"84"	"934084"	"9340847291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	0	"data/c2-035.txt"	"79"	"79"	"9340797291"	0	"λx.x"
+4	1	"data/c2-035.txt"	"69"	"934069"	"9340697291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	2	"data/c2-035.txt"	"0"	"93400"	"934007291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	3	"data/c2-035.txt"	"81"	"934081"	"9340817291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	4	"data/c2-035.txt"	"81"	"934081"	"9340817291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	5	"data/c2-035.txt"	"1"	"93401"	"934017291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	6	"data/c2-035.txt"	"06"	"934006"	"9340067291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	7	"data/c2-035.txt"	"63"	"934063"	"9340637291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	8	"data/c2-035.txt"	"11"	"934011"	"9340117291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	9	"data/c2-035.txt"	"62"	"934062"	"9340627291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	10	"data/c2-035.txt"	"0"	"93400"	"934007291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	11	"data/c2-035.txt"	"3"	"93403"	"934037291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	12	"data/c2-035.txt"	"6"	"93406"	"934067291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	13	"data/c2-035.txt"	"11"	"934011"	"9340117291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	14	"data/c2-035.txt"	"41"	"934041"	"9340417291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	15	"data/c2-035.txt"	"02"	"934002"	"9340027291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	16	"data/c2-035.txt"	"7"	"93407"	"934077291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	17	"data/c2-035.txt"	"8"	"93408"	"934087291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	18	"data/c2-035.txt"	"2"	"93402"	"934027291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+4	19	"data/c2-035.txt"	"72"	"934072"	"9340727291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	0	"data/c2-035.txt"	"83"	"83"	"9340837291"	0	"λx.x"
+5	1	"data/c2-035.txt"	"03"	"934003"	"9340037291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	2	"data/c2-035.txt"	"36"	"934036"	"9340367291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	3	"data/c2-035.txt"	"9"	"93409"	"934097291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	4	"data/c2-035.txt"	"53"	"934053"	"9340537291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	5	"data/c2-035.txt"	"22"	"934022"	"9340227291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	6	"data/c2-035.txt"	"12"	"934012"	"9340127291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	7	"data/c2-035.txt"	"72"	"934072"	"9340727291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	8	"data/c2-035.txt"	"8"	"93408"	"934087291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	9	"data/c2-035.txt"	"98"	"934098"	"9340987291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	10	"data/c2-035.txt"	"79"	"934079"	"9340797291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	11	"data/c2-035.txt"	"17"	"934017"	"9340177291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	12	"data/c2-035.txt"	"4"	"93404"	"934047291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	13	"data/c2-035.txt"	"71"	"934071"	"9340717291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	14	"data/c2-035.txt"	"63"	"934063"	"9340637291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	15	"data/c2-035.txt"	"69"	"934069"	"9340697291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	16	"data/c2-035.txt"	"9"	"93409"	"934097291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	17	"data/c2-035.txt"	"61"	"934061"	"9340617291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	18	"data/c2-035.txt"	"49"	"934049"	"9340497291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+5	19	"data/c2-035.txt"	"1"	"93401"	"934017291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	0	"data/c2-035.txt"	"19"	"19"	"9340197291"	0	"λx.x"
+6	1	"data/c2-035.txt"	"95"	"934095"	"9340957291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	2	"data/c2-035.txt"	"2"	"93402"	"934027291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	3	"data/c2-035.txt"	"18"	"934018"	"9340187291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	4	"data/c2-035.txt"	"31"	"934031"	"9340317291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	5	"data/c2-035.txt"	"03"	"934003"	"9340037291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	6	"data/c2-035.txt"	"03"	"934003"	"9340037291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	7	"data/c2-035.txt"	"47"	"934047"	"9340477291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	8	"data/c2-035.txt"	"84"	"934084"	"9340847291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	9	"data/c2-035.txt"	"10"	"934010"	"9340107291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	10	"data/c2-035.txt"	"11"	"934011"	"9340117291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	11	"data/c2-035.txt"	"06"	"934006"	"9340067291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	12	"data/c2-035.txt"	"03"	"934003"	"9340037291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	13	"data/c2-035.txt"	"53"	"934053"	"9340537291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	14	"data/c2-035.txt"	"79"	"934079"	"9340797291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	15	"data/c2-035.txt"	"63"	"934063"	"9340637291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	16	"data/c2-035.txt"	"47"	"934047"	"9340477291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	17	"data/c2-035.txt"	"67"	"934067"	"9340677291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	18	"data/c2-035.txt"	"79"	"934079"	"9340797291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+6	19	"data/c2-035.txt"	"49"	"934049"	"9340497291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	0	"data/c2-035.txt"	"7"	"7"	"934077291"	0	"λx.x"
+7	1	"data/c2-035.txt"	"79"	"9340779"	"9340797291"	0	"λx.pair(9,pair(3,pair(4,pair(0,pair(head(x),x)))))"
+7	2	"data/c2-035.txt"	"12"	"934012"	"9340127291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	3	"data/c2-035.txt"	"18"	"934018"	"9340187291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	4	"data/c2-035.txt"	"99"	"934099"	"9340997291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	5	"data/c2-035.txt"	"2"	"93402"	"934027291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	6	"data/c2-035.txt"	"4"	"93404"	"934047291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	7	"data/c2-035.txt"	"0"	"93400"	"934007291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	8	"data/c2-035.txt"	"81"	"934081"	"9340817291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	9	"data/c2-035.txt"	"18"	"934018"	"9340187291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	10	"data/c2-035.txt"	"62"	"934062"	"9340627291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	11	"data/c2-035.txt"	"69"	"934069"	"9340697291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	12	"data/c2-035.txt"	"11"	"934011"	"9340117291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	13	"data/c2-035.txt"	"02"	"934002"	"9340027291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	14	"data/c2-035.txt"	"60"	"934060"	"9340607291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	15	"data/c2-035.txt"	"18"	"934018"	"9340187291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	16	"data/c2-035.txt"	"74"	"934074"	"9340747291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	17	"data/c2-035.txt"	"49"	"934049"	"9340497291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	18	"data/c2-035.txt"	"71"	"934071"	"9340717291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+7	19	"data/c2-035.txt"	""	"9340"	"93407291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+8	0	"data/c2-035.txt"	"62"	"62"	"9340627291"	0	"λx.x"
+8	1	"data/c2-035.txt"	"60"	"934060"	"9340607291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+8	2	"data/c2-035.txt"	"7"	"93407"	"934077291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+8	3	"data/c2-035.txt"	"2"	"93402"	"934027291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+8	4	"data/c2-035.txt"	"67"	"934067"	"9340677291"	0	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+8	5	"data/c2-035.txt"	"67"	"934067"	"9340677291"	0	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+8	6	"data/c2-035.txt"	"19"	"934019"	"9340197291"	0	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+8	7	"data/c2-035.txt"	"36"	"934036"	"9340367291"	0	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+8	8	"data/c2-035.txt"	"71"	"934071"	"9340717291"	0	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+8	9	"data/c2-035.txt"	"49"	"934049"	"9340497291"	0	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+8	10	"data/c2-035.txt"	"2"	"934027291"	"934027291"	1	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+8	11	"data/c2-035.txt"	"15"	"934015"	"9340157291"	0	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+8	12	"data/c2-035.txt"	"15"	"934015"	"9340157291"	0	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+8	13	"data/c2-035.txt"	"41"	"934041"	"9340417291"	0	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+8	14	"data/c2-035.txt"	"41"	"934041"	"9340417291"	0	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+8	15	"data/c2-035.txt"	"49"	"934049"	"9340497291"	0	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+8	16	"data/c2-035.txt"	"9"	"934097291"	"934097291"	1	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+8	17	"data/c2-035.txt"	"71"	"934071"	"9340717291"	0	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+8	18	"data/c2-035.txt"	"12"	"934012"	"9340127291"	0	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+8	19	"data/c2-035.txt"	""	"9340N7291"	"93407291"	0	"λx.pair(9,pair(3,pair(4,pair(0,if((Ø==tail(x)),pair(head(x),if((x==x),pair(7,pair(2,pair(9,pair(1,Ø)))),x)),x)))))"
+9	0	"data/c2-035.txt"	"15"	"15"	"9340157291"	0	"λx.x"
+9	1	"data/c2-035.txt"	"02"	"934002"	"9340027291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	2	"data/c2-035.txt"	"31"	"934031"	"9340317291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	3	"data/c2-035.txt"	"6"	"93406"	"934067291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	4	"data/c2-035.txt"	"35"	"934035"	"9340357291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	5	"data/c2-035.txt"	"3"	"93403"	"934037291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	6	"data/c2-035.txt"	"95"	"934095"	"9340957291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	7	"data/c2-035.txt"	"22"	"934022"	"9340227291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	8	"data/c2-035.txt"	"13"	"934013"	"9340137291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	9	"data/c2-035.txt"	"71"	"934071"	"9340717291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	10	"data/c2-035.txt"	"51"	"934051"	"9340517291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	11	"data/c2-035.txt"	"7"	"93407"	"934077291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	12	"data/c2-035.txt"	"10"	"934010"	"9340107291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	13	"data/c2-035.txt"	"81"	"934081"	"9340817291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	14	"data/c2-035.txt"	"6"	"93406"	"934067291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	15	"data/c2-035.txt"	"3"	"93403"	"934037291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	16	"data/c2-035.txt"	"79"	"934079"	"9340797291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	17	"data/c2-035.txt"	"53"	"934053"	"9340537291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	18	"data/c2-035.txt"	"2"	"93402"	"934027291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+9	19	"data/c2-035.txt"	"71"	"934071"	"9340717291"	0	"λx.pair(9,pair(3,pair(4,pair(0,x))))"
+# Global sample count:	1108105523
+# Elapsed time:	12038.3 seconds 
+# Samples per second:	92048.5
+# VM ops per second:	1.38321e+07

@@ -1,0 +1,150 @@
+parallel: SIGHUP received. No new jobs will be started.
+parallel: Waiting for these 25 jobs to finish. Send SIGTERM to stop now.
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-012.txt > out/c2-012.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-000.txt > out/c2-000.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-016.txt > out/c2-016.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-014.txt > out/c2-014.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-017.txt > out/c2-017.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-001.txt > out/c2-001.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-008.txt > out/c2-008.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-019.txt > out/c2-019.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-007.txt > out/c2-007.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-022.txt > out/c2-022.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-011.txt > out/c2-011.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-009.txt > out/c2-009.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-010.txt > out/c2-010.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-023.txt > out/c2-023.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-005.txt > out/c2-005.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-004.txt > out/c2-004.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-020.txt > out/c2-020.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-018.txt > out/c2-018.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-024.txt > out/c2-024.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-021.txt > out/c2-021.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-006.txt > out/c2-006.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-015.txt > out/c2-015.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-002.txt > out/c2-002.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-013.txt > out/c2-013.txt.out
+parallel: ./main --chains=4 --threads=2 --time=10m --input=data/c2-003.txt > out/c2-003.txt.out
+/bin/bash: out-10m/c2-000.txt: No such file or directory
+/bin/bash: out-10m/c2-001.txt: No such file or directory
+/bin/bash: out-10m/c2-002.txt: No such file or directory
+/bin/bash: out-10m/c2-003.txt: No such file or directory
+/bin/bash: out-10m/c2-004.txt: No such file or directory
+/bin/bash: out-10m/c2-005.txt: No such file or directory
+/bin/bash: out-10m/c2-006.txt: No such file or directory
+/bin/bash: out-10m/c2-007.txt: No such file or directory
+/bin/bash: out-10m/c2-008.txt: No such file or directory
+/bin/bash: out-10m/c2-009.txt: No such file or directory
+/bin/bash: out-10m/c2-010.txt: No such file or directory
+/bin/bash: out-10m/c2-011.txt: No such file or directory
+/bin/bash: out-10m/c2-012.txt: No such file or directory
+/bin/bash: out-10m/c2-013.txt: No such file or directory
+/bin/bash: out-10m/c2-014.txt: No such file or directory
+/bin/bash: out-10m/c2-015.txt: No such file or directory
+/bin/bash: out-10m/c2-016.txt: No such file or directory
+/bin/bash: out-10m/c2-017.txt: No such file or directory
+/bin/bash: out-10m/c2-018.txt: No such file or directory
+/bin/bash: out-10m/c2-019.txt: No such file or directory
+/bin/bash: out-10m/c2-020.txt: No such file or directory
+/bin/bash: out-10m/c2-021.txt: No such file or directory
+/bin/bash: out-10m/c2-022.txt: No such file or directory
+/bin/bash: out-10m/c2-023.txt: No such file or directory
+/bin/bash: out-10m/c2-024.txt: No such file or directory
+/bin/bash: out-10m/c2-025.txt: No such file or directory
+/bin/bash: out-10m/c2-026.txt: No such file or directory
+/bin/bash: out-10m/c2-027.txt: No such file or directory
+/bin/bash: out-10m/c2-028.txt: No such file or directory
+/bin/bash: out-10m/c2-029.txt: No such file or directory
+/bin/bash: out-10m/c2-030.txt: No such file or directory
+/bin/bash: out-10m/c2-031.txt: No such file or directory
+/bin/bash: out-10m/c2-032.txt: No such file or directory
+/bin/bash: out-10m/c2-033.txt: No such file or directory
+/bin/bash: out-10m/c2-034.txt: No such file or directory
+/bin/bash: out-10m/c2-035.txt: No such file or directory
+/bin/bash: out-10m/c2-036.txt: No such file or directory
+/bin/bash: out-10m/c2-037.txt: No such file or directory
+/bin/bash: out-10m/c2-038.txt: No such file or directory
+/bin/bash: out-10m/c2-039.txt: No such file or directory
+/bin/bash: out-10m/c2-040.txt: No such file or directory
+/bin/bash: out-10m/c2-041.txt: No such file or directory
+/bin/bash: out-10m/c2-042.txt: No such file or directory
+/bin/bash: out-10m/c2-043.txt: No such file or directory
+/bin/bash: out-10m/c2-044.txt: No such file or directory
+/bin/bash: out-10m/c2-045.txt: No such file or directory
+/bin/bash: out-10m/c2-046.txt: No such file or directory
+/bin/bash: out-10m/c2-047.txt: No such file or directory
+/bin/bash: out-10m/c2-048.txt: No such file or directory
+/bin/bash: out-10m/c2-049.txt: No such file or directory
+/bin/bash: out-10m/c2-050.txt: No such file or directory
+/bin/bash: out-10m/c2-051.txt: No such file or directory
+/bin/bash: out-10m/c2-052.txt: No such file or directory
+/bin/bash: out-10m/c2-053.txt: No such file or directory
+/bin/bash: out-10m/c2-054.txt: No such file or directory
+/bin/bash: out-10m/c2-055.txt: No such file or directory
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=1 d=63	(⬜==⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=62	if(⬜,⬜,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=1 d=61	(x==⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=60	if(⬜,⬜,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=59	head(⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=58	((head(x)-(2+7))-⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=57	(head(x)+⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=56	((9-head(pair(5,x)))-⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=1 d=55	(7>⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=54	if(⬜,⬜,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=53	head(⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=52	(N-⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=1 d=51	(0>⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=50	if(⬜,⬜,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=49	head(⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=48	(⬜+⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=47	(((4-1)+((N-N)+7))-⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=1 d=46	(⬜>⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=45	if(⬜,⬜,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=44	head(⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=43	(⬜+⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=42	(⬜-⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=41	(⬜+⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=40	((6-0)+⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=39	pair(⬜,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=38	if((x==tail(x)),⬜,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=37	head(⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=36	(2+⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=35	(head(x)-⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=1 d=34	(⬜>⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=33	if(⬜,⬜,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=1 d=32	(x==⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=31	if(⬜,⬜,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=30	if(((7+9)>(((9+3)+9)-1)),x,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=29	head(⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=1 d=28	(N>⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=27	if(⬜,⬜,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=26	if((x==x),⬜,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=1 d=25	(⬜==⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=24	if(⬜,⬜,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=23	head(⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=22	(⬜+⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=21	(9-⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=1 d=20	(4>⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=19	if(⬜,⬜,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=18	tail(⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=17	tail(⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=16	tail(⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=15	tail(⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=14	head(⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=1 d=13	(⬜>⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=12	if(⬜,⬜,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=11	tail(⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=10	head(⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=9	(head(x)+⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=8	(0+⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=7	(1-⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=6	(6+⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=5	(⬜+⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=4	(⬜+⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=2 d=3	(⬜+⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=1 d=2	((head(x)+3)>⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=1	if(⬜,⬜,⬜)
+*** Grammar has recursed beyond Fleet::GRAMMAR_MAX_DEPTH (Are the probabilities right?). nt=0 d=0	F(⬜)
+terminate called after throwing an instance of 'DepthException'
+  what():  std::exception
+/bin/bash: line 1:  4047 Aborted                 (core dumped) ./main --chains=4 --threads=2 --time=10m --input=data/c2-040.txt > out-10m/c2-040.txt

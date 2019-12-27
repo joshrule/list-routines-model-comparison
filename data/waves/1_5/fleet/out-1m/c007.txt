@@ -1,0 +1,268 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=7955 by user piantado at Wed Dec  4 16:34:46 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: 2fb1c47ee31e2c3b1aaf2768a7d98678  /proc/7955/exe
+# 	 --input=data/c007.txt
+# 	 --threads=2
+# 	 --chains=4
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=1m (60 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data YX026 -> Cn34fYX026
+# using data hL4n5 -> Cn34fhL4n5
+# using data eh70 -> Cn34feh70
+# using data p68D -> Cn34fp68D
+# using data 93: -> Cn34f93:
+# using data ]:Z -> Cn34f]:Z
+# using data  -> Cn34f
+# using data Y265 -> Cn34fY265
+# using data 6 -> Cn34f6
+# using data 7:1 -> Cn34f7:1
+# using data 9Y5:9 -> Cn34f9Y5:9
+# using data 4mV -> Cn34f4mV
+# using data 3A5tD -> Cn34f3A5tD
+# using data 0>6 -> Cn34f0>6
+# using data 8E5 -> Cn34f8E5
+# using data :5c -> Cn34f:5c
+# using data 0S@7 -> Cn34f0S@7
+# using data U855 -> Cn34fU855
+# using data 52 -> Cn34f52
+# using data 7> -> Cn34f7>
+# using data 3 -> Cn34f3
+# using data @C: -> Cn34f@C:
+# using data 6@ -> Cn34f6@
+# using data d:51 -> Cn34fd:51
+# using data 02_X -> Cn34f02_X
+# using data @ -> Cn34f@
+# using data 5394: -> Cn34f5394:
+# using data 7vl -> Cn34f7vl
+# using data 368 -> Cn34f368
+# using data 4 -> Cn34f4
+# using data 5 -> Cn34f5
+# using data t:66 -> Cn34ft:66
+# using data : -> Cn34f:
+# using data E59 -> Cn34fE59
+# using data 31:Qg -> Cn34f31:Qg
+# using data 47` -> Cn34f47`
+# using data x9gS6 -> Cn34fx9gS6
+# using data 5V -> Cn34f5V
+# using data 2Ox2 -> Cn34f2Ox2
+# using data 70 -> Cn34f70
+# using data 0iQl5 -> Cn34f0iQl5
+# using data \ -> Cn34f\
+# using data 6:]9: -> Cn34f6:]9:
+# using data ek -> Cn34fek
+# using data p -> Cn34fp
+# using data hA7>5 -> Cn34fhA7>5
+# using data r1;GA -> Cn34fr1;GA
+# using data 0t4 -> Cn34f0t4
+# using data 480u -> Cn34f480u
+# using data 181I -> Cn34f181I
+i_run	i_N	concept	input	output	correct.output	correct	hypothesis
+0	0	"data/c007.txt"	"31:Qg"	"31:Qg"	"Cn34f31:Qg"	0	"λx.x"
+0	1	"data/c007.txt"	"02_X"	""	"Cn34f02_X"	0	"λx.Ø"
+0	2	"data/c007.txt"	"3"	""	"Cn34f3"	0	"λx.Ø"
+0	3	"data/c007.txt"	"Y265"	""	"Cn34fY265"	0	"λx.Ø"
+0	4	"data/c007.txt"	"ek"	""	"Cn34fek"	0	"λx.Ø"
+0	5	"data/c007.txt"	"d:51"	""	"Cn34fd:51"	0	"λx.Ø"
+0	6	"data/c007.txt"	"hA7>5"	""	"Cn34fhA7>5"	0	"λx.Ø"
+0	7	"data/c007.txt"	"480u"	""	"Cn34f480u"	0	"λx.Ø"
+0	8	"data/c007.txt"	"31:Qg"	""	"Cn34f31:Qg"	0	"λx.Ø"
+0	9	"data/c007.txt"	"hA7>5"	""	"Cn34fhA7>5"	0	"λx.Ø"
+0	10	"data/c007.txt"	"]:Z"	""	"Cn34f]:Z"	0	"λx.Ø"
+0	11	"data/c007.txt"	"6@"	""	"Cn34f6@"	0	"λx.Ø"
+0	12	"data/c007.txt"	"ek"	""	"Cn34fek"	0	"λx.Ø"
+0	13	"data/c007.txt"	":5c"	""	"Cn34f:5c"	0	"λx.Ø"
+0	14	"data/c007.txt"	"0t4"	""	"Cn34f0t4"	0	"λx.Ø"
+0	15	"data/c007.txt"	"31:Qg"	""	"Cn34f31:Qg"	0	"λx.Ø"
+0	16	"data/c007.txt"	"]:Z"	""	"Cn34f]:Z"	0	"λx.Ø"
+0	17	"data/c007.txt"	"6"	""	"Cn34f6"	0	"λx.Ø"
+0	18	"data/c007.txt"	"YX026"	""	"Cn34fYX026"	0	"λx.Ø"
+0	19	"data/c007.txt"	"@"	""	"Cn34f@"	0	"λx.Ø"
+1	0	"data/c007.txt"	"E59"	"E59"	"Cn34fE59"	0	"λx.x"
+1	1	"data/c007.txt"	"02_X"	""	"Cn34f02_X"	0	"λx.Ø"
+1	2	"data/c007.txt"	"4"	""	"Cn34f4"	0	"λx.Ø"
+1	3	"data/c007.txt"	"181I"	""	"Cn34f181I"	0	"λx.Ø"
+1	4	"data/c007.txt"	"0t4"	""	"Cn34f0t4"	0	"λx.Ø"
+1	5	"data/c007.txt"	"93:"	""	"Cn34f93:"	0	"λx.Ø"
+1	6	"data/c007.txt"	"U855"	""	"Cn34fU855"	0	"λx.Ø"
+1	7	"data/c007.txt"	"5V"	""	"Cn34f5V"	0	"λx.Ø"
+1	8	"data/c007.txt"	"7vl"	""	"Cn34f7vl"	0	"λx.Ø"
+1	9	"data/c007.txt"	"3A5tD"	""	"Cn34f3A5tD"	0	"λx.Ø"
+1	10	"data/c007.txt"	"t:66"	""	"Cn34ft:66"	0	"λx.Ø"
+1	11	"data/c007.txt"	"hA7>5"	""	"Cn34fhA7>5"	0	"λx.Ø"
+1	12	"data/c007.txt"	"E59"	""	"Cn34fE59"	0	"λx.Ø"
+1	13	"data/c007.txt"	":"	""	"Cn34f:"	0	"λx.Ø"
+1	14	"data/c007.txt"	"@C:"	""	"Cn34f@C:"	0	"λx.Ø"
+1	15	"data/c007.txt"	"0S@7"	""	"Cn34f0S@7"	0	"λx.Ø"
+1	16	"data/c007.txt"	"6:]9:"	""	"Cn34f6:]9:"	0	"λx.Ø"
+1	17	"data/c007.txt"	"U855"	""	"Cn34fU855"	0	"λx.Ø"
+1	18	"data/c007.txt"	":"	""	"Cn34f:"	0	"λx.Ø"
+1	19	"data/c007.txt"	"31:Qg"	""	"Cn34f31:Qg"	0	"λx.Ø"
+2	0	"data/c007.txt"	"3"	"3"	"Cn34f3"	0	"λx.x"
+2	1	"data/c007.txt"	"70"	""	"Cn34f70"	0	"λx.Ø"
+2	2	"data/c007.txt"	"6@"	""	"Cn34f6@"	0	"λx.Ø"
+2	3	"data/c007.txt"	"hL4n5"	""	"Cn34fhL4n5"	0	"λx.Ø"
+2	4	"data/c007.txt"	"t:66"	""	"Cn34ft:66"	0	"λx.Ø"
+2	5	"data/c007.txt"	""	""	"Cn34f"	0	"λx.Ø"
+2	6	"data/c007.txt"	"6@"	""	"Cn34f6@"	0	"λx.Ø"
+2	7	"data/c007.txt"	""	""	"Cn34f"	0	"λx.Ø"
+2	8	"data/c007.txt"	"5V"	""	"Cn34f5V"	0	"λx.Ø"
+2	9	"data/c007.txt"	"eh70"	""	"Cn34feh70"	0	"λx.Ø"
+2	10	"data/c007.txt"	"YX026"	""	"Cn34fYX026"	0	"λx.Ø"
+2	11	"data/c007.txt"	":"	""	"Cn34f:"	0	"λx.Ø"
+2	12	"data/c007.txt"	"480u"	""	"Cn34f480u"	0	"λx.Ø"
+2	13	"data/c007.txt"	"7:1"	""	"Cn34f7:1"	0	"λx.Ø"
+2	14	"data/c007.txt"	"3"	""	"Cn34f3"	0	"λx.Ø"
+2	15	"data/c007.txt"	"8E5"	""	"Cn34f8E5"	0	"λx.Ø"
+2	16	"data/c007.txt"	"5"	""	"Cn34f5"	0	"λx.Ø"
+2	17	"data/c007.txt"	"eh70"	""	"Cn34feh70"	0	"λx.Ø"
+2	18	"data/c007.txt"	"YX026"	""	"Cn34fYX026"	0	"λx.Ø"
+2	19	"data/c007.txt"	"0>6"	""	"Cn34f0>6"	0	"λx.Ø"
+3	0	"data/c007.txt"	"5"	"5"	"Cn34f5"	0	"λx.x"
+3	1	"data/c007.txt"	"6@"	""	"Cn34f6@"	0	"λx.Ø"
+3	2	"data/c007.txt"	"368"	""	"Cn34f368"	0	"λx.Ø"
+3	3	"data/c007.txt"	"]:Z"	""	"Cn34f]:Z"	0	"λx.Ø"
+3	4	"data/c007.txt"	"368"	""	"Cn34f368"	0	"λx.Ø"
+3	5	"data/c007.txt"	"181I"	""	"Cn34f181I"	0	"λx.Ø"
+3	6	"data/c007.txt"	"5394:"	""	"Cn34f5394:"	0	"λx.Ø"
+3	7	"data/c007.txt"	"0>6"	""	"Cn34f0>6"	0	"λx.Ø"
+3	8	"data/c007.txt"	"hA7>5"	""	"Cn34fhA7>5"	0	"λx.Ø"
+3	9	"data/c007.txt"	"7>"	""	"Cn34f7>"	0	"λx.Ø"
+3	10	"data/c007.txt"	"47`"	""	"Cn34f47`"	0	"λx.Ø"
+3	11	"data/c007.txt"	"181I"	""	"Cn34f181I"	0	"λx.Ø"
+3	12	"data/c007.txt"	"E59"	""	"Cn34fE59"	0	"λx.Ø"
+3	13	"data/c007.txt"	"t:66"	""	"Cn34ft:66"	0	"λx.Ø"
+3	14	"data/c007.txt"	"hL4n5"	""	"Cn34fhL4n5"	0	"λx.Ø"
+3	15	"data/c007.txt"	"181I"	""	"Cn34f181I"	0	"λx.Ø"
+3	16	"data/c007.txt"	"93:"	""	"Cn34f93:"	0	"λx.Ø"
+3	17	"data/c007.txt"	":5c"	""	"Cn34f:5c"	0	"λx.Ø"
+3	18	"data/c007.txt"	"p"	""	"Cn34fp"	0	"λx.Ø"
+3	19	"data/c007.txt"	"p68D"	""	"Cn34fp68D"	0	"λx.Ø"
+4	0	"data/c007.txt"	"480u"	"480u"	"Cn34f480u"	0	"λx.x"
+4	1	"data/c007.txt"	"0>6"	""	"Cn34f0>6"	0	"λx.Ø"
+4	2	"data/c007.txt"	"0>6"	""	"Cn34f0>6"	0	"λx.Ø"
+4	3	"data/c007.txt"	"368"	""	"Cn34f368"	0	"λx.Ø"
+4	4	"data/c007.txt"	"4"	""	"Cn34f4"	0	"λx.Ø"
+4	5	"data/c007.txt"	"7:1"	""	"Cn34f7:1"	0	"λx.Ø"
+4	6	"data/c007.txt"	"8E5"	""	"Cn34f8E5"	0	"λx.Ø"
+4	7	"data/c007.txt"	"52"	""	"Cn34f52"	0	"λx.Ø"
+4	8	"data/c007.txt"	"hA7>5"	""	"Cn34fhA7>5"	0	"λx.Ø"
+4	9	"data/c007.txt"	"8E5"	""	"Cn34f8E5"	0	"λx.Ø"
+4	10	"data/c007.txt"	"Y265"	""	"Cn34fY265"	0	"λx.Ø"
+4	11	"data/c007.txt"	"]:Z"	""	"Cn34f]:Z"	0	"λx.Ø"
+4	12	"data/c007.txt"	"4mV"	""	"Cn34f4mV"	0	"λx.Ø"
+4	13	"data/c007.txt"	"368"	""	"Cn34f368"	0	"λx.Ø"
+4	14	"data/c007.txt"	"0t4"	""	"Cn34f0t4"	0	"λx.Ø"
+4	15	"data/c007.txt"	"93:"	""	"Cn34f93:"	0	"λx.Ø"
+4	16	"data/c007.txt"	"368"	""	"Cn34f368"	0	"λx.Ø"
+4	17	"data/c007.txt"	"0>6"	""	"Cn34f0>6"	0	"λx.Ø"
+4	18	"data/c007.txt"	"p"	""	"Cn34fp"	0	"λx.Ø"
+4	19	"data/c007.txt"	"52"	""	"Cn34f52"	0	"λx.Ø"
+5	0	"data/c007.txt"	"52"	"52"	"Cn34f52"	0	"λx.x"
+5	1	"data/c007.txt"	"E59"	""	"Cn34fE59"	0	"λx.Ø"
+5	2	"data/c007.txt"	"6:]9:"	""	"Cn34f6:]9:"	0	"λx.Ø"
+5	3	"data/c007.txt"	"5V"	""	"Cn34f5V"	0	"λx.Ø"
+5	4	"data/c007.txt"	"d:51"	""	"Cn34fd:51"	0	"λx.Ø"
+5	5	"data/c007.txt"	"0t4"	""	"Cn34f0t4"	0	"λx.Ø"
+5	6	"data/c007.txt"	"@"	""	"Cn34f@"	0	"λx.Ø"
+5	7	"data/c007.txt"	"p"	""	"Cn34fp"	0	"λx.Ø"
+5	8	"data/c007.txt"	"hA7>5"	""	"Cn34fhA7>5"	0	"λx.Ø"
+5	9	"data/c007.txt"	"E59"	""	"Cn34fE59"	0	"λx.Ø"
+5	10	"data/c007.txt"	"ek"	""	"Cn34fek"	0	"λx.Ø"
+5	11	"data/c007.txt"	"47`"	""	"Cn34f47`"	0	"λx.Ø"
+5	12	"data/c007.txt"	"hA7>5"	""	"Cn34fhA7>5"	0	"λx.Ø"
+5	13	"data/c007.txt"	"02_X"	""	"Cn34f02_X"	0	"λx.Ø"
+5	14	"data/c007.txt"	"6:]9:"	""	"Cn34f6:]9:"	0	"λx.Ø"
+5	15	"data/c007.txt"	"Y265"	""	"Cn34fY265"	0	"λx.Ø"
+5	16	"data/c007.txt"	"eh70"	""	"Cn34feh70"	0	"λx.Ø"
+5	17	"data/c007.txt"	"hL4n5"	""	"Cn34fhL4n5"	0	"λx.Ø"
+5	18	"data/c007.txt"	"8E5"	""	"Cn34f8E5"	0	"λx.Ø"
+5	19	"data/c007.txt"	"5394:"	""	"Cn34f5394:"	0	"λx.Ø"
+6	0	"data/c007.txt"	"70"	"70"	"Cn34f70"	0	"λx.x"
+6	1	"data/c007.txt"	"2Ox2"	""	"Cn34f2Ox2"	0	"λx.Ø"
+6	2	"data/c007.txt"	"93:"	""	"Cn34f93:"	0	"λx.Ø"
+6	3	"data/c007.txt"	"]:Z"	""	"Cn34f]:Z"	0	"λx.Ø"
+6	4	"data/c007.txt"	"7vl"	""	"Cn34f7vl"	0	"λx.Ø"
+6	5	"data/c007.txt"	"x9gS6"	""	"Cn34fx9gS6"	0	"λx.Ø"
+6	6	"data/c007.txt"	"p68D"	""	"Cn34fp68D"	0	"λx.Ø"
+6	7	"data/c007.txt"	"5394:"	""	"Cn34f5394:"	0	"λx.Ø"
+6	8	"data/c007.txt"	"hL4n5"	""	"Cn34fhL4n5"	0	"λx.Ø"
+6	9	"data/c007.txt"	"p"	""	"Cn34fp"	0	"λx.Ø"
+6	10	"data/c007.txt"	"02_X"	""	"Cn34f02_X"	0	"λx.Ø"
+6	11	"data/c007.txt"	"3"	""	"Cn34f3"	0	"λx.Ø"
+6	12	"data/c007.txt"	"93:"	""	"Cn34f93:"	0	"λx.Ø"
+6	13	"data/c007.txt"	"0>6"	""	"Cn34f0>6"	0	"λx.Ø"
+6	14	"data/c007.txt"	"hA7>5"	""	"Cn34fhA7>5"	0	"λx.Ø"
+6	15	"data/c007.txt"	"8E5"	""	"Cn34f8E5"	0	"λx.Ø"
+6	16	"data/c007.txt"	"0S@7"	""	"Cn34f0S@7"	0	"λx.Ø"
+6	17	"data/c007.txt"	"4mV"	""	"Cn34f4mV"	0	"λx.Ø"
+6	18	"data/c007.txt"	"6"	""	"Cn34f6"	0	"λx.Ø"
+6	19	"data/c007.txt"	":"	""	"Cn34f:"	0	"λx.Ø"
+7	0	"data/c007.txt"	"4"	"4"	"Cn34f4"	0	"λx.x"
+7	1	"data/c007.txt"	"\"	""	"Cn34f\"	0	"λx.Ø"
+7	2	"data/c007.txt"	"r1;GA"	""	"Cn34fr1;GA"	0	"λx.Ø"
+7	3	"data/c007.txt"	"480u"	""	"Cn34f480u"	0	"λx.Ø"
+7	4	"data/c007.txt"	"181I"	""	"Cn34f181I"	0	"λx.Ø"
+7	5	"data/c007.txt"	"70"	""	"Cn34f70"	0	"λx.Ø"
+7	6	"data/c007.txt"	"52"	""	"Cn34f52"	0	"λx.Ø"
+7	7	"data/c007.txt"	"p"	""	"Cn34fp"	0	"λx.Ø"
+7	8	"data/c007.txt"	"eh70"	""	"Cn34feh70"	0	"λx.Ø"
+7	9	"data/c007.txt"	"t:66"	""	"Cn34ft:66"	0	"λx.Ø"
+7	10	"data/c007.txt"	""	""	"Cn34f"	0	"λx.Ø"
+7	11	"data/c007.txt"	"d:51"	""	"Cn34fd:51"	0	"λx.Ø"
+7	12	"data/c007.txt"	"x9gS6"	""	"Cn34fx9gS6"	0	"λx.Ø"
+7	13	"data/c007.txt"	"hL4n5"	""	"Cn34fhL4n5"	0	"λx.Ø"
+7	14	"data/c007.txt"	"eh70"	""	"Cn34feh70"	0	"λx.Ø"
+7	15	"data/c007.txt"	"x9gS6"	""	"Cn34fx9gS6"	0	"λx.Ø"
+7	16	"data/c007.txt"	"31:Qg"	""	"Cn34f31:Qg"	0	"λx.Ø"
+7	17	"data/c007.txt"	"9Y5:9"	""	"Cn34f9Y5:9"	0	"λx.Ø"
+7	18	"data/c007.txt"	"@"	""	"Cn34f@"	0	"λx.Ø"
+7	19	"data/c007.txt"	"0>6"	""	"Cn34f0>6"	0	"λx.Ø"
+8	0	"data/c007.txt"	"E59"	"E59"	"Cn34fE59"	0	"λx.x"
+8	1	"data/c007.txt"	"0t4"	""	"Cn34f0t4"	0	"λx.Ø"
+8	2	"data/c007.txt"	"p68D"	""	"Cn34fp68D"	0	"λx.Ø"
+8	3	"data/c007.txt"	""	""	"Cn34f"	0	"λx.Ø"
+8	4	"data/c007.txt"	"7vl"	""	"Cn34f7vl"	0	"λx.Ø"
+8	5	"data/c007.txt"	"5"	""	"Cn34f5"	0	"λx.Ø"
+8	6	"data/c007.txt"	"181I"	""	"Cn34f181I"	0	"λx.Ø"
+8	7	"data/c007.txt"	"hL4n5"	""	"Cn34fhL4n5"	0	"λx.Ø"
+8	8	"data/c007.txt"	"7>"	""	"Cn34f7>"	0	"λx.Ø"
+8	9	"data/c007.txt"	"3"	""	"Cn34f3"	0	"λx.Ø"
+8	10	"data/c007.txt"	"p68D"	""	"Cn34fp68D"	0	"λx.Ø"
+8	11	"data/c007.txt"	"eh70"	""	"Cn34feh70"	0	"λx.Ø"
+8	12	"data/c007.txt"	"hA7>5"	""	"Cn34fhA7>5"	0	"λx.Ø"
+8	13	"data/c007.txt"	"d:51"	""	"Cn34fd:51"	0	"λx.Ø"
+8	14	"data/c007.txt"	"52"	""	"Cn34f52"	0	"λx.Ø"
+8	15	"data/c007.txt"	"7:1"	""	"Cn34f7:1"	0	"λx.Ø"
+8	16	"data/c007.txt"	"3"	""	"Cn34f3"	0	"λx.Ø"
+8	17	"data/c007.txt"	"181I"	""	"Cn34f181I"	0	"λx.Ø"
+8	18	"data/c007.txt"	"0>6"	""	"Cn34f0>6"	0	"λx.Ø"
+8	19	"data/c007.txt"	"5"	""	"Cn34f5"	0	"λx.Ø"
+9	0	"data/c007.txt"	"2Ox2"	"2Ox2"	"Cn34f2Ox2"	0	"λx.x"
+9	1	"data/c007.txt"	"52"	""	"Cn34f52"	0	"λx.Ø"
+9	2	"data/c007.txt"	"0t4"	""	"Cn34f0t4"	0	"λx.Ø"
+9	3	"data/c007.txt"	"480u"	""	"Cn34f480u"	0	"λx.Ø"
+9	4	"data/c007.txt"	"p"	""	"Cn34fp"	0	"λx.Ø"
+9	5	"data/c007.txt"	"0>6"	""	"Cn34f0>6"	0	"λx.Ø"
+9	6	"data/c007.txt"	"YX026"	""	"Cn34fYX026"	0	"λx.Ø"
+9	7	"data/c007.txt"	"r1;GA"	""	"Cn34fr1;GA"	0	"λx.Ø"
+9	8	"data/c007.txt"	""	""	"Cn34f"	0	"λx.Ø"
+9	9	"data/c007.txt"	"93:"	""	"Cn34f93:"	0	"λx.Ø"
+9	10	"data/c007.txt"	"Y265"	""	"Cn34fY265"	0	"λx.Ø"
+9	11	"data/c007.txt"	"47`"	""	"Cn34f47`"	0	"λx.Ø"
+9	12	"data/c007.txt"	"7:1"	""	"Cn34f7:1"	0	"λx.Ø"
+9	13	"data/c007.txt"	"181I"	""	"Cn34f181I"	0	"λx.Ø"
+9	14	"data/c007.txt"	"0>6"	""	"Cn34f0>6"	0	"λx.Ø"
+9	15	"data/c007.txt"	"3"	""	"Cn34f3"	0	"λx.Ø"
+9	16	"data/c007.txt"	"6"	""	"Cn34f6"	0	"λx.Ø"
+9	17	"data/c007.txt"	"5394:"	""	"Cn34f5394:"	0	"λx.Ø"
+9	18	"data/c007.txt"	"YX026"	""	"Cn34fYX026"	0	"λx.Ø"
+9	19	"data/c007.txt"	"0iQl5"	""	"Cn34f0iQl5"	0	"λx.Ø"
+# Global sample count:	889344717
+# Elapsed time:	12086.9 seconds 
+# Samples per second:	73579.4
+# VM ops per second:	1.49625e+07

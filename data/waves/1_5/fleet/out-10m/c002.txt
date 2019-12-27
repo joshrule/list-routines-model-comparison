@@ -1,0 +1,268 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=7871 by user piantado at Wed Dec  4 16:34:46 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: 2fb1c47ee31e2c3b1aaf2768a7d98678  /proc/7871/exe
+# 	 --input=data/c002.txt
+# 	 --threads=2
+# 	 --chains=4
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=10m (600 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data zB40C9OI49 -> @I
+# using data 24 -> @I
+# using data 4N8J<R0Sp -> @I
+# using data 0h85Q0X9 -> @I
+# using data 424190 -> @I
+# using data 3BT;2{ -> @I
+# using data 9^u?K347w8 -> @I
+# using data 14< -> @I
+# using data r20h70572 -> @I
+# using data 5d81 -> @I
+# using data K8d1e5n -> @I
+# using data 36B -> @I
+# using data 7{7 -> @I
+# using data 8579R=q2D -> @I
+# using data 1 -> @I
+# using data 053 -> @I
+# using data 6278 -> @I
+# using data V4DE8e4CA -> @I
+# using data  -> @I
+# using data 7J64:089 -> @I
+# using data 769r3=9Q;X -> @I
+# using data 50 -> @I
+# using data I8L8:00`4 -> @I
+# using data AA3=t475:7 -> @I
+# using data 1B0q5P5:60 -> @I
+# using data Hu5 -> @I
+# using data ::<h4 -> @I
+# using data 253D7SP0> -> @I
+# using data 7912 -> @I
+# using data 7D7 -> @I
+# using data 2;4 -> @I
+# using data 99 -> @I
+# using data 432 -> @I
+# using data p]4FC61?C -> @I
+# using data 3 -> @I
+# using data K6_ -> @I
+# using data 170{32 -> @I
+# using data >370 -> @I
+# using data ;wV;2 -> @I
+# using data 1aS0 -> @I
+# using data U169:465;: -> @I
+# using data q696OC2>93 -> @I
+# using data 0@z2N -> @I
+# using data 6HI6f -> @I
+# using data 2545D{7 -> @I
+# using data 33E1< -> @I
+# using data |8y\8 -> @I
+# using data | -> @I
+# using data 8 -> @I
+# using data :9R13\N -> @I
+i_run	i_N	concept	input	output	correct.output	correct	hypothesis
+0	0	"data/c002.txt"	"1aS0"	"1aS0"	"@I"	0	"λx.x"
+0	1	"data/c002.txt"	"K6_"	""	"@I"	0	"λx.Ø"
+0	2	"data/c002.txt"	"1"	""	"@I"	0	"λx.Ø"
+0	3	"data/c002.txt"	"::<h4"	""	"@I"	0	"λx.Ø"
+0	4	"data/c002.txt"	"1B0q5P5:60"	""	"@I"	0	"λx.Ø"
+0	5	"data/c002.txt"	"33E1<"	""	"@I"	0	"λx.Ø"
+0	6	"data/c002.txt"	"7{7"	""	"@I"	0	"λx.Ø"
+0	7	"data/c002.txt"	"4N8J<R0Sp"	""	"@I"	0	"λx.Ø"
+0	8	"data/c002.txt"	"p]4FC61?C"	""	"@I"	0	"λx.Ø"
+0	9	"data/c002.txt"	"1B0q5P5:60"	""	"@I"	0	"λx.Ø"
+0	10	"data/c002.txt"	"0@z2N"	""	"@I"	0	"λx.Ø"
+0	11	"data/c002.txt"	"1"	""	"@I"	0	"λx.Ø"
+0	12	"data/c002.txt"	"7J64:089"	""	"@I"	0	"λx.Ø"
+0	13	"data/c002.txt"	"6HI6f"	""	"@I"	0	"λx.Ø"
+0	14	"data/c002.txt"	"14<"	""	"@I"	0	"λx.Ø"
+0	15	"data/c002.txt"	"3BT;2{"	""	"@I"	0	"λx.Ø"
+0	16	"data/c002.txt"	"::<h4"	""	"@I"	0	"λx.Ø"
+0	17	"data/c002.txt"	"p]4FC61?C"	""	"@I"	0	"λx.Ø"
+0	18	"data/c002.txt"	"253D7SP0>"	""	"@I"	0	"λx.Ø"
+0	19	"data/c002.txt"	"6278"	""	"@I"	0	"λx.Ø"
+1	0	"data/c002.txt"	"432"	"432"	"@I"	0	"λx.x"
+1	1	"data/c002.txt"	"7D7"	""	"@I"	0	"λx.Ø"
+1	2	"data/c002.txt"	"7D7"	""	"@I"	0	"λx.Ø"
+1	3	"data/c002.txt"	"::<h4"	""	"@I"	0	"λx.Ø"
+1	4	"data/c002.txt"	"6278"	""	"@I"	0	"λx.Ø"
+1	5	"data/c002.txt"	"2;4"	""	"@I"	0	"λx.Ø"
+1	6	"data/c002.txt"	"1B0q5P5:60"	""	"@I"	0	"λx.Ø"
+1	7	"data/c002.txt"	"::<h4"	""	"@I"	0	"λx.Ø"
+1	8	"data/c002.txt"	"3"	""	"@I"	0	"λx.Ø"
+1	9	"data/c002.txt"	">370"	""	"@I"	0	"λx.Ø"
+1	10	"data/c002.txt"	"7J64:089"	""	"@I"	0	"λx.Ø"
+1	11	"data/c002.txt"	"170{32"	""	"@I"	0	"λx.Ø"
+1	12	"data/c002.txt"	"7D7"	""	"@I"	0	"λx.Ø"
+1	13	"data/c002.txt"	"r20h70572"	""	"@I"	0	"λx.Ø"
+1	14	"data/c002.txt"	""	""	"@I"	0	"λx.Ø"
+1	15	"data/c002.txt"	"4N8J<R0Sp"	""	"@I"	0	"λx.Ø"
+1	16	"data/c002.txt"	""	""	"@I"	0	"λx.Ø"
+1	17	"data/c002.txt"	"|8y\8"	""	"@I"	0	"λx.Ø"
+1	18	"data/c002.txt"	"U169:465;:"	""	"@I"	0	"λx.Ø"
+1	19	"data/c002.txt"	"6HI6f"	""	"@I"	0	"λx.Ø"
+2	0	"data/c002.txt"	"769r3=9Q;X"	"769r3=9Q;X"	"@I"	0	"λx.x"
+2	1	"data/c002.txt"	"3BT;2{"	""	"@I"	0	"λx.Ø"
+2	2	"data/c002.txt"	"99"	""	"@I"	0	"λx.Ø"
+2	3	"data/c002.txt"	"5d81"	""	"@I"	0	"λx.Ø"
+2	4	"data/c002.txt"	"424190"	""	"@I"	0	"λx.Ø"
+2	5	"data/c002.txt"	"r20h70572"	""	"@I"	0	"λx.Ø"
+2	6	"data/c002.txt"	"24"	""	"@I"	0	"λx.Ø"
+2	7	"data/c002.txt"	":9R13\N"	""	"@I"	0	"λx.Ø"
+2	8	"data/c002.txt"	"U169:465;:"	""	"@I"	0	"λx.Ø"
+2	9	"data/c002.txt"	"36B"	""	"@I"	0	"λx.Ø"
+2	10	"data/c002.txt"	";wV;2"	""	"@I"	0	"λx.Ø"
+2	11	"data/c002.txt"	"5d81"	""	"@I"	0	"λx.Ø"
+2	12	"data/c002.txt"	"6278"	""	"@I"	0	"λx.Ø"
+2	13	"data/c002.txt"	"424190"	""	"@I"	0	"λx.Ø"
+2	14	"data/c002.txt"	"36B"	""	"@I"	0	"λx.Ø"
+2	15	"data/c002.txt"	"Hu5"	""	"@I"	0	"λx.Ø"
+2	16	"data/c002.txt"	"5d81"	""	"@I"	0	"λx.Ø"
+2	17	"data/c002.txt"	"1aS0"	""	"@I"	0	"λx.Ø"
+2	18	"data/c002.txt"	"24"	""	"@I"	0	"λx.Ø"
+2	19	"data/c002.txt"	"7D7"	""	"@I"	0	"λx.Ø"
+3	0	"data/c002.txt"	"K6_"	"K6_"	"@I"	0	"λx.x"
+3	1	"data/c002.txt"	"8579R=q2D"	""	"@I"	0	"λx.Ø"
+3	2	"data/c002.txt"	"K6_"	""	"@I"	0	"λx.Ø"
+3	3	"data/c002.txt"	"170{32"	""	"@I"	0	"λx.Ø"
+3	4	"data/c002.txt"	">370"	""	"@I"	0	"λx.Ø"
+3	5	"data/c002.txt"	"2545D{7"	""	"@I"	0	"λx.Ø"
+3	6	"data/c002.txt"	"7D7"	""	"@I"	0	"λx.Ø"
+3	7	"data/c002.txt"	""	""	"@I"	0	"λx.Ø"
+3	8	"data/c002.txt"	"053"	""	"@I"	0	"λx.Ø"
+3	9	"data/c002.txt"	"zB40C9OI49"	""	"@I"	0	"λx.Ø"
+3	10	"data/c002.txt"	"2545D{7"	""	"@I"	0	"λx.Ø"
+3	11	"data/c002.txt"	"p]4FC61?C"	""	"@I"	0	"λx.Ø"
+3	12	"data/c002.txt"	"I8L8:00`4"	""	"@I"	0	"λx.Ø"
+3	13	"data/c002.txt"	"9^u?K347w8"	""	"@I"	0	"λx.Ø"
+3	14	"data/c002.txt"	"0h85Q0X9"	""	"@I"	0	"λx.Ø"
+3	15	"data/c002.txt"	"7912"	""	"@I"	0	"λx.Ø"
+3	16	"data/c002.txt"	"7912"	""	"@I"	0	"λx.Ø"
+3	17	"data/c002.txt"	"|8y\8"	""	"@I"	0	"λx.Ø"
+3	18	"data/c002.txt"	"170{32"	""	"@I"	0	"λx.Ø"
+3	19	"data/c002.txt"	"50"	""	"@I"	0	"λx.Ø"
+4	0	"data/c002.txt"	"8"	"8"	"@I"	0	"λx.x"
+4	1	"data/c002.txt"	"7{7"	""	"@I"	0	"λx.Ø"
+4	2	"data/c002.txt"	":9R13\N"	""	"@I"	0	"λx.Ø"
+4	3	"data/c002.txt"	"769r3=9Q;X"	""	"@I"	0	"λx.Ø"
+4	4	"data/c002.txt"	"2;4"	""	"@I"	0	"λx.Ø"
+4	5	"data/c002.txt"	"5d81"	""	"@I"	0	"λx.Ø"
+4	6	"data/c002.txt"	"7J64:089"	""	"@I"	0	"λx.Ø"
+4	7	"data/c002.txt"	"0h85Q0X9"	""	"@I"	0	"λx.Ø"
+4	8	"data/c002.txt"	"5d81"	""	"@I"	0	"λx.Ø"
+4	9	"data/c002.txt"	"7{7"	""	"@I"	0	"λx.Ø"
+4	10	"data/c002.txt"	"3"	""	"@I"	0	"λx.Ø"
+4	11	"data/c002.txt"	"1aS0"	""	"@I"	0	"λx.Ø"
+4	12	"data/c002.txt"	">370"	""	"@I"	0	"λx.Ø"
+4	13	"data/c002.txt"	"432"	""	"@I"	0	"λx.Ø"
+4	14	"data/c002.txt"	"432"	""	"@I"	0	"λx.Ø"
+4	15	"data/c002.txt"	"2545D{7"	""	"@I"	0	"λx.Ø"
+4	16	"data/c002.txt"	""	""	"@I"	0	"λx.Ø"
+4	17	"data/c002.txt"	"7J64:089"	""	"@I"	0	"λx.Ø"
+4	18	"data/c002.txt"	"24"	""	"@I"	0	"λx.Ø"
+4	19	"data/c002.txt"	"|"	""	"@I"	0	"λx.Ø"
+5	0	"data/c002.txt"	":9R13\N"	":9R13\N"	"@I"	0	"λx.x"
+5	1	"data/c002.txt"	"253D7SP0>"	""	"@I"	0	"λx.Ø"
+5	2	"data/c002.txt"	";wV;2"	""	"@I"	0	"λx.Ø"
+5	3	"data/c002.txt"	"3BT;2{"	""	"@I"	0	"λx.Ø"
+5	4	"data/c002.txt"	"2;4"	""	"@I"	0	"λx.Ø"
+5	5	"data/c002.txt"	"zB40C9OI49"	""	"@I"	0	"λx.Ø"
+5	6	"data/c002.txt"	"769r3=9Q;X"	""	"@I"	0	"λx.Ø"
+5	7	"data/c002.txt"	"33E1<"	""	"@I"	0	"λx.Ø"
+5	8	"data/c002.txt"	"zB40C9OI49"	""	"@I"	0	"λx.Ø"
+5	9	"data/c002.txt"	"2545D{7"	""	"@I"	0	"λx.Ø"
+5	10	"data/c002.txt"	"36B"	""	"@I"	0	"λx.Ø"
+5	11	"data/c002.txt"	"24"	""	"@I"	0	"λx.Ø"
+5	12	"data/c002.txt"	"253D7SP0>"	""	"@I"	0	"λx.Ø"
+5	13	"data/c002.txt"	"424190"	""	"@I"	0	"λx.Ø"
+5	14	"data/c002.txt"	"50"	""	"@I"	0	"λx.Ø"
+5	15	"data/c002.txt"	"2545D{7"	""	"@I"	0	"λx.Ø"
+5	16	"data/c002.txt"	">370"	""	"@I"	0	"λx.Ø"
+5	17	"data/c002.txt"	"50"	""	"@I"	0	"λx.Ø"
+5	18	"data/c002.txt"	"36B"	""	"@I"	0	"λx.Ø"
+5	19	"data/c002.txt"	"7J64:089"	""	"@I"	0	"λx.Ø"
+6	0	"data/c002.txt"	"zB40C9OI49"	"zB40C9OI49"	"@I"	0	"λx.x"
+6	1	"data/c002.txt"	"0@z2N"	""	"@I"	0	"λx.Ø"
+6	2	"data/c002.txt"	"36B"	""	"@I"	0	"λx.Ø"
+6	3	"data/c002.txt"	"V4DE8e4CA"	""	"@I"	0	"λx.Ø"
+6	4	"data/c002.txt"	"1B0q5P5:60"	""	"@I"	0	"λx.Ø"
+6	5	"data/c002.txt"	"4N8J<R0Sp"	""	"@I"	0	"λx.Ø"
+6	6	"data/c002.txt"	"170{32"	""	"@I"	0	"λx.Ø"
+6	7	"data/c002.txt"	"253D7SP0>"	""	"@I"	0	"λx.Ø"
+6	8	"data/c002.txt"	"Hu5"	""	"@I"	0	"λx.Ø"
+6	9	"data/c002.txt"	"K6_"	""	"@I"	0	"λx.Ø"
+6	10	"data/c002.txt"	"K6_"	""	"@I"	0	"λx.Ø"
+6	11	"data/c002.txt"	"Hu5"	""	"@I"	0	"λx.Ø"
+6	12	"data/c002.txt"	"170{32"	""	"@I"	0	"λx.Ø"
+6	13	"data/c002.txt"	"424190"	""	"@I"	0	"λx.Ø"
+6	14	"data/c002.txt"	"36B"	""	"@I"	0	"λx.Ø"
+6	15	"data/c002.txt"	"6HI6f"	""	"@I"	0	"λx.Ø"
+6	16	"data/c002.txt"	"q696OC2>93"	""	"@I"	0	"λx.Ø"
+6	17	"data/c002.txt"	"36B"	""	"@I"	0	"λx.Ø"
+6	18	"data/c002.txt"	"7912"	""	"@I"	0	"λx.Ø"
+6	19	"data/c002.txt"	"0h85Q0X9"	""	"@I"	0	"λx.Ø"
+7	0	"data/c002.txt"	"0@z2N"	"0@z2N"	"@I"	0	"λx.x"
+7	1	"data/c002.txt"	"r20h70572"	""	"@I"	0	"λx.Ø"
+7	2	"data/c002.txt"	""	""	"@I"	0	"λx.Ø"
+7	3	"data/c002.txt"	"I8L8:00`4"	""	"@I"	0	"λx.Ø"
+7	4	"data/c002.txt"	";wV;2"	""	"@I"	0	"λx.Ø"
+7	5	"data/c002.txt"	"q696OC2>93"	""	"@I"	0	"λx.Ø"
+7	6	"data/c002.txt"	"q696OC2>93"	""	"@I"	0	"λx.Ø"
+7	7	"data/c002.txt"	"0@z2N"	""	"@I"	0	"λx.Ø"
+7	8	"data/c002.txt"	"V4DE8e4CA"	""	"@I"	0	"λx.Ø"
+7	9	"data/c002.txt"	"99"	""	"@I"	0	"λx.Ø"
+7	10	"data/c002.txt"	"33E1<"	""	"@I"	0	"λx.Ø"
+7	11	"data/c002.txt"	"7{7"	""	"@I"	0	"λx.Ø"
+7	12	"data/c002.txt"	"170{32"	""	"@I"	0	"λx.Ø"
+7	13	"data/c002.txt"	"170{32"	""	"@I"	0	"λx.Ø"
+7	14	"data/c002.txt"	"24"	""	"@I"	0	"λx.Ø"
+7	15	"data/c002.txt"	"170{32"	""	"@I"	0	"λx.Ø"
+7	16	"data/c002.txt"	"6HI6f"	""	"@I"	0	"λx.Ø"
+7	17	"data/c002.txt"	"14<"	""	"@I"	0	"λx.Ø"
+7	18	"data/c002.txt"	"4N8J<R0Sp"	""	"@I"	0	"λx.Ø"
+7	19	"data/c002.txt"	"0h85Q0X9"	""	"@I"	0	"λx.Ø"
+8	0	"data/c002.txt"	""	""	"@I"	0	"λx.x"
+8	1	"data/c002.txt"	"5d81"	"5d81"	"@I"	0	"λx.x"
+8	2	"data/c002.txt"	"432"	""	"@I"	0	"λx.Ø"
+8	3	"data/c002.txt"	"K8d1e5n"	""	"@I"	0	"λx.Ø"
+8	4	"data/c002.txt"	"I8L8:00`4"	""	"@I"	0	"λx.Ø"
+8	5	"data/c002.txt"	"K8d1e5n"	""	"@I"	0	"λx.Ø"
+8	6	"data/c002.txt"	"99"	""	"@I"	0	"λx.Ø"
+8	7	"data/c002.txt"	"K8d1e5n"	""	"@I"	0	"λx.Ø"
+8	8	"data/c002.txt"	"9^u?K347w8"	""	"@I"	0	"λx.Ø"
+8	9	"data/c002.txt"	"36B"	""	"@I"	0	"λx.Ø"
+8	10	"data/c002.txt"	"3BT;2{"	""	"@I"	0	"λx.Ø"
+8	11	"data/c002.txt"	"7912"	""	"@I"	0	"λx.Ø"
+8	12	"data/c002.txt"	"7D7"	""	"@I"	0	"λx.Ø"
+8	13	"data/c002.txt"	"r20h70572"	""	"@I"	0	"λx.Ø"
+8	14	"data/c002.txt"	"0@z2N"	""	"@I"	0	"λx.Ø"
+8	15	"data/c002.txt"	":9R13\N"	""	"@I"	0	"λx.Ø"
+8	16	"data/c002.txt"	"3BT;2{"	""	"@I"	0	"λx.Ø"
+8	17	"data/c002.txt"	"9^u?K347w8"	""	"@I"	0	"λx.Ø"
+8	18	"data/c002.txt"	"7{7"	""	"@I"	0	"λx.Ø"
+8	19	"data/c002.txt"	"q696OC2>93"	""	"@I"	0	"λx.Ø"
+9	0	"data/c002.txt"	"253D7SP0>"	"253D7SP0>"	"@I"	0	"λx.x"
+9	1	"data/c002.txt"	"0h85Q0X9"	""	"@I"	0	"λx.Ø"
+9	2	"data/c002.txt"	"432"	""	"@I"	0	"λx.Ø"
+9	3	"data/c002.txt"	"2;4"	""	"@I"	0	"λx.Ø"
+9	4	"data/c002.txt"	"50"	""	"@I"	0	"λx.Ø"
+9	5	"data/c002.txt"	"3"	""	"@I"	0	"λx.Ø"
+9	6	"data/c002.txt"	"K6_"	""	"@I"	0	"λx.Ø"
+9	7	"data/c002.txt"	"0@z2N"	""	"@I"	0	"λx.Ø"
+9	8	"data/c002.txt"	"I8L8:00`4"	""	"@I"	0	"λx.Ø"
+9	9	"data/c002.txt"	"5d81"	""	"@I"	0	"λx.Ø"
+9	10	"data/c002.txt"	"r20h70572"	""	"@I"	0	"λx.Ø"
+9	11	"data/c002.txt"	"K8d1e5n"	""	"@I"	0	"λx.Ø"
+9	12	"data/c002.txt"	"3BT;2{"	""	"@I"	0	"λx.Ø"
+9	13	"data/c002.txt"	"50"	""	"@I"	0	"λx.Ø"
+9	14	"data/c002.txt"	"14<"	""	"@I"	0	"λx.Ø"
+9	15	"data/c002.txt"	"8579R=q2D"	""	"@I"	0	"λx.Ø"
+9	16	"data/c002.txt"	"424190"	""	"@I"	0	"λx.Ø"
+9	17	"data/c002.txt"	"1"	""	"@I"	0	"λx.Ø"
+9	18	"data/c002.txt"	"3"	""	"@I"	0	"λx.Ø"
+9	19	"data/c002.txt"	"7912"	""	"@I"	0	"λx.Ø"
+# Global sample count:	13852425453
+# Elapsed time:	120078 seconds 
+# Samples per second:	115362
+# VM ops per second:	1.93196e+07

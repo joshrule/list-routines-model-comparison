@@ -1,0 +1,268 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=7432 by user piantado at Wed Dec  4 16:33:57 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: 75de067d9790c8abe3432331157b2715  /proc/7432/exe
+# 	 --input=data/c2-011.txt
+# 	 --threads=2
+# 	 --chains=4
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=10m (600 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data 81730713 -> 713
+# using data 108 -> 
+# using data 3 -> 
+# using data 0305 -> 
+# using data 67781626 -> 626
+# using data  -> 
+# using data 9 -> 
+# using data 2947695380 -> 95380
+# using data 37015550 -> 550
+# using data 0591365337 -> 65337
+# using data 33368562 -> 562
+# using data 515644656 -> 4656
+# using data 15 -> 
+# using data 1847027739 -> 27739
+# using data 3415007663 -> 07663
+# using data 09672 -> 
+# using data 0 -> 
+# using data 119 -> 
+# using data 136 -> 
+# using data 2098814576 -> 14576
+# using data 94339 -> 
+# using data 034 -> 
+# using data 60726 -> 
+# using data 50332 -> 
+# using data 97602 -> 
+# using data 497329170 -> 9170
+# using data 8451938044 -> 38044
+# using data 03366 -> 
+# using data 6930 -> 
+# using data 6 -> 
+# using data 85 -> 
+# using data 21778 -> 
+# using data 80 -> 
+# using data 86 -> 
+# using data 9180012143 -> 12143
+# using data 29956606 -> 606
+# using data 35385651 -> 651
+# using data 5107320 -> 20
+# using data 5876132683 -> 32683
+# using data 52 -> 
+# using data 589523934 -> 3934
+# using data 962261389 -> 1389
+# using data 08604 -> 
+# using data 4563 -> 
+# using data 65 -> 
+# using data 8483 -> 
+# using data 07824206 -> 206
+# using data 029105408 -> 5408
+# using data 64641 -> 
+# using data 733 -> 
+i_run	i_N	concept	input	output	correct.output	correct	hypothesis
+0	0	"data/c2-011.txt"	""	""	""	1	"λx.x"
+0	1	"data/c2-011.txt"	"0"	"0"	""	0	"λx.x"
+0	2	"data/c2-011.txt"	"86"	""	""	1	"λx.Ø"
+0	3	"data/c2-011.txt"	"0"	""	""	1	"λx.Ø"
+0	4	"data/c2-011.txt"	"60726"	""	""	1	"λx.Ø"
+0	5	"data/c2-011.txt"	"6930"	""	""	1	"λx.Ø"
+0	6	"data/c2-011.txt"	"108"	""	""	1	"λx.Ø"
+0	7	"data/c2-011.txt"	"8483"	""	""	1	"λx.Ø"
+0	8	"data/c2-011.txt"	"0"	""	""	1	"λx.Ø"
+0	9	"data/c2-011.txt"	"29956606"	""	"606"	0	"λx.Ø"
+0	10	"data/c2-011.txt"	"2098814576"	"14576"	"14576"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+0	11	"data/c2-011.txt"	"2947695380"	"95380"	"95380"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+0	12	"data/c2-011.txt"	"0591365337"	"65337"	"65337"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+0	13	"data/c2-011.txt"	"80"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+0	14	"data/c2-011.txt"	"50332"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+0	15	"data/c2-011.txt"	"733"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+0	16	"data/c2-011.txt"	"8483"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+0	17	"data/c2-011.txt"	"034"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+0	18	"data/c2-011.txt"	"029105408"	"5408"	"5408"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+0	19	"data/c2-011.txt"	"589523934"	"3934"	"3934"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+1	0	"data/c2-011.txt"	"08604"	"08604"	""	0	"λx.x"
+1	1	"data/c2-011.txt"	"09672"	""	""	1	"λx.Ø"
+1	2	"data/c2-011.txt"	"85"	""	""	1	"λx.Ø"
+1	3	"data/c2-011.txt"	"15"	""	""	1	"λx.Ø"
+1	4	"data/c2-011.txt"	"97602"	""	""	1	"λx.Ø"
+1	5	"data/c2-011.txt"	"64641"	""	""	1	"λx.Ø"
+1	6	"data/c2-011.txt"	"6930"	""	""	1	"λx.Ø"
+1	7	"data/c2-011.txt"	"9180012143"	""	"12143"	0	"λx.Ø"
+1	8	"data/c2-011.txt"	"136"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+1	9	"data/c2-011.txt"	"5107320"	"20"	"20"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+1	10	"data/c2-011.txt"	"08604"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+1	11	"data/c2-011.txt"	"9"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+1	12	"data/c2-011.txt"	"03366"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+1	13	"data/c2-011.txt"	"50332"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+1	14	"data/c2-011.txt"	"9"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+1	15	"data/c2-011.txt"	"589523934"	"3934"	"3934"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+1	16	"data/c2-011.txt"	"3"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+1	17	"data/c2-011.txt"	"86"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+1	18	"data/c2-011.txt"	"86"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+1	19	"data/c2-011.txt"	"33368562"	"562"	"562"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	0	"data/c2-011.txt"	"50332"	"50332"	""	0	"λx.x"
+2	1	"data/c2-011.txt"	"29956606"	""	"606"	0	"λx.Ø"
+2	2	"data/c2-011.txt"	"4563"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	3	"data/c2-011.txt"	"65"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	4	"data/c2-011.txt"	"67781626"	"626"	"626"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	5	"data/c2-011.txt"	"29956606"	"606"	"606"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	6	"data/c2-011.txt"	"136"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	7	"data/c2-011.txt"	"97602"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	8	"data/c2-011.txt"	"33368562"	"562"	"562"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	9	"data/c2-011.txt"	"97602"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	10	"data/c2-011.txt"	"60726"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	11	"data/c2-011.txt"	"86"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	12	"data/c2-011.txt"	"33368562"	"562"	"562"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	13	"data/c2-011.txt"	"35385651"	"651"	"651"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	14	"data/c2-011.txt"	"1847027739"	"27739"	"27739"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	15	"data/c2-011.txt"	"3415007663"	"07663"	"07663"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	16	"data/c2-011.txt"	"1847027739"	"27739"	"27739"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	17	"data/c2-011.txt"	"33368562"	"562"	"562"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	18	"data/c2-011.txt"	"2098814576"	"14576"	"14576"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+2	19	"data/c2-011.txt"	"0"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+3	0	"data/c2-011.txt"	"733"	"733"	""	0	"λx.x"
+3	1	"data/c2-011.txt"	"8483"	""	""	1	"λx.Ø"
+3	2	"data/c2-011.txt"	"136"	""	""	1	"λx.Ø"
+3	3	"data/c2-011.txt"	"97602"	""	""	1	"λx.Ø"
+3	4	"data/c2-011.txt"	"8483"	""	""	1	"λx.Ø"
+3	5	"data/c2-011.txt"	"2947695380"	""	"95380"	0	"λx.Ø"
+3	6	"data/c2-011.txt"	"108"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+3	7	"data/c2-011.txt"	"86"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+3	8	"data/c2-011.txt"	"80"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+3	9	"data/c2-011.txt"	"136"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+3	10	"data/c2-011.txt"	"50332"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+3	11	"data/c2-011.txt"	"15"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+3	12	"data/c2-011.txt"	"6930"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+3	13	"data/c2-011.txt"	"0"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+3	14	"data/c2-011.txt"	"136"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+3	15	"data/c2-011.txt"	"6"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+3	16	"data/c2-011.txt"	"108"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+3	17	"data/c2-011.txt"	"07824206"	"206"	"206"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+3	18	"data/c2-011.txt"	"67781626"	"626"	"626"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+3	19	"data/c2-011.txt"	"9"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	0	"data/c2-011.txt"	"08604"	"08604"	""	0	"λx.x"
+4	1	"data/c2-011.txt"	"0591365337"	""	"65337"	0	"λx.Ø"
+4	2	"data/c2-011.txt"	"2947695380"	"95380"	"95380"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	3	"data/c2-011.txt"	"67781626"	"626"	"626"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	4	"data/c2-011.txt"	"37015550"	"550"	"550"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	5	"data/c2-011.txt"	"029105408"	"5408"	"5408"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	6	"data/c2-011.txt"	"2098814576"	"14576"	"14576"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	7	"data/c2-011.txt"	"6"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	8	"data/c2-011.txt"	"6930"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	9	"data/c2-011.txt"	"5107320"	"20"	"20"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	10	"data/c2-011.txt"	"3"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	11	"data/c2-011.txt"	"09672"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	12	"data/c2-011.txt"	"94339"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	13	"data/c2-011.txt"	"07824206"	"206"	"206"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	14	"data/c2-011.txt"	"589523934"	"3934"	"3934"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	15	"data/c2-011.txt"	"85"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	16	"data/c2-011.txt"	"5876132683"	"32683"	"32683"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	17	"data/c2-011.txt"	"6930"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	18	"data/c2-011.txt"	"60726"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+4	19	"data/c2-011.txt"	"03366"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	0	"data/c2-011.txt"	"108"	"108"	""	0	"λx.x"
+5	1	"data/c2-011.txt"	"515644656"	""	"4656"	0	"λx.Ø"
+5	2	"data/c2-011.txt"	"9"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	3	"data/c2-011.txt"	"50332"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	4	"data/c2-011.txt"	"67781626"	"626"	"626"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	5	"data/c2-011.txt"	"33368562"	"562"	"562"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	6	"data/c2-011.txt"	"03366"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	7	"data/c2-011.txt"	""	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	8	"data/c2-011.txt"	"733"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	9	"data/c2-011.txt"	"0"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	10	"data/c2-011.txt"	"3415007663"	"07663"	"07663"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	11	"data/c2-011.txt"	"1847027739"	"27739"	"27739"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	12	"data/c2-011.txt"	"52"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	13	"data/c2-011.txt"	"67781626"	"626"	"626"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	14	"data/c2-011.txt"	"35385651"	"651"	"651"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	15	"data/c2-011.txt"	"52"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	16	"data/c2-011.txt"	"515644656"	"4656"	"4656"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	17	"data/c2-011.txt"	"07824206"	"206"	"206"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	18	"data/c2-011.txt"	""	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+5	19	"data/c2-011.txt"	"733"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	0	"data/c2-011.txt"	"86"	"86"	""	0	"λx.x"
+6	1	"data/c2-011.txt"	"50332"	""	""	1	"λx.Ø"
+6	2	"data/c2-011.txt"	"81730713"	""	"713"	0	"λx.Ø"
+6	3	"data/c2-011.txt"	"589523934"	"3934"	"3934"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	4	"data/c2-011.txt"	"80"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	5	"data/c2-011.txt"	"108"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	6	"data/c2-011.txt"	"85"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	7	"data/c2-011.txt"	"50332"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	8	"data/c2-011.txt"	"08604"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	9	"data/c2-011.txt"	"0305"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	10	"data/c2-011.txt"	"119"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	11	"data/c2-011.txt"	"03366"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	12	"data/c2-011.txt"	"1847027739"	"27739"	"27739"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	13	"data/c2-011.txt"	"81730713"	"713"	"713"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	14	"data/c2-011.txt"	"86"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	15	"data/c2-011.txt"	"034"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	16	"data/c2-011.txt"	"86"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	17	"data/c2-011.txt"	"6"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	18	"data/c2-011.txt"	"15"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+6	19	"data/c2-011.txt"	"94339"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	0	"data/c2-011.txt"	""	""	""	1	"λx.x"
+7	1	"data/c2-011.txt"	"108"	"108"	""	0	"λx.x"
+7	2	"data/c2-011.txt"	"2947695380"	""	"95380"	0	"λx.Ø"
+7	3	"data/c2-011.txt"	"64641"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	4	"data/c2-011.txt"	"52"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	5	"data/c2-011.txt"	"497329170"	"9170"	"9170"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	6	"data/c2-011.txt"	"03366"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	7	"data/c2-011.txt"	"15"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	8	"data/c2-011.txt"	"85"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	9	"data/c2-011.txt"	"03366"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	10	"data/c2-011.txt"	"50332"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	11	"data/c2-011.txt"	"733"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	12	"data/c2-011.txt"	"3415007663"	"07663"	"07663"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	13	"data/c2-011.txt"	"034"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	14	"data/c2-011.txt"	"97602"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	15	"data/c2-011.txt"	"0"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	16	"data/c2-011.txt"	"94339"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	17	"data/c2-011.txt"	"35385651"	"651"	"651"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	18	"data/c2-011.txt"	"8451938044"	"38044"	"38044"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+7	19	"data/c2-011.txt"	"37015550"	"550"	"550"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+8	0	"data/c2-011.txt"	"60726"	"60726"	""	0	"λx.x"
+8	1	"data/c2-011.txt"	"03366"	""	""	1	"λx.Ø"
+8	2	"data/c2-011.txt"	"65"	""	""	1	"λx.Ø"
+8	3	"data/c2-011.txt"	"733"	""	""	1	"λx.Ø"
+8	4	"data/c2-011.txt"	"119"	""	""	1	"λx.Ø"
+8	5	"data/c2-011.txt"	"85"	""	""	1	"λx.Ø"
+8	6	"data/c2-011.txt"	"09672"	""	""	1	"λx.Ø"
+8	7	"data/c2-011.txt"	"03366"	""	""	1	"λx.Ø"
+8	8	"data/c2-011.txt"	"9180012143"	""	"12143"	0	"λx.Ø"
+8	9	"data/c2-011.txt"	"15"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+8	10	"data/c2-011.txt"	"515644656"	"4656"	"4656"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+8	11	"data/c2-011.txt"	"97602"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+8	12	"data/c2-011.txt"	"67781626"	"626"	"626"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+8	13	"data/c2-011.txt"	"37015550"	"550"	"550"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+8	14	"data/c2-011.txt"	"80"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+8	15	"data/c2-011.txt"	"15"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+8	16	"data/c2-011.txt"	"962261389"	"1389"	"1389"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+8	17	"data/c2-011.txt"	"9"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+8	18	"data/c2-011.txt"	"962261389"	"1389"	"1389"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+8	19	"data/c2-011.txt"	"589523934"	"3934"	"3934"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	0	"data/c2-011.txt"	"108"	"108"	""	0	"λx.x"
+9	1	"data/c2-011.txt"	"0591365337"	""	"65337"	0	"λx.Ø"
+9	2	"data/c2-011.txt"	"8451938044"	"38044"	"38044"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	3	"data/c2-011.txt"	"136"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	4	"data/c2-011.txt"	"136"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	5	"data/c2-011.txt"	"94339"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	6	"data/c2-011.txt"	"3"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	7	"data/c2-011.txt"	"35385651"	"651"	"651"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	8	"data/c2-011.txt"	"497329170"	"9170"	"9170"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	9	"data/c2-011.txt"	"80"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	10	"data/c2-011.txt"	"33368562"	"562"	"562"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	11	"data/c2-011.txt"	""	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	12	"data/c2-011.txt"	"108"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	13	"data/c2-011.txt"	""	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	14	"data/c2-011.txt"	""	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	15	"data/c2-011.txt"	""	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	16	"data/c2-011.txt"	"8451938044"	"38044"	"38044"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	17	"data/c2-011.txt"	"1847027739"	"27739"	"27739"	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	18	"data/c2-011.txt"	"6"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+9	19	"data/c2-011.txt"	"80"	""	""	1	"λx.tail(tail(tail(tail(tail(x)))))"
+# Global sample count:	9642487580
+# Elapsed time:	120095 seconds 
+# Samples per second:	80290.6
+# VM ops per second:	1.71008e+07

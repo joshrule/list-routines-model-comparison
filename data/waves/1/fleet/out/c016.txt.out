@@ -1,0 +1,167 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=11352 by user piantado at Wed Nov  6 21:04:48 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: ae0be1a467d652ad2e23d323782b74b7  /proc/11352/exe
+# 	 --input=wave1/c016.txt
+# 	 --threads=4
+# 	 --chains=8
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=10m (600 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data 64b:5Cl -> 64b:5Cl
+# using data ;C3P093: -> C;3P093:
+# using data t1:R9 -> 1t:R9
+# using data T2<222jp5~ -> 2T<222jp5~
+# using data 1g7 -> g17
+# using data ;D:E?5 -> D;:E?5
+# using data 401Aq39852 -> 041Aq39852
+# using data WNE26425 -> NWE26425
+# using data B:086n`7 -> :B086n`7
+# using data 3L9;2 -> L39;2
+# using data i:7 -> :i7
+# using data _AM_:6239 -> A_M_:6239
+# using data 4T\h4u9 -> T4\h4u9
+# using data 9Z -> Z9
+# using data 4639:04F7 -> 6439:04F7
+# using data 4Q6D -> Q46D
+# using data 035{ -> 305{
+# using data 1;3157 -> ;13157
+# using data 5:41 -> 5:41
+# using data 28:H -> 82:H
+# using data :6:522 -> 6::522
+# using data C909774 -> 9C09774
+# using data TC9 -> CT9
+# using data 1r@896x;O -> r1@896x;O
+# using data n3S5@ -> 3nS5@
+# using data 85{7~84h1 -> 58{7~84h1
+# using data 43>u -> 34>u
+# using data ~V?@5 -> V~?@5
+# using data 67 -> 76
+# using data 7241:21 -> 2741:21
+# using data 96nA12 -> 69nA12
+# using data 51VR4b:6X -> 15VR4b:6X
+# using data b8\0As -> 8b\0As
+# using data h1G8Eh -> 1hG8Eh
+# using data 97B18^d -> 79B18^d
+# using data 367r3G9 -> 637r3G9
+# using data 5gSA48 -> g5SA48
+# using data 7]>056 -> ]7>056
+# using data 5158J24}] -> 1558J24}]
+# using data 622;9>7:Z -> 262;9>7:Z
+# using data lzK0ym02 -> zlK0ym02
+# using data `Y8N -> Y`8N
+# using data 916{N0 -> 196{N0
+# using data 2cV5B0{s -> c2V5B0{s
+# using data :F991<:C -> F:991<:C
+# using data Z98r8i68 -> 9Z8r8i68
+# using data L0 -> 0L
+# using data 32 -> 23
+# using data 5@:Al6PS@ -> @5:Al6PS@
+# using data 47>~0537;0 -> 74>~0537;0
+# Starting run 
+-34.3287	-34.3287	0	"λx.cons(head(tail(x)),cons(if(empty(Ø),head(x),x),tail(tail(x))))"
+-34.3287	-34.3287	0	"λx.cons(head(tail(x)),cons(head(if(empty(Ø),x,x)),tail(tail(x))))"
+-34.3287	-34.3287	0	"λx.cons(if(empty(Ø),head(tail(x)),x),cons(head(x),tail(tail(x))))"
+-34.3287	-34.3287	0	"λx.cons(head(if(empty(Ø),tail(x),x)),cons(head(x),tail(tail(x))))"
+-34.3287	-34.3287	0	"λx.cons(head(tail(x)),cons(head(x),tail(if(empty(Ø),tail(x),x))))"
+-34.3287	-34.3287	0	"λx.cons(head(tail(x)),cons(if(empty(x),Ø,head(x)),tail(tail(x))))"
+-33.8587	-33.8587	0	"λx.cons(F(F(F(head(tail(x))))),cons(head(x),tail(tail(x))))"
+-33.6355	-33.6355	0	"λx.cons(head(tail(x)),cons(head(cons(head(x),x)),tail(tail(x))))"
+-33.6355	-33.6355	0	"λx.cons(head(tail(cons(x,x))),cons(head(head(x)),tail(tail(x))))"
+-33.6355	-33.6355	0	"λx.cons(head(tail(x)),cons(head(cons(x,head(x))),tail(tail(x))))"
+-33.6355	-33.6355	0	"λx.cons(head(head(tail(cons(x,x)))),cons(head(x),tail(tail(x))))"
+-33.6355	-33.6355	0	"λx.cons(head(cons(tail(x),x)),cons(head(head(x)),tail(tail(x))))"
+-33.6355	-33.6355	0	"λx.cons(head(tail(cons(x,tail(x)))),cons(head(x),tail(tail(x))))"
+-33.6355	-33.6355	0	"λx.cons(head(cons(tail(x),head(x))),cons(head(x),tail(tail(x))))"
+-33.6355	-33.6355	0	"λx.cons(head(tail(x)),cons(head(cons(x,tail(x))),tail(tail(x))))"
+-33.6355	-33.6355	0	"λx.cons(head(cons(tail(x),tail(x))),cons(head(x),tail(tail(x))))"
+-33.6355	-33.6355	0	"λx.cons(head(head(cons(tail(x),x))),cons(head(x),tail(tail(x))))"
+-33.6355	-33.6355	0	"λx.cons(head(tail(x)),cons(head(head(cons(x,x))),tail(tail(x))))"
+-33.6355	-33.6355	0	"λx.cons(head(tail(cons(x,head(x)))),cons(head(x),tail(tail(x))))"
+-33.6355	-33.6355	0	"λx.cons(head(cons(head(tail(x)),x)),cons(head(x),tail(tail(x))))"
+-33.6355	-33.6355	0	"λx.cons(head(head(tail(x))),cons(head(cons(x,x)),tail(tail(x))))"
+-33.0194	-33.0194	0	"λx.cons(head(tail(x)),cons(head(x),tail(tail(if((x==x),x,x)))))"
+-33.0194	-33.0194	0	"λx.cons(head(tail(x)),cons(head(x),tail(if((x==x),tail(x),x))))"
+-33.0194	-33.0194	0	"λx.cons(head(tail(if((x==x),x,x))),cons(head(x),tail(tail(x))))"
+-33.0194	-33.0194	0	"λx.cons(head(tail(x)),cons(head(if((x==x),x,x)),tail(tail(x))))"
+-33.0194	-33.0194	0	"λx.cons(head(if((x==x),tail(x),x)),cons(head(x),tail(tail(x))))"
+-33.0194	-33.0194	0	"λx.cons(head(tail(x)),cons(if((x==x),head(x),x),tail(tail(x))))"
+-33.0194	-33.0194	0	"λx.cons(if((x==x),head(tail(x)),x),cons(head(x),tail(tail(x))))"
+-32.9424	-32.9424	0	"λx.cons(F(head(tail(x))),cons(head(cons(x,x)),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(cons(tail(x),'2')),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(cons(x,'7'))),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(cons(tail(x),'3')),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(cons(x,'1'))),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(x)),cons(head(cons(x,'6')),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(cons(tail(x),'4')),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(cons(x,'6'))),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(cons(x,'4'))),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(cons(x,'5'))),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(x)),cons(head(cons(x,'7')),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(x)),cons(head(cons(x,'2')),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(x)),cons(head(cons(x,'5')),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(x)),cons(head(cons(x,'1')),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(cons(tail(x),'1')),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(cons(x,'3'))),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(cons(tail(x),'5')),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(cons(x,'9'))),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(cons(tail(x),'0')),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(cons(tail(x),'6')),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(cons(tail(x),'7')),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(cons(x,'2'))),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(cons(x,'8'))),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(x)),cons(head(cons(x,'0')),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(x)),cons(head(cons(x,',')),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(x)),cons(head(cons(x,'9')),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(x)),cons(head(cons(x,'4')),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(cons(x,'0'))),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(cons(tail(x),',')),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(cons(tail(x),'9')),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(x)),cons(head(cons(x,'3')),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(cons(x,','))),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(cons(tail(x),'8')),cons(head(x),tail(tail(x))))"
+-32.7376	-32.7376	0	"λx.cons(head(tail(x)),cons(head(cons(x,'8')),tail(tail(x))))"
+-32.6423	-32.6423	0	"λx.cons(head(tail(x)),cons(cons(head(x),Ø),tail(tail(x))))"
+-32.6423	-32.6423	0	"λx.cons(head(tail(x)),cons(head(x),tail(cons(tail(x),Ø))))"
+-32.6423	-32.6423	0	"λx.cons(head(tail(x)),cons(head(head(head(x))),tail(tail(x))))"
+-32.6423	-32.6423	0	"λx.cons(head(tail(cons(Ø,x))),cons(head(x),tail(tail(x))))"
+-32.6423	-32.6423	0	"λx.cons(head(tail(cons(x,Ø))),cons(head(x),tail(tail(x))))"
+-32.6423	-32.6423	0	"λx.cons(head(tail(x)),cons(head(x),tail(tail(cons(x,Ø)))))"
+-32.6423	-32.6423	0	"λx.cons(cons(head(tail(x)),Ø),cons(head(x),tail(tail(x))))"
+-32.6423	-32.6423	0	"λx.cons(head(cons(Ø,tail(x))),cons(head(x),tail(tail(x))))"
+-32.6423	-32.6423	0	"λx.cons(head(tail(x)),cons(head(x),cons(tail(tail(x)),Ø)))"
+-32.6423	-32.6423	0	"λx.cons(head(tail(x)),cons(cons(Ø,head(x)),tail(tail(x))))"
+-32.6423	-32.6423	0	"λx.cons(cons(Ø,head(tail(x))),cons(head(x),tail(tail(x))))"
+-32.6423	-32.6423	0	"λx.cons(head(head(tail(x))),cons(head(head(x)),tail(tail(x))))"
+-32.6423	-32.6423	0	"λx.cons(head(cons(tail(x),Ø)),cons(head(x),tail(tail(x))))"
+-32.6423	-32.6423	0	"λx.cons(head(tail(x)),cons(head(cons(x,Ø)),tail(tail(x))))"
+-32.6423	-32.6423	0	"λx.cons(head(head(head(tail(x)))),cons(head(x),tail(tail(x))))"
+-32.6423	-32.6423	0	"λx.cons(head(tail(x)),cons(head(x),tail(cons(Ø,tail(x)))))"
+-32.6423	-32.6423	0	"λx.cons(head(tail(x)),cons(head(x),tail(tail(cons(Ø,x)))))"
+-32.6423	-32.6423	0	"λx.cons(head(tail(x)),cons(head(cons(Ø,x)),tail(tail(x))))"
+-32.0261	-32.0261	0	"λx.cons(head(tail(x)),cons(head(x),if(empty(x),x,tail(tail(x)))))"
+-32.0261	-32.0261	0	"λx.cons(if(empty(x),x,head(tail(x))),cons(head(x),tail(tail(x))))"
+-32.0261	-32.0261	0	"λx.cons(head(tail(x)),cons(head(x),tail(tail(if(empty(x),x,x)))))"
+-32.0261	-32.0261	0	"λx.cons(head(if(empty(x),x,tail(x))),cons(head(x),tail(tail(x))))"
+-32.0261	-32.0261	0	"λx.cons(head(tail(x)),cons(head(x),tail(if(empty(x),x,tail(x)))))"
+-32.0261	-32.0261	0	"λx.cons(head(tail(x)),cons(if(empty(x),x,head(x)),tail(tail(x))))"
+-32.0261	-32.0261	0	"λx.cons(head(tail(x)),cons(head(if(empty(x),x,x)),tail(tail(x))))"
+-32.0261	-32.0261	0	"λx.cons(head(tail(if(empty(x),x,x))),cons(head(x),tail(tail(x))))"
+-31.9491	-31.9491	0	"λx.cons(F(head(head(tail(x)))),cons(head(x),tail(tail(x))))"
+-31.9491	-31.9491	0	"λx.cons(F(head(tail(x))),cons(head(head(x)),tail(tail(x))))"
+-31.9491	-31.9491	0	"λx.cons(head(F(head(tail(x)))),cons(head(x),tail(tail(x))))"
+-31.256	-31.256	0	"λx.cons(F(F(head(tail(x)))),cons(head(x),tail(tail(x))))"
+-31.256	-31.256	0	"λx.cons(head(tail(x)),cons(head(x),F(F(tail(tail(x))))))"
+-30.3397	-30.3397	0	"λx.cons(head(cons(tail(x),x)),cons(head(x),tail(tail(x))))"
+-30.3397	-30.3397	0	"λx.cons(head(tail(cons(x,x))),cons(head(x),tail(tail(x))))"
+-30.3397	-30.3397	0	"λx.cons(head(tail(x)),cons(head(cons(x,x)),tail(tail(x))))"
+-29.3465	-29.3465	0	"λx.cons(head(tail(x)),cons(head(head(x)),tail(tail(x))))"
+-29.3465	-29.3465	0	"λx.cons(head(head(tail(x))),cons(head(x),tail(tail(x))))"
+-28.6533	-28.6533	0	"λx.cons(F(head(tail(x))),cons(head(x),tail(tail(x))))"
+-26.0506	-26.0506	0	"λx.cons(head(tail(x)),cons(head(x),tail(tail(x))))"
+# Global sample count:	141004998
+# Elapsed time:	600.428 seconds 
+# Samples per second:	234841

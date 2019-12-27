@@ -1,0 +1,268 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=7435 by user piantado at Wed Dec  4 16:33:57 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: 75de067d9790c8abe3432331157b2715  /proc/7435/exe
+# 	 --input=data/c2-012.txt
+# 	 --threads=2
+# 	 --chains=4
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=10m (600 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data 91477 -> 9477
+# using data 68 -> 6
+# using data 937692927 -> 97692927
+# using data 4331376610 -> 431376610
+# using data 4821085943 -> 421085943
+# using data 138314 -> 18314
+# using data 1612334 -> 112334
+# using data 7700122075 -> 700122075
+# using data 3841725 -> 341725
+# using data 85430 -> 8430
+# using data 59888 -> 5888
+# using data 46 -> 4
+# using data 029646179 -> 09646179
+# using data 2340049135 -> 240049135
+# using data 59044495 -> 5044495
+# using data 05917 -> 0917
+# using data 281055900 -> 21055900
+# using data 03652 -> 0652
+# using data 19683 -> 1683
+# using data 487086 -> 47086
+# using data 8216380 -> 816380
+# using data 431141 -> 41141
+# using data 252232 -> 22232
+# using data 74125 -> 7125
+# using data 4600 -> 400
+# using data 5150804 -> 550804
+# using data 96 -> 9
+# using data 79 -> 7
+# using data 788911 -> 78911
+# using data 159474 -> 19474
+# using data 8904313158 -> 804313158
+# using data 7176 -> 776
+# using data 4537 -> 437
+# using data 24309682 -> 2309682
+# using data 648 -> 68
+# using data 3620229 -> 320229
+# using data 03 -> 0
+# using data 147754580 -> 17754580
+# using data 82733291 -> 8733291
+# using data 9689211 -> 989211
+# using data 586 -> 56
+# using data 4455 -> 455
+# using data 533 -> 53
+# using data 8594645 -> 894645
+# using data 4308185184 -> 408185184
+# using data 98 -> 9
+# using data 602236 -> 62236
+# using data 364 -> 34
+# using data 54870 -> 5870
+# using data 0156 -> 056
+i_run	i_N	concept	input	output	correct.output	correct	hypothesis
+0	0	"data/c2-012.txt"	"4600"	"4600"	"400"	0	"λx.x"
+0	1	"data/c2-012.txt"	"5150804"	"550804"	"550804"	1	"λx.pair(head(x),tail(tail(x)))"
+0	2	"data/c2-012.txt"	"8904313158"	"804313158"	"804313158"	1	"λx.pair(head(x),tail(tail(x)))"
+0	3	"data/c2-012.txt"	"4537"	"437"	"437"	1	"λx.pair(head(x),tail(tail(x)))"
+0	4	"data/c2-012.txt"	"431141"	"41141"	"41141"	1	"λx.pair(head(x),tail(tail(x)))"
+0	5	"data/c2-012.txt"	"431141"	"41141"	"41141"	1	"λx.pair(head(x),tail(tail(x)))"
+0	6	"data/c2-012.txt"	"4308185184"	"408185184"	"408185184"	1	"λx.pair(head(x),tail(tail(x)))"
+0	7	"data/c2-012.txt"	"4455"	"455"	"455"	1	"λx.pair(head(x),tail(tail(x)))"
+0	8	"data/c2-012.txt"	"59044495"	"5044495"	"5044495"	1	"λx.pair(head(x),tail(tail(x)))"
+0	9	"data/c2-012.txt"	"8216380"	"816380"	"816380"	1	"λx.pair(head(x),tail(tail(x)))"
+0	10	"data/c2-012.txt"	"4537"	"437"	"437"	1	"λx.pair(head(x),tail(tail(x)))"
+0	11	"data/c2-012.txt"	"82733291"	"8733291"	"8733291"	1	"λx.pair(head(x),tail(tail(x)))"
+0	12	"data/c2-012.txt"	"96"	"9"	"9"	1	"λx.pair(head(x),tail(tail(x)))"
+0	13	"data/c2-012.txt"	"138314"	"18314"	"18314"	1	"λx.pair(head(x),tail(tail(x)))"
+0	14	"data/c2-012.txt"	"3620229"	"320229"	"320229"	1	"λx.pair(head(x),tail(tail(x)))"
+0	15	"data/c2-012.txt"	"0156"	"056"	"056"	1	"λx.pair(head(x),tail(tail(x)))"
+0	16	"data/c2-012.txt"	"4455"	"455"	"455"	1	"λx.pair(head(x),tail(tail(x)))"
+0	17	"data/c2-012.txt"	"3841725"	"341725"	"341725"	1	"λx.pair(head(x),tail(tail(x)))"
+0	18	"data/c2-012.txt"	"252232"	"22232"	"22232"	1	"λx.pair(head(x),tail(tail(x)))"
+0	19	"data/c2-012.txt"	"138314"	"18314"	"18314"	1	"λx.pair(head(x),tail(tail(x)))"
+1	0	"data/c2-012.txt"	"05917"	"05917"	"0917"	0	"λx.x"
+1	1	"data/c2-012.txt"	"533"	"53"	"53"	1	"λx.pair(head(x),tail(tail(x)))"
+1	2	"data/c2-012.txt"	"98"	"9"	"9"	1	"λx.pair(head(x),tail(tail(x)))"
+1	3	"data/c2-012.txt"	"4537"	"437"	"437"	1	"λx.pair(head(x),tail(tail(x)))"
+1	4	"data/c2-012.txt"	"5150804"	"550804"	"550804"	1	"λx.pair(head(x),tail(tail(x)))"
+1	5	"data/c2-012.txt"	"2340049135"	"240049135"	"240049135"	1	"λx.pair(head(x),tail(tail(x)))"
+1	6	"data/c2-012.txt"	"3620229"	"320229"	"320229"	1	"λx.pair(head(x),tail(tail(x)))"
+1	7	"data/c2-012.txt"	"96"	"9"	"9"	1	"λx.pair(head(x),tail(tail(x)))"
+1	8	"data/c2-012.txt"	"96"	"9"	"9"	1	"λx.pair(head(x),tail(tail(x)))"
+1	9	"data/c2-012.txt"	"0156"	"056"	"056"	1	"λx.pair(head(x),tail(tail(x)))"
+1	10	"data/c2-012.txt"	"8904313158"	"804313158"	"804313158"	1	"λx.pair(head(x),tail(tail(x)))"
+1	11	"data/c2-012.txt"	"59044495"	"5044495"	"5044495"	1	"λx.pair(head(x),tail(tail(x)))"
+1	12	"data/c2-012.txt"	"96"	"9"	"9"	1	"λx.pair(head(x),tail(tail(x)))"
+1	13	"data/c2-012.txt"	"7176"	"776"	"776"	1	"λx.pair(head(x),tail(tail(x)))"
+1	14	"data/c2-012.txt"	"487086"	"47086"	"47086"	1	"λx.pair(head(x),tail(tail(x)))"
+1	15	"data/c2-012.txt"	"3841725"	"341725"	"341725"	1	"λx.pair(head(x),tail(tail(x)))"
+1	16	"data/c2-012.txt"	"5150804"	"550804"	"550804"	1	"λx.pair(head(x),tail(tail(x)))"
+1	17	"data/c2-012.txt"	"3841725"	"341725"	"341725"	1	"λx.pair(head(x),tail(tail(x)))"
+1	18	"data/c2-012.txt"	"3841725"	"341725"	"341725"	1	"λx.pair(head(x),tail(tail(x)))"
+1	19	"data/c2-012.txt"	"4537"	"437"	"437"	1	"λx.pair(head(x),tail(tail(x)))"
+2	0	"data/c2-012.txt"	"1612334"	"1612334"	"112334"	0	"λx.x"
+2	1	"data/c2-012.txt"	"54870"	"5870"	"5870"	1	"λx.pair(head(x),tail(tail(x)))"
+2	2	"data/c2-012.txt"	"05917"	"0917"	"0917"	1	"λx.pair(head(x),tail(tail(x)))"
+2	3	"data/c2-012.txt"	"91477"	"9477"	"9477"	1	"λx.pair(head(x),tail(tail(x)))"
+2	4	"data/c2-012.txt"	"82733291"	"8733291"	"8733291"	1	"λx.pair(head(x),tail(tail(x)))"
+2	5	"data/c2-012.txt"	"59888"	"5888"	"5888"	1	"λx.pair(head(x),tail(tail(x)))"
+2	6	"data/c2-012.txt"	"91477"	"9477"	"9477"	1	"λx.pair(head(x),tail(tail(x)))"
+2	7	"data/c2-012.txt"	"8594645"	"894645"	"894645"	1	"λx.pair(head(x),tail(tail(x)))"
+2	8	"data/c2-012.txt"	"8216380"	"816380"	"816380"	1	"λx.pair(head(x),tail(tail(x)))"
+2	9	"data/c2-012.txt"	"03"	"0"	"0"	1	"λx.pair(head(x),tail(tail(x)))"
+2	10	"data/c2-012.txt"	"147754580"	"17754580"	"17754580"	1	"λx.pair(head(x),tail(tail(x)))"
+2	11	"data/c2-012.txt"	"1612334"	"112334"	"112334"	1	"λx.pair(head(x),tail(tail(x)))"
+2	12	"data/c2-012.txt"	"05917"	"0917"	"0917"	1	"λx.pair(head(x),tail(tail(x)))"
+2	13	"data/c2-012.txt"	"4455"	"455"	"455"	1	"λx.pair(head(x),tail(tail(x)))"
+2	14	"data/c2-012.txt"	"4821085943"	"421085943"	"421085943"	1	"λx.pair(head(x),tail(tail(x)))"
+2	15	"data/c2-012.txt"	"1612334"	"112334"	"112334"	1	"λx.pair(head(x),tail(tail(x)))"
+2	16	"data/c2-012.txt"	"59044495"	"5044495"	"5044495"	1	"λx.pair(head(x),tail(tail(x)))"
+2	17	"data/c2-012.txt"	"4308185184"	"408185184"	"408185184"	1	"λx.pair(head(x),tail(tail(x)))"
+2	18	"data/c2-012.txt"	"431141"	"41141"	"41141"	1	"λx.pair(head(x),tail(tail(x)))"
+2	19	"data/c2-012.txt"	"19683"	"1683"	"1683"	1	"λx.pair(head(x),tail(tail(x)))"
+3	0	"data/c2-012.txt"	"788911"	"788911"	"78911"	0	"λx.x"
+3	1	"data/c2-012.txt"	"03652"	"0652"	"0652"	1	"λx.pair(head(x),tail(tail(x)))"
+3	2	"data/c2-012.txt"	"4331376610"	"431376610"	"431376610"	1	"λx.pair(head(x),tail(tail(x)))"
+3	3	"data/c2-012.txt"	"82733291"	"8733291"	"8733291"	1	"λx.pair(head(x),tail(tail(x)))"
+3	4	"data/c2-012.txt"	"03"	"0"	"0"	1	"λx.pair(head(x),tail(tail(x)))"
+3	5	"data/c2-012.txt"	"5150804"	"550804"	"550804"	1	"λx.pair(head(x),tail(tail(x)))"
+3	6	"data/c2-012.txt"	"364"	"34"	"34"	1	"λx.pair(head(x),tail(tail(x)))"
+3	7	"data/c2-012.txt"	"029646179"	"09646179"	"09646179"	1	"λx.pair(head(x),tail(tail(x)))"
+3	8	"data/c2-012.txt"	"03652"	"0652"	"0652"	1	"λx.pair(head(x),tail(tail(x)))"
+3	9	"data/c2-012.txt"	"937692927"	"97692927"	"97692927"	1	"λx.pair(head(x),tail(tail(x)))"
+3	10	"data/c2-012.txt"	"252232"	"22232"	"22232"	1	"λx.pair(head(x),tail(tail(x)))"
+3	11	"data/c2-012.txt"	"2340049135"	"240049135"	"240049135"	1	"λx.pair(head(x),tail(tail(x)))"
+3	12	"data/c2-012.txt"	"8594645"	"894645"	"894645"	1	"λx.pair(head(x),tail(tail(x)))"
+3	13	"data/c2-012.txt"	"68"	"6"	"6"	1	"λx.pair(head(x),tail(tail(x)))"
+3	14	"data/c2-012.txt"	"7176"	"776"	"776"	1	"λx.pair(head(x),tail(tail(x)))"
+3	15	"data/c2-012.txt"	"2340049135"	"240049135"	"240049135"	1	"λx.pair(head(x),tail(tail(x)))"
+3	16	"data/c2-012.txt"	"2340049135"	"240049135"	"240049135"	1	"λx.pair(head(x),tail(tail(x)))"
+3	17	"data/c2-012.txt"	"147754580"	"17754580"	"17754580"	1	"λx.pair(head(x),tail(tail(x)))"
+3	18	"data/c2-012.txt"	"281055900"	"21055900"	"21055900"	1	"λx.pair(head(x),tail(tail(x)))"
+3	19	"data/c2-012.txt"	"159474"	"19474"	"19474"	1	"λx.pair(head(x),tail(tail(x)))"
+4	0	"data/c2-012.txt"	"24309682"	"24309682"	"2309682"	0	"λx.x"
+4	1	"data/c2-012.txt"	"79"	"7"	"7"	1	"λx.pair(head(x),tail(tail(x)))"
+4	2	"data/c2-012.txt"	"4331376610"	"431376610"	"431376610"	1	"λx.pair(head(x),tail(tail(x)))"
+4	3	"data/c2-012.txt"	"602236"	"62236"	"62236"	1	"λx.pair(head(x),tail(tail(x)))"
+4	4	"data/c2-012.txt"	"7176"	"776"	"776"	1	"λx.pair(head(x),tail(tail(x)))"
+4	5	"data/c2-012.txt"	"0156"	"056"	"056"	1	"λx.pair(head(x),tail(tail(x)))"
+4	6	"data/c2-012.txt"	"98"	"9"	"9"	1	"λx.pair(head(x),tail(tail(x)))"
+4	7	"data/c2-012.txt"	"59044495"	"5044495"	"5044495"	1	"λx.pair(head(x),tail(tail(x)))"
+4	8	"data/c2-012.txt"	"138314"	"18314"	"18314"	1	"λx.pair(head(x),tail(tail(x)))"
+4	9	"data/c2-012.txt"	"91477"	"9477"	"9477"	1	"λx.pair(head(x),tail(tail(x)))"
+4	10	"data/c2-012.txt"	"648"	"68"	"68"	1	"λx.pair(head(x),tail(tail(x)))"
+4	11	"data/c2-012.txt"	"96"	"9"	"9"	1	"λx.pair(head(x),tail(tail(x)))"
+4	12	"data/c2-012.txt"	"281055900"	"21055900"	"21055900"	1	"λx.pair(head(x),tail(tail(x)))"
+4	13	"data/c2-012.txt"	"8216380"	"816380"	"816380"	1	"λx.pair(head(x),tail(tail(x)))"
+4	14	"data/c2-012.txt"	"7176"	"776"	"776"	1	"λx.pair(head(x),tail(tail(x)))"
+4	15	"data/c2-012.txt"	"8216380"	"816380"	"816380"	1	"λx.pair(head(x),tail(tail(x)))"
+4	16	"data/c2-012.txt"	"0156"	"056"	"056"	1	"λx.pair(head(x),tail(tail(x)))"
+4	17	"data/c2-012.txt"	"937692927"	"97692927"	"97692927"	1	"λx.pair(head(x),tail(tail(x)))"
+4	18	"data/c2-012.txt"	"54870"	"5870"	"5870"	1	"λx.pair(head(x),tail(tail(x)))"
+4	19	"data/c2-012.txt"	"59044495"	"5044495"	"5044495"	1	"λx.pair(head(x),tail(tail(x)))"
+5	0	"data/c2-012.txt"	"4455"	"4455"	"455"	0	"λx.x"
+5	1	"data/c2-012.txt"	"029646179"	"29646179"	"09646179"	0	"λx.tail(x)"
+5	2	"data/c2-012.txt"	"2340049135"	"240049135"	"240049135"	1	"λx.pair(head(x),tail(tail(x)))"
+5	3	"data/c2-012.txt"	"3620229"	"320229"	"320229"	1	"λx.pair(head(x),tail(tail(x)))"
+5	4	"data/c2-012.txt"	"281055900"	"21055900"	"21055900"	1	"λx.pair(head(x),tail(tail(x)))"
+5	5	"data/c2-012.txt"	"4537"	"437"	"437"	1	"λx.pair(head(x),tail(tail(x)))"
+5	6	"data/c2-012.txt"	"029646179"	"09646179"	"09646179"	1	"λx.pair(head(x),tail(tail(x)))"
+5	7	"data/c2-012.txt"	"5150804"	"550804"	"550804"	1	"λx.pair(head(x),tail(tail(x)))"
+5	8	"data/c2-012.txt"	"3841725"	"341725"	"341725"	1	"λx.pair(head(x),tail(tail(x)))"
+5	9	"data/c2-012.txt"	"59044495"	"5044495"	"5044495"	1	"λx.pair(head(x),tail(tail(x)))"
+5	10	"data/c2-012.txt"	"487086"	"47086"	"47086"	1	"λx.pair(head(x),tail(tail(x)))"
+5	11	"data/c2-012.txt"	"46"	"4"	"4"	1	"λx.pair(head(x),tail(tail(x)))"
+5	12	"data/c2-012.txt"	"96"	"9"	"9"	1	"λx.pair(head(x),tail(tail(x)))"
+5	13	"data/c2-012.txt"	"8904313158"	"804313158"	"804313158"	1	"λx.pair(head(x),tail(tail(x)))"
+5	14	"data/c2-012.txt"	"1612334"	"112334"	"112334"	1	"λx.pair(head(x),tail(tail(x)))"
+5	15	"data/c2-012.txt"	"4455"	"455"	"455"	1	"λx.pair(head(x),tail(tail(x)))"
+5	16	"data/c2-012.txt"	"03"	"0"	"0"	1	"λx.pair(head(x),tail(tail(x)))"
+5	17	"data/c2-012.txt"	"19683"	"1683"	"1683"	1	"λx.pair(head(x),tail(tail(x)))"
+5	18	"data/c2-012.txt"	"59888"	"5888"	"5888"	1	"λx.pair(head(x),tail(tail(x)))"
+5	19	"data/c2-012.txt"	"8594645"	"894645"	"894645"	1	"λx.pair(head(x),tail(tail(x)))"
+6	0	"data/c2-012.txt"	"533"	"533"	"53"	0	"λx.x"
+6	1	"data/c2-012.txt"	"68"	"6"	"6"	1	"λx.pair(head(x),tail(tail(x)))"
+6	2	"data/c2-012.txt"	"937692927"	"97692927"	"97692927"	1	"λx.pair(head(x),tail(tail(x)))"
+6	3	"data/c2-012.txt"	"3841725"	"341725"	"341725"	1	"λx.pair(head(x),tail(tail(x)))"
+6	4	"data/c2-012.txt"	"648"	"68"	"68"	1	"λx.pair(head(x),tail(tail(x)))"
+6	5	"data/c2-012.txt"	"03"	"0"	"0"	1	"λx.pair(head(x),tail(tail(x)))"
+6	6	"data/c2-012.txt"	"59888"	"5888"	"5888"	1	"λx.pair(head(x),tail(tail(x)))"
+6	7	"data/c2-012.txt"	"19683"	"1683"	"1683"	1	"λx.pair(head(x),tail(tail(x)))"
+6	8	"data/c2-012.txt"	"9689211"	"989211"	"989211"	1	"λx.pair(head(x),tail(tail(x)))"
+6	9	"data/c2-012.txt"	"4600"	"400"	"400"	1	"λx.pair(head(x),tail(tail(x)))"
+6	10	"data/c2-012.txt"	"4308185184"	"408185184"	"408185184"	1	"λx.pair(head(x),tail(tail(x)))"
+6	11	"data/c2-012.txt"	"5150804"	"550804"	"550804"	1	"λx.pair(head(x),tail(tail(x)))"
+6	12	"data/c2-012.txt"	"281055900"	"21055900"	"21055900"	1	"λx.pair(head(x),tail(tail(x)))"
+6	13	"data/c2-012.txt"	"79"	"7"	"7"	1	"λx.pair(head(x),tail(tail(x)))"
+6	14	"data/c2-012.txt"	"59044495"	"5044495"	"5044495"	1	"λx.pair(head(x),tail(tail(x)))"
+6	15	"data/c2-012.txt"	"533"	"53"	"53"	1	"λx.pair(head(x),tail(tail(x)))"
+6	16	"data/c2-012.txt"	"252232"	"22232"	"22232"	1	"λx.pair(head(x),tail(tail(x)))"
+6	17	"data/c2-012.txt"	"03652"	"0652"	"0652"	1	"λx.pair(head(x),tail(tail(x)))"
+6	18	"data/c2-012.txt"	"364"	"34"	"34"	1	"λx.pair(head(x),tail(tail(x)))"
+6	19	"data/c2-012.txt"	"05917"	"0917"	"0917"	1	"λx.pair(head(x),tail(tail(x)))"
+7	0	"data/c2-012.txt"	"85430"	"85430"	"8430"	0	"λx.x"
+7	1	"data/c2-012.txt"	"1612334"	"112334"	"112334"	1	"λx.pair(head(x),tail(tail(x)))"
+7	2	"data/c2-012.txt"	"937692927"	"97692927"	"97692927"	1	"λx.pair(head(x),tail(tail(x)))"
+7	3	"data/c2-012.txt"	"8216380"	"816380"	"816380"	1	"λx.pair(head(x),tail(tail(x)))"
+7	4	"data/c2-012.txt"	"364"	"34"	"34"	1	"λx.pair(head(x),tail(tail(x)))"
+7	5	"data/c2-012.txt"	"2340049135"	"240049135"	"240049135"	1	"λx.pair(head(x),tail(tail(x)))"
+7	6	"data/c2-012.txt"	"937692927"	"97692927"	"97692927"	1	"λx.pair(head(x),tail(tail(x)))"
+7	7	"data/c2-012.txt"	"487086"	"47086"	"47086"	1	"λx.pair(head(x),tail(tail(x)))"
+7	8	"data/c2-012.txt"	"648"	"68"	"68"	1	"λx.pair(head(x),tail(tail(x)))"
+7	9	"data/c2-012.txt"	"68"	"6"	"6"	1	"λx.pair(head(x),tail(tail(x)))"
+7	10	"data/c2-012.txt"	"46"	"4"	"4"	1	"λx.pair(head(x),tail(tail(x)))"
+7	11	"data/c2-012.txt"	"487086"	"47086"	"47086"	1	"λx.pair(head(x),tail(tail(x)))"
+7	12	"data/c2-012.txt"	"8216380"	"816380"	"816380"	1	"λx.pair(head(x),tail(tail(x)))"
+7	13	"data/c2-012.txt"	"54870"	"5870"	"5870"	1	"λx.pair(head(x),tail(tail(x)))"
+7	14	"data/c2-012.txt"	"46"	"4"	"4"	1	"λx.pair(head(x),tail(tail(x)))"
+7	15	"data/c2-012.txt"	"8216380"	"816380"	"816380"	1	"λx.pair(head(x),tail(tail(x)))"
+7	16	"data/c2-012.txt"	"59044495"	"5044495"	"5044495"	1	"λx.pair(head(x),tail(tail(x)))"
+7	17	"data/c2-012.txt"	"431141"	"41141"	"41141"	1	"λx.pair(head(x),tail(tail(x)))"
+7	18	"data/c2-012.txt"	"281055900"	"21055900"	"21055900"	1	"λx.pair(head(x),tail(tail(x)))"
+7	19	"data/c2-012.txt"	"59044495"	"5044495"	"5044495"	1	"λx.pair(head(x),tail(tail(x)))"
+8	0	"data/c2-012.txt"	"487086"	"487086"	"47086"	0	"λx.x"
+8	1	"data/c2-012.txt"	"2340049135"	"240049135"	"240049135"	1	"λx.pair(head(x),tail(tail(x)))"
+8	2	"data/c2-012.txt"	"54870"	"5870"	"5870"	1	"λx.pair(head(x),tail(tail(x)))"
+8	3	"data/c2-012.txt"	"533"	"53"	"53"	1	"λx.pair(head(x),tail(tail(x)))"
+8	4	"data/c2-012.txt"	"4308185184"	"408185184"	"408185184"	1	"λx.pair(head(x),tail(tail(x)))"
+8	5	"data/c2-012.txt"	"364"	"34"	"34"	1	"λx.pair(head(x),tail(tail(x)))"
+8	6	"data/c2-012.txt"	"91477"	"9477"	"9477"	1	"λx.pair(head(x),tail(tail(x)))"
+8	7	"data/c2-012.txt"	"147754580"	"17754580"	"17754580"	1	"λx.pair(head(x),tail(tail(x)))"
+8	8	"data/c2-012.txt"	"7176"	"776"	"776"	1	"λx.pair(head(x),tail(tail(x)))"
+8	9	"data/c2-012.txt"	"03652"	"0652"	"0652"	1	"λx.pair(head(x),tail(tail(x)))"
+8	10	"data/c2-012.txt"	"5150804"	"550804"	"550804"	1	"λx.pair(head(x),tail(tail(x)))"
+8	11	"data/c2-012.txt"	"5150804"	"550804"	"550804"	1	"λx.pair(head(x),tail(tail(x)))"
+8	12	"data/c2-012.txt"	"3620229"	"320229"	"320229"	1	"λx.pair(head(x),tail(tail(x)))"
+8	13	"data/c2-012.txt"	"03"	"0"	"0"	1	"λx.pair(head(x),tail(tail(x)))"
+8	14	"data/c2-012.txt"	"85430"	"8430"	"8430"	1	"λx.pair(head(x),tail(tail(x)))"
+8	15	"data/c2-012.txt"	"4331376610"	"431376610"	"431376610"	1	"λx.pair(head(x),tail(tail(x)))"
+8	16	"data/c2-012.txt"	"487086"	"47086"	"47086"	1	"λx.pair(head(x),tail(tail(x)))"
+8	17	"data/c2-012.txt"	"4537"	"437"	"437"	1	"λx.pair(head(x),tail(tail(x)))"
+8	18	"data/c2-012.txt"	"533"	"53"	"53"	1	"λx.pair(head(x),tail(tail(x)))"
+8	19	"data/c2-012.txt"	"5150804"	"550804"	"550804"	1	"λx.pair(head(x),tail(tail(x)))"
+9	0	"data/c2-012.txt"	"8594645"	"8594645"	"894645"	0	"λx.x"
+9	1	"data/c2-012.txt"	"68"	"6"	"6"	1	"λx.pair(head(x),tail(tail(x)))"
+9	2	"data/c2-012.txt"	"24309682"	"2309682"	"2309682"	1	"λx.pair(head(x),tail(tail(x)))"
+9	3	"data/c2-012.txt"	"281055900"	"21055900"	"21055900"	1	"λx.pair(head(x),tail(tail(x)))"
+9	4	"data/c2-012.txt"	"648"	"68"	"68"	1	"λx.pair(head(x),tail(tail(x)))"
+9	5	"data/c2-012.txt"	"431141"	"41141"	"41141"	1	"λx.pair(head(x),tail(tail(x)))"
+9	6	"data/c2-012.txt"	"138314"	"18314"	"18314"	1	"λx.pair(head(x),tail(tail(x)))"
+9	7	"data/c2-012.txt"	"252232"	"22232"	"22232"	1	"λx.pair(head(x),tail(tail(x)))"
+9	8	"data/c2-012.txt"	"029646179"	"09646179"	"09646179"	1	"λx.pair(head(x),tail(tail(x)))"
+9	9	"data/c2-012.txt"	"46"	"4"	"4"	1	"λx.pair(head(x),tail(tail(x)))"
+9	10	"data/c2-012.txt"	"8216380"	"816380"	"816380"	1	"λx.pair(head(x),tail(tail(x)))"
+9	11	"data/c2-012.txt"	"24309682"	"2309682"	"2309682"	1	"λx.pair(head(x),tail(tail(x)))"
+9	12	"data/c2-012.txt"	"364"	"34"	"34"	1	"λx.pair(head(x),tail(tail(x)))"
+9	13	"data/c2-012.txt"	"029646179"	"09646179"	"09646179"	1	"λx.pair(head(x),tail(tail(x)))"
+9	14	"data/c2-012.txt"	"4331376610"	"431376610"	"431376610"	1	"λx.pair(head(x),tail(tail(x)))"
+9	15	"data/c2-012.txt"	"59044495"	"5044495"	"5044495"	1	"λx.pair(head(x),tail(tail(x)))"
+9	16	"data/c2-012.txt"	"05917"	"0917"	"0917"	1	"λx.pair(head(x),tail(tail(x)))"
+9	17	"data/c2-012.txt"	"59044495"	"5044495"	"5044495"	1	"λx.pair(head(x),tail(tail(x)))"
+9	18	"data/c2-012.txt"	"159474"	"19474"	"19474"	1	"λx.pair(head(x),tail(tail(x)))"
+9	19	"data/c2-012.txt"	"138314"	"18314"	"18314"	1	"λx.pair(head(x),tail(tail(x)))"
+# Global sample count:	9843612338
+# Elapsed time:	120099 seconds 
+# Samples per second:	81962.3
+# VM ops per second:	1.52076e+07

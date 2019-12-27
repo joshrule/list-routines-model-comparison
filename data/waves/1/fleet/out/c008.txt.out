@@ -1,0 +1,167 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=11258 by user piantado at Wed Nov  6 21:04:48 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: ae0be1a467d652ad2e23d323782b74b7  /proc/11258/exe
+# 	 --input=wave1/c008.txt
+# 	 --threads=4
+# 	 --chains=8
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=10m (600 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data 08 -> 0
+# using data Z0b:0y57v: -> Z
+# using data YM2Z994v9 -> Y
+# using data 5V -> 5
+# using data @0s28A< -> @
+# using data P:3Q894;<[ -> P
+# using data :Wa6BFAN9 -> :
+# using data 040{ -> 0
+# using data 4_ -> 4
+# using data 7B;1:C8 -> 7
+# using data 965521V -> 9
+# using data :52A9~7v~ -> :
+# using data x64c8b -> x
+# using data :;1`53?k -> :
+# using data mR1A6 -> m
+# using data 3c:M851 -> 3
+# using data 6:04`54744 -> 6
+# using data 0^95 -> 0
+# using data 8503AIp -> 8
+# using data 5<526fV`3 -> 5
+# using data :04057s52 -> :
+# using data 0 -> 0
+# using data 2584403 -> 2
+# using data 233z3 -> 2
+# using data 80e39 -> 8
+# using data c0J -> 
+# using data Q42|f|o1C@ -> Q
+# using data A4U -> A
+# using data 2AP -> 2
+# using data 4:90@`<R0 -> 4
+# using data 279rAl714a -> 2
+# using data :Uq^=884{ -> :
+# using data 586I -> 5
+# using data 0t14 -> 0
+# using data 5>n42 -> 5
+# using data 2n3\; -> 2
+# using data c -> 
+# using data 87480yQ8 -> 8
+# using data 3R3=>:^y0 -> 3
+# using data O0H3_8CY -> O
+# using data fg=B;2 -> f
+# using data 9;V57T0b36 -> 9
+# using data [08 -> [
+# using data 293:Kh:6 -> 2
+# using data :@ -> :
+# using data zw890w1: -> z
+# using data 76v_1;64 -> 7
+# using data Th91>4 -> T
+# using data 73R8978i -> 7
+# using data 8c -> 8
+# Starting run 
+-13.5604	-13.5604	0	"λx.head(if(empty(x),tail(x),x))"
+-13.5604	-13.5604	0	"λx.if(empty(x),head(x),head(x))"
+-13.5604	-13.5604	0	"λx.if(empty(x),x,head(head(x)))"
+-13.5604	-13.5604	0	"λx.if((x==x),head(x),Ø)"
+-13.5604	-13.5604	0	"λx.head(if((Ø==x),x,x))"
+-13.5604	-13.5604	0	"λx.if(empty(head(x)),x,head(x))"
+-13.5604	-13.5604	0	"λx.head(if((x==Ø),x,x))"
+-13.5604	-13.5604	0	"λx.head(if(empty(tail(x)),x,x))"
+-13.5604	-13.5604	0	"λx.head(if((x==x),x,Ø))"
+-13.5604	-13.5604	0	"λx.if(empty(x),tail(x),head(x))"
+-13.5604	-13.5604	0	"λx.head(head(if(empty(x),x,x)))"
+-13.5604	-13.5604	0	"λx.if((x==Ø),x,head(x))"
+-13.5604	-13.5604	0	"λx.head(if(empty(x),x,head(x)))"
+-13.5604	-13.5604	0	"λx.if((Ø==x),x,head(x))"
+-13.5604	-13.5604	0	"λx.head(if(empty(head(x)),x,x))"
+-13.5604	-13.5604	0	"λx.head(if(empty(x),head(x),x))"
+-13.5604	-13.5604	0	"λx.if(empty(tail(x)),x,head(x))"
+-13.4835	-13.4835	0	"λx.head(cons(F(Ø),x))"
+-13.4835	-13.4835	0	"λx.cons(head(x),F(Ø))"
+-13.4835	-13.4835	0	"λx.head(cons(x,F(Ø)))"
+-13.4835	-13.4835	0	"λx.cons(F(Ø),head(x))"
+-12.8673	-12.8673	0	"λx.head(cons(x,cons(x,x)))"
+-12.8673	-12.8673	0	"λx.head(cons(cons(x,x),x))"
+-12.8673	-12.8673	0	"λx.if(empty(x),F(x),head(x))"
+-12.8673	-12.8673	0	"λx.head(if(empty(x),F(x),x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'0',head(x))"
+-12.6625	-12.6625	0	"λx.if(empty('9'),x,head(x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),',',head(x))"
+-12.6625	-12.6625	0	"λx.head(if(empty('6'),x,x))"
+-12.6625	-12.6625	0	"λx.if(empty('7'),x,head(x))"
+-12.6625	-12.6625	0	"λx.head(if(empty('8'),x,x))"
+-12.6625	-12.6625	0	"λx.if(empty('3'),x,head(x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'1',head(x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'4',head(x))"
+-12.6625	-12.6625	0	"λx.head(if(empty('3'),x,x))"
+-12.6625	-12.6625	0	"λx.head(if(empty(','),x,x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'9',head(x))"
+-12.6625	-12.6625	0	"λx.if(empty('8'),x,head(x))"
+-12.6625	-12.6625	0	"λx.head(if(empty('4'),x,x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'2',head(x))"
+-12.6625	-12.6625	0	"λx.head(if(empty(x),'2',x))"
+-12.6625	-12.6625	0	"λx.head(if(empty('5'),x,x))"
+-12.6625	-12.6625	0	"λx.if(empty('0'),x,head(x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'8',head(x))"
+-12.6625	-12.6625	0	"λx.head(if(empty('2'),x,x))"
+-12.6625	-12.6625	0	"λx.head(if(empty(x),'4',x))"
+-12.6625	-12.6625	0	"λx.if(empty('2'),x,head(x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'5',head(x))"
+-12.6625	-12.6625	0	"λx.head(if(empty('7'),x,x))"
+-12.6625	-12.6625	0	"λx.head(if(empty(x),'5',x))"
+-12.6625	-12.6625	0	"λx.head(if(empty(x),'9',x))"
+-12.6625	-12.6625	0	"λx.head(if(empty('0'),x,x))"
+-12.6625	-12.6625	0	"λx.if(empty('1'),x,head(x))"
+-12.6625	-12.6625	0	"λx.head(if(empty('1'),x,x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'7',head(x))"
+-12.6625	-12.6625	0	"λx.if(empty('5'),x,head(x))"
+-12.6625	-12.6625	0	"λx.head(if(empty('9'),x,x))"
+-12.6625	-12.6625	0	"λx.head(if(empty(x),'3',x))"
+-12.6625	-12.6625	0	"λx.if(empty(','),x,head(x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'6',head(x))"
+-12.6625	-12.6625	0	"λx.head(if(empty(x),'8',x))"
+-12.6625	-12.6625	0	"λx.if(empty(x),'3',head(x))"
+-12.6625	-12.6625	0	"λx.if(empty('4'),x,head(x))"
+-12.6625	-12.6625	0	"λx.head(if(empty(x),'6',x))"
+-12.6625	-12.6625	0	"λx.head(if(empty(x),',',x))"
+-12.6625	-12.6625	0	"λx.head(if(empty(x),'0',x))"
+-12.6625	-12.6625	0	"λx.if(empty('6'),x,head(x))"
+-12.6625	-12.6625	0	"λx.head(if(empty(x),'7',x))"
+-12.6625	-12.6625	0	"λx.head(if(empty(x),'1',x))"
+-12.5672	-12.5672	0	"λx.if(empty(Ø),head(x),x)"
+-12.5672	-12.5672	0	"λx.head(if(empty(Ø),x,x))"
+-12.5672	-12.5672	0	"λx.if(empty(x),Ø,head(x))"
+-12.5672	-12.5672	0	"λx.head(if(empty(x),Ø,x))"
+-11.874	-11.874	0	"λx.head(cons(x,tail(x)))"
+-11.874	-11.874	0	"λx.head(cons(x,head(x)))"
+-11.874	-11.874	0	"λx.head(head(cons(x,x)))"
+-11.874	-11.874	0	"λx.head(cons(head(x),x))"
+-11.2578	-11.2578	0	"λx.if((x==x),head(x),x)"
+-11.2578	-11.2578	0	"λx.head(if((x==x),x,x))"
+-10.9761	-10.9761	0	"λx.head(cons(x,'7'))"
+-10.9761	-10.9761	0	"λx.head(cons(x,'2'))"
+-10.9761	-10.9761	0	"λx.head(cons(x,'3'))"
+-10.9761	-10.9761	0	"λx.head(cons(x,'4'))"
+-10.9761	-10.9761	0	"λx.head(cons(x,'0'))"
+-10.9761	-10.9761	0	"λx.head(cons(x,'9'))"
+-10.9761	-10.9761	0	"λx.head(cons(x,'1'))"
+-10.9761	-10.9761	0	"λx.head(cons(x,'8'))"
+-10.9761	-10.9761	0	"λx.head(cons(x,'6'))"
+-10.9761	-10.9761	0	"λx.head(cons(x,','))"
+-10.9761	-10.9761	0	"λx.head(cons(x,'5'))"
+-10.8808	-10.8808	0	"λx.head(cons(Ø,x))"
+-10.8808	-10.8808	0	"λx.head(cons(x,Ø))"
+-10.8808	-10.8808	0	"λx.head(head(head(x)))"
+-10.8808	-10.8808	0	"λx.cons(head(x),Ø)"
+-10.8808	-10.8808	0	"λx.cons(Ø,head(x))"
+-10.2646	-10.2646	0	"λx.if(empty(x),x,head(x))"
+-10.2646	-10.2646	0	"λx.head(if(empty(x),x,x))"
+-8.57818	-8.57818	0	"λx.head(cons(x,x))"
+-7.58493	-7.58493	0	"λx.head(head(x))"
+-4.28909	-4.28909	0	"λx.head(x)"
+# Global sample count:	152964675
+# Elapsed time:	600.433 seconds 
+# Samples per second:	254757

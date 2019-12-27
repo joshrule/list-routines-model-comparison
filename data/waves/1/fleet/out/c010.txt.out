@@ -1,0 +1,167 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=11284 by user piantado at Wed Nov  6 21:04:48 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: ae0be1a467d652ad2e23d323782b74b7  /proc/11284/exe
+# 	 --input=wave1/c010.txt
+# 	 --threads=4
+# 	 --chains=8
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=10m (600 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data 5 -> 5
+# using data 51b5_n53: -> :
+# using data 57 -> 7
+# using data 4 -> 4
+# using data M:`4B3Qo -> o
+# using data 9 -> 9
+# using data 2 -> 2
+# using data :18201y55Y -> Y
+# using data 9a}4M -> M
+# using data 5?6OGQ -> Q
+# using data 5\ -> \
+# using data Gwy7@t280 -> 0
+# using data 354>0~ -> ~
+# using data >9844 -> 4
+# using data {YPXA392 -> 2
+# using data a05 -> 5
+# using data 580|9Xu -> u
+# using data @uIB1]B[65 -> 5
+# using data 87]4`3p6~] -> ]
+# using data 5{61`3Vc -> c
+# using data 05004Bi:W -> W
+# using data 21{:603E -> E
+# using data ]9653 -> 3
+# using data 9J22?:2i -> i
+# using data gT4 -> 4
+# using data 460 -> 0
+# using data I2<x0:031 -> 1
+# using data 2211V:1: -> :
+# using data 1]5l2@4Fp8 -> 8
+# using data 6 -> 6
+# using data S0b3ZH -> 
+# using data 154FSn21? -> ?
+# using data 0 -> 0
+# using data pB:5 -> 5
+# using data ;9J -> J
+# using data :s999 -> 9
+# using data 5D72y137 -> 7
+# using data 8219YG5 -> 5
+# using data H1S89:B0? -> ?
+# using data :<S;83 -> 3
+# using data 5:8c:2Ji6 -> 6
+# using data 19q`97 -> 7
+# using data g -> g
+# using data 3<506858z: -> :
+# using data sAO -> O
+# using data 7 -> 7
+# using data B129d -> d
+# using data 7689e3 -> 3
+# using data 97 -> 7
+# using data 518K5<fs8 -> 8
+# Starting run 
+-22.0616	-22.0616	0	"λx.if(empty(tail(x)),head(x),F(F(tail(x))))"
+-22.0616	-22.0616	0	"λx.if((F(Ø)==tail(x)),x,F(tail(x)))"
+-22.0616	-22.0616	0	"λx.head(cons(cons(F(tail(x)),x),head(x)))"
+-22.0616	-22.0616	0	"λx.head(cons(F(tail(x)),cons(tail(x),x)))"
+-22.0616	-22.0616	0	"λx.head(cons(cons(F(tail(x)),x),tail(x)))"
+-22.0616	-22.0616	0	"λx.if(empty(tail(x)),x,head(F(F(tail(x)))))"
+-22.0616	-22.0616	0	"λx.head(cons(cons(F(tail(x)),tail(x)),x))"
+-22.0616	-22.0616	0	"λx.head(cons(F(tail(x)),cons(head(x),x)))"
+-22.0616	-22.0616	0	"λx.if(empty(head(tail(x))),x,F(F(tail(x))))"
+-22.0616	-22.0616	0	"λx.head(cons(F(tail(x)),cons(x,head(x))))"
+-22.0616	-22.0616	0	"λx.head(cons(F(tail(x)),head(cons(x,x))))"
+-22.0616	-22.0616	0	"λx.head(cons(head(F(tail(x))),cons(x,x)))"
+-22.0616	-22.0616	0	"λx.if(empty(tail(x)),x,F(head(F(tail(x)))))"
+-22.0616	-22.0616	0	"λx.head(cons(cons(F(tail(x)),head(x)),x))"
+-22.0616	-22.0616	0	"λx.if((tail(x)==Ø),x,F(F(tail(x))))"
+-22.0616	-22.0616	0	"λx.head(if(empty(tail(x)),x,F(F(tail(x)))))"
+-21.4454	-21.4454	0	"λx.head(cons(F(tail(if((x==x),x,x))),x))"
+-21.4454	-21.4454	0	"λx.head(cons(if((x==x),F(tail(x)),x),x))"
+-21.4454	-21.4454	0	"λx.if((x==head(cons(x,x))),x,F(tail(x)))"
+-21.4454	-21.4454	0	"λx.if((x==tail(cons(x,x))),x,F(tail(x)))"
+-21.4454	-21.4454	0	"λx.if((head(cons(x,x))==x),x,F(tail(x)))"
+-21.4454	-21.4454	0	"λx.head(cons(F(tail(x)),if((x==x),x,x)))"
+-21.4454	-21.4454	0	"λx.if((x==cons(tail(x),x)),x,F(tail(x)))"
+-21.4454	-21.4454	0	"λx.if((tail(cons(x,x))==x),x,F(tail(x)))"
+-21.4454	-21.4454	0	"λx.if((cons(tail(x),x)==x),x,F(tail(x)))"
+-21.4454	-21.4454	0	"λx.if((x==cons(x,tail(x))),x,F(tail(x)))"
+-21.4454	-21.4454	0	"λx.if((cons(x,tail(x))==x),x,F(tail(x)))"
+-21.4454	-21.4454	0	"λx.head(cons(F(if((x==x),tail(x),x)),x))"
+-21.3685	-21.3685	0	"λx.head(cons(F(F(tail(x))),cons(x,x)))"
+-21.3685	-21.3685	0	"λx.head(cons(cons(F(F(tail(x))),x),x))"
+-21.3685	-21.3685	0	"λx.if(empty(tail(x)),x,F(F(F(tail(x)))))"
+-21.1637	-21.1637	0	"λx.head(cons(cons(F(tail(x)),x),'1'))"
+-21.1637	-21.1637	0	"λx.head(cons(F(tail(x)),cons(x,'3')))"
+-21.1637	-21.1637	0	"λx.head(cons(F(tail(x)),cons(x,'0')))"
+-21.1637	-21.1637	0	"λx.head(cons(F(tail(x)),cons(x,'8')))"
+-21.1637	-21.1637	0	"λx.head(cons(F(tail(x)),cons(x,'1')))"
+-21.1637	-21.1637	0	"λx.head(cons(F(tail(x)),cons(x,'9')))"
+-21.1637	-21.1637	0	"λx.head(cons(cons(F(tail(x)),x),'3'))"
+-21.1637	-21.1637	0	"λx.head(cons(F(tail(x)),cons(x,'6')))"
+-21.1637	-21.1637	0	"λx.head(cons(cons(F(tail(x)),x),'2'))"
+-21.1637	-21.1637	0	"λx.head(cons(F(tail(x)),cons(x,'5')))"
+-21.1637	-21.1637	0	"λx.head(cons(F(tail(x)),cons(x,',')))"
+-21.1637	-21.1637	0	"λx.head(cons(cons(F(tail(x)),x),'7'))"
+-21.1637	-21.1637	0	"λx.head(cons(cons(F(tail(x)),x),'9'))"
+-21.1637	-21.1637	0	"λx.head(cons(F(tail(x)),cons(x,'7')))"
+-21.1637	-21.1637	0	"λx.head(cons(cons(F(tail(x)),x),'8'))"
+-21.1637	-21.1637	0	"λx.head(cons(F(tail(x)),cons(x,'2')))"
+-21.1637	-21.1637	0	"λx.head(cons(cons(F(tail(x)),x),'5'))"
+-21.1637	-21.1637	0	"λx.head(cons(cons(F(tail(x)),x),'4'))"
+-21.1637	-21.1637	0	"λx.head(cons(cons(F(tail(x)),x),'0'))"
+-21.1637	-21.1637	0	"λx.head(cons(F(tail(x)),cons(x,'4')))"
+-21.1637	-21.1637	0	"λx.head(cons(cons(F(tail(x)),x),'6'))"
+-21.1637	-21.1637	0	"λx.head(cons(cons(F(tail(x)),x),','))"
+-21.0684	-21.0684	0	"λx.head(cons(cons(F(tail(x)),x),Ø))"
+-21.0684	-21.0684	0	"λx.head(cons(F(tail(cons(Ø,x))),x))"
+-21.0684	-21.0684	0	"λx.head(cons(head(F(tail(x))),head(x)))"
+-21.0684	-21.0684	0	"λx.head(cons(F(tail(cons(x,Ø))),x))"
+-21.0684	-21.0684	0	"λx.head(cons(F(tail(x)),cons(Ø,x)))"
+-21.0684	-21.0684	0	"λx.head(cons(cons(F(tail(x)),Ø),x))"
+-21.0684	-21.0684	0	"λx.head(cons(F(tail(x)),cons(x,Ø)))"
+-21.0684	-21.0684	0	"λx.head(cons(F(tail(x)),head(head(x))))"
+-21.0684	-21.0684	0	"λx.head(cons(F(cons(Ø,tail(x))),x))"
+-21.0684	-21.0684	0	"λx.head(cons(F(cons(tail(x),Ø)),x))"
+-21.0684	-21.0684	0	"λx.head(cons(head(head(F(tail(x)))),x))"
+-20.4522	-20.4522	0	"λx.head(cons(if(empty(x),x,F(tail(x))),x))"
+-20.4522	-20.4522	0	"λx.if(empty(x),x,head(cons(F(tail(x)),x)))"
+-20.4522	-20.4522	0	"λx.head(if((head(x)==x),x,F(tail(x))))"
+-20.4522	-20.4522	0	"λx.head(cons(F(tail(x)),if(empty(x),x,x)))"
+-20.4522	-20.4522	0	"λx.head(cons(F(if(empty(x),x,tail(x))),x))"
+-20.4522	-20.4522	0	"λx.if((x==head(x)),x,head(F(tail(x))))"
+-20.4522	-20.4522	0	"λx.head(if((x==head(x)),x,F(tail(x))))"
+-20.4522	-20.4522	0	"λx.if((head(x)==x),x,head(F(tail(x))))"
+-20.4522	-20.4522	0	"λx.head(cons(F(tail(if(empty(x),x,x))),x))"
+-20.4522	-20.4522	0	"λx.if((x==head(head(x))),x,F(tail(x)))"
+-20.4522	-20.4522	0	"λx.if((x==head(x)),head(x),F(tail(x)))"
+-20.4522	-20.4522	0	"λx.if((head(x)==x),head(x),F(tail(x)))"
+-20.4522	-20.4522	0	"λx.if((head(head(x))==x),x,F(tail(x)))"
+-20.3752	-20.3752	0	"λx.head(cons(F(head(F(tail(x)))),x))"
+-20.3752	-20.3752	0	"λx.head(head(cons(F(F(tail(x))),x)))"
+-20.3752	-20.3752	0	"λx.head(cons(head(F(F(tail(x)))),x))"
+-20.3752	-20.3752	0	"λx.head(cons(F(F(tail(x))),head(x)))"
+-19.759	-19.759	0	"λx.if((head(x)==x),x,F(F(tail(x))))"
+-19.759	-19.759	0	"λx.if((x==head(x)),x,F(F(tail(x))))"
+-19.6821	-19.6821	0	"λx.head(cons(F(F(F(tail(x)))),x))"
+-19.4589	-19.4589	0	"λx.if(empty(tail(x)),x,head(F(tail(x))))"
+-19.4589	-19.4589	0	"λx.if(empty(tail(x)),head(x),F(tail(x)))"
+-19.4589	-19.4589	0	"λx.head(if(empty(tail(x)),x,F(tail(x))))"
+-19.4589	-19.4589	0	"λx.if((Ø==tail(x)),x,F(tail(x)))"
+-19.4589	-19.4589	0	"λx.if(empty(head(tail(x))),x,F(tail(x)))"
+-19.4589	-19.4589	0	"λx.if((tail(x)==Ø),x,F(tail(x)))"
+-18.7658	-18.7658	0	"λx.if(empty(tail(x)),x,F(F(tail(x))))"
+-18.7658	-18.7658	0	"λx.head(cons(cons(F(tail(x)),x),x))"
+-18.7658	-18.7658	0	"λx.head(cons(F(tail(x)),cons(x,x)))"
+-17.7725	-17.7725	0	"λx.head(cons(head(F(tail(x))),x))"
+-17.7725	-17.7725	0	"λx.head(cons(F(tail(x)),head(x)))"
+-17.1564	-17.1564	0	"λx.if((x==head(x)),x,F(tail(x)))"
+-17.1564	-17.1564	0	"λx.if((head(x)==x),x,F(tail(x)))"
+-17.0794	-17.0794	0	"λx.head(cons(F(F(tail(x))),x))"
+-16.1631	-16.1631	0	"λx.if(empty(tail(x)),x,F(tail(x)))"
+-14.4767	-14.4767	0	"λx.head(cons(F(tail(x)),x))"
+# Global sample count:	149176634
+# Elapsed time:	600.524 seconds 
+# Samples per second:	248411

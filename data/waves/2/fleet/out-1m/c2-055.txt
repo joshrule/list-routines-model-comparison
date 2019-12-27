@@ -1,0 +1,268 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=76230 by user piantado at Wed Dec  4 23:16:09 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: 75de067d9790c8abe3432331157b2715  /proc/76230/exe
+# 	 --input=data/c2-055.txt
+# 	 --threads=2
+# 	 --chains=4
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=1m (60 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data 5501572413 -> 2
+# using data 461466800 -> 680
+# using data 459971649 -> 16
+# using data 3840515876 -> 515876
+# using data 25532682 -> 3268
+# using data 3766809801 -> 80980
+# using data 246292193 -> 292
+# using data 1601402938 -> 014029
+# using data 36853846 -> 3846
+# using data 25502935 -> 0293
+# using data 66434450 -> 0
+# using data 772181383 -> 3
+# using data 56576846 -> 46
+# using data 6863066942 -> 942
+# using data 56024456 -> 56
+# using data 154813412 -> 48134
+# using data 22069221 -> 6
+# using data 5870301121 -> 1121
+# using data 232132043 -> 13
+# using data 5651496165 -> 61
+# using data 3846134758 -> 134758
+# using data 4683510852 -> 108
+# using data 2793202599 -> 320259
+# using data 7826086634 -> 34
+# using data 7844523502 -> 02
+# using data 7810644808 -> 08
+# using data 178817577 -> 8817577
+# using data 2877890605 -> 7890605
+# using data 45124567 -> 56
+# using data 14698259 -> 6982
+# using data 7805003713 -> 13
+# using data 7802261476 -> 76
+# using data 6744878906 -> 90
+# using data 4817442114 -> 42114
+# using data 454382156 -> 21
+# using data 7897064434 -> 34
+# using data 575087806 -> 806
+# using data 3515555468 -> 555
+# using data 7893613048 -> 48
+# using data 565138290 -> 29
+# using data 4717606957 -> 0695
+# using data 7744626742 -> 4
+# using data 278035133 -> 035133
+# using data 2627246338 -> 72463
+# using data 4718292336 -> 9233
+# using data 45723386 -> 38
+# using data 333916279 -> 1
+# using data 35882970 -> 297
+# using data 146485864 -> 6485
+# using data 1829295486 -> 29295486
+i_run	i_N	concept	input	output	correct.output	correct	hypothesis
+0	0	"data/c2-055.txt"	"772181383"	"772181383"	"3"	0	"λx.x"
+0	1	"data/c2-055.txt"	"35882970"	"3"	"297"	0	"λx.pair(3,Ø)"
+0	2	"data/c2-055.txt"	"5651496165"	""	"61"	0	"λx.Ø"
+0	3	"data/c2-055.txt"	"154813412"	""	"48134"	0	"λx.Ø"
+0	4	"data/c2-055.txt"	"565138290"	""	"29"	0	"λx.Ø"
+0	5	"data/c2-055.txt"	"246292193"	""	"292"	0	"λx.Ø"
+0	6	"data/c2-055.txt"	"22069221"	""	"6"	0	"λx.Ø"
+0	7	"data/c2-055.txt"	"25532682"	""	"3268"	0	"λx.Ø"
+0	8	"data/c2-055.txt"	"178817577"	""	"8817577"	0	"λx.Ø"
+0	9	"data/c2-055.txt"	"454382156"	""	"21"	0	"λx.Ø"
+0	10	"data/c2-055.txt"	"2877890605"	""	"7890605"	0	"λx.Ø"
+0	11	"data/c2-055.txt"	"459971649"	""	"16"	0	"λx.Ø"
+0	12	"data/c2-055.txt"	"3840515876"	""	"515876"	0	"λx.Ø"
+0	13	"data/c2-055.txt"	"459971649"	""	"16"	0	"λx.Ø"
+0	14	"data/c2-055.txt"	"2877890605"	""	"7890605"	0	"λx.Ø"
+0	15	"data/c2-055.txt"	"232132043"	""	"13"	0	"λx.Ø"
+0	16	"data/c2-055.txt"	"278035133"	""	"035133"	0	"λx.Ø"
+0	17	"data/c2-055.txt"	"459971649"	""	"16"	0	"λx.Ø"
+0	18	"data/c2-055.txt"	"7802261476"	""	"76"	0	"λx.Ø"
+0	19	"data/c2-055.txt"	"772181383"	""	"3"	0	"λx.Ø"
+1	0	"data/c2-055.txt"	"45723386"	"45723386"	"38"	0	"λx.x"
+1	1	"data/c2-055.txt"	"56576846"	"38"	"46"	0	"λx.pair(3,pair(8,Ø))"
+1	2	"data/c2-055.txt"	"7744626742"	"6"	"4"	0	"λx.pair((head(x)-1),Ø)"
+1	3	"data/c2-055.txt"	"7826086634"	""	"34"	0	"λx.Ø"
+1	4	"data/c2-055.txt"	"66434450"	""	"0"	0	"λx.Ø"
+1	5	"data/c2-055.txt"	"7844523502"	""	"02"	0	"λx.Ø"
+1	6	"data/c2-055.txt"	"454382156"	""	"21"	0	"λx.Ø"
+1	7	"data/c2-055.txt"	"5870301121"	""	"1121"	0	"λx.Ø"
+1	8	"data/c2-055.txt"	"5501572413"	"572413"	"2"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+1	9	"data/c2-055.txt"	"575087806"	""	"806"	0	"λx.Ø"
+1	10	"data/c2-055.txt"	"1829295486"	""	"29295486"	0	"λx.Ø"
+1	11	"data/c2-055.txt"	"2877890605"	"77890605"	"7890605"	0	"λx.tail(tail(if(((2-head(x))>head(x)),F(tail(x)),x)))"
+1	12	"data/c2-055.txt"	"25502935"	"02935"	"0293"	0	"λx.tail(tail(if((3>head(x)),if((2>head(x)),x,tail(x)),Ø)))"
+1	13	"data/c2-055.txt"	"772181383"	""	"3"	0	"λx.tail(if((head(x)>1),Ø,tail(x)))"
+1	14	"data/c2-055.txt"	"246292193"	""	"292"	0	"λx.tail(if((2>head(x)),tail(x),Ø))"
+1	15	"data/c2-055.txt"	"575087806"	""	"806"	0	"λx.tail(tail(if((head(x)>1),Ø,x)))"
+1	16	"data/c2-055.txt"	"56576846"	""	"46"	0	"λx.tail(tail(if((head(x)>1),Ø,x)))"
+1	17	"data/c2-055.txt"	"6744878906"	""	"90"	0	"λx.tail(tail(if((head(x)>1),Ø,x)))"
+1	18	"data/c2-055.txt"	"56576846"	""	"46"	0	"λx.tail(tail(if((head(x)>1),Ø,x)))"
+1	19	"data/c2-055.txt"	"5501572413"	""	"2"	0	"λx.tail(tail(if((head(x)>1),Ø,x)))"
+2	0	"data/c2-055.txt"	"3846134758"	"3846134758"	"134758"	0	"λx.x"
+2	1	"data/c2-055.txt"	"459971649"	"71649"	"16"	0	"λx.tail(tail(tail(tail(x))))"
+2	2	"data/c2-055.txt"	"565138290"	"290"	"29"	0	"λx.if((head(x)>2),F(tail(tail(x))),x)"
+2	3	"data/c2-055.txt"	"7897064434"	""	"34"	0	"λx.if(((1-head(x))>head(x)),F(tail(tail(x))),x)"
+2	4	"data/c2-055.txt"	"45723386"	""	"38"	0	"λx.if(((1-head(x))>head(x)),F(tail(tail(x))),x)"
+2	5	"data/c2-055.txt"	"56576846"	""	"46"	0	"λx.if(((1-head(x))>head(x)),F(tail(tail(x))),x)"
+2	6	"data/c2-055.txt"	"2627246338"	"2627246338"	"72463"	0	"λx.if((((head(tail(x))-6)+head(x))>4),tail(F(tail(x))),x)"
+2	7	"data/c2-055.txt"	"6744878906"	""	"90"	0	"λx.if(((1-head(x))>head(x)),F(tail(tail(x))),x)"
+2	8	"data/c2-055.txt"	"4717606957"	"17606957"	"0695"	0	"λx.if(((1-head(x))>head(x)),F(tail(tail(x))),x)"
+2	9	"data/c2-055.txt"	"45124567"	""	"56"	0	"λx.Ø"
+2	10	"data/c2-055.txt"	"6744878906"	""	"90"	0	"λx.Ø"
+2	11	"data/c2-055.txt"	"2877890605"	""	"7890605"	0	"λx.Ø"
+2	12	"data/c2-055.txt"	"7897064434"	""	"34"	0	"λx.Ø"
+2	13	"data/c2-055.txt"	"66434450"	""	"0"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+2	14	"data/c2-055.txt"	"66434450"	""	"0"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+2	15	"data/c2-055.txt"	"2627246338"	""	"72463"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+2	16	"data/c2-055.txt"	"4683510852"	""	"108"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+2	17	"data/c2-055.txt"	"154813412"	""	"48134"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+2	18	"data/c2-055.txt"	"2877890605"	""	"7890605"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+2	19	"data/c2-055.txt"	"6744878906"	""	"90"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+3	0	"data/c2-055.txt"	"7897064434"	"7897064434"	"34"	0	"λx.x"
+3	1	"data/c2-055.txt"	"5651496165"	"34"	"61"	0	"λx.pair(3,pair(4,Ø))"
+3	2	"data/c2-055.txt"	"232132043"	""	"13"	0	"λx.Ø"
+3	3	"data/c2-055.txt"	"3766809801"	""	"80980"	0	"λx.Ø"
+3	4	"data/c2-055.txt"	"36853846"	""	"3846"	0	"λx.Ø"
+3	5	"data/c2-055.txt"	"25532682"	""	"3268"	0	"λx.Ø"
+3	6	"data/c2-055.txt"	"4718292336"	""	"9233"	0	"λx.Ø"
+3	7	"data/c2-055.txt"	"2877890605"	""	"7890605"	0	"λx.Ø"
+3	8	"data/c2-055.txt"	"3515555468"	""	"555"	0	"λx.tail(if((head(x)>7),x,F(if((3>head(x)),tail(x),x))))"
+3	9	"data/c2-055.txt"	"45723386"	""	"38"	0	"λx.tail(if((head(x)>7),x,F(if((3>head(x)),tail(x),x))))"
+3	10	"data/c2-055.txt"	"35882970"	""	"297"	0	"λx.tail(if((head(x)>7),x,F(if((3>head(x)),tail(x),x))))"
+3	11	"data/c2-055.txt"	"7897064434"	""	"34"	0	"λx.tail(if((head(x)>7),x,F(if((3>head(x)),tail(x),x))))"
+3	12	"data/c2-055.txt"	"56024456"	""	"56"	0	"λx.tail(if((head(x)>7),x,F(if((3>head(x)),tail(x),x))))"
+3	13	"data/c2-055.txt"	"25502935"	""	"0293"	0	"λx.tail(if((head(x)>7),x,F(if((3>head(x)),tail(x),x))))"
+3	14	"data/c2-055.txt"	"3766809801"	""	"80980"	0	"λx.tail(if((head(x)>7),x,F(if((3>head(x)),tail(x),x))))"
+3	15	"data/c2-055.txt"	"278035133"	""	"035133"	0	"λx.tail(if((head(x)>7),x,F(if((3>head(x)),tail(x),x))))"
+3	16	"data/c2-055.txt"	"246292193"	""	"292"	0	"λx.tail(tail(tail(if(((5+head(x))>head(tail(x))),Ø,x))))"
+3	17	"data/c2-055.txt"	"7802261476"	""	"76"	0	"λx.tail(tail(tail(if(((5+head(x))>head(tail(x))),Ø,x))))"
+3	18	"data/c2-055.txt"	"22069221"	""	"6"	0	"λx.tail(tail(tail(if(((5+head(x))>head(tail(x))),Ø,x))))"
+3	19	"data/c2-055.txt"	"6744878906"	""	"90"	0	"λx.tail(tail(tail(if(((5+head(x))>head(tail(x))),Ø,x))))"
+4	0	"data/c2-055.txt"	"45124567"	"45124567"	"56"	0	"λx.x"
+4	1	"data/c2-055.txt"	"461466800"	"56"	"680"	0	"λx.pair(5,pair(6,Ø))"
+4	2	"data/c2-055.txt"	"5870301121"	"8"	"1121"	0	"λx.pair(head(tail(x)),Ø)"
+4	3	"data/c2-055.txt"	"232132043"	""	"13"	0	"λx.if((head(x)>0),tail(F(if((x==x),tail(x),x))),x)"
+4	4	"data/c2-055.txt"	"1829295486"	""	"29295486"	0	"λx.if((head(x)>0),tail(F(if((x==x),tail(x),x))),x)"
+4	5	"data/c2-055.txt"	"461466800"	""	"680"	0	"λx.if((9>head(tail(x))),if((pair(head(x),Ø)==tail(tail(x))),pair(head(x),x),F(tail(x))),x)"
+4	6	"data/c2-055.txt"	"5651496165"	""	"61"	0	"λx.tail(tail(if((4>(2+head(x))),x,tail(F(tail(x))))))"
+4	7	"data/c2-055.txt"	"2793202599"	""	"320259"	0	"λx.tail(tail(if((4>(2+head(x))),x,tail(F(tail(x))))))"
+4	8	"data/c2-055.txt"	"3846134758"	"4758"	"134758"	0	"λx.tail(tail(if((4>(2+head(x))),x,tail(F(tail(x))))))"
+4	9	"data/c2-055.txt"	"772181383"	"2181383"	"3"	0	"λx.tail(if(((head(x)-2)>4),tail(x),F(F(tail(x)))))"
+4	10	"data/c2-055.txt"	"4817442114"	""	"42114"	0	"λx.tail(if(((7-head(x))>5),tail(x),F(F(tail(x)))))"
+4	11	"data/c2-055.txt"	"22069221"	""	"6"	0	"λx.tail(if(((7-head(x))>5),tail(x),F(F(tail(x)))))"
+4	12	"data/c2-055.txt"	"22069221"	""	"6"	0	"λx.tail(if(((7-head(x))>5),tail(x),F(F(tail(x)))))"
+4	13	"data/c2-055.txt"	"5870301121"	"1121"	"1121"	1	"λx.tail(if(((7-head(x))>5),tail(x),F(F(tail(x)))))"
+4	14	"data/c2-055.txt"	"7805003713"	""	"13"	0	"λx.tail(if(((7-head(x))>5),tail(x),F(F(tail(x)))))"
+4	15	"data/c2-055.txt"	"25502935"	""	"0293"	0	"λx.tail(if(((7-head(x))>5),tail(x),F(F(tail(x)))))"
+4	16	"data/c2-055.txt"	"1601402938"	"01402938"	"014029"	0	"λx.tail(if(((7-head(x))>5),tail(x),F(F(tail(x)))))"
+4	17	"data/c2-055.txt"	"459971649"	""	"16"	0	"λx.Ø"
+4	18	"data/c2-055.txt"	"333916279"	""	"1"	0	"λx.Ø"
+4	19	"data/c2-055.txt"	"575087806"	""	"806"	0	"λx.Ø"
+5	0	"data/c2-055.txt"	"2877890605"	"2877890605"	"7890605"	0	"λx.x"
+5	1	"data/c2-055.txt"	"66434450"	"34450"	"0"	0	"λx.tail(tail(tail(x)))"
+5	2	"data/c2-055.txt"	"2877890605"	"7890605"	"7890605"	1	"λx.if((5>head(x)),tail(tail(tail(x))),pair(0,Ø))"
+5	3	"data/c2-055.txt"	"3840515876"	"0515876"	"515876"	0	"λx.tail(if((head(x)>5),F(tail(x)),tail(tail(x))))"
+5	4	"data/c2-055.txt"	"7897064434"	"7064434"	"34"	0	"λx.if(((4-head(tail(tail(x))))>3),tail(tail(tail(x))),F(tail(x)))"
+5	5	"data/c2-055.txt"	"333916279"	"16279"	"1"	0	"λx.tail(if((head(x)>2),F(pair((head(x)-1),tail(x))),tail(tail(x))))"
+5	6	"data/c2-055.txt"	"56576846"	""	"46"	0	"λx.Ø"
+5	7	"data/c2-055.txt"	"4683510852"	""	"108"	0	"λx.tail(tail(tail(if((head(x)>2),Ø,x))))"
+5	8	"data/c2-055.txt"	"56576846"	""	"46"	0	"λx.tail(tail(tail(if(((head(x)-3)>5),x,F(tail(tail(x)))))))"
+5	9	"data/c2-055.txt"	"333916279"	""	"1"	0	"λx.tail(tail(tail(if(((head(x)-3)>5),x,F(tail(tail(x)))))))"
+5	10	"data/c2-055.txt"	"2877890605"	"7890605"	"7890605"	1	"λx.tail(tail(tail(if(((head(x)-3)>5),x,F(tail(tail(x)))))))"
+5	11	"data/c2-055.txt"	"4817442114"	"14"	"42114"	0	"λx.tail(tail(tail(if(((head(x)-3)>5),x,F(tail(tail(x)))))))"
+5	12	"data/c2-055.txt"	"4717606957"	"7"	"0695"	0	"λx.tail(tail(if((3>head(x)),tail(x),F(tail(x)))))"
+5	13	"data/c2-055.txt"	"5501572413"	""	"2"	0	"λx.tail(tail(tail(if((head(x)>2),Ø,x))))"
+5	14	"data/c2-055.txt"	"575087806"	""	"806"	0	"λx.tail(tail(tail(if((head(x)>2),Ø,x))))"
+5	15	"data/c2-055.txt"	"3840515876"	""	"515876"	0	"λx.tail(tail(tail(if((head(x)>2),Ø,x))))"
+5	16	"data/c2-055.txt"	"22069221"	"69221"	"6"	0	"λx.tail(tail(tail(if((head(x)>2),Ø,x))))"
+5	17	"data/c2-055.txt"	"7805003713"	""	"13"	0	"λx.Ø"
+5	18	"data/c2-055.txt"	"7802261476"	""	"76"	0	"λx.if((pair(head(x),pair((head(x)+(head(x)-2)),Ø))==x),x,F(tail(x)))"
+5	19	"data/c2-055.txt"	"246292193"	""	"292"	0	"λx.if((pair(head(x),pair((head(x)+(head(x)-2)),Ø))==x),x,F(tail(x)))"
+6	0	"data/c2-055.txt"	"772181383"	"772181383"	"3"	0	"λx.x"
+6	1	"data/c2-055.txt"	"7810644808"	"3"	"08"	0	"λx.pair(3,Ø)"
+6	2	"data/c2-055.txt"	"3515555468"	"15555468"	"555"	0	"λx.tail(if((5>head(x)),tail(x),tail(F(tail(x)))))"
+6	3	"data/c2-055.txt"	"45723386"	""	"38"	0	"λx.Ø"
+6	4	"data/c2-055.txt"	"7744626742"	""	"4"	0	"λx.Ø"
+6	5	"data/c2-055.txt"	"6744878906"	""	"90"	0	"λx.Ø"
+6	6	"data/c2-055.txt"	"575087806"	""	"806"	0	"λx.Ø"
+6	7	"data/c2-055.txt"	"3840515876"	""	"515876"	0	"λx.Ø"
+6	8	"data/c2-055.txt"	"7893613048"	""	"48"	0	"λx.Ø"
+6	9	"data/c2-055.txt"	"1829295486"	""	"29295486"	0	"λx.Ø"
+6	10	"data/c2-055.txt"	"1601402938"	"01402938"	"014029"	0	"λx.tail(tail(if((3>head(if((head(x)>8),Ø,x))),x,F(F(pair((head(x)+head(x)),x))))))"
+6	11	"data/c2-055.txt"	"25532682"	""	"3268"	0	"λx.Ø"
+6	12	"data/c2-055.txt"	"565138290"	""	"29"	0	"λx.Ø"
+6	13	"data/c2-055.txt"	"278035133"	""	"035133"	0	"λx.Ø"
+6	14	"data/c2-055.txt"	"246292193"	""	"292"	0	"λx.Ø"
+6	15	"data/c2-055.txt"	"36853846"	""	"3846"	0	"λx.Ø"
+6	16	"data/c2-055.txt"	"772181383"	""	"3"	0	"λx.Ø"
+6	17	"data/c2-055.txt"	"25532682"	""	"3268"	0	"λx.Ø"
+6	18	"data/c2-055.txt"	"7844523502"	"44523502"	"02"	0	"λx.if((F(tail(x))==if((7>head(x)),tail(x),x)),x,F(tail(x)))"
+6	19	"data/c2-055.txt"	"56024456"	""	"56"	0	"λx.Ø"
+7	0	"data/c2-055.txt"	"246292193"	"246292193"	"292"	0	"λx.x"
+7	1	"data/c2-055.txt"	"454382156"	"494"	"21"	0	"λx.pair(head(x),pair(9,pair(head(x),Ø)))"
+7	2	"data/c2-055.txt"	"56024456"	"2"	"56"	0	"λx.pair(2,Ø)"
+7	3	"data/c2-055.txt"	"278035133"	""	"035133"	0	"λx.Ø"
+7	4	"data/c2-055.txt"	"454382156"	""	"21"	0	"λx.tail(if((7>head(x)),F(tail(x)),x))"
+7	5	"data/c2-055.txt"	"565138290"	"0"	"29"	0	"λx.tail(if((head(x)>1),if((7>head(x)),F(tail(x)),x),tail(x)))"
+7	6	"data/c2-055.txt"	"7893613048"	"893613048"	"48"	0	"λx.tail(if((head(x)>0),if((7>head(x)),F(tail(x)),x),tail(x)))"
+7	7	"data/c2-055.txt"	"7893613048"	""	"48"	0	"λx.Ø"
+7	8	"data/c2-055.txt"	"154813412"	""	"48134"	0	"λx.Ø"
+7	9	"data/c2-055.txt"	"246292193"	""	"292"	0	"λx.Ø"
+7	10	"data/c2-055.txt"	"1829295486"	""	"29295486"	0	"λx.Ø"
+7	11	"data/c2-055.txt"	"146485864"	""	"6485"	0	"λx.Ø"
+7	12	"data/c2-055.txt"	"36853846"	""	"3846"	0	"λx.Ø"
+7	13	"data/c2-055.txt"	"5651496165"	""	"61"	0	"λx.if((head(x)>7),x,tail(F(tail(if((head(x)>3),if(((head(x)+(head(x)-6))>head(x)),Ø,x),x)))))"
+7	14	"data/c2-055.txt"	"1601402938"	""	"014029"	0	"λx.if((head(x)>7),x,tail(F(tail(if((head(x)>3),if(((head(x)+(head(x)-6))>head(x)),Ø,x),x)))))"
+7	15	"data/c2-055.txt"	"459971649"	""	"16"	0	"λx.if((head(x)>7),x,tail(F(tail(if((head(x)>3),if(((head(x)+(head(x)-6))>head(x)),Ø,x),x)))))"
+7	16	"data/c2-055.txt"	"459971649"	""	"16"	0	"λx.if((head(x)>7),x,tail(F(tail(if((head(x)>3),if(((head(x)+(head(x)-6))>head(x)),Ø,x),x)))))"
+7	17	"data/c2-055.txt"	"2877890605"	"77890605"	"7890605"	0	"λx.if((head(x)>7),x,tail(F(tail(if((head(x)>3),if(((head(x)+(head(x)-6))>head(x)),Ø,x),x)))))"
+7	18	"data/c2-055.txt"	"454382156"	""	"21"	0	"λx.Ø"
+7	19	"data/c2-055.txt"	"6744878906"	"48"	"90"	0	"λx.if((6>head(x)),Ø,pair(4,pair(8,Ø)))"
+8	0	"data/c2-055.txt"	"333916279"	"333916279"	"1"	0	"λx.x"
+8	1	"data/c2-055.txt"	"3846134758"	"1"	"134758"	0	"λx.pair(1,Ø)"
+8	2	"data/c2-055.txt"	"7826086634"	"086634"	"34"	0	"λx.tail(if((8>head(x)),tail(F(tail(x))),x))"
+8	3	"data/c2-055.txt"	"25502935"	""	"0293"	0	"λx.Ø"
+8	4	"data/c2-055.txt"	"232132043"	""	"13"	0	"λx.Ø"
+8	5	"data/c2-055.txt"	"14698259"	""	"6982"	0	"λx.Ø"
+8	6	"data/c2-055.txt"	"5501572413"	""	"2"	0	"λx.Ø"
+8	7	"data/c2-055.txt"	"4717606957"	""	"0695"	0	"λx.Ø"
+8	8	"data/c2-055.txt"	"2627246338"	""	"72463"	0	"λx.Ø"
+8	9	"data/c2-055.txt"	"3846134758"	""	"134758"	0	"λx.Ø"
+8	10	"data/c2-055.txt"	"178817577"	""	"8817577"	0	"λx.Ø"
+8	11	"data/c2-055.txt"	"6744878906"	""	"90"	0	"λx.Ø"
+8	12	"data/c2-055.txt"	"7802261476"	""	"76"	0	"λx.Ø"
+8	13	"data/c2-055.txt"	"4718292336"	""	"9233"	0	"λx.tail(tail(if((7>head(tail(tail(x)))),Ø,x)))"
+8	14	"data/c2-055.txt"	"3840515876"	""	"515876"	0	"λx.tail(tail(if((7>head(tail(tail(x)))),Ø,x)))"
+8	15	"data/c2-055.txt"	"4683510852"	"83510852"	"108"	0	"λx.tail(tail(if((7>head(tail(tail(x)))),Ø,x)))"
+8	16	"data/c2-055.txt"	"3840515876"	""	"515876"	0	"λx.if(((head(x)+6)>head(tail(tail(x)))),tail(F(tail(tail(x)))),tail(tail(x)))"
+8	17	"data/c2-055.txt"	"3846134758"	""	"134758"	0	"λx.if(((head(x)+6)>head(tail(tail(x)))),tail(F(tail(tail(x)))),tail(tail(x)))"
+8	18	"data/c2-055.txt"	"4717606957"	""	"0695"	0	"λx.if(((head(x)+6)>head(tail(tail(x)))),tail(F(tail(tail(x)))),tail(tail(x)))"
+8	19	"data/c2-055.txt"	"45124567"	""	"56"	0	"λx.if(((head(x)+6)>head(tail(tail(x)))),tail(F(tail(tail(x)))),tail(tail(x)))"
+9	0	"data/c2-055.txt"	"3846134758"	"3846134758"	"134758"	0	"λx.x"
+9	1	"data/c2-055.txt"	"5870301121"	"301121"	"1121"	0	"λx.tail(tail(tail(tail(x))))"
+9	2	"data/c2-055.txt"	"154813412"	"154813412"	"48134"	0	"λx.if((head(x)>2),F(tail(tail(x))),x)"
+9	3	"data/c2-055.txt"	"66434450"	""	"0"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+9	4	"data/c2-055.txt"	"4817442114"	""	"42114"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+9	5	"data/c2-055.txt"	"575087806"	"806"	"806"	1	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+9	6	"data/c2-055.txt"	"45124567"	""	"56"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+9	7	"data/c2-055.txt"	"7844523502"	""	"02"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+9	8	"data/c2-055.txt"	"154813412"	""	"48134"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+9	9	"data/c2-055.txt"	"36853846"	""	"3846"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+9	10	"data/c2-055.txt"	"56576846"	""	"46"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+9	11	"data/c2-055.txt"	"3840515876"	"5876"	"515876"	0	"λx.if((head(x)>0),tail(F(tail(x))),x)"
+9	12	"data/c2-055.txt"	"4683510852"	""	"108"	0	"λx.if((6>(8-(head(tail(x))+head(x)))),F(tail(tail(x))),x)"
+9	13	"data/c2-055.txt"	"2877890605"	""	"7890605"	0	"λx.if((6>(8-(head(tail(x))+head(x)))),F(tail(tail(x))),x)"
+9	14	"data/c2-055.txt"	"22069221"	""	"6"	0	"λx.if((6>(8-(head(tail(x))+head(x)))),F(tail(tail(x))),x)"
+9	15	"data/c2-055.txt"	"7805003713"	"003713"	"13"	0	"λx.if((6>(8-(head(tail(x))+head(x)))),F(tail(tail(x))),x)"
+9	16	"data/c2-055.txt"	"56024456"	""	"56"	0	"λx.Ø"
+9	17	"data/c2-055.txt"	"6744878906"	""	"90"	0	"λx.Ø"
+9	18	"data/c2-055.txt"	"14698259"	""	"6982"	0	"λx.Ø"
+9	19	"data/c2-055.txt"	"2627246338"	""	"72463"	0	"λx.Ø"
+# Global sample count:	833839831
+# Elapsed time:	12045.5 seconds 
+# Samples per second:	69224.3
+# VM ops per second:	1.76181e+07

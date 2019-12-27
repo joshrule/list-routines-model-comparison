@@ -1,0 +1,268 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=7910 by user piantado at Wed Dec  4 16:34:46 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: 2fb1c47ee31e2c3b1aaf2768a7d98678  /proc/7910/exe
+# 	 --input=data/c004.txt
+# 	 --threads=2
+# 	 --chains=4
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=1m (60 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data  -> ;CHQZ550p9
+# using data 12533 -> ;CHQZ550p9
+# using data : -> ;CHQZ550p9
+# using data A4G6883h1 -> ;CHQZ550p9
+# using data 2sKwD38 -> ;CHQZ550p9
+# using data g162 -> ;CHQZ550p9
+# using data 7 -> ;CHQZ550p9
+# using data ?:19;68>4B -> ;CHQZ550p9
+# using data 4Hf`<0a -> ;CHQZ550p9
+# using data 295x169C0 -> ;CHQZ550p9
+# using data 83868P -> ;CHQZ550p9
+# using data 4629 -> ;CHQZ550p9
+# using data F::Bq -> ;CHQZ550p9
+# using data 715?H -> ;CHQZ550p9
+# using data A8FY<?F25 -> ;CHQZ550p9
+# using data 40 -> ;CHQZ550p9
+# using data 93j:`M8wM0 -> ;CHQZ550p9
+# using data 196> -> ;CHQZ550p9
+# using data AV555m -> ;CHQZ550p9
+# using data Q80A -> ;CHQZ550p9
+# using data 41z469 -> ;CHQZ550p9
+# using data 3ZL -> ;CHQZ550p9
+# using data z368m23 -> ;CHQZ550p9
+# using data 43dw69g -> ;CHQZ550p9
+# using data q800DD@ -> ;CHQZ550p9
+# using data EkY -> ;CHQZ550p9
+# using data 2G388` -> ;CHQZ550p9
+# using data `93Jm -> ;CHQZ550p9
+# using data 85b7356 -> ;CHQZ550p9
+# using data <8i3A32265 -> ;CHQZ550p9
+# using data 4480 -> ;CHQZ550p9
+# using data U9:b -> ;CHQZ550p9
+# using data 51 -> ;CHQZ550p9
+# using data 9C071 -> ;CHQZ550p9
+# using data 3T5 -> ;CHQZ550p9
+# using data J:11 -> ;CHQZ550p9
+# using data 103W3_::5 -> ;CHQZ550p9
+# using data q4=q -> ;CHQZ550p9
+# using data =QM -> ;CHQZ550p9
+# using data 315 -> ;CHQZ550p9
+# using data A10v7448<_ -> ;CHQZ550p9
+# using data :]QS1]L -> ;CHQZ550p9
+# using data 73bw6 -> ;CHQZ550p9
+# using data 0FX -> ;CHQZ550p9
+# using data D -> ;CHQZ550p9
+# using data 6 -> ;CHQZ550p9
+# using data 85Cz -> ;CHQZ550p9
+# using data 328 -> ;CHQZ550p9
+# using data 2g1AX55; -> ;CHQZ550p9
+# using data ;o9>6 -> ;CHQZ550p9
+i_run	i_N	concept	input	output	correct.output	correct	hypothesis
+0	0	"data/c004.txt"	"`93Jm"	"`93Jm"	";CHQZ550p9"	0	"λx.x"
+0	1	"data/c004.txt"	""	""	";CHQZ550p9"	0	"λx.Ø"
+0	2	"data/c004.txt"	"715?H"	""	";CHQZ550p9"	0	"λx.Ø"
+0	3	"data/c004.txt"	"6"	""	";CHQZ550p9"	0	"λx.Ø"
+0	4	"data/c004.txt"	"2g1AX55;"	""	";CHQZ550p9"	0	"λx.Ø"
+0	5	"data/c004.txt"	":"	""	";CHQZ550p9"	0	"λx.Ø"
+0	6	"data/c004.txt"	"2G388`"	""	";CHQZ550p9"	0	"λx.Ø"
+0	7	"data/c004.txt"	"Q80A"	""	";CHQZ550p9"	0	"λx.Ø"
+0	8	"data/c004.txt"	"51"	""	";CHQZ550p9"	0	"λx.Ø"
+0	9	"data/c004.txt"	"z368m23"	""	";CHQZ550p9"	0	"λx.Ø"
+0	10	"data/c004.txt"	"g162"	""	";CHQZ550p9"	0	"λx.Ø"
+0	11	"data/c004.txt"	"4480"	""	";CHQZ550p9"	0	"λx.Ø"
+0	12	"data/c004.txt"	"9C071"	""	";CHQZ550p9"	0	"λx.Ø"
+0	13	"data/c004.txt"	"A8FY<?F25"	""	";CHQZ550p9"	0	"λx.Ø"
+0	14	"data/c004.txt"	"<8i3A32265"	""	";CHQZ550p9"	0	"λx.Ø"
+0	15	"data/c004.txt"	"U9:b"	""	";CHQZ550p9"	0	"λx.Ø"
+0	16	"data/c004.txt"	"U9:b"	""	";CHQZ550p9"	0	"λx.Ø"
+0	17	"data/c004.txt"	"z368m23"	""	";CHQZ550p9"	0	"λx.Ø"
+0	18	"data/c004.txt"	"315"	""	";CHQZ550p9"	0	"λx.Ø"
+0	19	"data/c004.txt"	";o9>6"	""	";CHQZ550p9"	0	"λx.Ø"
+1	0	"data/c004.txt"	";o9>6"	";o9>6"	";CHQZ550p9"	0	"λx.x"
+1	1	"data/c004.txt"	"0FX"	"0"	";CHQZ550p9"	0	"λx.pair(Ø,head(x))"
+1	2	"data/c004.txt"	"85b7356"	""	";CHQZ550p9"	0	"λx.Ø"
+1	3	"data/c004.txt"	"295x169C0"	""	";CHQZ550p9"	0	"λx.Ø"
+1	4	"data/c004.txt"	"196>"	""	";CHQZ550p9"	0	"λx.Ø"
+1	5	"data/c004.txt"	"12533"	""	";CHQZ550p9"	0	"λx.Ø"
+1	6	"data/c004.txt"	"315"	""	";CHQZ550p9"	0	"λx.Ø"
+1	7	"data/c004.txt"	"315"	""	";CHQZ550p9"	0	"λx.Ø"
+1	8	"data/c004.txt"	"315"	""	";CHQZ550p9"	0	"λx.Ø"
+1	9	"data/c004.txt"	"196>"	""	";CHQZ550p9"	0	"λx.Ø"
+1	10	"data/c004.txt"	"J:11"	""	";CHQZ550p9"	0	"λx.Ø"
+1	11	"data/c004.txt"	"4Hf`<0a"	""	";CHQZ550p9"	0	"λx.Ø"
+1	12	"data/c004.txt"	";o9>6"	""	";CHQZ550p9"	0	"λx.Ø"
+1	13	"data/c004.txt"	"AV555m"	""	";CHQZ550p9"	0	"λx.Ø"
+1	14	"data/c004.txt"	"4629"	""	";CHQZ550p9"	0	"λx.Ø"
+1	15	"data/c004.txt"	"z368m23"	""	";CHQZ550p9"	0	"λx.Ø"
+1	16	"data/c004.txt"	"51"	""	";CHQZ550p9"	0	"λx.Ø"
+1	17	"data/c004.txt"	"U9:b"	""	";CHQZ550p9"	0	"λx.Ø"
+1	18	"data/c004.txt"	"D"	""	";CHQZ550p9"	0	"λx.Ø"
+1	19	"data/c004.txt"	";o9>6"	""	";CHQZ550p9"	0	"λx.Ø"
+2	0	"data/c004.txt"	"93j:`M8wM0"	"93j:`M8wM0"	";CHQZ550p9"	0	"λx.x"
+2	1	"data/c004.txt"	"q4=q"	""	";CHQZ550p9"	0	"λx.Ø"
+2	2	"data/c004.txt"	"4629"	""	";CHQZ550p9"	0	"λx.Ø"
+2	3	"data/c004.txt"	"=QM"	""	";CHQZ550p9"	0	"λx.Ø"
+2	4	"data/c004.txt"	"A4G6883h1"	""	";CHQZ550p9"	0	"λx.Ø"
+2	5	"data/c004.txt"	"EkY"	""	";CHQZ550p9"	0	"λx.Ø"
+2	6	"data/c004.txt"	"85b7356"	""	";CHQZ550p9"	0	"λx.Ø"
+2	7	"data/c004.txt"	"`93Jm"	""	";CHQZ550p9"	0	"λx.Ø"
+2	8	"data/c004.txt"	"4480"	""	";CHQZ550p9"	0	"λx.Ø"
+2	9	"data/c004.txt"	"7"	""	";CHQZ550p9"	0	"λx.Ø"
+2	10	"data/c004.txt"	"Q80A"	""	";CHQZ550p9"	0	"λx.Ø"
+2	11	"data/c004.txt"	"?:19;68>4B"	""	";CHQZ550p9"	0	"λx.Ø"
+2	12	"data/c004.txt"	"85Cz"	""	";CHQZ550p9"	0	"λx.Ø"
+2	13	"data/c004.txt"	"A4G6883h1"	""	";CHQZ550p9"	0	"λx.Ø"
+2	14	"data/c004.txt"	"328"	""	";CHQZ550p9"	0	"λx.Ø"
+2	15	"data/c004.txt"	"F::Bq"	""	";CHQZ550p9"	0	"λx.Ø"
+2	16	"data/c004.txt"	"93j:`M8wM0"	""	";CHQZ550p9"	0	"λx.Ø"
+2	17	"data/c004.txt"	"Q80A"	""	";CHQZ550p9"	0	"λx.Ø"
+2	18	"data/c004.txt"	":"	""	";CHQZ550p9"	0	"λx.Ø"
+2	19	"data/c004.txt"	"4480"	""	";CHQZ550p9"	0	"λx.Ø"
+3	0	"data/c004.txt"	"2G388`"	"2G388`"	";CHQZ550p9"	0	"λx.x"
+3	1	"data/c004.txt"	"q800DD@"	""	";CHQZ550p9"	0	"λx.Ø"
+3	2	"data/c004.txt"	"2g1AX55;"	""	";CHQZ550p9"	0	"λx.Ø"
+3	3	"data/c004.txt"	"12533"	""	";CHQZ550p9"	0	"λx.Ø"
+3	4	"data/c004.txt"	"0FX"	""	";CHQZ550p9"	0	"λx.Ø"
+3	5	"data/c004.txt"	"=QM"	""	";CHQZ550p9"	0	"λx.Ø"
+3	6	"data/c004.txt"	"J:11"	""	";CHQZ550p9"	0	"λx.Ø"
+3	7	"data/c004.txt"	"Q80A"	""	";CHQZ550p9"	0	"λx.Ø"
+3	8	"data/c004.txt"	"315"	""	";CHQZ550p9"	0	"λx.Ø"
+3	9	"data/c004.txt"	"6"	""	";CHQZ550p9"	0	"λx.Ø"
+3	10	"data/c004.txt"	"315"	""	";CHQZ550p9"	0	"λx.Ø"
+3	11	"data/c004.txt"	"2sKwD38"	""	";CHQZ550p9"	0	"λx.Ø"
+3	12	"data/c004.txt"	""	""	";CHQZ550p9"	0	"λx.Ø"
+3	13	"data/c004.txt"	"q4=q"	""	";CHQZ550p9"	0	"λx.Ø"
+3	14	"data/c004.txt"	";o9>6"	""	";CHQZ550p9"	0	"λx.Ø"
+3	15	"data/c004.txt"	"315"	""	";CHQZ550p9"	0	"λx.Ø"
+3	16	"data/c004.txt"	"73bw6"	""	";CHQZ550p9"	0	"λx.Ø"
+3	17	"data/c004.txt"	"7"	""	";CHQZ550p9"	0	"λx.Ø"
+3	18	"data/c004.txt"	"A8FY<?F25"	""	";CHQZ550p9"	0	"λx.Ø"
+3	19	"data/c004.txt"	"g162"	""	";CHQZ550p9"	0	"λx.Ø"
+4	0	"data/c004.txt"	"F::Bq"	"F::Bq"	";CHQZ550p9"	0	"λx.x"
+4	1	"data/c004.txt"	"A4G6883h1"	""	";CHQZ550p9"	0	"λx.Ø"
+4	2	"data/c004.txt"	"D"	""	";CHQZ550p9"	0	"λx.Ø"
+4	3	"data/c004.txt"	"Q80A"	""	";CHQZ550p9"	0	"λx.Ø"
+4	4	"data/c004.txt"	"AV555m"	""	";CHQZ550p9"	0	"λx.Ø"
+4	5	"data/c004.txt"	":"	""	";CHQZ550p9"	0	"λx.Ø"
+4	6	"data/c004.txt"	"4Hf`<0a"	""	";CHQZ550p9"	0	"λx.Ø"
+4	7	"data/c004.txt"	"4Hf`<0a"	""	";CHQZ550p9"	0	"λx.Ø"
+4	8	"data/c004.txt"	"AV555m"	""	";CHQZ550p9"	0	"λx.Ø"
+4	9	"data/c004.txt"	"D"	""	";CHQZ550p9"	0	"λx.Ø"
+4	10	"data/c004.txt"	"`93Jm"	""	";CHQZ550p9"	0	"λx.Ø"
+4	11	"data/c004.txt"	"Q80A"	""	";CHQZ550p9"	0	"λx.Ø"
+4	12	"data/c004.txt"	"85Cz"	""	";CHQZ550p9"	0	"λx.Ø"
+4	13	"data/c004.txt"	"9C071"	""	";CHQZ550p9"	0	"λx.Ø"
+4	14	"data/c004.txt"	"2sKwD38"	""	";CHQZ550p9"	0	"λx.Ø"
+4	15	"data/c004.txt"	"103W3_::5"	""	";CHQZ550p9"	0	"λx.Ø"
+4	16	"data/c004.txt"	""	""	";CHQZ550p9"	0	"λx.Ø"
+4	17	"data/c004.txt"	"51"	""	";CHQZ550p9"	0	"λx.Ø"
+4	18	"data/c004.txt"	"J:11"	""	";CHQZ550p9"	0	"λx.Ø"
+4	19	"data/c004.txt"	"<8i3A32265"	""	";CHQZ550p9"	0	"λx.Ø"
+5	0	"data/c004.txt"	""	""	";CHQZ550p9"	0	"λx.x"
+5	1	"data/c004.txt"	"J:11"	"J:11"	";CHQZ550p9"	0	"λx.x"
+5	2	"data/c004.txt"	"7"	""	";CHQZ550p9"	0	"λx.Ø"
+5	3	"data/c004.txt"	"D"	""	";CHQZ550p9"	0	"λx.Ø"
+5	4	"data/c004.txt"	"85Cz"	""	";CHQZ550p9"	0	"λx.Ø"
+5	5	"data/c004.txt"	"AV555m"	""	";CHQZ550p9"	0	"λx.Ø"
+5	6	"data/c004.txt"	"q800DD@"	""	";CHQZ550p9"	0	"λx.Ø"
+5	7	"data/c004.txt"	"4629"	""	";CHQZ550p9"	0	"λx.Ø"
+5	8	"data/c004.txt"	"<8i3A32265"	""	";CHQZ550p9"	0	"λx.Ø"
+5	9	"data/c004.txt"	"85b7356"	""	";CHQZ550p9"	0	"λx.Ø"
+5	10	"data/c004.txt"	"295x169C0"	""	";CHQZ550p9"	0	"λx.Ø"
+5	11	"data/c004.txt"	"295x169C0"	""	";CHQZ550p9"	0	"λx.Ø"
+5	12	"data/c004.txt"	"U9:b"	""	";CHQZ550p9"	0	"λx.Ø"
+5	13	"data/c004.txt"	"Q80A"	""	";CHQZ550p9"	0	"λx.Ø"
+5	14	"data/c004.txt"	"85b7356"	""	";CHQZ550p9"	0	"λx.Ø"
+5	15	"data/c004.txt"	"D"	""	";CHQZ550p9"	0	"λx.Ø"
+5	16	"data/c004.txt"	"AV555m"	""	";CHQZ550p9"	0	"λx.Ø"
+5	17	"data/c004.txt"	"3T5"	""	";CHQZ550p9"	0	"λx.Ø"
+5	18	"data/c004.txt"	"J:11"	""	";CHQZ550p9"	0	"λx.Ø"
+5	19	"data/c004.txt"	"7"	""	";CHQZ550p9"	0	"λx.Ø"
+6	0	"data/c004.txt"	"F::Bq"	"F::Bq"	";CHQZ550p9"	0	"λx.x"
+6	1	"data/c004.txt"	";o9>6"	""	";CHQZ550p9"	0	"λx.Ø"
+6	2	"data/c004.txt"	"40"	""	";CHQZ550p9"	0	"λx.Ø"
+6	3	"data/c004.txt"	"g162"	""	";CHQZ550p9"	0	"λx.Ø"
+6	4	"data/c004.txt"	"F::Bq"	""	";CHQZ550p9"	0	"λx.Ø"
+6	5	"data/c004.txt"	"AV555m"	""	";CHQZ550p9"	0	"λx.Ø"
+6	6	"data/c004.txt"	"z368m23"	""	";CHQZ550p9"	0	"λx.Ø"
+6	7	"data/c004.txt"	"43dw69g"	""	";CHQZ550p9"	0	"λx.Ø"
+6	8	"data/c004.txt"	"2g1AX55;"	""	";CHQZ550p9"	0	"λx.Ø"
+6	9	"data/c004.txt"	"328"	""	";CHQZ550p9"	0	"λx.Ø"
+6	10	"data/c004.txt"	"73bw6"	""	";CHQZ550p9"	0	"λx.Ø"
+6	11	"data/c004.txt"	":]QS1]L"	""	";CHQZ550p9"	0	"λx.Ø"
+6	12	"data/c004.txt"	"A4G6883h1"	""	";CHQZ550p9"	0	"λx.Ø"
+6	13	"data/c004.txt"	"83868P"	""	";CHQZ550p9"	0	"λx.Ø"
+6	14	"data/c004.txt"	"z368m23"	""	";CHQZ550p9"	0	"λx.Ø"
+6	15	"data/c004.txt"	"=QM"	""	";CHQZ550p9"	0	"λx.Ø"
+6	16	"data/c004.txt"	""	""	";CHQZ550p9"	0	"λx.Ø"
+6	17	"data/c004.txt"	"0FX"	""	";CHQZ550p9"	0	"λx.Ø"
+6	18	"data/c004.txt"	"6"	""	";CHQZ550p9"	0	"λx.Ø"
+6	19	"data/c004.txt"	"4480"	""	";CHQZ550p9"	0	"λx.Ø"
+7	0	"data/c004.txt"	"F::Bq"	"F::Bq"	";CHQZ550p9"	0	"λx.x"
+7	1	"data/c004.txt"	"F::Bq"	""	";CHQZ550p9"	0	"λx.Ø"
+7	2	"data/c004.txt"	"A10v7448<_"	""	";CHQZ550p9"	0	"λx.Ø"
+7	3	"data/c004.txt"	"0FX"	""	";CHQZ550p9"	0	"λx.Ø"
+7	4	"data/c004.txt"	"41z469"	""	";CHQZ550p9"	0	"λx.Ø"
+7	5	"data/c004.txt"	"g162"	""	";CHQZ550p9"	0	"λx.Ø"
+7	6	"data/c004.txt"	"g162"	""	";CHQZ550p9"	0	"λx.Ø"
+7	7	"data/c004.txt"	";o9>6"	""	";CHQZ550p9"	0	"λx.Ø"
+7	8	"data/c004.txt"	"J:11"	""	";CHQZ550p9"	0	"λx.Ø"
+7	9	"data/c004.txt"	"0FX"	""	";CHQZ550p9"	0	"λx.Ø"
+7	10	"data/c004.txt"	"715?H"	""	";CHQZ550p9"	0	"λx.Ø"
+7	11	"data/c004.txt"	"0FX"	""	";CHQZ550p9"	0	"λx.Ø"
+7	12	"data/c004.txt"	"0FX"	""	";CHQZ550p9"	0	"λx.Ø"
+7	13	"data/c004.txt"	"g162"	""	";CHQZ550p9"	0	"λx.Ø"
+7	14	"data/c004.txt"	"6"	""	";CHQZ550p9"	0	"λx.Ø"
+7	15	"data/c004.txt"	"328"	""	";CHQZ550p9"	0	"λx.Ø"
+7	16	"data/c004.txt"	"U9:b"	""	";CHQZ550p9"	0	"λx.Ø"
+7	17	"data/c004.txt"	"315"	""	";CHQZ550p9"	0	"λx.Ø"
+7	18	"data/c004.txt"	"Q80A"	""	";CHQZ550p9"	0	"λx.Ø"
+7	19	"data/c004.txt"	"J:11"	""	";CHQZ550p9"	0	"λx.Ø"
+8	0	"data/c004.txt"	"A4G6883h1"	"A4G6883h1"	";CHQZ550p9"	0	"λx.x"
+8	1	"data/c004.txt"	"2g1AX55;"	""	";CHQZ550p9"	0	"λx.Ø"
+8	2	"data/c004.txt"	"`93Jm"	""	";CHQZ550p9"	0	"λx.Ø"
+8	3	"data/c004.txt"	"328"	""	";CHQZ550p9"	0	"λx.Ø"
+8	4	"data/c004.txt"	"4629"	""	";CHQZ550p9"	0	"λx.Ø"
+8	5	"data/c004.txt"	"73bw6"	""	";CHQZ550p9"	0	"λx.Ø"
+8	6	"data/c004.txt"	"A10v7448<_"	""	";CHQZ550p9"	0	"λx.Ø"
+8	7	"data/c004.txt"	"2G388`"	""	";CHQZ550p9"	0	"λx.Ø"
+8	8	"data/c004.txt"	"103W3_::5"	""	";CHQZ550p9"	0	"λx.Ø"
+8	9	"data/c004.txt"	"4629"	""	";CHQZ550p9"	0	"λx.Ø"
+8	10	"data/c004.txt"	"103W3_::5"	""	";CHQZ550p9"	0	"λx.Ø"
+8	11	"data/c004.txt"	"4629"	""	";CHQZ550p9"	0	"λx.Ø"
+8	12	"data/c004.txt"	"51"	""	";CHQZ550p9"	0	"λx.Ø"
+8	13	"data/c004.txt"	";o9>6"	""	";CHQZ550p9"	0	"λx.Ø"
+8	14	"data/c004.txt"	"D"	""	";CHQZ550p9"	0	"λx.Ø"
+8	15	"data/c004.txt"	"A4G6883h1"	""	";CHQZ550p9"	0	"λx.Ø"
+8	16	"data/c004.txt"	"93j:`M8wM0"	""	";CHQZ550p9"	0	"λx.Ø"
+8	17	"data/c004.txt"	"3T5"	""	";CHQZ550p9"	0	"λx.Ø"
+8	18	"data/c004.txt"	"315"	""	";CHQZ550p9"	0	"λx.Ø"
+8	19	"data/c004.txt"	"z368m23"	""	";CHQZ550p9"	0	"λx.Ø"
+9	0	"data/c004.txt"	"`93Jm"	"`93Jm"	";CHQZ550p9"	0	"λx.x"
+9	1	"data/c004.txt"	"85b7356"	""	";CHQZ550p9"	0	"λx.Ø"
+9	2	"data/c004.txt"	"83868P"	""	";CHQZ550p9"	0	"λx.Ø"
+9	3	"data/c004.txt"	"85b7356"	""	";CHQZ550p9"	0	"λx.Ø"
+9	4	"data/c004.txt"	"85Cz"	""	";CHQZ550p9"	0	"λx.Ø"
+9	5	"data/c004.txt"	"0FX"	""	";CHQZ550p9"	0	"λx.Ø"
+9	6	"data/c004.txt"	"295x169C0"	""	";CHQZ550p9"	0	"λx.Ø"
+9	7	"data/c004.txt"	"103W3_::5"	""	";CHQZ550p9"	0	"λx.Ø"
+9	8	"data/c004.txt"	"328"	""	";CHQZ550p9"	0	"λx.Ø"
+9	9	"data/c004.txt"	"A10v7448<_"	""	";CHQZ550p9"	0	"λx.Ø"
+9	10	"data/c004.txt"	"6"	""	";CHQZ550p9"	0	"λx.Ø"
+9	11	"data/c004.txt"	"40"	""	";CHQZ550p9"	0	"λx.Ø"
+9	12	"data/c004.txt"	"A4G6883h1"	""	";CHQZ550p9"	0	"λx.Ø"
+9	13	"data/c004.txt"	"<8i3A32265"	""	";CHQZ550p9"	0	"λx.Ø"
+9	14	"data/c004.txt"	"F::Bq"	""	";CHQZ550p9"	0	"λx.Ø"
+9	15	"data/c004.txt"	"9C071"	""	";CHQZ550p9"	0	"λx.Ø"
+9	16	"data/c004.txt"	"q4=q"	""	";CHQZ550p9"	0	"λx.Ø"
+9	17	"data/c004.txt"	"A8FY<?F25"	""	";CHQZ550p9"	0	"λx.Ø"
+9	18	"data/c004.txt"	"AV555m"	""	";CHQZ550p9"	0	"λx.Ø"
+9	19	"data/c004.txt"	":"	""	";CHQZ550p9"	0	"λx.Ø"
+# Global sample count:	882704776
+# Elapsed time:	12085.8 seconds 
+# Samples per second:	73036.6
+# VM ops per second:	1.44326e+07

@@ -1,0 +1,268 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=4009 by user piantado at Fri Dec  6 01:55:41 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: 75de067d9790c8abe3432331157b2715  /proc/4009/exe
+# 	 --input=data/c2-036.txt
+# 	 --threads=2
+# 	 --chains=4
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=10m (600 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data 9644 -> 96449644
+# using data 07 -> 0707
+# using data 461 -> 461461
+# using data  -> 
+# using data 50874 -> 5087450874
+# using data 56942 -> 5694256942
+# using data 798 -> 798798
+# using data 93657 -> 9365793657
+# using data 24825 -> 2482524825
+# using data 923 -> 923923
+# using data 6701 -> 67016701
+# using data 059 -> 059059
+# using data 6599 -> 65996599
+# using data 81403 -> 8140381403
+# using data 55 -> 5555
+# using data 93007 -> 9300793007
+# using data 79241 -> 7924179241
+# using data 90 -> 9090
+# using data 708 -> 708708
+# using data 00 -> 0000
+# using data 97442 -> 9744297442
+# using data 9213 -> 92139213
+# using data 75 -> 7575
+# using data 6 -> 66
+# using data 99235 -> 9923599235
+# using data 9508 -> 95089508
+# using data 0887 -> 08870887
+# using data 95252 -> 9525295252
+# using data 27 -> 2727
+# using data 12646 -> 1264612646
+# using data 5 -> 55
+# using data 8 -> 88
+# using data 569 -> 569569
+# using data 7 -> 77
+# using data 9726 -> 97269726
+# using data 3 -> 33
+# using data 8864 -> 88648864
+# using data 2 -> 22
+# using data 39 -> 3939
+# using data 814 -> 814814
+# using data 72782 -> 7278272782
+# using data 26744 -> 2674426744
+# using data 4 -> 44
+# using data 42 -> 4242
+# using data 709 -> 709709
+# using data 9 -> 99
+# using data 545 -> 545545
+# using data 95 -> 9595
+# using data 72746 -> 7274672746
+# using data 72550 -> 7255072550
+i_run	i_N	concept	input	output	correct.output	correct	hypothesis
+0	0	"data/c2-036.txt"	"8"	"8"	"88"	0	"λx.x"
+0	1	"data/c2-036.txt"	"42"	"442"	"4242"	0	"λx.pair(head(x),x)"
+0	2	"data/c2-036.txt"	"709"	"7709"	"709709"	0	"λx.pair(head(x),if((6>head(x)),pair(2,x),x))"
+0	3	"data/c2-036.txt"	"814"	"814"	"814814"	0	"λx.x"
+0	4	"data/c2-036.txt"	"75"	"75"	"7575"	0	"λx.x"
+0	5	"data/c2-036.txt"	"814"	"814"	"814814"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+0	6	"data/c2-036.txt"	"39"	"3939"	"3939"	1	"λx.if((2>head(tail(x))),x,pair(head(x),pair(head(tail(x)),x)))"
+0	7	"data/c2-036.txt"	"81403"	"81403"	"8140381403"	0	"λx.if((2>head(tail(x))),x,pair(head(x),pair(head(tail(x)),x)))"
+0	8	"data/c2-036.txt"	"814"	"814"	"814814"	0	"λx.if((2>head(tail(x))),x,pair(head(x),pair(head(tail(x)),x)))"
+0	9	"data/c2-036.txt"	"9213"	"929213"	"92139213"	0	"λx.if((2>head(tail(x))),x,pair(head(x),pair(head(tail(x)),x)))"
+0	10	"data/c2-036.txt"	"95"	"995"	"9595"	0	"λx.if((Ø==tail(tail(x))),pair(head(x),if((8>head(x)),pair(head(tail(x)),x),x)),x)"
+0	11	"data/c2-036.txt"	"7"	"7"	"77"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+0	12	"data/c2-036.txt"	"24825"	"24825"	"2482524825"	0	"λx.if((F(tail(x))==Ø),pair(head(x),x),if((x==F(x)),pair(head(x),pair(head(tail(x)),x)),x))"
+0	13	"data/c2-036.txt"	"50874"	"50874"	"5087450874"	0	"λx.if((F(tail(x))==Ø),pair(head(x),x),if((x==F(x)),pair(head(x),pair(head(tail(x)),x)),x))"
+0	14	"data/c2-036.txt"	"569"	"569"	"569569"	0	"λx.if((F(tail(x))==Ø),pair(head(x),x),if((x==F(x)),pair(head(x),pair(head(tail(x)),x)),x))"
+0	15	"data/c2-036.txt"	"97442"	"97442"	"9744297442"	0	"λx.if((F(tail(x))==Ø),pair(head(x),x),if((x==F(x)),pair(head(x),pair(head(tail(x)),x)),x))"
+0	16	"data/c2-036.txt"	"709"	"709"	"709709"	0	"λx.if((F(tail(x))==Ø),pair(head(x),x),if((x==F(x)),pair(head(x),pair(head(tail(x)),x)),x))"
+0	17	"data/c2-036.txt"	"81403"	"81403"	"8140381403"	0	"λx.if((F(tail(x))==Ø),pair(head(x),x),if((x==F(x)),pair(head(x),pair(head(tail(x)),x)),x))"
+0	18	"data/c2-036.txt"	"545"	"545"	"545545"	0	"λx.if((F(tail(x))==Ø),pair(head(x),x),if((x==F(x)),pair(head(x),pair(head(tail(x)),x)),x))"
+0	19	"data/c2-036.txt"	"9508"	"9508"	"95089508"	0	"λx.if((F(tail(x))==Ø),pair(head(x),x),if((x==F(x)),pair(head(x),pair(head(tail(x)),x)),x))"
+1	0	"data/c2-036.txt"	"2"	"2"	"22"	0	"λx.x"
+1	1	"data/c2-036.txt"	"9"	"99"	"99"	1	"λx.pair(head(x),x)"
+1	2	"data/c2-036.txt"	"4"	"44"	"44"	1	"λx.pair(head(x),x)"
+1	3	"data/c2-036.txt"	"3"	"33"	"33"	1	"λx.pair(head(x),x)"
+1	4	"data/c2-036.txt"	"3"	"33"	"33"	1	"λx.pair(head(x),x)"
+1	5	"data/c2-036.txt"	"00"	"000"	"0000"	0	"λx.pair(head(x),x)"
+1	6	"data/c2-036.txt"	"93007"	"993007"	"9300793007"	0	"λx.pair(head(x),x)"
+1	7	"data/c2-036.txt"	"72746"	"72746"	"7274672746"	0	"λx.if((1>head(tail(x))),pair(head(x),x),x)"
+1	8	"data/c2-036.txt"	"6"	"66"	"66"	1	"λx.if((1>head(tail(x))),pair(head(x),x),x)"
+1	9	"data/c2-036.txt"	"9726"	"9726"	"97269726"	0	"λx.if((1>head(tail(x))),pair(head(x),x),x)"
+1	10	"data/c2-036.txt"	"72746"	"72746"	"7274672746"	0	"λx.if((1>head(tail(x))),pair(head(x),x),x)"
+1	11	"data/c2-036.txt"	"07"	"07"	"0707"	0	"λx.if((1>head(tail(x))),pair(head(x),x),x)"
+1	12	"data/c2-036.txt"	"461"	"461"	"461461"	0	"λx.if((tail(tail(x))==Ø),pair(head(x),if((2>head(x)),pair(head(tail(x)),x),x)),x)"
+1	13	"data/c2-036.txt"	"6"	"66"	"66"	1	"λx.if((tail(tail(x))==Ø),pair(head(x),if((2>head(x)),pair(head(tail(x)),x),x)),x)"
+1	14	"data/c2-036.txt"	"6701"	"6701"	"67016701"	0	"λx.if((tail(tail(x))==Ø),pair(head(x),if((2>head(x)),pair(head(tail(x)),x),x)),x)"
+1	15	"data/c2-036.txt"	"059"	"059"	"059059"	0	"λx.if((tail(tail(x))==Ø),pair(head(x),if((2>head(x)),pair(head(tail(x)),x),x)),x)"
+1	16	"data/c2-036.txt"	"99235"	"99235"	"9923599235"	0	"λx.if((tail(tail(x))==Ø),pair(head(x),if((2>head(x)),pair(head(tail(x)),x),x)),x)"
+1	17	"data/c2-036.txt"	"24825"	"24825"	"2482524825"	0	"λx.if((tail(tail(x))==Ø),pair(head(x),if((2>head(x)),pair(head(tail(x)),x),x)),x)"
+1	18	"data/c2-036.txt"	"95"	"995"	"9595"	0	"λx.if((tail(tail(x))==Ø),pair(head(x),if((2>head(x)),pair(head(tail(x)),x),x)),x)"
+1	19	"data/c2-036.txt"	"79241"	"79241"	"7924179241"	0	"λx.if((1>head(tail(x))),pair(head(x),x),x)"
+2	0	"data/c2-036.txt"	"27"	"27"	"2727"	0	"λx.x"
+2	1	"data/c2-036.txt"	"8"	"878"	"88"	0	"λx.pair(head(x),pair(7,x))"
+2	2	"data/c2-036.txt"	"059"	"07059"	"059059"	0	"λx.pair(head(x),if((head(x)>5),x,pair(7,x)))"
+2	3	"data/c2-036.txt"	"56942"	"56942"	"5694256942"	0	"λx.x"
+2	4	"data/c2-036.txt"	"81403"	"81403"	"8140381403"	0	"λx.x"
+2	5	"data/c2-036.txt"	"4"	"4"	"44"	0	"λx.x"
+2	6	"data/c2-036.txt"	"93657"	"93657"	"9365793657"	0	"λx.x"
+2	7	"data/c2-036.txt"	""	""	""	1	"λx.x"
+2	8	"data/c2-036.txt"	"72550"	"72550"	"7255072550"	0	"λx.x"
+2	9	"data/c2-036.txt"	"9213"	"9213"	"92139213"	0	"λx.x"
+2	10	"data/c2-036.txt"	"9"	"9"	"99"	0	"λx.x"
+2	11	"data/c2-036.txt"	"8864"	"8864"	"88648864"	0	"λx.if((pair(head(x),Ø)==x),pair(head(x),x),x)"
+2	12	"data/c2-036.txt"	"24825"	"24825"	"2482524825"	0	"λx.if((pair(head(x),Ø)==x),pair(head(x),x),x)"
+2	13	"data/c2-036.txt"	"93007"	"93007"	"9300793007"	0	"λx.if((pair(head(x),Ø)==x),pair(head(x),x),x)"
+2	14	"data/c2-036.txt"	"798"	"798"	"798798"	0	"λx.if((pair(head(x),Ø)==x),pair(head(x),x),x)"
+2	15	"data/c2-036.txt"	"95"	"95"	"9595"	0	"λx.if((pair(head(x),Ø)==x),pair(head(x),x),x)"
+2	16	"data/c2-036.txt"	"72746"	"72746"	"7274672746"	0	"λx.if((pair(head(x),Ø)==x),pair(head(x),x),x)"
+2	17	"data/c2-036.txt"	"798"	"798"	"798798"	0	"λx.if((pair(head(x),Ø)==x),pair(head(x),x),x)"
+2	18	"data/c2-036.txt"	"3"	"33"	"33"	1	"λx.if((pair(head(x),Ø)==x),pair(head(x),x),x)"
+2	19	"data/c2-036.txt"	"95"	"95"	"9595"	0	"λx.if((pair(head(x),Ø)==x),pair(head(x),x),x)"
+3	0	"data/c2-036.txt"	"55"	"55"	"5555"	0	"λx.x"
+3	1	"data/c2-036.txt"	"39"	"3339"	"3939"	0	"λx.pair(head(x),pair(head(x),x))"
+3	2	"data/c2-036.txt"	"059"	"05059"	"059059"	0	"λx.pair(head(x),pair(head(tail(x)),x))"
+3	3	"data/c2-036.txt"	"9726"	"979726"	"97269726"	0	"λx.if((x==x),pair(head(x),pair(head(tail(x)),if((2>head(x)),pair(9,x),x))),x)"
+3	4	"data/c2-036.txt"	"72782"	"7272782"	"7278272782"	0	"λx.if((head(x)>8),x,pair(head(x),pair(head(tail(x)),if((head(x)>2),x,pair(9,x)))))"
+3	5	"data/c2-036.txt"	"5"	"5N5"	"55"	0	"λx.if((head(x)>5),x,pair(head(x),pair(head(tail(x)),if((1>head(x)),pair(9,x),x))))"
+3	6	"data/c2-036.txt"	"461"	"46461"	"461461"	0	"λx.if((head(x)>head(tail(x))),x,pair(head(x),pair(head(tail(x)),if((2>head(x)),pair(9,x),x))))"
+3	7	"data/c2-036.txt"	"6599"	"6599"	"65996599"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+3	8	"data/c2-036.txt"	"56942"	"56942"	"5694256942"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+3	9	"data/c2-036.txt"	"9508"	"9508"	"95089508"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+3	10	"data/c2-036.txt"	"9644"	"9644"	"96449644"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+3	11	"data/c2-036.txt"	"24825"	"24825"	"2482524825"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+3	12	"data/c2-036.txt"	"00"	"0000"	"0000"	1	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+3	13	"data/c2-036.txt"	"9213"	"9213"	"92139213"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+3	14	"data/c2-036.txt"	"709"	"709"	"709709"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+3	15	"data/c2-036.txt"	"81403"	"81403"	"8140381403"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+3	16	"data/c2-036.txt"	"6701"	"6701"	"67016701"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+3	17	"data/c2-036.txt"	"55"	"5555"	"5555"	1	"λx.if((Ø==tail(tail(x))),pair(head(x),if((Ø==tail(x)),x,pair(head(tail(x)),x))),x)"
+3	18	"data/c2-036.txt"	"27"	"2727"	"2727"	1	"λx.if((Ø==tail(tail(x))),pair(head(x),if((Ø==tail(x)),x,pair(head(tail(x)),x))),x)"
+3	19	"data/c2-036.txt"	"72746"	"72746"	"7274672746"	0	"λx.if((Ø==tail(tail(x))),pair(head(x),if((Ø==tail(x)),x,pair(head(tail(x)),x))),x)"
+4	0	"data/c2-036.txt"	"461"	"461"	"461461"	0	"λx.x"
+4	1	"data/c2-036.txt"	"0887"	"0610887"	"08870887"	0	"λx.pair(head(x),pair(6,pair(1,x)))"
+4	2	"data/c2-036.txt"	"39"	"39"	"3939"	0	"λx.x"
+4	3	"data/c2-036.txt"	"97442"	"97442"	"9744297442"	0	"λx.x"
+4	4	"data/c2-036.txt"	"42"	"42"	"4242"	0	"λx.x"
+4	5	"data/c2-036.txt"	"90"	"90"	"9090"	0	"λx.x"
+4	6	"data/c2-036.txt"	"26744"	"26744"	"2674426744"	0	"λx.if((head(F(tail(x)))>9),x,pair(head(F(x)),pair(head(tail(x)),x)))"
+4	7	"data/c2-036.txt"	"99235"	"99235"	"9923599235"	0	"λx.if((head(F(tail(x)))>9),x,pair(head(F(x)),pair(head(tail(x)),x)))"
+4	8	"data/c2-036.txt"	"8"	"8"	"88"	0	"λx.if((head(F(tail(x)))>9),x,pair(head(F(x)),pair(head(tail(x)),x)))"
+4	9	"data/c2-036.txt"	"72782"	"72782"	"7278272782"	0	"λx.if((0>head(F(tail(x)))),x,pair(head(F(x)),pair(head(tail(x)),x)))"
+4	10	"data/c2-036.txt"	"8864"	"8864"	"88648864"	0	"λx.if((0>head(F(tail(x)))),x,pair(head(F(x)),pair(head(tail(x)),x)))"
+4	11	"data/c2-036.txt"	"923"	"923"	"923923"	0	"λx.if((0>head(F(tail(x)))),x,pair(head(F(x)),pair(head(tail(x)),x)))"
+4	12	"data/c2-036.txt"	"708"	"708"	"708708"	0	"λx.if((0>head(F(tail(x)))),x,pair(head(F(x)),pair(head(tail(x)),x)))"
+4	13	"data/c2-036.txt"	"923"	"923"	"923923"	0	"λx.if((0>head(F(tail(x)))),x,pair(head(F(x)),pair(head(tail(x)),x)))"
+4	14	"data/c2-036.txt"	"461"	"461"	"461461"	0	"λx.if((0>head(F(tail(x)))),x,pair(head(F(x)),pair(head(tail(x)),x)))"
+4	15	"data/c2-036.txt"	"07"	"0707"	"0707"	1	"λx.if((0>head(F(tail(x)))),x,pair(head(F(x)),pair(head(tail(x)),x)))"
+4	16	"data/c2-036.txt"	"4"	"4"	"44"	0	"λx.if((0>head(F(tail(x)))),x,pair(head(F(x)),pair(head(tail(x)),x)))"
+4	17	"data/c2-036.txt"	"8"	"8"	"88"	0	"λx.if((0>head(F(tail(x)))),x,pair(head(F(x)),pair(head(tail(x)),x)))"
+4	18	"data/c2-036.txt"	"72782"	"72782"	"7278272782"	0	"λx.if((0>head(F(tail(x)))),x,pair(head(F(x)),pair(head(tail(x)),x)))"
+4	19	"data/c2-036.txt"	"90"	"9090"	"9090"	1	"λx.if((0>head(F(tail(x)))),x,pair(head(F(x)),pair(head(tail(x)),x)))"
+5	0	"data/c2-036.txt"	"50874"	"50874"	"5087450874"	0	"λx.x"
+5	1	"data/c2-036.txt"	"461"	"461"	"461461"	0	"λx.x"
+5	2	"data/c2-036.txt"	"39"	"39"	"3939"	0	"λx.x"
+5	3	"data/c2-036.txt"	"9508"	"9508"	"95089508"	0	"λx.x"
+5	4	"data/c2-036.txt"	"059"	"059"	"059059"	0	"λx.x"
+5	5	"data/c2-036.txt"	"708"	"708"	"708708"	0	"λx.x"
+5	6	"data/c2-036.txt"	"6"	"6"	"66"	0	"λx.x"
+5	7	"data/c2-036.txt"	"26744"	"26744"	"2674426744"	0	"λx.x"
+5	8	"data/c2-036.txt"	"6599"	"6599"	"65996599"	0	"λx.x"
+5	9	"data/c2-036.txt"	"9726"	"9726"	"97269726"	0	"λx.x"
+5	10	"data/c2-036.txt"	"99235"	"99235"	"9923599235"	0	"λx.x"
+5	11	"data/c2-036.txt"	"79241"	"79241"	"7924179241"	0	"λx.x"
+5	12	"data/c2-036.txt"	"8864"	"8864"	"88648864"	0	"λx.x"
+5	13	"data/c2-036.txt"	"95252"	"95252"	"9525295252"	0	"λx.x"
+5	14	"data/c2-036.txt"	"9644"	"9644"	"96449644"	0	"λx.x"
+5	15	"data/c2-036.txt"	"8"	"8"	"88"	0	"λx.x"
+5	16	"data/c2-036.txt"	"6599"	"6599"	"65996599"	0	"λx.x"
+5	17	"data/c2-036.txt"	"95252"	"95252"	"9525295252"	0	"λx.x"
+5	18	"data/c2-036.txt"	"95252"	"95252"	"9525295252"	0	"λx.x"
+5	19	"data/c2-036.txt"	"00"	"00"	"0000"	0	"λx.x"
+6	0	"data/c2-036.txt"	"0887"	"0887"	"08870887"	0	"λx.x"
+6	1	"data/c2-036.txt"	"9213"	"9213"	"92139213"	0	"λx.x"
+6	2	"data/c2-036.txt"	"72550"	"72550"	"7255072550"	0	"λx.x"
+6	3	"data/c2-036.txt"	"72550"	"72550"	"7255072550"	0	"λx.x"
+6	4	"data/c2-036.txt"	"39"	"39"	"3939"	0	"λx.x"
+6	5	"data/c2-036.txt"	"07"	"07"	"0707"	0	"λx.x"
+6	6	"data/c2-036.txt"	"90"	"90"	"9090"	0	"λx.x"
+6	7	"data/c2-036.txt"	"42"	"4242"	"4242"	1	"λx.if((0>head(F(tail(x)))),x,pair(head(F(x)),pair(head(tail(x)),x)))"
+6	8	"data/c2-036.txt"	"9508"	"9508"	"95089508"	0	"λx.if((Ø==F(F(tail(x)))),x,pair(head(x),pair(head(tail(x)),x)))"
+6	9	"data/c2-036.txt"	"9"	"9"	"99"	0	"λx.if((Ø==F(F(tail(x)))),x,pair(head(x),pair(head(tail(x)),x)))"
+6	10	"data/c2-036.txt"	"2"	"2"	"22"	0	"λx.if((Ø==F(F(tail(x)))),x,pair(head(x),pair(head(tail(x)),x)))"
+6	11	"data/c2-036.txt"	"4"	"4"	"44"	0	"λx.if((Ø==F(F(tail(x)))),x,pair(head(x),pair(head(tail(x)),x)))"
+6	12	"data/c2-036.txt"	"72550"	"72550"	"7255072550"	0	"λx.if((Ø==F(F(tail(x)))),x,pair(head(x),pair(head(tail(x)),x)))"
+6	13	"data/c2-036.txt"	"42"	"4242"	"4242"	1	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((F(x)==Ø),tail(x),pair(head(tail(x)),x))))"
+6	14	"data/c2-036.txt"	"4"	"44"	"44"	1	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((F(x)==Ø),tail(x),pair(head(tail(x)),x))))"
+6	15	"data/c2-036.txt"	"6599"	"6599"	"65996599"	0	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((F(x)==Ø),tail(x),pair(head(tail(x)),x))))"
+6	16	"data/c2-036.txt"	"709"	"709"	"709709"	0	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((F(x)==Ø),tail(x),pair(head(tail(x)),x))))"
+6	17	"data/c2-036.txt"	"0887"	"0887"	"08870887"	0	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((F(x)==Ø),tail(x),pair(head(tail(x)),x))))"
+6	18	"data/c2-036.txt"	"81403"	"81403"	"8140381403"	0	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((F(x)==Ø),tail(x),pair(head(tail(x)),x))))"
+6	19	"data/c2-036.txt"	"7"	"77"	"77"	1	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((F(x)==Ø),tail(x),pair(head(tail(x)),x))))"
+7	0	"data/c2-036.txt"	"4"	"4"	"44"	0	"λx.x"
+7	1	"data/c2-036.txt"	"27"	"227"	"2727"	0	"λx.pair(head(x),x)"
+7	2	"data/c2-036.txt"	"72550"	"772550"	"7255072550"	0	"λx.pair(head(x),if((head(x)>3),x,pair(7,x)))"
+7	3	"data/c2-036.txt"	"461"	"461"	"461461"	0	"λx.x"
+7	4	"data/c2-036.txt"	"0887"	"0887"	"08870887"	0	"λx.x"
+7	5	"data/c2-036.txt"	"79241"	"79241"	"7924179241"	0	"λx.x"
+7	6	"data/c2-036.txt"	"8"	"8"	"88"	0	"λx.x"
+7	7	"data/c2-036.txt"	"9726"	"9726"	"97269726"	0	"λx.x"
+7	8	"data/c2-036.txt"	"55"	"55"	"5555"	0	"λx.x"
+7	9	"data/c2-036.txt"	"75"	"7575"	"7575"	1	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((x==F(x)),pair(head(tail(x)),x),tail(x))))"
+7	10	"data/c2-036.txt"	"7"	"77"	"77"	1	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((x==F(x)),pair(head(tail(x)),x),tail(x))))"
+7	11	"data/c2-036.txt"	"72782"	"72782"	"7278272782"	0	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((x==F(x)),pair(head(tail(x)),x),tail(x))))"
+7	12	"data/c2-036.txt"	"56942"	"56942"	"5694256942"	0	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((x==F(x)),pair(head(tail(x)),x),tail(x))))"
+7	13	"data/c2-036.txt"	"814"	"814"	"814814"	0	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((x==F(x)),pair(head(tail(x)),x),tail(x))))"
+7	14	"data/c2-036.txt"	"75"	"7575"	"7575"	1	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((x==F(x)),pair(head(tail(x)),x),tail(x))))"
+7	15	"data/c2-036.txt"	"27"	"2727"	"2727"	1	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((x==F(x)),pair(head(tail(x)),x),tail(x))))"
+7	16	"data/c2-036.txt"	"9508"	"9508"	"95089508"	0	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((x==F(x)),pair(head(tail(x)),x),tail(x))))"
+7	17	"data/c2-036.txt"	"923"	"923"	"923923"	0	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((x==F(x)),pair(head(tail(x)),x),tail(x))))"
+7	18	"data/c2-036.txt"	"6"	"66"	"66"	1	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((x==F(x)),pair(head(tail(x)),x),tail(x))))"
+7	19	"data/c2-036.txt"	"95252"	"95252"	"9525295252"	0	"λx.if((Ø==tail(tail(x))),pair(head(x),if((Ø==tail(x)),x,pair(head(tail(x)),x))),x)"
+8	0	"data/c2-036.txt"	"93007"	"93007"	"9300793007"	0	"λx.x"
+8	1	"data/c2-036.txt"	"72550"	"72550"	"7255072550"	0	"λx.x"
+8	2	"data/c2-036.txt"	"2"	"2"	"22"	0	"λx.x"
+8	3	"data/c2-036.txt"	"6599"	"6599"	"65996599"	0	"λx.x"
+8	4	"data/c2-036.txt"	"814"	"814"	"814814"	0	"λx.x"
+8	5	"data/c2-036.txt"	"798"	"798"	"798798"	0	"λx.x"
+8	6	"data/c2-036.txt"	"55"	"55"	"5555"	0	"λx.x"
+8	7	"data/c2-036.txt"	"39"	"39"	"3939"	0	"λx.x"
+8	8	"data/c2-036.txt"	"6599"	"6599"	"65996599"	0	"λx.x"
+8	9	"data/c2-036.txt"	"3"	"3"	"33"	0	"λx.x"
+8	10	"data/c2-036.txt"	"07"	"07"	"0707"	0	"λx.x"
+8	11	"data/c2-036.txt"	"50874"	"5050874"	"5087450874"	0	"λx.pair(head(x),if((Ø==tail(x)),x,if((6>head(x)),pair(head(tail(x)),x),tail(x))))"
+8	12	"data/c2-036.txt"	"72782"	"72782"	"7278272782"	0	"λx.pair(head(x),if((Ø==F(tail(x))),x,if((x==F(x)),pair(head(tail(x)),x),tail(x))))"
+8	13	"data/c2-036.txt"	"90"	"9090"	"9090"	1	"λx.if((Ø==tail(tail(x))),pair(head(x),if((Ø==tail(x)),x,pair(head(tail(x)),x))),x)"
+8	14	"data/c2-036.txt"	"39"	"3939"	"3939"	1	"λx.if((Ø==tail(tail(x))),pair(head(x),if((Ø==tail(x)),x,pair(head(tail(x)),x))),x)"
+8	15	"data/c2-036.txt"	"2"	"22"	"22"	1	"λx.if((Ø==tail(tail(x))),pair(head(x),if((Ø==tail(x)),x,pair(head(tail(x)),x))),x)"
+8	16	"data/c2-036.txt"	"97442"	"97442"	"9744297442"	0	"λx.if((Ø==tail(tail(x))),pair(head(x),if((Ø==tail(x)),x,pair(head(tail(x)),x))),x)"
+8	17	"data/c2-036.txt"	"9"	"99"	"99"	1	"λx.if((Ø==tail(tail(x))),pair(head(x),if((Ø==tail(x)),x,pair(head(tail(x)),x))),x)"
+8	18	"data/c2-036.txt"	"923"	"923"	"923923"	0	"λx.if((Ø==tail(tail(x))),pair(head(x),if((Ø==tail(x)),x,pair(head(tail(x)),x))),x)"
+8	19	"data/c2-036.txt"	"923"	"923"	"923923"	0	"λx.if((Ø==tail(tail(x))),pair(head(x),if((Ø==tail(x)),x,pair(head(tail(x)),x))),x)"
+9	0	"data/c2-036.txt"	"6701"	"6701"	"67016701"	0	"λx.x"
+9	1	"data/c2-036.txt"	"90"	"970190"	"9090"	0	"λx.pair(head(x),pair(7,pair(0,pair(1,x))))"
+9	2	"data/c2-036.txt"	"56942"	"56942"	"5694256942"	0	"λx.x"
+9	3	"data/c2-036.txt"	"07"	"07"	"0707"	0	"λx.x"
+9	4	"data/c2-036.txt"	"4"	"4N4"	"44"	0	"λx.if((Ø==tail(tail(x))),pair(head(x),pair(head(tail(x)),x)),x)"
+9	5	"data/c2-036.txt"	"95252"	"9595252"	"9525295252"	0	"λx.if(((6-head(x))>head(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+9	6	"data/c2-036.txt"	"461"	"46461"	"461461"	0	"λx.if((F(F(tail(x)))==Ø),x,pair(head(x),pair(head(tail(x)),x)))"
+9	7	"data/c2-036.txt"	"569"	"569"	"569569"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+9	8	"data/c2-036.txt"	"12646"	"12646"	"1264612646"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+9	9	"data/c2-036.txt"	"798"	"798"	"798798"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+9	10	"data/c2-036.txt"	"4"	"4"	"44"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+9	11	"data/c2-036.txt"	"814"	"814"	"814814"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+9	12	"data/c2-036.txt"	"90"	"9090"	"9090"	1	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+9	13	"data/c2-036.txt"	"2"	"2"	"22"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+9	14	"data/c2-036.txt"	"461"	"461"	"461461"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+9	15	"data/c2-036.txt"	"5"	"5"	"55"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+9	16	"data/c2-036.txt"	"95"	"9595"	"9595"	1	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+9	17	"data/c2-036.txt"	"9508"	"9508"	"95089508"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+9	18	"data/c2-036.txt"	"798"	"798"	"798798"	0	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+9	19	"data/c2-036.txt"	"39"	"3939"	"3939"	1	"λx.if((tail(F(tail(x)))==F(x)),pair(head(x),pair(head(tail(x)),x)),x)"
+# Global sample count:	17395448353
+# Elapsed time:	120076 seconds 
+# Samples per second:	144870
+# VM ops per second:	2.20136e+07

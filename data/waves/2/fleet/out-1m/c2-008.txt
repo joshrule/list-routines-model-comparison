@@ -1,0 +1,268 @@
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Running Fleet on simon with PID=7398 by user piantado at Wed Dec  4 16:33:57 2019
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# Executable checksum: 75de067d9790c8abe3432331157b2715  /proc/7398/exe
+# 	 --input=data/c2-008.txt
+# 	 --threads=2
+# 	 --chains=4
+# 	 --mcmc=0
+# 	 --mcts=0
+# 	 --time=1m (60 seconds)
+# 	 --restart=0
+# 	 --seed=0
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# using data 6246253 -> 46253
+# using data 1943061539 -> 43061539
+# using data 8445 -> 45
+# using data 4030 -> 30
+# using data 07640 -> 640
+# using data 29853 -> 853
+# using data 65434 -> 434
+# using data 3286547145 -> 86547145
+# using data 1657677709 -> 57677709
+# using data 33975 -> 975
+# using data 7710322837 -> 10322837
+# using data 7635573346 -> 35573346
+# using data 2118856 -> 18856
+# using data 04627 -> 627
+# using data 0180197 -> 80197
+# using data 043213849 -> 3213849
+# using data 654609 -> 4609
+# using data 3601780332 -> 01780332
+# using data 04145 -> 145
+# using data 549951 -> 9951
+# using data 23765 -> 765
+# using data 7118567 -> 18567
+# using data 180 -> 0
+# using data 815165632 -> 5165632
+# using data 901046818 -> 1046818
+# using data 23 -> 
+# using data 454221 -> 4221
+# using data 15 -> 
+# using data 93943 -> 943
+# using data 4030061 -> 30061
+# using data 974698 -> 4698
+# using data 31617 -> 617
+# using data 990 -> 0
+# using data 99 -> 
+# using data 320 -> 0
+# using data 054 -> 4
+# using data 80221519 -> 221519
+# using data 3396 -> 96
+# using data 1236052371 -> 36052371
+# using data 45 -> 
+# using data 81306 -> 306
+# using data 99030 -> 030
+# using data 67977 -> 977
+# using data 1970 -> 70
+# using data 0666676640 -> 66676640
+# using data 097758584 -> 7758584
+# using data 6901125 -> 01125
+# using data 9388478 -> 88478
+# using data 45277551 -> 277551
+# using data 1192362204 -> 92362204
+i_run	i_N	concept	input	output	correct.output	correct	hypothesis
+0	0	"data/c2-008.txt"	"29853"	"29853"	"853"	0	"λx.x"
+0	1	"data/c2-008.txt"	"0666676640"	"66676640"	"66676640"	1	"λx.tail(tail(x))"
+0	2	"data/c2-008.txt"	"9388478"	"88478"	"88478"	1	"λx.tail(tail(x))"
+0	3	"data/c2-008.txt"	"974698"	"4698"	"4698"	1	"λx.tail(tail(x))"
+0	4	"data/c2-008.txt"	"7710322837"	"10322837"	"10322837"	1	"λx.tail(tail(x))"
+0	5	"data/c2-008.txt"	"45"	""	""	1	"λx.tail(tail(x))"
+0	6	"data/c2-008.txt"	"99030"	"030"	"030"	1	"λx.tail(tail(x))"
+0	7	"data/c2-008.txt"	"549951"	"9951"	"9951"	1	"λx.tail(tail(x))"
+0	8	"data/c2-008.txt"	"33975"	"975"	"975"	1	"λx.tail(tail(x))"
+0	9	"data/c2-008.txt"	"99"	""	""	1	"λx.tail(tail(x))"
+0	10	"data/c2-008.txt"	"454221"	"4221"	"4221"	1	"λx.tail(tail(x))"
+0	11	"data/c2-008.txt"	"043213849"	"3213849"	"3213849"	1	"λx.tail(tail(x))"
+0	12	"data/c2-008.txt"	"320"	"0"	"0"	1	"λx.tail(tail(x))"
+0	13	"data/c2-008.txt"	"31617"	"617"	"617"	1	"λx.tail(tail(x))"
+0	14	"data/c2-008.txt"	"7118567"	"18567"	"18567"	1	"λx.tail(tail(x))"
+0	15	"data/c2-008.txt"	"3601780332"	"01780332"	"01780332"	1	"λx.tail(tail(x))"
+0	16	"data/c2-008.txt"	"901046818"	"1046818"	"1046818"	1	"λx.tail(tail(x))"
+0	17	"data/c2-008.txt"	"2118856"	"18856"	"18856"	1	"λx.tail(tail(x))"
+0	18	"data/c2-008.txt"	"549951"	"9951"	"9951"	1	"λx.tail(tail(x))"
+0	19	"data/c2-008.txt"	"097758584"	"7758584"	"7758584"	1	"λx.tail(tail(x))"
+1	0	"data/c2-008.txt"	"3396"	"3396"	"96"	0	"λx.x"
+1	1	"data/c2-008.txt"	"815165632"	"5165632"	"5165632"	1	"λx.tail(tail(x))"
+1	2	"data/c2-008.txt"	"80221519"	"221519"	"221519"	1	"λx.tail(tail(x))"
+1	3	"data/c2-008.txt"	"974698"	"4698"	"4698"	1	"λx.tail(tail(x))"
+1	4	"data/c2-008.txt"	"81306"	"306"	"306"	1	"λx.tail(tail(x))"
+1	5	"data/c2-008.txt"	"3286547145"	"86547145"	"86547145"	1	"λx.tail(tail(x))"
+1	6	"data/c2-008.txt"	"45"	""	""	1	"λx.tail(tail(x))"
+1	7	"data/c2-008.txt"	"1192362204"	"92362204"	"92362204"	1	"λx.tail(tail(x))"
+1	8	"data/c2-008.txt"	"320"	"0"	"0"	1	"λx.tail(tail(x))"
+1	9	"data/c2-008.txt"	"23765"	"765"	"765"	1	"λx.tail(tail(x))"
+1	10	"data/c2-008.txt"	"31617"	"617"	"617"	1	"λx.tail(tail(x))"
+1	11	"data/c2-008.txt"	"4030061"	"30061"	"30061"	1	"λx.tail(tail(x))"
+1	12	"data/c2-008.txt"	"7635573346"	"35573346"	"35573346"	1	"λx.tail(tail(x))"
+1	13	"data/c2-008.txt"	"320"	"0"	"0"	1	"λx.tail(tail(x))"
+1	14	"data/c2-008.txt"	"3396"	"96"	"96"	1	"λx.tail(tail(x))"
+1	15	"data/c2-008.txt"	"043213849"	"3213849"	"3213849"	1	"λx.tail(tail(x))"
+1	16	"data/c2-008.txt"	"0666676640"	"66676640"	"66676640"	1	"λx.tail(tail(x))"
+1	17	"data/c2-008.txt"	"0666676640"	"66676640"	"66676640"	1	"λx.tail(tail(x))"
+1	18	"data/c2-008.txt"	"80221519"	"221519"	"221519"	1	"λx.tail(tail(x))"
+1	19	"data/c2-008.txt"	"45277551"	"277551"	"277551"	1	"λx.tail(tail(x))"
+2	0	"data/c2-008.txt"	"07640"	"07640"	"640"	0	"λx.x"
+2	1	"data/c2-008.txt"	"15"	""	""	1	"λx.tail(tail(x))"
+2	2	"data/c2-008.txt"	"65434"	"434"	"434"	1	"λx.tail(tail(x))"
+2	3	"data/c2-008.txt"	"1943061539"	"43061539"	"43061539"	1	"λx.tail(tail(x))"
+2	4	"data/c2-008.txt"	"3396"	"96"	"96"	1	"λx.tail(tail(x))"
+2	5	"data/c2-008.txt"	"1192362204"	"92362204"	"92362204"	1	"λx.tail(tail(x))"
+2	6	"data/c2-008.txt"	"1192362204"	"92362204"	"92362204"	1	"λx.tail(tail(x))"
+2	7	"data/c2-008.txt"	"65434"	"434"	"434"	1	"λx.tail(tail(x))"
+2	8	"data/c2-008.txt"	"04627"	"627"	"627"	1	"λx.tail(tail(x))"
+2	9	"data/c2-008.txt"	"15"	""	""	1	"λx.tail(tail(x))"
+2	10	"data/c2-008.txt"	"549951"	"9951"	"9951"	1	"λx.tail(tail(x))"
+2	11	"data/c2-008.txt"	"99030"	"030"	"030"	1	"λx.tail(tail(x))"
+2	12	"data/c2-008.txt"	"815165632"	"5165632"	"5165632"	1	"λx.tail(tail(x))"
+2	13	"data/c2-008.txt"	"1192362204"	"92362204"	"92362204"	1	"λx.tail(tail(x))"
+2	14	"data/c2-008.txt"	"0666676640"	"66676640"	"66676640"	1	"λx.tail(tail(x))"
+2	15	"data/c2-008.txt"	"9388478"	"88478"	"88478"	1	"λx.tail(tail(x))"
+2	16	"data/c2-008.txt"	"99"	""	""	1	"λx.tail(tail(x))"
+2	17	"data/c2-008.txt"	"454221"	"4221"	"4221"	1	"λx.tail(tail(x))"
+2	18	"data/c2-008.txt"	"7635573346"	"35573346"	"35573346"	1	"λx.tail(tail(x))"
+2	19	"data/c2-008.txt"	"04627"	"627"	"627"	1	"λx.tail(tail(x))"
+3	0	"data/c2-008.txt"	"45"	"45"	""	0	"λx.x"
+3	1	"data/c2-008.txt"	"4030"	""	"30"	0	"λx.Ø"
+3	2	"data/c2-008.txt"	"07640"	"640"	"640"	1	"λx.tail(tail(x))"
+3	3	"data/c2-008.txt"	"7710322837"	"10322837"	"10322837"	1	"λx.tail(tail(x))"
+3	4	"data/c2-008.txt"	"043213849"	"3213849"	"3213849"	1	"λx.tail(tail(x))"
+3	5	"data/c2-008.txt"	"6246253"	"46253"	"46253"	1	"λx.tail(tail(x))"
+3	6	"data/c2-008.txt"	"7710322837"	"10322837"	"10322837"	1	"λx.tail(tail(x))"
+3	7	"data/c2-008.txt"	"1657677709"	"57677709"	"57677709"	1	"λx.tail(tail(x))"
+3	8	"data/c2-008.txt"	"3286547145"	"86547145"	"86547145"	1	"λx.tail(tail(x))"
+3	9	"data/c2-008.txt"	"1192362204"	"92362204"	"92362204"	1	"λx.tail(tail(x))"
+3	10	"data/c2-008.txt"	"07640"	"640"	"640"	1	"λx.tail(tail(x))"
+3	11	"data/c2-008.txt"	"99"	""	""	1	"λx.tail(tail(x))"
+3	12	"data/c2-008.txt"	"3396"	"96"	"96"	1	"λx.tail(tail(x))"
+3	13	"data/c2-008.txt"	"3601780332"	"01780332"	"01780332"	1	"λx.tail(tail(x))"
+3	14	"data/c2-008.txt"	"3286547145"	"86547145"	"86547145"	1	"λx.tail(tail(x))"
+3	15	"data/c2-008.txt"	"23765"	"765"	"765"	1	"λx.tail(tail(x))"
+3	16	"data/c2-008.txt"	"3286547145"	"86547145"	"86547145"	1	"λx.tail(tail(x))"
+3	17	"data/c2-008.txt"	"549951"	"9951"	"9951"	1	"λx.tail(tail(x))"
+3	18	"data/c2-008.txt"	"097758584"	"7758584"	"7758584"	1	"λx.tail(tail(x))"
+3	19	"data/c2-008.txt"	"4030061"	"30061"	"30061"	1	"λx.tail(tail(x))"
+4	0	"data/c2-008.txt"	"04145"	"04145"	"145"	0	"λx.x"
+4	1	"data/c2-008.txt"	"180"	"0"	"0"	1	"λx.tail(tail(x))"
+4	2	"data/c2-008.txt"	"6246253"	"46253"	"46253"	1	"λx.tail(tail(x))"
+4	3	"data/c2-008.txt"	"654609"	"4609"	"4609"	1	"λx.tail(tail(x))"
+4	4	"data/c2-008.txt"	"2118856"	"18856"	"18856"	1	"λx.tail(tail(x))"
+4	5	"data/c2-008.txt"	"04145"	"145"	"145"	1	"λx.tail(tail(x))"
+4	6	"data/c2-008.txt"	"3286547145"	"86547145"	"86547145"	1	"λx.tail(tail(x))"
+4	7	"data/c2-008.txt"	"320"	"0"	"0"	1	"λx.tail(tail(x))"
+4	8	"data/c2-008.txt"	"33975"	"975"	"975"	1	"λx.tail(tail(x))"
+4	9	"data/c2-008.txt"	"45277551"	"277551"	"277551"	1	"λx.tail(tail(x))"
+4	10	"data/c2-008.txt"	"8445"	"45"	"45"	1	"λx.tail(tail(x))"
+4	11	"data/c2-008.txt"	"23765"	"765"	"765"	1	"λx.tail(tail(x))"
+4	12	"data/c2-008.txt"	"1236052371"	"36052371"	"36052371"	1	"λx.tail(tail(x))"
+4	13	"data/c2-008.txt"	"4030061"	"30061"	"30061"	1	"λx.tail(tail(x))"
+4	14	"data/c2-008.txt"	"9388478"	"88478"	"88478"	1	"λx.tail(tail(x))"
+4	15	"data/c2-008.txt"	"1657677709"	"57677709"	"57677709"	1	"λx.tail(tail(x))"
+4	16	"data/c2-008.txt"	"3601780332"	"01780332"	"01780332"	1	"λx.tail(tail(x))"
+4	17	"data/c2-008.txt"	"901046818"	"1046818"	"1046818"	1	"λx.tail(tail(x))"
+4	18	"data/c2-008.txt"	"1970"	"70"	"70"	1	"λx.tail(tail(x))"
+4	19	"data/c2-008.txt"	"7710322837"	"10322837"	"10322837"	1	"λx.tail(tail(x))"
+5	0	"data/c2-008.txt"	"81306"	"81306"	"306"	0	"λx.x"
+5	1	"data/c2-008.txt"	"45277551"	"277551"	"277551"	1	"λx.tail(tail(x))"
+5	2	"data/c2-008.txt"	"7710322837"	"10322837"	"10322837"	1	"λx.tail(tail(x))"
+5	3	"data/c2-008.txt"	"974698"	"4698"	"4698"	1	"λx.tail(tail(x))"
+5	4	"data/c2-008.txt"	"33975"	"975"	"975"	1	"λx.tail(tail(x))"
+5	5	"data/c2-008.txt"	"93943"	"943"	"943"	1	"λx.tail(tail(x))"
+5	6	"data/c2-008.txt"	"15"	""	""	1	"λx.tail(tail(x))"
+5	7	"data/c2-008.txt"	"815165632"	"5165632"	"5165632"	1	"λx.tail(tail(x))"
+5	8	"data/c2-008.txt"	"65434"	"434"	"434"	1	"λx.tail(tail(x))"
+5	9	"data/c2-008.txt"	"0180197"	"80197"	"80197"	1	"λx.tail(tail(x))"
+5	10	"data/c2-008.txt"	"81306"	"306"	"306"	1	"λx.tail(tail(x))"
+5	11	"data/c2-008.txt"	"4030061"	"30061"	"30061"	1	"λx.tail(tail(x))"
+5	12	"data/c2-008.txt"	"80221519"	"221519"	"221519"	1	"λx.tail(tail(x))"
+5	13	"data/c2-008.txt"	"1236052371"	"36052371"	"36052371"	1	"λx.tail(tail(x))"
+5	14	"data/c2-008.txt"	"07640"	"640"	"640"	1	"λx.tail(tail(x))"
+5	15	"data/c2-008.txt"	"04627"	"627"	"627"	1	"λx.tail(tail(x))"
+5	16	"data/c2-008.txt"	"23"	""	""	1	"λx.tail(tail(x))"
+5	17	"data/c2-008.txt"	"9388478"	"88478"	"88478"	1	"λx.tail(tail(x))"
+5	18	"data/c2-008.txt"	"8445"	"45"	"45"	1	"λx.tail(tail(x))"
+5	19	"data/c2-008.txt"	"04627"	"627"	"627"	1	"λx.tail(tail(x))"
+6	0	"data/c2-008.txt"	"04145"	"04145"	"145"	0	"λx.x"
+6	1	"data/c2-008.txt"	"815165632"	"5165632"	"5165632"	1	"λx.tail(tail(x))"
+6	2	"data/c2-008.txt"	"81306"	"306"	"306"	1	"λx.tail(tail(x))"
+6	3	"data/c2-008.txt"	"3396"	"96"	"96"	1	"λx.tail(tail(x))"
+6	4	"data/c2-008.txt"	"974698"	"4698"	"4698"	1	"λx.tail(tail(x))"
+6	5	"data/c2-008.txt"	"45277551"	"277551"	"277551"	1	"λx.tail(tail(x))"
+6	6	"data/c2-008.txt"	"1970"	"70"	"70"	1	"λx.tail(tail(x))"
+6	7	"data/c2-008.txt"	"454221"	"4221"	"4221"	1	"λx.tail(tail(x))"
+6	8	"data/c2-008.txt"	"0180197"	"80197"	"80197"	1	"λx.tail(tail(x))"
+6	9	"data/c2-008.txt"	"65434"	"434"	"434"	1	"λx.tail(tail(x))"
+6	10	"data/c2-008.txt"	"180"	"0"	"0"	1	"λx.tail(tail(x))"
+6	11	"data/c2-008.txt"	"180"	"0"	"0"	1	"λx.tail(tail(x))"
+6	12	"data/c2-008.txt"	"04627"	"627"	"627"	1	"λx.tail(tail(x))"
+6	13	"data/c2-008.txt"	"1657677709"	"57677709"	"57677709"	1	"λx.tail(tail(x))"
+6	14	"data/c2-008.txt"	"3286547145"	"86547145"	"86547145"	1	"λx.tail(tail(x))"
+6	15	"data/c2-008.txt"	"8445"	"45"	"45"	1	"λx.tail(tail(x))"
+6	16	"data/c2-008.txt"	"549951"	"9951"	"9951"	1	"λx.tail(tail(x))"
+6	17	"data/c2-008.txt"	"23"	""	""	1	"λx.tail(tail(x))"
+6	18	"data/c2-008.txt"	"654609"	"4609"	"4609"	1	"λx.tail(tail(x))"
+6	19	"data/c2-008.txt"	"93943"	"943"	"943"	1	"λx.tail(tail(x))"
+7	0	"data/c2-008.txt"	"654609"	"654609"	"4609"	0	"λx.x"
+7	1	"data/c2-008.txt"	"054"	"4"	"4"	1	"λx.tail(tail(x))"
+7	2	"data/c2-008.txt"	"7635573346"	"35573346"	"35573346"	1	"λx.tail(tail(x))"
+7	3	"data/c2-008.txt"	"81306"	"306"	"306"	1	"λx.tail(tail(x))"
+7	4	"data/c2-008.txt"	"04627"	"627"	"627"	1	"λx.tail(tail(x))"
+7	5	"data/c2-008.txt"	"4030061"	"30061"	"30061"	1	"λx.tail(tail(x))"
+7	6	"data/c2-008.txt"	"45"	""	""	1	"λx.tail(tail(x))"
+7	7	"data/c2-008.txt"	"990"	"0"	"0"	1	"λx.tail(tail(x))"
+7	8	"data/c2-008.txt"	"6246253"	"46253"	"46253"	1	"λx.tail(tail(x))"
+7	9	"data/c2-008.txt"	"1657677709"	"57677709"	"57677709"	1	"λx.tail(tail(x))"
+7	10	"data/c2-008.txt"	"7635573346"	"35573346"	"35573346"	1	"λx.tail(tail(x))"
+7	11	"data/c2-008.txt"	"07640"	"640"	"640"	1	"λx.tail(tail(x))"
+7	12	"data/c2-008.txt"	"180"	"0"	"0"	1	"λx.tail(tail(x))"
+7	13	"data/c2-008.txt"	"07640"	"640"	"640"	1	"λx.tail(tail(x))"
+7	14	"data/c2-008.txt"	"7118567"	"18567"	"18567"	1	"λx.tail(tail(x))"
+7	15	"data/c2-008.txt"	"097758584"	"7758584"	"7758584"	1	"λx.tail(tail(x))"
+7	16	"data/c2-008.txt"	"80221519"	"221519"	"221519"	1	"λx.tail(tail(x))"
+7	17	"data/c2-008.txt"	"320"	"0"	"0"	1	"λx.tail(tail(x))"
+7	18	"data/c2-008.txt"	"31617"	"617"	"617"	1	"λx.tail(tail(x))"
+7	19	"data/c2-008.txt"	"7635573346"	"35573346"	"35573346"	1	"λx.tail(tail(x))"
+8	0	"data/c2-008.txt"	"9388478"	"9388478"	"88478"	0	"λx.x"
+8	1	"data/c2-008.txt"	"9388478"	"88478"	"88478"	1	"λx.tail(tail(x))"
+8	2	"data/c2-008.txt"	"7118567"	"18567"	"18567"	1	"λx.tail(tail(x))"
+8	3	"data/c2-008.txt"	"7635573346"	"35573346"	"35573346"	1	"λx.tail(tail(x))"
+8	4	"data/c2-008.txt"	"054"	"4"	"4"	1	"λx.tail(tail(x))"
+8	5	"data/c2-008.txt"	"054"	"4"	"4"	1	"λx.tail(tail(x))"
+8	6	"data/c2-008.txt"	"990"	"0"	"0"	1	"λx.tail(tail(x))"
+8	7	"data/c2-008.txt"	"3601780332"	"01780332"	"01780332"	1	"λx.tail(tail(x))"
+8	8	"data/c2-008.txt"	"054"	"4"	"4"	1	"λx.tail(tail(x))"
+8	9	"data/c2-008.txt"	"45277551"	"277551"	"277551"	1	"λx.tail(tail(x))"
+8	10	"data/c2-008.txt"	"07640"	"640"	"640"	1	"λx.tail(tail(x))"
+8	11	"data/c2-008.txt"	"04627"	"627"	"627"	1	"λx.tail(tail(x))"
+8	12	"data/c2-008.txt"	"04627"	"627"	"627"	1	"λx.tail(tail(x))"
+8	13	"data/c2-008.txt"	"180"	"0"	"0"	1	"λx.tail(tail(x))"
+8	14	"data/c2-008.txt"	"0180197"	"80197"	"80197"	1	"λx.tail(tail(x))"
+8	15	"data/c2-008.txt"	"4030061"	"30061"	"30061"	1	"λx.tail(tail(x))"
+8	16	"data/c2-008.txt"	"7635573346"	"35573346"	"35573346"	1	"λx.tail(tail(x))"
+8	17	"data/c2-008.txt"	"454221"	"4221"	"4221"	1	"λx.tail(tail(x))"
+8	18	"data/c2-008.txt"	"0180197"	"80197"	"80197"	1	"λx.tail(tail(x))"
+8	19	"data/c2-008.txt"	"1970"	"70"	"70"	1	"λx.tail(tail(x))"
+9	0	"data/c2-008.txt"	"23765"	"23765"	"765"	0	"λx.x"
+9	1	"data/c2-008.txt"	"1943061539"	"43061539"	"43061539"	1	"λx.tail(tail(x))"
+9	2	"data/c2-008.txt"	"454221"	"4221"	"4221"	1	"λx.tail(tail(x))"
+9	3	"data/c2-008.txt"	"6901125"	"01125"	"01125"	1	"λx.tail(tail(x))"
+9	4	"data/c2-008.txt"	"180"	"0"	"0"	1	"λx.tail(tail(x))"
+9	5	"data/c2-008.txt"	"454221"	"4221"	"4221"	1	"λx.tail(tail(x))"
+9	6	"data/c2-008.txt"	"45277551"	"277551"	"277551"	1	"λx.tail(tail(x))"
+9	7	"data/c2-008.txt"	"1970"	"70"	"70"	1	"λx.tail(tail(x))"
+9	8	"data/c2-008.txt"	"1657677709"	"57677709"	"57677709"	1	"λx.tail(tail(x))"
+9	9	"data/c2-008.txt"	"8445"	"45"	"45"	1	"λx.tail(tail(x))"
+9	10	"data/c2-008.txt"	"320"	"0"	"0"	1	"λx.tail(tail(x))"
+9	11	"data/c2-008.txt"	"2118856"	"18856"	"18856"	1	"λx.tail(tail(x))"
+9	12	"data/c2-008.txt"	"6246253"	"46253"	"46253"	1	"λx.tail(tail(x))"
+9	13	"data/c2-008.txt"	"3286547145"	"86547145"	"86547145"	1	"λx.tail(tail(x))"
+9	14	"data/c2-008.txt"	"67977"	"977"	"977"	1	"λx.tail(tail(x))"
+9	15	"data/c2-008.txt"	"2118856"	"18856"	"18856"	1	"λx.tail(tail(x))"
+9	16	"data/c2-008.txt"	"1657677709"	"57677709"	"57677709"	1	"λx.tail(tail(x))"
+9	17	"data/c2-008.txt"	"65434"	"434"	"434"	1	"λx.tail(tail(x))"
+9	18	"data/c2-008.txt"	"23"	""	""	1	"λx.tail(tail(x))"
+9	19	"data/c2-008.txt"	"67977"	"977"	"977"	1	"λx.tail(tail(x))"
+# Global sample count:	787226317
+# Elapsed time:	12081.6 seconds 
+# Samples per second:	65158.9
+# VM ops per second:	1.28559e+07
