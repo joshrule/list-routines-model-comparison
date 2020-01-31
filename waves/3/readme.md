@@ -38,28 +38,12 @@ The CSV files should have these columns:
 - `run` (int): the run number, 1-indexed
 - `order` (int): the trial order, 1-indexed
 - `trial` (int): the trial number, 1-indexed
-- `input` (quoted string, `"[1,2): the input, square brackets, comma-separated
-- `correct` (quoted string, `"[3,3): the correct output, square brackets, comma-separated
-- `predicted` (quoted string, `"[1,2): the predicted output, square brackets, comma-separated
-- `accuracy` (int): correct == predicted, 1 or 0
 - `program` (quoted string): a string representation of the program in the DSL
 - `cpu` (float ): the total CPU time that passed before finding this program
 - `count` (int): the total number of programs considered before this program
-- `nlp` (float): the negative log prior of the program
-- `nll` (float): the negative log likelihood of the program given the training examples
 
 Here’s an example header and entry from such a file:
 ```csv
-problem,run,order,trial,input,correct,predicted,accuracy,program,cpu,count,length,nlp,nll
-”c003”,3,5,2,”[1,2,3]”,”[3,3,3]”,”[1,2,3]”,0,”(lambda $0)”,0.00034,1,2,3.456,2.68801713
+problem,run,order,trial,program,cpu,count
+”c003”,3,5,2,”(lambda $0)”,0.00034,13
 ```
-
-Please report the following prior and likelihood for fair comparison (your model may use a different objective to guide search):
-- **prior**: the probability of sampling the program from the DSL given: the type system, a uniform weight proportional to 1.0 on non-terminals, and a uniform weight proportional to 10.0 on terminals, including any variables in scope (e.g. the input list). If you learn in a representation other than the DSL (e.g. logic programs, term rewriting systems), please convert your representation into the DSL and then compute the prior over that representation.
-
-- **log likelihood**: For program `p` and a list of input/output pairs `training_examples`, the log likelihood `ll` is:
-  ```python
-  alpha = exp(-.07043928) # roughly 0.93198433
-  ll = sum(ln(alpha) if p(i) == o else ln(1-alpha) for (i, o) in training_examples)
-  ```
-  Correctly predicting a training example adds `ln(alpha)`, while incorrect predictions add `ln(1-(alpha))`.
