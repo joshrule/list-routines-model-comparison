@@ -47,3 +47,11 @@ Here’s an example header and entry from such a file:
 problem,run,order,trial,program,cpu,count
 ”c003”,3,5,2,”(lambda $0)”,0.00034,13
 ```
+
+**Important**: I will be recomputing program outputs and other properties of the programs (e.g. length, prior, likelihood) post hoc, so it's critical that you report your programs using the canonical DSL. You may need to write a converter if your model uses an alternative representation. To check the accuracy of any conversions, an interpreter for the DSL is available by installing [`ec`](https://github.com/joshrule/ec) and using [`bin/list-routines.py`](https://github.com/joshrule/ec/blob/master/bin/list-routines.py). For example:
+
+```bash
+# Note the escaped "\$" to avoid bash string interpolation.
+$ python bin/list-routines.py model-comparison-9 "(lambda (cons (head \$0) empty))" "[1,2,3,4]"
+[1]
+```
