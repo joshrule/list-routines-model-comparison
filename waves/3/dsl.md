@@ -1,15 +1,15 @@
 # List Routines DSL ([Symbols](#symbols) &middot; [Definitions](#definitions)  &middot; [Lambdas](#lambdas) &middot; [Types](#type-system))
 
-This document describes a pair of Domain-specific languages (DSLs) for list manipulation routines following a lisp-like syntax. They are deliberately sparse. The two DSLs differ only in the set of numbers they make available. The smaller DSL contains only the integers 0..9, while the larger DSL contains 0..99.
+This document describes a pair of Domain-specific languages (DSLs) for list manipulation routines following a lisp-like syntax. They are deliberately sparse. The two DSLs differ only in the set of numbers they make available. The smaller DSL contains only the integers 0...9, while the larger DSL contains 0...99.
 
 ## Symbols
 
-This section contains a table of symbols in the DSL, along with their type signatures and a brief description.
+Below are the symbols in the DSL, their arities, their types, and a brief description.
 
 Notes:
-- The DSL supports explicit recursion (e.g. `c = (lambda (if (is_empty $0) 0 (+ 1 (c (tail $0)))))`).
-- The DSL supports anonymous functions (i.e. `lambda`).
-- For an applicative formalism (e.g. combinatory logic), set all arities to 0 and add an application symbol of type `(t1 -> t2) -> t1 -> t2`.
+- The DSL supports recursion using `fix` (e.g. `(lambda (fix $0 (lambda (lambda (if (empty? $0) 0 (+ 1 ($1 (tail $0))))))))`). You may instead use explicit recursion (e.g. `c empty = 0; c (cons x y) = (+ 1 (c y));`) if that is more natural for your representation.
+- The DSL supports abstraction using `lambda`. If your representation supports another form of abstraction, you may drop `lambda`.
+- For applicative representations (e.g. combinatory logic), set all arities to 0 and add an application symbol of type `(t1 -> t2) -> t1 -> t2`.
 
 <table>
   <col>
@@ -20,58 +20,52 @@ Notes:
 <tr class="header">
 <th><strong>Symbol</strong></th>
 <th><strong>Arity</strong></th>
-<th><strong>Type Signature</strong></th>
+<th><strong>Type</strong></th>
 <th><strong>Description</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>lambda</code></td>
-<td>1</td>
-<td></td>
-<td>a mechanism for creating anonymous functions.</td>
-</tr>
-<tr>
-<td><code>0..9</code></td>
+<td><code>0</code>...<code>9</code></td>
 <td>0</td>
 <td><code>int</code></td>
-<td>Constant: integers between 0 and 9, inclusive.</td>
+<td>integers 0&ndash;9, inclusive.</td>
 </tr>
 <tr>
-<td><code>10..99</code></td>
+<td><code>10</code>...<code>99</code></td>
 <td>0</td>
 <td><code>int</code></td>
-<td>Constant: integers between 10 and 99, inclusive. Problems 81&ndash;100 only.</td>
+<td>integers 10&ndash;99, inclusive. <em>Problems 81&ndash;100 only.</em></td>
 </tr>
 <tr>
 <td><code>nan</code></td>
 <td>0</td>
 <td><code>int</code></td>
-<td>Constant: An out-of-bounds number.</td>
+<td>An out-of-bounds number.</td>
 </tr>
 <tr>
 <td><code>true</code></td>
 <td>0</td>
 <td><code>bool</code></td>
-<td>Constant: Boolean literal.</td>
+<td>Boolean literal.</td>
 </tr>
 <tr>
 <td><code>false</code></td>
 <td>0</td>
 <td><code>bool</code></td>
-<td>Constant: Boolean literal.</td>
+<td>Boolean literal.</td>
 </tr>
 <tr>
 <td><code>empty</code></td>
 <td>0</td>
 <td><code>[t1]</code></td>
-<td>Constant: an empty list.</td>
+<td>an empty list.</td>
 </tr>
 <tr>
-<td><code>c</code></td>
-<td>1</td>
-<td><code>[int] → [int]</code></td>
-<td>the target concept</td>
+<td><code>cons</code></td>
+<td>2</td>
+<td><code>t1 → [t1] → [t1]</code></td>
+<td>Prepends a given item to the beginning of a list.</td>
 </tr>
 <tr>
 <td><code>+</code></td>
@@ -92,16 +86,10 @@ Notes:
 <td>Binary greater than predicate.</td>
 </tr>
 <tr>
-<td><code>==</code></td>
+<td><code>fix</code></td>
 <td>2</td>
-<td><code>t0 → t0 → bool</code></td>
-<td>Binary equality predicate.</td>
-</tr>
-<tr>
-<td><code>cons</code></td>
-<td>2</td>
-<td><code>t1 → [t1] → [t1]</code></td>
-<td>Prepends a given item to the beginning of a list.</td>
+<td><code>t0 → ((t0 → t1) → t0 → t1) → t1</code></td>
+<td>fix-point operator (for recursion)</td>
 </tr>
 <tr>
 <td><code>head</code></td>
@@ -128,6 +116,12 @@ Notes:
 <td><code>true</code> if the arguments are identical, else <code>false</code></td>
 </tr>
 <tr>
+<td><code>lambda</code></td>
+<td>1</td>
+<td></td>
+<td>a mechanism for creating anonymous functions.</td>
+</tr>
+<tr>
 <td><code>tail</code></td>
 <td>1</td>
 <td><code>[t1] → [t1]</code></td>
@@ -143,10 +137,14 @@ Notes:
 Below are definitions for the symbols in the DSL.
 
 - `0`...`99`, `nan`, `true`, `false`, `empty`, and `cons`-cells are constants.
-- `c` varies per task, so it isn't defined here. It's available for explicit recursion.
+- `lambda` is described [below](#lambdas).
 - Use standard definitions for `+`, `-`, and `>`; out-of-bounds operations go to `nan` (e.g. `+ 9 9 = nan`, `- 2 3 = nan`) .
 - The remaining symbols follow these rules:
   ```
+  fix f x = f (fix f) x;
+
+  head (cons x y) = x;
+
   if true  x y = x;
   if false x y = y;
 
@@ -156,23 +154,18 @@ Below are definitions for the symbols in the DSL.
   is_equal x x = true;
   is_equal x y = false;
 
-  head (cons x y) = x;
-
   tail (cons x y) = y;
   ```
 ## Lambdas
 
-`lambda` returns an anonymous function that runs an input expression when called. For example, lambda functions can be passed as input functions to count, map, filter, and fold. The $-prefixed integers (e.g. `$0`, `$1`, … `$n`) represent [De Bruijn indices](https://en.wikipedia.org/wiki/De_Bruijn_index), where the index then refers to how many variable bindings you are from the variable you're referring to. For instance, `K x y = x` would be written as `(lambda (lambda $1))`.
+`lambda` returns an anonymous function that runs an input expression when called. The $-prefixed integers (e.g. `$0`, `$1`, … `$n`) represent [De Bruijn indices](https://en.wikipedia.org/wiki/De_Bruijn_index); the index N refers to the argument N variable bindings away from the current binding.
 
-Some more examples of Lambda functions can be seen below:
-
-| **Example**                     | **Type Signature**  | **Description**                                                 |
+| **Example**                     | **Type**  | **Description**                                                 |
 | ------------------------------- | ------------------- | --------------------------------------------------------------- |
 | `(lambda 5)`                     | `(t1 → int)`         | Returns 5.                                                      |
-| `(lambda (+ $0 1))`              | `(int → int)`        | Increments an input value by 1.                                 |
-| `(lambda (\> $0 0))`             | `(int → int)`        | Returns whether or not the input value is greater than 0.       |
-| `(lambda (index 5 $0))`          | `(\[t1\] → t1)`      | Returns the 6th value (due to 0-indexing) in an input list.     |
-| `(lambda (lambda (index $1 $0)))` | `(int → \[t1\] → t1)` | Returns the *N-1*th value of an input list for input value *N*. |
+| `(lambda (+ $0 1))`              | `(int → int)`        | Increments an input by 1.                                 |
+| `(lambda (> $0 0))`             | `(int → int)`        | tests whether the input is greater than 0.  |
+| `(lambda (lambda $1))`    | `(t1 → t2 → t1)`  | Returns the first input, i.e. the K-combinator. |
 
 *Table 1.1 - Lambda Examples*
 
