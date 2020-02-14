@@ -9,28 +9,28 @@ def json2csv(jsonFile):
     with open(jsonFile, 'r') as fd:
         obj = json.load(fd)
     concept = obj["id"]
-    name = obj["name"]
+    program = obj["program"]
     records = [
         {
             "id": concept,
-            "name": name,
+            "program": program,
             "i": datum["i"],
             "o": datum["o"],
         }
         for datum in obj["data"]]
     outFile = os.path.splitext(jsonFile)[0] + ".csv"
     df = pd.DataFrame.from_records(records)
-    df.to_csv(outFile, quoting=csv.QUOTE_NONNUMERIC, index=False)
+    df.to_csv(outFile, quoting=csv.QUOTE_MINIMAL, index=False)
 
 def json2txt(jsonfile):
     records = []
     with open(jsonfile, 'r') as fd:
         obj = json.load(fd)
     concept = obj["id"]
-    name = obj["name"]
+    program = obj["program"]
     outFile = os.path.splitext(jsonfile)[0] + ".txt"
     with open(outFile, 'w') as fd:
-        fd.write("# " + concept + ": " + name + "\n")
+        fd.write("# " + concept + ": " + program + "\n")
         for datum in obj["data"]:
             i_list = ",".join([str(x) for x in datum["i"]])
             o_list = ",".join([str(x) for x in datum["o"]])
