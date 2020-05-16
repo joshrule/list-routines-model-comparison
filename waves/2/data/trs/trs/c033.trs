@@ -1,0 +1,6 @@
+# C xs = [9 | (F xs)]
+# F [] = [7]
+# F [x | xs] = [x | (F xs)]
+C xs_ = (CONS (DIGIT 9) (F xs_));
+F NIL = (CONS (DIGIT 7) NIL);
+F (CONS x_ xs_) = (CONS x_ (F xs_));

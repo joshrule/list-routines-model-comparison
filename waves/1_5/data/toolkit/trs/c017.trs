@@ -1,0 +1,2 @@
+# C [x y | tail] = [x x | tail]
+C (CONS x_ (CONS y_ z_)) = (CONS x_ (CONS x_ z_));

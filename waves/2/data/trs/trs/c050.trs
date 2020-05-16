@@ -1,0 +1,10 @@
+# C [x | xs] = [(F xs) | (G x xs)]
+# F [x] = x
+# F [x | xs] = F xs
+# G x [y] = [x]
+# G x [y | ys] = [y | (G x ys)]
+C (CONS x_ xs_) = CONS (F xs_) (G x_ xs_);
+F (CONS x_ NIL) = x_;
+F (CONS x_ xs_) = F xs_;
+G x_ (CONS y_ NIL) = (CONS x_ NIL);
+G x_ (Cons y_ ys_) = CONS y_ (G x_ ys_);

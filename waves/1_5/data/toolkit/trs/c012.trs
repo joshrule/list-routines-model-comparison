@@ -1,0 +1,3 @@
+# C [v | tail] = [v v | tail]
+# C (CONS x_ y_) = (CONS x_ (CONS x_ y_));
+C xs_ = (CONS (HEAD xs_) xs_);

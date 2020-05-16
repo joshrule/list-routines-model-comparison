@@ -1,0 +1,71 @@
+# Wave 2 DSL
+#
+# Each line below lists <name>/<arity>: <type>.
+#
+# If you'd prefer to use an applicative system, set all the arities to 0 and
+# add an application symbol with type t1. t2 (t1 -> t2) -> t1 -> t2.
+
+# Constructors
+
+# # Booleans
+TRUE/0: bool;
+FALSE/0: bool;
+
+# # Lists
+NIL/0: list;
+CONS/2: nat -> list -> list;
+
+# # Numbers
+0/0: nat;
+1/0: nat;
+2/0: nat;
+3/0: nat;
+4/0: nat;
+5/0: nat;
+6/0: nat;
+7/0: nat;
+8/0: nat;
+9/0: nat;
+NAN/0: nat;
+
+# Functions
+
+# # Concept (for e.g. explicit recursion)
+C/1: list -> list;
+
+# # Others
+EMPTY/1: list -> bool;
+EQUAL/2: t0. t0 -> t0 -> bool;
+HEAD/1: list -> nat;
+IF/3: t0. bool -> t0 -> t0 -> t0;
+TAIL/1: list -> list;
++/2: nat -> nat -> nat;
+-/2: nat -> nat -> nat;
+>/2: nat -> nat -> bool;
+
+
+
+# Wave 2 Function Definitions,
+#
+# - C varies per task, so it isn't defined here.
+# - Assume standard definitions for +, -, and >, with out-of-bounds operations
+#   (e.g. 9+9, 2-3) defined as NAN.
+
+# # EMPTY
+EMPTY NIL = TRUE;
+EMPTY (CONS x_ y_) = FALSE;
+
+# # EQUAL
+EQUAL x_ x_ = TRUE;
+EQUAL x_ y_ = FALSE;
+
+# # HEAD
+HEAD (CONS x_ y_) = x_;
+
+# # IF
+IF TRUE  x_ y_ = x_;
+IF FALSE x_ y_ = y_;
+
+# # TAIL
+TAIL (CONS x_ y_) = y_;
+

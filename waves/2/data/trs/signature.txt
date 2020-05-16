@@ -1,0 +1,34 @@
+# Concept
+C/0: list -> list;
+
+# Constructors
+# # Booleans
+TRUE/0: bool;
+FALSE/0: bool;
+# # Lists
+NIL/0: list;
+CONS/0: nat -> list -> list;
+# # Numbers
+0/0: digit;
+1/0: digit;
+2/0: digit;
+3/0: digit;
+4/0: digit;
+5/0: digit;
+6/0: digit;
+7/0: digit;
+8/0: digit;
+9/0: digit;
+DIGIT/0: digit -> nat;
+NAN/0: nat;
+
+# Functions
+./2: t1. t2. (t1 -> t2) -> t1 -> t2;
+EMPTY/0: list -> bool;
+EQUAL/0: t0. t0 -> t0 -> bool;
+HEAD/0: list -> nat;
+IF/0: t0. bool -> t0 -> t0 -> t0;
+TAIL/0: list -> list;
++/0: nat -> nat -> nat;
+-/0: nat -> nat -> nat;
+>/0: nat -> nat -> bool;

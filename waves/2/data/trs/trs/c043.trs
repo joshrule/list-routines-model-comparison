@@ -1,0 +1,6 @@
+# C [] = []
+# C [x] = [x]
+# C [x y | xs] = C [(If (> x y) x y) | xs]
+C NIL = NIL;
+C (CONS x_ NIL) = (CONS x_ NIL);
+C (CONS x_ (CONS y_ xs_)) = C (CONS (IF (> x_ y_) x_ y_) xs_);

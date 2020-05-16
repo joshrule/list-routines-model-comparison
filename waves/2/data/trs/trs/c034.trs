@@ -1,0 +1,4 @@
+# C [] = [7 3 8 4 3]
+# C [x | xs] = [x | (C xs)]
+C NIL = (CONS (DIGIT 7) (CONS (DIGIT 3) (CONS (DIGIT 8) (CONS (DIGIT 4) (CONS (DIGIT 3) NIL)))));
+C (CONS x_ xs_) = (CONS x_ (C xs_));

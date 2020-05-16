@@ -1,0 +1,2 @@
+# C xs = [19 62 3 81 54 | xs]
+C xs_ = (CONS (DECC (DIGIT 1) 9) (CONS (DECC (DIGIT 6) 2) (CONS (DIGIT 3) (CONS (DECC (DIGIT 8) 1) (CONS (DECC (DIGIT 5) 4) xs_)))));

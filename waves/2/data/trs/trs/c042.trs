@@ -1,0 +1,6 @@
+# C xs = F 0 xs
+# F n [] = [n]
+# F n [x | xs] = F (+ n 1) xs
+C xs_ = F (DIGIT 0) xs_;
+F n_ NIL = (CONS n_ NIL);
+F n_ (CONS x_ xs_) = F (+ n_ (DIGIT 1)) xs_;

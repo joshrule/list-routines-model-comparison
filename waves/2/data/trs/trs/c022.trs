@@ -1,0 +1,2 @@
+# C [u v w x y z | xs] = [u v w x y z 4 | xs]
+C (CONS u_ (CONS v_ (CONS w_ (CONS x_ (CONS y_ (CONS z_ xs_))) = (CONS u_ (CONS v_ (CONS w_ (CONS x_ (CONS y_ (CONS z_ (CONS (DIGIT 4) xs_)))))));

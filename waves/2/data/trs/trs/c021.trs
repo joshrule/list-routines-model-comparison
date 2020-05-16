@@ -1,0 +1,6 @@
+# C [x y | xs] = [x y 9 | xs]
+# C [x] = [x 9]
+# C [] = [9]
+C (CONS x_ (CONS y_ xs_)) = (CONS x_ (CONS y_ (CONS (DIGIT 9) xs_)));
+C (CONS x_ y_) = (CONS x_ (C y_));
+C NIL = (CONS (DIGIT 9) NIL)

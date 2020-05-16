@@ -1,0 +1,4 @@
+# C [x] = [x x]
+# C [x x] = [x]
+C (CONS x_ NIL) = (CONS x_ (CONS x_ NIL));
+C (CONS x_ (CONS x_ NIL)) = (CONS x_ NIL);

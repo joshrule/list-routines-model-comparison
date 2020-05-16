@@ -1,0 +1,6 @@
+# C [x] = []
+# C [0 | xs] = xs
+# C [n x | xs] = C [(- n 1) | xs]
+C (CONS x_ NIL) = NIL;
+C (CONS (DIGIT 0) xs_) = xs;
+C (CONS n_ (CONS x_ xs_)) = C (CONS (- n_ (DIGIT 1)) xs_);

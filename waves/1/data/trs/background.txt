@@ -1,0 +1,18 @@
+# EMPTY
+EMPTY NIL = TRUE;
+EMPTY (CONS x_ y_) = FALSE;
+
+# EQUAL
+EQUAL x_ x_ = TRUE;
+EQUAL x_ y_ = FALSE;
+
+# HEAD
+HEAD (CONS x_ y_) = x_;
+
+# IF
+IF TRUE  x_ y_ = x_;
+IF FALSE x_ y_ = y_;
+
+# TAIL
+TAIL NIL = NIL;
+TAIL (CONS x_ y_) = y_;

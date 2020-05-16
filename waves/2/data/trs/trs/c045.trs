@@ -1,0 +1,6 @@
+# C xs = F [] xs
+# F ys [] = ys
+# F ys [x | xs] = F [x | ys] xs
+C xs_ = F NIL xs_;
+F ys_ NIL = ys_;
+F ys_ (CONS x_ xs_) = F (CONS x_ ys_) xs_;

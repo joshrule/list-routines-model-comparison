@@ -1,0 +1,10 @@
+# C [b e | xs] = G b (F e xs)
+# F 0 xs = []
+# F n [x | xs] = [x | (F (- n 1) xs)]
+# G 0 xs = xs
+# G n [x | xs] = G (- n 1) xs
+C (CONS b_ (CONS e_ xs_)) = G b_ (F e_ xs_);
+F (DIGIT 0) xs_ = NIL;
+F n_ (CONS x_ xs_) = (CONS x_ (F (- n_ (DIGIT 1)) xs_));
+G (DIGIT 0) xs_ = xs_;
+G n_ (CONS x_ xs_) = G (- n_ (DIGIT 1)) xs_;

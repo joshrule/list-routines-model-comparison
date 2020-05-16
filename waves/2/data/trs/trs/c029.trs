@@ -1,0 +1,6 @@
+# C [w x y z | xs] = [x y z]
+# C [x | xs] = xs
+# C xs = []
+C (CONS w_ (CONS x_ (CONS y_ (CONS z_ xs_)))) = (CONS x_ (CONS y_ (CONS z_ NIL)));
+C (CONS x_ xs_) = xs_;
+C xs_ = NIL;

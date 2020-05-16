@@ -1,0 +1,6 @@
+# C [] = []
+# C [x | xs] = F x (C xs)
+# F x xs = If (> x 7) [x | xs] xs
+C NIL = NIL;
+C (CONS x_ xs_) = F x_ (C xs_);
+F x_ xs_ = IF (> x_ (DIGIT 7)) (CONS x_ xs_) xs_;

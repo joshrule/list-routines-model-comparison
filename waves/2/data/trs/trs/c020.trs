@@ -1,0 +1,2 @@
+# C [x y | xs] = [x y 9 | xs]
+C (CONS x_ (CONS y_ xs_)) = (CONS x_ (CONS y_ (CONS (DIGIT 9) xs_)));

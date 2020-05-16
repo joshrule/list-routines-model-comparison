@@ -1,0 +1,2 @@
+# C [v w x y z | xs] = [v w x y 3 | xs]
+C (CONS v_ (CONS w_ (CONS x_ (CONS y_ (CONS z_ xs_))))) = (CONS v_ (CONS w_ (CONS x_ (CONS y_ (CONS (DIGIT 3) xs_)))));

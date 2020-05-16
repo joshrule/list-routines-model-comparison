@@ -1,0 +1,2 @@
+# C [x y z | xs] = [z y x | xs]
+C (CONS x_ (CONS y_ (CONS z_ xs_))) = (CONS z_ (CONS y_ (CONS x_ xs_)));

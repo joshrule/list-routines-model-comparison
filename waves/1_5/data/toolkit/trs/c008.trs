@@ -1,0 +1,2 @@
+# C [x | tail] = [x]
+C (CONS x_ y_) = (CONS x_ NIL);

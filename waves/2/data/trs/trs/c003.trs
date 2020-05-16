@@ -1,0 +1,4 @@
+# C [t u v w x y z | xs] = [z];
+# C xs = [];
+C (CONS t_ (CONS u_ (CONS v_ (CONS w_ (CONS x_ (CONS y_ (CONS z_ xs_))))))) = (CONS z_ NIL);
+C xs_ = NIL;

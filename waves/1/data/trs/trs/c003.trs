@@ -1,0 +1,2 @@
+# C xs = [98 32 7 0 23]
+C xs_ = (CONS (DECC (DIGIT 9) 8) (CONS (DECC (DIGIT 3) 2) (CONS (DIGIT 7) (CONS (DIGIT 0) (CONS (DECC (DIGIT 2) 3) NIL)))));
