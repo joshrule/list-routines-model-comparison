@@ -1,0 +1,63 @@
+[simulation]
+
+# The location of the signature and background knowledge.
+signature = "small_signature.txt"
+background = "small_background.txt"
+
+# Make this many predictions.
+n_predictions = 11
+
+# Search for at most this many seconds for each datum.
+timeout = 600
+
+# Scale generations_per_datum by this factor after each prediction (multiply
+# for good performance, divide for bad performance).
+confidence = 1.0
+
+# Only learn deterministic TRSs.
+deterministic = true
+
+# Only use numbers in [0,9].
+lo = 0
+hi = 9
+
+[mcts]
+
+# The maximum number of search moves that can be chained together.
+max_depth = 50
+
+# The maximum number of states that can be searched.
+max_states = 1000000000
+
+# Use Thompson sampling to pick nodes.
+selection = { "Thompson" = 20 }
+
+# Allow no more than 7 complete revisions.
+max_revisions = 7
+
+# Use these sampling parameters.
+max_size = 100
+invent = true
+atom_weights = [1.5, 1.5, 1.0, 1.5]
+
+[model]
+
+# The reported posterior is (log_prior * p_temp + log_likelihood * l_temp) / schedule(t).
+p_temp = 1.0
+l_temp = 1.0
+
+# We don't anneal at all: schedule(t) = 1.0.
+schedule = "None"
+
+# The prior is generative: sample the number of rules and then sample each rule up to that number.
+prior = { "SimpleGenerative" = { p_rule = 0.5, atom_weights = [1.5, 1.5, 1.0, 1.5] } }
+
+# The likelihood is generative: rewrite the observed input according to your
+# hypothesis and scale the probability of each computed output by the cost of
+# probabilistically corrupting it into the observed output.
+#
+# It's annoying, but you need to manually normalize the parameters so that:
+# - p_insertion = weight1/n_chars
+# - p_incorrect_sub = weight2/n_chars
+# - p_deletion + weight2 + p_correct_sub = 1.0
+likelihood = { decay = 0.9, strategy = "Normal", p_observe= 0.0, max_steps = 25, max_depth = 25, max_size = 200, single = { "List" = { alpha = 0.001, atom_weights = [1.5, 1.5, 1.0, 1.5], t_max = 10, d_max = 10, dist = { beta = 0.005, p_insertion = 0.001, p_deletion = 0.0025, p_incorrect_sub = { "Bounded" = { low = 0, high = 99, weight = 0.0025}}, p_correct_sub = 0.995 }}}}
