@@ -21,6 +21,9 @@ deterministic = true
 lo = 0
 hi = 99
 
+# The number of branches to propagate to the next trial.
+top_n = 100
+
 [mcts]
 
 # The maximum number of search moves that can be chained together.
@@ -30,7 +33,7 @@ max_depth = 50
 max_states = 1000000000
 
 # Use Thompson sampling to pick nodes.
-selection = { "Thompson" = 20 }
+selection = { "MaxThompson" = { n_top = 10, schedule = { "Logarithmic" = 5 } } }
 
 # Allow no more than 7 complete revisions.
 max_revisions = 7
