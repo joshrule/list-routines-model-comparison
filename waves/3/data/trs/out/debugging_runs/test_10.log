@@ -1,0 +1,81 @@
+# allocated type context with capacity 4096
+# loaded parameters
+# loaded lexicon
+#   C/0: list → list
+#   TRUE/0: bool
+#   FALSE/0: bool
+#   NIL/0: list
+#   CONS/0: nat → list → list
+#   0/0: digit
+#   1/0: digit
+#   2/0: digit
+#   3/0: digit
+#   4/0: digit
+#   5/0: digit
+#   6/0: digit
+#   7/0: digit
+#   8/0: digit
+#   9/0: digit
+#   DIGIT/0: digit → nat
+#   DECC/0: nat → digit → nat
+#   NAN/0: nat
+#   ./2: ∀t1. ∀t2. (t1 → t2) → t1 → t2
+#   EMPTY/0: list → bool
+#   EQUAL/0: ∀t0. t0 → t0 → bool
+#   HEAD/0: list → nat
+#   IF/0: ∀t0. bool → t0 → t0 → t0
+#   TAIL/0: list → list
+#   +/0: nat → nat → nat
+#   -/0: nat → nat → nat
+#   >/0: nat → nat → bool
+# loaded background
+# loaded data
+#   Datum { i: IntList([9, 56, 9, 9]), o: IntList([9]) }
+#   Datum { i: IntList([40, 50, 76, 47, 39]), o: IntList([76]) }
+#   Datum { i: IntList([27, 4, 38, 83, 5, 3, 15, 4, 5, 83]), o: IntList([38]) }
+#   Datum { i: IntList([70, 1, 7, 18, 2, 8, 21, 6, 4, 19]), o: IntList([7]) }
+#   Datum { i: IntList([55, 74, 69]), o: IntList([69]) }
+#   Datum { i: IntList([9, 81, 6, 81, 6]), o: IntList([6]) }
+#   Datum { i: IntList([3, 84, 2, 42, 12, 12]), o: IntList([2]) }
+#   Datum { i: IntList([45, 45, 45]), o: IntList([45]) }
+#   Datum { i: IntList([9, 91, 70, 48, 59, 83, 43]), o: IntList([70]) }
+#   Datum { i: IntList([5, 83, 64, 87, 57, 1, 95, 1, 95]), o: IntList([64]) }
+#   Datum { i: IntList([68, 68, 56, 46, 71]), o: IntList([56]) }
+# searching
+#   problem,run,order,trial,steps,seen,search_time,total_time
+#   c081,0,1,1,4506,3643,10.001244396,10.015303941
+#   c081,0,1,2,13954,12203,20.001307004,27.439682799
+#   c081,0,1,3,20686,17116,30.007550187,61.185794018
+#   c081,0,1,4,25335,20285,40.008150916,121.83207162
+#   c081,0,1,5,29216,23327,50.010155536999996,210.114314534
+#   c081,0,1,6,32918,25699,60.011748585999996,334.545853656
+#   c081,0,1,7,36549,27868,70.01234265,479.596700843
+#   c081,0,1,8,39563,30138,80.012716859,657.177486161
+#   c081,0,1,9,42692,32556,90.01385149,868.451179961
+#   c081,0,1,10,45303,34064,100.024306746,1122.155762004
+#   c081,0,1,11,47693,35601,110.02709059,1437.353035645
+# search time: 1.100e2s
+# total time: 1.449e3s
+	Command being timed: "/home/rule/library/list-routine-learning-rs/target/release/simulation test_simulation.toml 1 /home/rule/library/list-routines-model-comparison/waves/3/json/c081_1.json /dev/null /dev/null /dev/null /dev/null"
+	User time (seconds): 1442.52
+	System time (seconds): 6.98
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 24:09.63
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 4376992
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 1394168
+	Voluntary context switches: 1
+	Involuntary context switches: 1546
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 80
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
