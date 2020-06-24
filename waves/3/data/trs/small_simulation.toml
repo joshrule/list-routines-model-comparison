@@ -19,7 +19,7 @@ deterministic = true
 
 # Only use numbers in [0,9].
 lo = 0
-hi = 99
+hi = 9
 
 # The number of branches to propagate to the next trial.
 top_n = 100
