@@ -1,6 +1,7 @@
 {
-  "concept": "(lambda (cons (max $0) (cons (last $0) (cons (length $0) (cons (first $0) (singleton (min $0)))))))",
-  "examples": [
+  "id": "c076",
+  "program": "(lambda (cons (max $0) (cons (last $0) (cons (length $0) (cons (first $0) (singleton (min $0)))))))",
+  "data": [
     { "i": [2, 6, 7, 1, 5], "o": [7, 5, 5, 2, 1] },
     { "i": [4, 8, 3], "o": [8, 3, 3, 4, 3] },
     { "i": [2, 8, 5, 4, 7, 3, 9, 1], "o": [9, 1, 8, 2, 1] },

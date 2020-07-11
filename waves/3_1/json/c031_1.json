@@ -1,6 +1,7 @@
 {
-  "concept": "(lambda ((if (== (first $0) (second $0)) drop droplast) 2 $0))",
-  "examples": [
+  "id": "c031",
+  "program": "(lambda ((if (== (first $0) (second $0)) drop droplast) 2 $0))",
+  "data": [
     { "i": [6, 6, 6, 8], "o": [6, 8] },
     { "i": [0, 0, 5, 5, 0, 5, 5, 0], "o": [5, 5, 0, 5, 5, 0] },
     { "i": [1, 4, 4], "o": [1] },

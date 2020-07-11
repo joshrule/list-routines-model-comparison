@@ -1,6 +1,7 @@
 {
-  "concept": "(lambda (if (== (length $0) 3) (append $0 3) (if (== (length $0) 9) (append $0 9) $0)))",
-  "examples": [
+  "id": "c039",
+  "program": "(lambda (if (== (length $0) 3) (append $0 3) (if (== (length $0) 9) (append $0 9) $0)))",
+  "data": [
     { "i": [9, 3, 6], "o": [9, 3, 6, 3] },
     { "i": [2, 1, 0, 1, 7, 8, 1, 8, 7], "o": [2, 1, 0, 1, 7, 8, 1, 8, 7, 9] },
     { "i": [9, 1, 4], "o": [9, 1, 4, 3] },
