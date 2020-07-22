@@ -1,0 +1,5 @@
+directory,parameter_file,problem_file,num_runs,num_jobs,reason
+"1594482643","1594482643/parameters.toml","1594482643/problems.txt",5,40,"full run of 3.1 for small DSL"
+"1594482735","1594482735/parameters.toml","1594482735/problems.txt",5,10,"full run 3.1 runs for large DSL"
+"1594483375","1594483375/parameters.toml","1594483375/problems.txt",5,10,"full run 3.1 runs for large DSL"
+"1594483387","1594483387/parameters.toml","1594483387/problems.txt",5,30,"full run of 3.1 for small DSL"
