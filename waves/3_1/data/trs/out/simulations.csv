@@ -3,6 +3,8 @@ directory,parameter_file,problem_file,num_runs,num_jobs,reason
 "1594482735","1594482735/parameters.toml","1594482735/problems.txt",5,10,"full run 3.1 runs for large DSL"
 "1594483375","1594483375/parameters.toml","1594483375/problems.txt",5,10,"full run 3.1 runs for large DSL"
 "1594483387","1594483387/parameters.toml","1594483387/problems.txt",5,30,"full run of 3.1 for small DSL"
+"1595515534","1595515534/parameters.toml","1595515534/problems.txt",5,12,"wave 3.1 for large DSL: 21--40"
+"1595515609","1595515609/parameters.toml","1595515609/problems.txt",5,12,"wave 3.1 for small DSL: 41--60"
 "1595515936","1595515936/parameters.toml","1595515936/problems.txt",5,12,"wave 3.1 run for small DSL: 61--80"
 "1595516193","1595516193/parameters.toml","1595516193/problems.txt",5,12,"wave 3.1 for small DSL: 1--20"
 "1595516199","1595516199/parameters.toml","1595516199/problems.txt",5,12,"wave 3.1 run for large DSL"
