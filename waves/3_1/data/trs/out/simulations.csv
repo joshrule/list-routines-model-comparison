@@ -8,3 +8,5 @@ directory,parameter_file,problem_file,num_runs,num_jobs,reason
 "1595515936","1595515936/parameters.toml","1595515936/problems.txt",5,12,"wave 3.1 run for small DSL: 61--80"
 "1595516193","1595516193/parameters.toml","1595516193/problems.txt",5,12,"wave 3.1 for small DSL: 1--20"
 "1595516199","1595516199/parameters.toml","1595516199/problems.txt",5,12,"wave 3.1 run for large DSL"
+"1595870749","1595870749/parameters.toml","1595870749/problems.txt",5,5,"wave 3.1 rerun"
+"1599321096","1599321096/parameters.toml","1599321096/problems.txt",5,1,"wave 3.1: rerun of c076"
