@@ -1,0 +1,21 @@
+---
+title: "1599249871 Analysis"
+author: Josh Rule
+date: "09/04/2020"
+output:
+  html_document:
+    fig_caption: true
+    toc: true
+    toc_float:
+      collapsed: true
+---
+
+wave 3.1 run for large DSL: new objective
+
+- [`parameters`](./parameters.toml)
+- [`problems`](./problems.txt)
+- [`jobs`](./job.txt)
+- [`results`](./results.csv)
+- number of problems: 20
+- number of runs: 5
+- number of jobs: 7
