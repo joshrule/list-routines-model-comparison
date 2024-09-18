@@ -1,0 +1,2 @@
+problem,run,order,trial,time,count,generalizes,lprior,llikelihood,lposterior,trs
+"c088",0,1,1,0.01323045,25,true,-9.112948025967533,-0.0010005003335835344,-9.113948526301117,"C = TAIL;"

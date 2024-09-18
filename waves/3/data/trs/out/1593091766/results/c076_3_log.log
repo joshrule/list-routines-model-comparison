@@ -1,0 +1,104 @@
+    Finished release [optimized] target(s) in 0.05s
+     Running `/home/rule/library/list-routine-learning-rs/target/release/simulation small_simulation.toml 5 /home/rule/library/list-routines-model-comparison/waves/3/json/c076_3.json out/1593091766/results/c076_3_best.csv out/1593091766/results/c076_3_predictions.csv out/1593091766/results/c076_3_all.csv /dev/null`
+# loaded parameters
+# loaded lexicon
+#   C/0: list → list
+#   TRUE/0: bool
+#   FALSE/0: bool
+#   NIL/0: list
+#   CONS/0: nat → list → list
+#   0/0: digit
+#   1/0: digit
+#   2/0: digit
+#   3/0: digit
+#   4/0: digit
+#   5/0: digit
+#   6/0: digit
+#   7/0: digit
+#   8/0: digit
+#   9/0: digit
+#   DIGIT/0: digit → nat
+#   NAN/0: nat
+#   ./2: ∀t1. ∀t2. (t1 → t2) → t1 → t2
+#   EMPTY/0: list → bool
+#   EQUAL/0: ∀t0. t0 → t0 → bool
+#   HEAD/0: list → nat
+#   IF/0: ∀t0. bool → t0 → t0 → t0
+#   TAIL/0: list → list
+#   +/0: nat → nat → nat
+#   -/0: nat → nat → nat
+#   >/0: nat → nat → bool
+# loaded background
+# loaded data
+#   Datum { i: IntList([6, 0, 9, 7, 1, 0]), o: IntList([3, 6, 4]) }
+#   Datum { i: IntList([9, 9, 7, 7, 7, 9, 9, 7]), o: IntList([6, 6, 4, 4, 4, 6, 6, 4]) }
+#   Datum { i: IntList([6, 2, 3]), o: IntList([3]) }
+#   Datum { i: IntList([8, 8, 8, 8, 8, 8, 8, 8, 8, 8]), o: IntList([5, 5, 5, 5, 5, 5, 5, 5, 5, 5]) }
+#   Datum { i: IntList([7, 7, 0, 7, 6, 9, 2, 2, 7, 2]), o: IntList([4, 4, 4, 3, 6, 4]) }
+#   Datum { i: IntList([7, 8, 4, 2, 5, 0, 1, 9, 7]), o: IntList([4, 5, 6, 4]) }
+#   Datum { i: IntList([4, 1, 4, 4, 1, 4]), o: IntList([]) }
+#   Datum { i: IntList([0, 9, 4, 7]), o: IntList([6, 4]) }
+#   Datum { i: IntList([0, 9, 5, 7, 3, 8, 6, 7]), o: IntList([6, 4, 5, 3, 4]) }
+#   Datum { i: IntList([8, 0]), o: IntList([5]) }
+#   Datum { i: IntList([6, 2, 2, 2, 6, 3, 3, 6]), o: IntList([3, 3, 3]) }
+# searching
+problem,run,order,trial,steps,hypotheses,tree,dag,search_time,total_time
+c076,0,3,1,1331999,1162607,1295935,1295935,600.003721375,601.707758003
+c076,0,3,2,607668,568636,583869,583869,1200.0063602680002,1203.332449984
+c076,0,3,3,276873,256426,258525,258525,1800.0109070470003,1804.169780162
+c076,0,3,4,270339,246077,247235,247235,2400.011956923,2404.752205157
+c076,0,3,5,149278,133744,134352,134352,3000.013523769,3005.398593326
+c076,0,3,6,114760,103384,103906,103906,3600.0168903510003,3606.094253187
+c076,0,3,7,94370,83422,83952,83952,4200.0229101370005,4206.796219064
+c076,0,3,8,79527,73971,76801,76801,4800.028438986001,4807.509693137
+c076,0,3,9,75207,70076,73016,73016,5400.034557988,5408.1587875
+c076,0,3,10,62682,59111,61867,61867,6000.035978363,6008.926516297
+c076,0,3,11,61943,58432,61432,61432,6600.037440831,6609.561310319
+# search time: 6600.037s
+# total time: 6610.000s
+c076,1,3,1,1275950,1100565,1237886,1237886,600.000085235,600.349432865
+c076,1,3,2,558623,521901,536291,536291,1200.003715964,1200.910094485
+c076,1,3,3,276430,256697,258859,258859,1800.004681593,1801.272494074
+thread 'main' panicked at 'index out of bounds: the len is 27 but the index is 27', /home/rule/library/term-rewriting-rs/src/types/atom.rs:138:9
+stack backtrace:
+   0:     0x562491acc2f5 - backtrace::backtrace::libunwind::trace::h812748238d609e46
+                               at /cargo/registry/src/github.com-1ecc6299db9ec823/backtrace-0.3.46/src/backtrace/libunwind.rs:86
+   1:     0x562491acc2f5 - backtrace::backtrace::trace_unsynchronized::h7c97e818aebf09c8
+                               at /cargo/registry/src/github.com-1ecc6299db9ec823/backtrace-0.3.46/src/backtrace/mod.rs:66
+   2:     0x562491acc2f5 - std::sys_common::backtrace::_print_fmt::h60d914263b0ccd71
+                               at src/libstd/sys_common/backtrace.rs:78
+   3:     0x562491acc2f5 - <std::sys_common::backtrace::_print::DisplayBacktrace as core::fmt::Display>::fmt::hf78227137afc7565
+                               at src/libstd/sys_common/backtrace.rs:59
+   4:     0x5624919786dc - core::fmt::write::h543cdf60775f89bf
+                               at src/libcore/fmt/mod.rs:1069
+   5:     0x562491acb914 - std::io::Write::write_fmt::h0c7f3ce24c679426
+                               at src/libstd/io/mod.rs:1504
+   6:     0x562491acb105 - std::sys_common::backtrace::_print::h80e55e24be231368
+                               at src/libstd/sys_common/backtrace.rs:62
+   7:     0x562491acb105 - std::sys_common::backtrace::print::h3b197b9c1261c865
+                               at src/libstd/sys_common/backtrace.rs:49
+   8:     0x562491acb105 - std::panicking::default_hook::{{closure}}::ha6c807149ce20f8f
+                               at src/libstd/panicking.rs:198
+   9:     0x562491aca904 - std::panicking::default_hook::he49a9c12e358cc45
+                               at src/libstd/panicking.rs:218
+  10:     0x562491aca904 - std::panicking::rust_panic_with_hook::h93f74f5ef2f71f31
+                               at src/libstd/panicking.rs:511
+  11:     0x562491aca208 - rust_begin_unwind
+                               at src/libstd/panicking.rs:419
+  12:     0x562491976980 - core::panicking::panic_fmt::h1ce7d3a6bb2a90c1
+                               at src/libcore/panicking.rs:111
+  13:     0x562491976811 - core::panicking::panic_bounds_check::h4b3d0dcda831e378
+                               at src/libcore/panicking.rs:69
+  14:     0x562491af3f96 - <term_rewriting::types::term::Context as core::convert::From<term_rewriting::types::atom::SituatedAtom>>::from::h880a3856dfc6f9e2
+  15:     0x5624919e753c - programinduction::trs::mcts::TrueState::make_move::h5636b3422394ea91
+  16:     0x562491ac1262 - programinduction::mcts::SearchTree<M>::prune_except_top::h8e9f962d5bb011d5
+  17:     0x562491a9ff26 - simulation::search::h54da192a5138b072
+  18:     0x562491a8dc7e - polytype::atype::context::with_ctx::h6dd93c58638b6fd1
+  19:     0x562491ad50e3 - std::rt::lang_start_internal::{{closure}}::{{closure}}::h4ed4ab1fb893cc93
+                               at src/libstd/rt.rs:52
+  20:     0x562491ad50e3 - std::sys_common::backtrace::__rust_begin_short_backtrace::h1f01c818c00c4f70
+                               at src/libstd/sys_common/backtrace.rs:130
+  21:     0x562491aa63e2 - main
+  22:     0x7feaa95fe1e3 - __libc_start_main
+  23:     0x56249192e18e - _start
+  24:                0x0 - <unknown>

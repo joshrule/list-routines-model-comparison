@@ -1,0 +1,6 @@
+Seq	Host	Starttime	JobRuntime	Send	Receive	Exitval	Signal	Command
+1	:	1595870749.777	 33012.193	0	0	0	0	./run_single.sh out/1595870749/results c076_1 5 small_simulation_rerun.toml /home/rule/library/list-routines-model-comparison/waves/3_1/json/c076_1.json ../../../../../list-routine-learning-rs/Cargo.toml
+2	:	1595870749.778	 33013.122	0	0	0	0	./run_single.sh out/1595870749/results c076_2 5 small_simulation_rerun.toml /home/rule/library/list-routines-model-comparison/waves/3_1/json/c076_2.json ../../../../../list-routine-learning-rs/Cargo.toml
+4	:	1595870749.781	 33013.726	0	0	0	0	./run_single.sh out/1595870749/results c076_4 5 small_simulation_rerun.toml /home/rule/library/list-routines-model-comparison/waves/3_1/json/c076_4.json ../../../../../list-routine-learning-rs/Cargo.toml
+5	:	1595870749.782	 33014.059	0	0	0	0	./run_single.sh out/1595870749/results c076_5 5 small_simulation_rerun.toml /home/rule/library/list-routines-model-comparison/waves/3_1/json/c076_5.json ../../../../../list-routine-learning-rs/Cargo.toml
+3	:	1595870749.779	 33014.582	0	0	0	0	./run_single.sh out/1595870749/results c076_3 5 small_simulation_rerun.toml /home/rule/library/list-routines-model-comparison/waves/3_1/json/c076_3.json ../../../../../list-routine-learning-rs/Cargo.toml

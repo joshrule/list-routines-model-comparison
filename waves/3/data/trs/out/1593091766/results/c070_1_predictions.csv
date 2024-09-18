@@ -1,0 +1,4 @@
+problem,run,order,trial,time,count,generalizes,lprior,llikelihood,lposterior,trs
+"c070",0,1,1,0.418709677,411,true,-14.125063705234222,-0.0010005003335835344,-14.126064205567806,".(C v0_) = v0_;"
+"c070",0,1,2,602.188016706,1073957,true,-10.673595774232203,-0.15247437040251038,-10.826070144634713,".(C v0_) = .(.(CONS .(DIGIT 3)) .(.(CONS .(DIGIT 2)) .(.(CONS .(DIGIT 0)) .(.(CONS .(DIGIT 9)) v0_))));"
+"c070",0,1,3,1202.5073831569998,1404578,true,-12.012099471515743,-0.42935891869881804,-12.44145839021456,".(C .(.(CONS .(DIGIT 3)) .(.(CONS .(DIGIT 2)) .(.(CONS .(DIGIT 0)) .(.(CONS .(DIGIT 9)) NIL))))) = .(.(CONS .(DIGIT 3)) .(.(CONS .(DIGIT 2)) .(.(CONS .(DIGIT 0)) .(.(CONS .(DIGIT 9)) .(.(CONS .(DIGIT 3)) .(.(CONS .(DIGIT 2)) .(.(CONS .(DIGIT 0)) .(.(CONS .(DIGIT 9)) NIL)))))))); .(C v0_) = .(.(CONS .(DIGIT 7)) .(.(CONS .(DIGIT 1)) .(.(CONS .(DIGIT 1)) .(.(CONS .(DIGIT 2)) .(.(CONS .(DIGIT 1)) .(.(CONS .(DIGIT 2)) v0_))))));"

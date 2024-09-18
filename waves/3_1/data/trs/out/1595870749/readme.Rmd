@@ -1,0 +1,21 @@
+---
+title: "1595870749 Analysis"
+author: Josh Rule
+date: "07/27/2020"
+output:
+  html_document:
+    fig_caption: true
+    toc: true
+    toc_float:
+      collapsed: true
+---
+
+wave 3.1 rerun
+
+- [`parameters`](./parameters.toml)
+- [`problems`](./problems.txt)
+- [`jobs`](./job.txt)
+- [`results`](./results.csv)
+- number of problems: 5
+- number of runs: 5
+- number of jobs: 5

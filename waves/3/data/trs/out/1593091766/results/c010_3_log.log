@@ -1,0 +1,111 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Finished release [optimized] target(s) in 0.62s
+     Running `/home/rule/library/list-routine-learning-rs/target/release/simulation small_simulation.toml 5 /home/rule/library/list-routines-model-comparison/waves/3/json/c010_3.json out/1593091766/results/c010_3_best.csv out/1593091766/results/c010_3_predictions.csv out/1593091766/results/c010_3_all.csv /dev/null`
+# loaded parameters
+# loaded lexicon
+#   C/0: list → list
+#   TRUE/0: bool
+#   FALSE/0: bool
+#   NIL/0: list
+#   CONS/0: nat → list → list
+#   0/0: digit
+#   1/0: digit
+#   2/0: digit
+#   3/0: digit
+#   4/0: digit
+#   5/0: digit
+#   6/0: digit
+#   7/0: digit
+#   8/0: digit
+#   9/0: digit
+#   DIGIT/0: digit → nat
+#   NAN/0: nat
+#   ./2: ∀t1. ∀t2. (t1 → t2) → t1 → t2
+#   EMPTY/0: list → bool
+#   EQUAL/0: ∀t0. t0 → t0 → bool
+#   HEAD/0: list → nat
+#   IF/0: ∀t0. bool → t0 → t0 → t0
+#   TAIL/0: list → list
+#   +/0: nat → nat → nat
+#   -/0: nat → nat → nat
+#   >/0: nat → nat → bool
+# loaded background
+# loaded data
+#   Datum { i: IntList([5, 5, 5, 1, 1, 5]), o: IntList([5, 5, 1, 1, 5]) }
+#   Datum { i: IntList([9, 7, 0, 9, 7, 9, 9, 4, 0, 7]), o: IntList([7, 0, 9, 7, 9, 9, 4, 0, 7]) }
+#   Datum { i: IntList([3, 8, 3, 3, 8, 3, 3]), o: IntList([8, 3, 3]) }
+#   Datum { i: IntList([1, 0, 2, 1, 2]), o: IntList([0]) }
+#   Datum { i: IntList([6, 2, 6, 1, 3, 6, 2, 9]), o: IntList([2, 6, 1, 3, 6, 2]) }
+#   Datum { i: IntList([4, 4, 4, 4, 4, 4, 4, 4, 4]), o: IntList([4, 4, 4, 4]) }
+#   Datum { i: IntList([1, 2, 4, 5, 0, 8, 9, 7, 8]), o: IntList([2]) }
+#   Datum { i: IntList([0, 2]), o: IntList([]) }
+#   Datum { i: IntList([8, 2, 5, 7, 1, 5, 5, 8, 8, 8]), o: IntList([2, 5, 7, 1, 5, 5, 8, 8]) }
+#   Datum { i: IntList([3, 9, 8, 6, 5, 1]), o: IntList([9, 8, 6]) }
+#   Datum { i: IntList([2, 3, 2, 7, 6]), o: IntList([3, 2]) }
+# searching
+problem,run,order,trial,steps,hypotheses,tree,dag,search_time,total_time
+c010,0,3,1,1328449,1163727,1294623,1294623,600.000006591,602.047961697
+c010,0,3,2,510487,475796,490836,490836,1200.000964156,1202.927062846
+c010,0,3,3,234369,218178,226393,226393,1800.010139016,1803.466758512
+c010,0,3,4,171107,158514,159182,159182,2400.010559271,2404.30844214
+c010,0,3,5,167673,148552,149421,149421,3000.012410924,3005.08783372
+c010,0,3,6,129230,114884,115591,115591,3600.01740642,3605.803353563
+c010,0,3,7,107726,95431,95883,95883,4200.018108603,4206.543582325
+c010,0,3,8,80678,75143,77009,77009,4800.019015152,4807.620026967
+c010,0,3,9,77898,74364,76985,76985,5400.02204681,5408.614590508
+c010,0,3,10,60989,57811,60074,60074,6000.031005924,6009.496376067
+c010,0,3,11,48706,46355,48496,48496,6600.03123141,6610.485789519
+# search time: 6600.031s
+# total time: 6610.853s
+c010,1,3,1,1287723,1114649,1250095,1250095,600.000082458,600.344187949
+c010,1,3,2,502448,468208,482841,482841,1200.002248107,1200.7149678
+c010,1,3,3,232640,216038,224668,224668,1800.00343768,1800.946798472
+c010,1,3,4,178879,166273,167177,167177,2400.004811155,2401.313729243
+c010,1,3,5,166184,147163,147982,147982,3000.004816217,3001.691822732
+c010,1,3,6,127325,113163,113859,113859,3600.009844647,3602.031111675
+c010,1,3,7,102155,89394,89655,89655,4200.012360796,4202.442424949
+thread 'main' panicked at 'index out of bounds: the len is 27 but the index is 27', /home/rule/library/term-rewriting-rs/src/types/atom.rs:138:9
+stack backtrace:
+   0:     0x5557788b22f5 - backtrace::backtrace::libunwind::trace::h812748238d609e46
+                               at /cargo/registry/src/github.com-1ecc6299db9ec823/backtrace-0.3.46/src/backtrace/libunwind.rs:86
+   1:     0x5557788b22f5 - backtrace::backtrace::trace_unsynchronized::h7c97e818aebf09c8
+                               at /cargo/registry/src/github.com-1ecc6299db9ec823/backtrace-0.3.46/src/backtrace/mod.rs:66
+   2:     0x5557788b22f5 - std::sys_common::backtrace::_print_fmt::h60d914263b0ccd71
+                               at src/libstd/sys_common/backtrace.rs:78
+   3:     0x5557788b22f5 - <std::sys_common::backtrace::_print::DisplayBacktrace as core::fmt::Display>::fmt::hf78227137afc7565
+                               at src/libstd/sys_common/backtrace.rs:59
+   4:     0x55577875e6dc - core::fmt::write::h543cdf60775f89bf
+                               at src/libcore/fmt/mod.rs:1069
+   5:     0x5557788b1914 - std::io::Write::write_fmt::h0c7f3ce24c679426
+                               at src/libstd/io/mod.rs:1504
+   6:     0x5557788b1105 - std::sys_common::backtrace::_print::h80e55e24be231368
+                               at src/libstd/sys_common/backtrace.rs:62
+   7:     0x5557788b1105 - std::sys_common::backtrace::print::h3b197b9c1261c865
+                               at src/libstd/sys_common/backtrace.rs:49
+   8:     0x5557788b1105 - std::panicking::default_hook::{{closure}}::ha6c807149ce20f8f
+                               at src/libstd/panicking.rs:198
+   9:     0x5557788b0904 - std::panicking::default_hook::he49a9c12e358cc45
+                               at src/libstd/panicking.rs:218
+  10:     0x5557788b0904 - std::panicking::rust_panic_with_hook::h93f74f5ef2f71f31
+                               at src/libstd/panicking.rs:511
+  11:     0x5557788b0208 - rust_begin_unwind
+                               at src/libstd/panicking.rs:419
+  12:     0x55577875c980 - core::panicking::panic_fmt::h1ce7d3a6bb2a90c1
+                               at src/libcore/panicking.rs:111
+  13:     0x55577875c811 - core::panicking::panic_bounds_check::h4b3d0dcda831e378
+                               at src/libcore/panicking.rs:69
+  14:     0x5557788d9f96 - <term_rewriting::types::term::Context as core::convert::From<term_rewriting::types::atom::SituatedAtom>>::from::h880a3856dfc6f9e2
+  15:     0x5557787cd53c - programinduction::trs::mcts::TrueState::make_move::h5636b3422394ea91
+  16:     0x5557788a7262 - programinduction::mcts::SearchTree<M>::prune_except_top::h8e9f962d5bb011d5
+  17:     0x555778885f26 - simulation::search::h54da192a5138b072
+  18:     0x555778873c7e - polytype::atype::context::with_ctx::h6dd93c58638b6fd1
+  19:     0x5557788bb0e3 - std::rt::lang_start_internal::{{closure}}::{{closure}}::h4ed4ab1fb893cc93
+                               at src/libstd/rt.rs:52
+  20:     0x5557788bb0e3 - std::sys_common::backtrace::__rust_begin_short_backtrace::h1f01c818c00c4f70
+                               at src/libstd/sys_common/backtrace.rs:130
+  21:     0x55577888c3e2 - main
+  22:     0x7fa0099481e3 - __libc_start_main
+  23:     0x55577871418e - _start
+  24:                0x0 - <unknown>

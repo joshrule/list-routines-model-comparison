@@ -1,0 +1,2 @@
+Seq	Host	Starttime	JobRuntime	Send	Receive	Exitval	Signal	Command
+1	:	1599321096.971	 33017.690	0	0	0	0	./run_single.sh out/1599321096/results c076_1 5 small_simulation_rerun.toml /home/rule/library/list-routines-model-comparison/waves/3_1/json/c076_1.json ../../../../../list-routine-learning-rs/Cargo.toml

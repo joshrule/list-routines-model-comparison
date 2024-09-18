@@ -1,0 +1,49 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Finished release [optimized] target(s) in 0.43s
+     Running `/home/rule/library/list-routine-learning-rs/target/release/simulation small_simulation.toml 5 /home/rule/library/list-routines-model-comparison/waves/3_1/json/c028_3.json out/1594482643/results/c028_3_best.csv out/1594482643/results/c028_3_predictions.csv out/1594482643/results/c028_3_all.csv /dev/null`
+# loaded parameters
+# loaded lexicon
+#   C/0: list → list
+#   TRUE/0: bool
+#   FALSE/0: bool
+#   NIL/0: list
+#   CONS/0: nat → list → list
+#   0/0: digit
+#   1/0: digit
+#   2/0: digit
+#   3/0: digit
+#   4/0: digit
+#   5/0: digit
+#   6/0: digit
+#   7/0: digit
+#   8/0: digit
+#   9/0: digit
+#   DIGIT/0: digit → nat
+#   NAN/0: nat
+#   ./2: ∀t1. ∀t2. (t1 → t2) → t1 → t2
+#   EMPTY/0: list → bool
+#   EQUAL/0: ∀t0. t0 → t0 → bool
+#   HEAD/0: list → nat
+#   IF/0: ∀t0. bool → t0 → t0 → t0
+#   TAIL/0: list → list
+#   +/0: nat → nat → nat
+#   -/0: nat → nat → nat
+#   >/0: nat → nat → bool
+# loaded background
+# loaded data
+#   Datum { i: IntList([3, 1, 4]), o: IntList([3, 4]) }
+#   Datum { i: IntList([4, 2, 9, 1, 8, 7, 6]), o: IntList([4, 9, 1, 8, 7, 6]) }
+#   Datum { i: IntList([7, 8, 0, 1, 0, 3]), o: IntList([7, 8, 1, 0, 3]) }
+#   Datum { i: IntList([5, 7, 1, 9, 0, 6, 2, 8, 4, 7]), o: IntList([5, 7, 9, 0, 6, 2, 8, 4, 7]) }
+#   Datum { i: IntList([2, 4, 0, 9, 5, 3, 6, 8, 1]), o: IntList([2, 4, 9, 5, 3, 6, 8, 1]) }
+#   Datum { i: IntList([3, 0, 7, 6, 9, 4]), o: IntList([3, 7, 6, 9, 4]) }
+#   Datum { i: IntList([1, 2, 0, 6]), o: IntList([1, 2, 6]) }
+#   Datum { i: IntList([3, 5, 0, 7, 9, 2, 8, 4]), o: IntList([3, 5, 7, 9, 2, 8, 4]) }
+#   Datum { i: IntList([3, 2, 5, 8, 0, 9, 5]), o: IntList([3, 5, 8, 0, 9, 5]) }
+#   Datum { i: IntList([5, 2, 7, 9, 6, 4, 1, 0, 8, 3]), o: IntList([5, 7, 9, 6, 4, 1, 0, 8, 3]) }
+#   Datum { i: IntList([5, 0, 6, 1, 2]), o: IntList([5, 6, 1, 2]) }
+# searching
+problem,run,order,trial,steps,tree,hypotheses,search_time,total_time
+c028,0,3,1,1072466,1072467,964096,600.005197103,602.717258843

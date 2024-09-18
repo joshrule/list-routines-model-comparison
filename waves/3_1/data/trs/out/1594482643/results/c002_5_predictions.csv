@@ -1,0 +1,2 @@
+problem,run,order,trial,time,count,generalizes,lprior,llikelihood,lposterior,trs
+"c002",0,5,1,0.519520261,911,true,-14.125063705234222,-0.0010005003335835344,-14.126064205567806,".(C v0_) = v0_;"

@@ -1,0 +1,106 @@
+    Finished release [optimized] target(s) in 0.05s
+     Running `/home/rule/library/list-routine-learning-rs/target/release/simulation small_simulation.toml 5 /home/rule/library/list-routines-model-comparison/waves/3/json/c071_5.json out/1593091766/results/c071_5_best.csv out/1593091766/results/c071_5_predictions.csv out/1593091766/results/c071_5_all.csv /dev/null`
+# loaded parameters
+# loaded lexicon
+#   C/0: list → list
+#   TRUE/0: bool
+#   FALSE/0: bool
+#   NIL/0: list
+#   CONS/0: nat → list → list
+#   0/0: digit
+#   1/0: digit
+#   2/0: digit
+#   3/0: digit
+#   4/0: digit
+#   5/0: digit
+#   6/0: digit
+#   7/0: digit
+#   8/0: digit
+#   9/0: digit
+#   DIGIT/0: digit → nat
+#   NAN/0: nat
+#   ./2: ∀t1. ∀t2. (t1 → t2) → t1 → t2
+#   EMPTY/0: list → bool
+#   EQUAL/0: ∀t0. t0 → t0 → bool
+#   HEAD/0: list → nat
+#   IF/0: ∀t0. bool → t0 → t0 → t0
+#   TAIL/0: list → list
+#   +/0: nat → nat → nat
+#   -/0: nat → nat → nat
+#   >/0: nat → nat → bool
+# loaded background
+# loaded data
+#   Datum { i: IntList([5, 5]), o: IntList([7, 7]) }
+#   Datum { i: IntList([4, 5, 7]), o: IntList([6, 7, 9]) }
+#   Datum { i: IntList([7, 7, 1, 4, 4, 6, 4, 1, 4, 0]), o: IntList([9, 9, 3, 6, 6, 8, 6, 3, 6, 2]) }
+#   Datum { i: IntList([1, 3, 3, 2, 4, 5, 6]), o: IntList([3, 5, 5, 4, 6, 7, 8]) }
+#   Datum { i: IntList([6, 7, 7, 6, 1, 4, 2, 6, 5]), o: IntList([8, 9, 9, 8, 3, 6, 4, 8, 7]) }
+#   Datum { i: IntList([6]), o: IntList([8]) }
+#   Datum { i: IntList([1, 1, 1, 1, 1, 1]), o: IntList([3, 3, 3, 3, 3, 3]) }
+#   Datum { i: IntList([0, 0, 7, 0]), o: IntList([2, 2, 9, 2]) }
+#   Datum { i: IntList([6, 0, 6, 6, 0, 2, 6, 2, 0]), o: IntList([8, 2, 8, 8, 2, 4, 8, 4, 2]) }
+#   Datum { i: IntList([0, 7, 5, 7, 6, 3, 4, 2]), o: IntList([2, 9, 7, 9, 8, 5, 6, 4]) }
+#   Datum { i: IntList([1, 4, 3, 6, 0]), o: IntList([3, 6, 5, 8, 2]) }
+# searching
+problem,run,order,trial,steps,hypotheses,tree,dag,search_time,total_time
+c071,0,5,1,733713,599917,703132,703132,600.009031729,602.742973482
+c071,0,5,2,406936,385109,396270,396270,1200.0091812629998,1204.159816036
+c071,0,5,3,274785,258267,262015,262015,1800.009878274,1805.294683588
+c071,0,5,4,107533,97827,98235,98235,2400.0155061819996,2406.260064562
+c071,0,5,5,73736,66019,66481,66481,3000.0212972689997,3007.386406437
+c071,0,5,6,51887,46497,46931,46931,3600.0300373469995,3608.469147933
+c071,0,5,7,54438,48052,48575,48575,4200.033668153999,4209.485847034
+c071,0,5,8,43388,38017,38468,38468,4800.052708464,4810.428172632
+c071,0,5,9,39990,35005,35432,35432,5400.067837873,5411.338095842
+c071,0,5,10,33103,29176,29540,29540,6000.086739463,6012.502930761
+c071,0,5,11,26701,23661,23979,23979,6600.090835405001,6613.606726151
+# search time: 6600.091s
+# total time: 6613.881s
+c071,1,5,1,751868,649447,729625,729625,600.000519648,600.402127298
+c071,1,5,2,403899,382788,393692,393692,1200.015025669,1200.951874985
+c071,1,5,3,275153,258481,262160,262160,1800.016440719,1801.499176374
+c071,1,5,4,104404,94535,94862,94862,2400.016722727,2402.06515367
+c071,1,5,5,64937,58370,58938,58938,3000.0177428409997,3002.596917856
+c071,1,5,6,53641,48246,48697,48697,3600.0190605199996,3603.072682971
+thread 'main' panicked at 'index out of bounds: the len is 7 but the index is 9', /home/rule/library/program-induction/src/trs/mcts.rs:986:64
+stack backtrace:
+   0:     0x55db174492f5 - backtrace::backtrace::libunwind::trace::h812748238d609e46
+                               at /cargo/registry/src/github.com-1ecc6299db9ec823/backtrace-0.3.46/src/backtrace/libunwind.rs:86
+   1:     0x55db174492f5 - backtrace::backtrace::trace_unsynchronized::h7c97e818aebf09c8
+                               at /cargo/registry/src/github.com-1ecc6299db9ec823/backtrace-0.3.46/src/backtrace/mod.rs:66
+   2:     0x55db174492f5 - std::sys_common::backtrace::_print_fmt::h60d914263b0ccd71
+                               at src/libstd/sys_common/backtrace.rs:78
+   3:     0x55db174492f5 - <std::sys_common::backtrace::_print::DisplayBacktrace as core::fmt::Display>::fmt::hf78227137afc7565
+                               at src/libstd/sys_common/backtrace.rs:59
+   4:     0x55db172f56dc - core::fmt::write::h543cdf60775f89bf
+                               at src/libcore/fmt/mod.rs:1069
+   5:     0x55db17448914 - std::io::Write::write_fmt::h0c7f3ce24c679426
+                               at src/libstd/io/mod.rs:1504
+   6:     0x55db17448105 - std::sys_common::backtrace::_print::h80e55e24be231368
+                               at src/libstd/sys_common/backtrace.rs:62
+   7:     0x55db17448105 - std::sys_common::backtrace::print::h3b197b9c1261c865
+                               at src/libstd/sys_common/backtrace.rs:49
+   8:     0x55db17448105 - std::panicking::default_hook::{{closure}}::ha6c807149ce20f8f
+                               at src/libstd/panicking.rs:198
+   9:     0x55db17447904 - std::panicking::default_hook::he49a9c12e358cc45
+                               at src/libstd/panicking.rs:218
+  10:     0x55db17447904 - std::panicking::rust_panic_with_hook::h93f74f5ef2f71f31
+                               at src/libstd/panicking.rs:511
+  11:     0x55db17447208 - rust_begin_unwind
+                               at src/libstd/panicking.rs:419
+  12:     0x55db172f3980 - core::panicking::panic_fmt::h1ce7d3a6bb2a90c1
+                               at src/libcore/panicking.rs:111
+  13:     0x55db172f3811 - core::panicking::panic_bounds_check::h4b3d0dcda831e378
+                               at src/libcore/panicking.rs:69
+  14:     0x55db1736d6e7 - programinduction::trs::mcts::TrueState::make_move::h5636b3422394ea91
+  15:     0x55db1743e262 - programinduction::mcts::SearchTree<M>::prune_except_top::h8e9f962d5bb011d5
+  16:     0x55db1741cf26 - simulation::search::h54da192a5138b072
+  17:     0x55db1740ac7e - polytype::atype::context::with_ctx::h6dd93c58638b6fd1
+  18:     0x55db174520e3 - std::rt::lang_start_internal::{{closure}}::{{closure}}::h4ed4ab1fb893cc93
+                               at src/libstd/rt.rs:52
+  19:     0x55db174520e3 - std::sys_common::backtrace::__rust_begin_short_backtrace::h1f01c818c00c4f70
+                               at src/libstd/sys_common/backtrace.rs:130
+  20:     0x55db174233e2 - main
+  21:     0x7f995fb571e3 - __libc_start_main
+  22:     0x55db172ab18e - _start
+  23:                0x0 - <unknown>

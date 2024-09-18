@@ -1,0 +1,21 @@
+---
+title: "1594482643 Analysis"
+author: Josh Rule
+date: "07/11/2020"
+output:
+  html_document:
+    fig_caption: true
+    toc: true
+    toc_float:
+      collapsed: true
+---
+
+full run of 3.1 for small DSL
+
+- [`parameters`](./parameters.toml)
+- [`problems`](./problems.txt)
+- [`jobs`](./job.txt)
+- [`results`](./results.csv)
+- number of problems: 75
+- number of runs: 5
+- number of jobs: 40

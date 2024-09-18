@@ -1,0 +1,52 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished release [optimized] target(s) in 0.28s
+     Running `/home/rule/library/list-routine-learning-rs/target/release/simulation big_simulation.toml 5 /home/rule/library/list-routines-model-comparison/waves/3_1/json/c088_4.json out/1594482735/results/c088_4_best.csv out/1594482735/results/c088_4_predictions.csv out/1594482735/results/c088_4_all.csv /dev/null`
+# loaded parameters
+# loaded lexicon
+#   C/0: list → list
+#   TRUE/0: bool
+#   FALSE/0: bool
+#   NIL/0: list
+#   CONS/0: nat → list → list
+#   0/0: digit
+#   1/0: digit
+#   2/0: digit
+#   3/0: digit
+#   4/0: digit
+#   5/0: digit
+#   6/0: digit
+#   7/0: digit
+#   8/0: digit
+#   9/0: digit
+#   DIGIT/0: digit → nat
+#   DECC/0: nat → digit → nat
+#   NAN/0: nat
+#   ./2: ∀t1. ∀t2. (t1 → t2) → t1 → t2
+#   EMPTY/0: list → bool
+#   EQUAL/0: ∀t0. t0 → t0 → bool
+#   HEAD/0: list → nat
+#   IF/0: ∀t0. bool → t0 → t0 → t0
+#   TAIL/0: list → list
+#   +/0: nat → nat → nat
+#   -/0: nat → nat → nat
+#   >/0: nat → nat → bool
+# loaded background
+# loaded data
+#   Datum { i: IntList([84, 86, 3, 84, 3, 89]), o: IntList([84, 3, 86, 84, 3, 89]) }
+#   Datum { i: IntList([56, 9, 34, 56, 90, 59, 6, 8, 6]), o: IntList([56, 34, 9, 56, 90, 59, 6, 8, 6]) }
+#   Datum { i: IntList([76, 51, 51, 24, 2, 7, 48, 91, 67, 24]), o: IntList([24, 51, 51, 76, 2, 7, 48, 91, 67, 24]) }
+#   Datum { i: IntList([19, 1, 99, 19, 20, 99, 20]), o: IntList([19, 99, 1, 19, 20, 99, 20]) }
+#   Datum { i: IntList([74, 4, 40, 74]), o: IntList([74, 40, 4, 74]) }
+#   Datum { i: IntList([96, 96, 8, 96, 51]), o: IntList([96, 8, 96, 96, 51]) }
+#   Datum { i: IntList([17, 41, 41, 85, 25, 2, 17, 25, 17, 10]), o: IntList([85, 41, 41, 17, 25, 2, 17, 25, 17, 10]) }
+#   Datum { i: IntList([66, 16, 16, 38, 11, 85, 88]), o: IntList([38, 16, 16, 66, 11, 85, 88]) }
+#   Datum { i: IntList([95, 31, 31, 4, 39, 5, 32, 0]), o: IntList([4, 31, 31, 95, 39, 5, 32, 0]) }
+#   Datum { i: IntList([15, 53, 53, 95]), o: IntList([95, 53, 53, 15]) }
+#   Datum { i: IntList([5, 77, 77, 52, 6, 35, 90, 57, 27]), o: IntList([52, 77, 77, 5, 6, 35, 90, 57, 27]) }
+# searching
+problem,run,order,trial,steps,tree,hypotheses,search_time,total_time
+c088,0,4,1,696966,696967,621034,600.000075721,605.555416237

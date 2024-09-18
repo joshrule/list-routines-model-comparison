@@ -1,0 +1,135 @@
+    Finished release [optimized] target(s) in 0.05s
+     Running `/home/rule/library/list-routine-learning-rs/target/release/simulation small_simulation.toml 5 /home/rule/library/list-routines-model-comparison/waves/3/json/c042_2.json out/1593091766/results/c042_2_best.csv out/1593091766/results/c042_2_predictions.csv out/1593091766/results/c042_2_all.csv /dev/null`
+# loaded parameters
+# loaded lexicon
+#   C/0: list → list
+#   TRUE/0: bool
+#   FALSE/0: bool
+#   NIL/0: list
+#   CONS/0: nat → list → list
+#   0/0: digit
+#   1/0: digit
+#   2/0: digit
+#   3/0: digit
+#   4/0: digit
+#   5/0: digit
+#   6/0: digit
+#   7/0: digit
+#   8/0: digit
+#   9/0: digit
+#   DIGIT/0: digit → nat
+#   NAN/0: nat
+#   ./2: ∀t1. ∀t2. (t1 → t2) → t1 → t2
+#   EMPTY/0: list → bool
+#   EQUAL/0: ∀t0. t0 → t0 → bool
+#   HEAD/0: list → nat
+#   IF/0: ∀t0. bool → t0 → t0 → t0
+#   TAIL/0: list → list
+#   +/0: nat → nat → nat
+#   -/0: nat → nat → nat
+#   >/0: nat → nat → bool
+# loaded background
+# loaded data
+#   Datum { i: IntList([1, 9, 9, 8]), o: IntList([5, 2]) }
+#   Datum { i: IntList([6, 7, 4, 1, 2]), o: IntList([5, 2]) }
+#   Datum { i: IntList([4]), o: IntList([5, 2]) }
+#   Datum { i: IntList([9, 3, 8, 0]), o: IntList([5, 2]) }
+#   Datum { i: IntList([6, 7, 3]), o: IntList([5, 2]) }
+#   Datum { i: IntList([3, 7, 7, 4, 7, 3]), o: IntList([5, 2]) }
+#   Datum { i: IntList([4, 4]), o: IntList([5, 2]) }
+#   Datum { i: IntList([9, 8]), o: IntList([5, 2]) }
+#   Datum { i: IntList([]), o: IntList([5, 2]) }
+#   Datum { i: IntList([2, 6, 0, 0, 8, 9, 6, 6, 9, 0]), o: IntList([5, 2]) }
+#   Datum { i: IntList([1, 1, 0, 7, 7]), o: IntList([5, 2]) }
+# searching
+problem,run,order,trial,steps,hypotheses,tree,dag,search_time,total_time
+c042,0,2,1,673894,549185,645313,645313,600.00001422,602.789405726
+c042,0,2,2,394944,372055,382743,382743,1200.002863538,1204.707879035
+c042,0,2,3,244297,233574,239616,239616,1800.0038561009999,1806.048893999
+c042,0,2,4,215339,205753,211328,211328,2400.004440706,2407.067035035
+c042,0,2,5,171673,162842,167762,167762,3000.0047640479997,3008.13775765
+c042,0,2,6,158510,150171,155031,155031,3600.0055753519996,3608.886374595
+c042,0,2,7,134045,127059,130824,130824,4200.006132209999,4209.671482478
+c042,0,2,8,121167,114318,117830,117830,4800.006702268,4810.392891445
+c042,0,2,9,92356,84316,86334,86334,5400.010548861,5411.167373697
+c042,0,2,10,98010,87664,89370,89370,6000.058843858999,6011.778252071
+c042,0,2,11,89869,82585,84054,84054,6600.060521613999,6612.3159185
+# search time: 6600.061s
+# total time: 6612.637s
+c042,1,2,1,700567,601971,678921,678921,600.002364435,600.344953322
+c042,1,2,2,374054,352929,363080,363080,1200.006559418,1200.883240387
+c042,1,2,3,249201,239017,244536,244536,1800.0132109770002,1801.370416621
+c042,1,2,4,218594,208594,214208,214208,2400.0138625420004,2401.76795109
+c042,1,2,5,174471,166030,170474,170474,3000.0157016780004,3002.211735601
+c042,1,2,6,154962,146656,151583,151583,3600.0189632670003,3602.552798607
+c042,1,2,7,130933,123464,127678,127678,4200.020587121,4202.894040074
+c042,1,2,8,117549,110881,114422,114422,4800.025385036,4803.249215786
+c042,1,2,9,92304,84324,86296,86296,5400.029633423001,5403.674928951
+c042,1,2,10,98695,88151,89758,89758,6000.032938151001,6003.968116559
+c042,1,2,11,88789,81318,82815,82815,6600.034532829,6604.280716099
+# search time: 6600.035s
+# total time: 13217.438s
+c042,2,2,1,666743,567203,644725,644725,600.00083007,600.257168886
+c042,2,2,2,407460,383608,394750,394750,1200.0014211349999,1200.48116635
+c042,2,2,3,395615,379240,388666,388666,1800.0045321459997,1800.797322764
+c042,2,2,4,358810,342798,352215,352215,2400.0052250299996,2401.048069892
+c042,2,2,5,290489,277168,284409,284409,3000.0064752659996,3001.338750814
+c042,2,2,6,259957,247089,254644,254644,3600.0081496839994,3601.549381352
+c042,2,2,7,224792,213286,219721,219721,4200.0103463529995,4201.797560963
+c042,2,2,8,203034,192207,197706,197706,4800.011070277999,4802.006023502
+c042,2,2,9,159133,146360,149763,149763,5400.013612143999,5402.224273286
+c042,2,2,10,168268,151916,154495,154495,6000.015356069999,6002.415009244
+c042,2,2,11,154034,141489,143794,143794,6600.019101961999,6602.592721303
+# search time: 6600.019s
+# total time: 19820.689s
+c042,3,2,1,1117503,917569,1071815,1071815,600.002158858,600.199020139
+c042,3,2,2,620496,585687,602567,602567,1200.002577832,1200.460498759
+c042,3,2,3,408189,392609,401206,401206,1800.002773461,1800.683931444
+c042,3,2,4,350043,334670,344055,344055,2400.008741911,2400.863091565
+c042,3,2,5,287528,273377,281280,281280,3000.016479849,3001.063032091
+c042,3,2,6,268876,256087,263486,263486,3600.017279625,3601.220972698
+c042,3,2,7,211170,200402,206430,206430,4200.022200937,4201.384276068
+c042,3,2,8,175135,165714,170596,170596,4800.024215866,4801.623229321
+c042,3,2,9,89985,81608,83721,83721,5400.027341058,5401.790703849
+thread 'main' panicked at 'bad place', /home/rule/library/program-induction/src/trs/mcts.rs:1095:37
+stack backtrace:
+   0:     0x5634a6c282f5 - backtrace::backtrace::libunwind::trace::h812748238d609e46
+                               at /cargo/registry/src/github.com-1ecc6299db9ec823/backtrace-0.3.46/src/backtrace/libunwind.rs:86
+   1:     0x5634a6c282f5 - backtrace::backtrace::trace_unsynchronized::h7c97e818aebf09c8
+                               at /cargo/registry/src/github.com-1ecc6299db9ec823/backtrace-0.3.46/src/backtrace/mod.rs:66
+   2:     0x5634a6c282f5 - std::sys_common::backtrace::_print_fmt::h60d914263b0ccd71
+                               at src/libstd/sys_common/backtrace.rs:78
+   3:     0x5634a6c282f5 - <std::sys_common::backtrace::_print::DisplayBacktrace as core::fmt::Display>::fmt::hf78227137afc7565
+                               at src/libstd/sys_common/backtrace.rs:59
+   4:     0x5634a6ad46dc - core::fmt::write::h543cdf60775f89bf
+                               at src/libcore/fmt/mod.rs:1069
+   5:     0x5634a6c27914 - std::io::Write::write_fmt::h0c7f3ce24c679426
+                               at src/libstd/io/mod.rs:1504
+   6:     0x5634a6c27105 - std::sys_common::backtrace::_print::h80e55e24be231368
+                               at src/libstd/sys_common/backtrace.rs:62
+   7:     0x5634a6c27105 - std::sys_common::backtrace::print::h3b197b9c1261c865
+                               at src/libstd/sys_common/backtrace.rs:49
+   8:     0x5634a6c27105 - std::panicking::default_hook::{{closure}}::ha6c807149ce20f8f
+                               at src/libstd/panicking.rs:198
+   9:     0x5634a6c26904 - std::panicking::default_hook::he49a9c12e358cc45
+                               at src/libstd/panicking.rs:218
+  10:     0x5634a6c26904 - std::panicking::rust_panic_with_hook::h93f74f5ef2f71f31
+                               at src/libstd/panicking.rs:511
+  11:     0x5634a6c26208 - rust_begin_unwind
+                               at src/libstd/panicking.rs:419
+  12:     0x5634a6ad2980 - core::panicking::panic_fmt::h1ce7d3a6bb2a90c1
+                               at src/libcore/panicking.rs:111
+  13:     0x5634a6ad55e2 - core::option::expect_failed::had9e664931119ad2
+                               at src/libcore/option.rs:1260
+  14:     0x5634a6b4c88b - programinduction::trs::mcts::TrueState::make_move::h5636b3422394ea91
+  15:     0x5634a6c1d262 - programinduction::mcts::SearchTree<M>::prune_except_top::h8e9f962d5bb011d5
+  16:     0x5634a6bfbf26 - simulation::search::h54da192a5138b072
+  17:     0x5634a6be9c7e - polytype::atype::context::with_ctx::h6dd93c58638b6fd1
+  18:     0x5634a6c310e3 - std::rt::lang_start_internal::{{closure}}::{{closure}}::h4ed4ab1fb893cc93
+                               at src/libstd/rt.rs:52
+  19:     0x5634a6c310e3 - std::sys_common::backtrace::__rust_begin_short_backtrace::h1f01c818c00c4f70
+                               at src/libstd/sys_common/backtrace.rs:130
+  20:     0x5634a6c023e2 - main
+  21:     0x7f67e89301e3 - __libc_start_main
+  22:     0x5634a6a8a18e - _start
+  23:                0x0 - <unknown>

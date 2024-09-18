@@ -1,0 +1,2 @@
+problem,run,order,trial,time,count,generalizes,lprior,llikelihood,lposterior,trs
+"c031",0,1,1,0.273335436,486,true,-15.025850250572413,-0.0010005003335835344,-15.026850750905997,"C = TAIL;"
